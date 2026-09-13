@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--========================= Fusuma =============================-->
+  <ThingDef ParentName="BuildingBase" Name="WA_DoorBase" Abstract="True">
+    <thingClass>Building_Door</thingClass>
+    <category>Building</category>
+    <altitudeLayer>DoorMoveable</altitudeLayer>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>10</Beauty>
+      <DoorOpenSpeed>10</DoorOpenSpeed>
+      <WorkToBuild>300</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <drawerType>RealtimeOnly</drawerType>
+    <building>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+      <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+      <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+      <blueprintClass>Blueprint_Door</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Door/Door_Blueprint</texPath>
+      </blueprintGraphicData>
+    </building>
+	<costList>
+		<WoodLog>1</WoodLog>
+		<RPC_JapanesePaper>3</RPC_JapanesePaper>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_DoorLearnOpeningSpeed</li>
+    </placeWorkers>
+    <designationCategory>WA_Builder</designationCategory>
+	<researchPrerequisites>
+	  <li>WA_Research_Building_Basic</li>
+	</researchPrerequisites>
+  </ThingDef>
+
+
+  <!--========================= WA_FusumaBase =============================-->
+  <ThingDef ParentName="WA_DoorBase" Name="WA_FusumaBase" Abstract="True">
+    <label>Fusuma</label>
+    <description>Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\n
+It is very light, so you can open and close quickly, but durability is low.\n
+Although the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\n
+Originally it was originated "during lying" and began to be used as a partition of the bedroom.</description>
+    <statBases>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Door/WA-Fusuma09_White</texPath>
+    </graphicData>
+	<designatorDropdown>Fusuma_Dropdown</designatorDropdown>
+    <uiIconPath>Things/Building/Door/WA-Fusuma09_i</uiIconPath>
+  </ThingDef>
+
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma01_Akebono</defName>
+		<label>Fusuma-Dawn</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma01_Akebono</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma01_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma02_Yoru</defName>
+		<label>Fusuma-Night</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma02_Yoru</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma02_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma03_Yuugure</defName>
+		<label>Fusuma-Dusk</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma03_Yuugure</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma03_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma04_Tutomete</defName>
+		<label>Fusuma-Morning</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma04_Tutomete</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma04_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma05_Spring</defName>
+		<label>Fusuma-Spring</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma05_Spring</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma05_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma06_Summer</defName>
+		<label>Fusuma-Summer</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma06_Summer</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma06_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma07_Autumn</defName>
+		<label>Fusuma-Autumn</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma07_Autumn</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma07_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma08_Winter</defName>
+		<label>Fusuma-Winter</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma08_Winter</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma08_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FusumaBase">
+		<defName>WA_Fusuma09_White</defName>
+		<label>Fusuma-White</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Fusuma09_White</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Fusuma09_i</uiIconPath>
+	</ThingDef>
+
+
+
+  <!--========================= WA_ShojiBase =============================-->
+  <ThingDef ParentName="WA_DoorBase" Name="WA_ShojiBase" Abstract="True">
+    <label>Shoji</label>
+    <description>Shoji paper is made by stretching thin paper in a grid-like framework. You can hide faint in the light.
+It is very light, so you can open and close quickly, but durability is low.
+It is said that the same form as the modern screed shoji appeared was around the time of the Kiyomori before the Kamakura period.
+Because it is a structure that is extremely easy to break, it is a daily routine to open a hole in a shoji in a house with pets and children.</description>
+    <statBases>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Door/WA-Shoji01_Normal</texPath>
+    </graphicData>
+	<designatorDropdown>Shoji_Dropdown</designatorDropdown>
+    <uiIconPath>Things/Building/Door/WA-Shoji_i</uiIconPath>
+  </ThingDef>
+
+
+	<ThingDef ParentName="WA_ShojiBase">
+		<defName>WA_Shoji01_Square</defName>
+		<label>Shoji Square</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Shoji01_Square</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Shoji01_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_ShojiBase">
+		<defName>WA_Shoji02_Circle</defName>
+		<label>Shoji Circle</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Shoji02_Circle</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Shoji02_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_ShojiBase">
+		<defName>WA_Shoji03_Combi</defName>
+		<label>Shoji Combi</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Shoji03_Combi</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Shoji03_i</uiIconPath>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_ShojiBase">
+		<defName>WA_Shoji04_Deco</defName>
+		<label>Shoji Deco</label>
+    	<graphicData>
+			<texPath>Things/Building/Door/WA-Shoji04_Deco</texPath>
+    	</graphicData>
+    <uiIconPath>Things/Building/Door/WA-Shoji04_i</uiIconPath>
+	</ThingDef>
+
+
+
+</Defs>

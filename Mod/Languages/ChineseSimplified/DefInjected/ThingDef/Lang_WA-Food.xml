@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= Tea & Confectionery =============================-->
+  <WA_GreenTea.label>抹茶</WA_GreenTea.label>
+  <WA_GreenTea.description>在日本，茶叶多被分类为绿茶，在日本时最为常见的饮品。茶会时则多制成抹茶，抹茶亦是绿茶的一种。将茶叶捣碎成末，加水搅拌而成。</WA_GreenTea.description>
+
+  <WA_IchigoDaifuku.label>草苺大福</WA_IchigoDaifuku.label>
+  <WA_IchigoDaifuku.description>大福一种是包着甜馅的糕饼。照其字义，有着象征「幸运」的含意。嚼下一口只觉苺香鲜甜奔放，柔软的饼皮与高雅的甜馅共谱出一章和谐。</WA_IchigoDaifuku.description>
+
+  <WA_MitarashiDango.label>御手洗团子</WA_MitarashiDango.label>
+  <WA_MitarashiDango.description>御手洗团子是淋上砂糖酱油的团子串。琥珀色的辛甜淋酱与糯米团子堪称绝配，再经炭火烘烤后香气四溢，令人食指大动。</WA_MitarashiDango.description>
+
+  <WA_Geppei.label>月饼</WA_Geppei.label>
+  <WA_Geppei.description>月饼常在中国的中秋节食用，是自古就有的甜点。取自满月的外形，以柔软的饼衣包覆含有胡桃及松果的红豆馅，长时烘焙而成。</WA_Geppei.description>
+
+  <WA_KashiwaMochi.label>柏饼</WA_KashiwaMochi.label>
+  <WA_KashiwaMochi.description>柏饼是以上新粉制成的饼衣，填入红豆馅，再用槲叶包裹而成的甜点。软呼呼又带嚼劲，咀嚼后，只觉糯米独特的柔和甜香在口中绽放。</WA_KashiwaMochi.description>
+
+  <WA_Kasuteira.label>蜂蜜蛋糕</WA_Kasuteira.label>
+  <WA_Kasuteira.description>蜂蜜蛋糕是传自葡萄牙的南蛮糕点(日本古时称葡萄牙为"南蛮")，在日本长年发展后，现已独树一帜。加入大量砂糖与蛋制成的糕身，口感刚柔并具，扎实且松软。配上砂糖的香甜如同画龙点睛，成就奢华的逸品。</WA_Kasuteira.description>
+
+  <WA_Kintuba.label>金鹗饼</WA_Kintuba.label>
+  <WA_Kintuba.description>先以寒天固定红豆馅，再涂上溶于水的小麦粉，烘制而成的糕点。色泽亮丽的粒馅，将红豆的风味发挥得淋漓尽致，每一口都能将鲜甜的滋味烙印在脑海。</WA_Kintuba.description>
+
+  <WA_Nerikiri.label>练切</WA_Nerikiri.label>
+  <WA_Nerikiri.description>练切是在白馅中添入黏性食材，经过调整后反复捏制而成的生菓子。又因其典雅的外型，与富含层次的风味而被归类为「上生菓子」。练切的外型映照着四季的转移，紧紧捉住观赏者的心。</WA_Nerikiri.description>
+
+  <WA_SakuraNUguisu.label>樱饼与莺饼</WA_SakuraNUguisu.label>
+  <WA_SakuraNUguisu.description>以歌咏春季的樱色及翠色为主题的糕点。两者皆以米制饼皮包覆馅儿而成。樱饼轻柔的樱叶幽香，配上莺饼的豆粉甜香，是幸福的芬芳。</WA_SakuraNUguisu.description>
+
+  <WA_Youkan.label>羊羹</WA_Youkan.label>
+  <WA_Youkan.description>羊羹是将红豆馅放置于模子中，倒入寒天后凝固而成的和菓子。糖分高的羊羹在被切开时会流出砂糖，因此放置一段时间后会在外侧形成一层白霜。
+  白霜的颗粒感与羊羹内馅的软嫩口感，谱成一章甜美的协奏曲。</WA_Youkan.description>
+</LanguageData>

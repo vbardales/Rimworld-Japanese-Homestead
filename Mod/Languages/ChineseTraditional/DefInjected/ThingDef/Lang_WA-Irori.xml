@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= FarmPlant =============================-->
+  <WA_Irori.label>圍爐裏</WA_Irori.label>
+  <WA_Irori.description>一種設置於屋内的永久性家俱。傳統的日式住宅會在地板挖開一塊四方形空間並鋪上灰燼，用來燃燒木炭或柴火。設置在主廳房的圍爐裏，具有暖房、調理、照明、乾燥等多種用途。</WA_Irori.description>
+
+  <WA_Chagama.label>茶室用圍爐裏</WA_Chagama.label>
+  <WA_Chagama.description>一種設置於屋内的永久性家俱。傳統的日式住宅會在地板挖開一塊四方形空間並鋪上灰燼，用來燃燒木炭或柴火。
+用於茶室的圍爐裏通常占一張榻榻米大小，主要用來煮開水。</WA_Chagama.description>
+
+</LanguageData>

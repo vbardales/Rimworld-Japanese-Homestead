@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--======================= ChanoYu =======================-->
+  <JoyKindDef>
+    <defName>Enjoy_ChanoYu</defName>
+    <label>Enjoy Tea Ceremony</label>
+  </JoyKindDef>
+
+  <!--======================= Amusement =======================-->
+  <JoyKindDef>
+    <defName>Play_Music</defName>
+    <label>Playing Music</label>
+  </JoyKindDef>
+
+  <JoyKindDef>
+    <defName>Enjoy_WA</defName>
+    <label>Enjoy Miyabi</label>
+  </JoyKindDef>
+
+</Defs>

@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========================= WA_FutonBase =============================-->
+	<ThingDef ParentName="ArtableBedBase" Name="WA_FutonBase" Abstract="True">
+		<thingClass>Building_Bed</thingClass>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<label>Futon</label>
+		<fillPercent>0.01</fillPercent>
+		<passability>Standable</passability>
+		<pathCost>20</pathCost>
+		<altitudeLayer>Building</altitudeLayer>
+		<castEdgeShadows>false</castEdgeShadows>
+		<useHitPoints>true</useHitPoints>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Futon</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Beauty>3</Beauty>
+			<Mass>2</Mass>
+			<WorkToBuild>800</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			<Comfort>0.85</Comfort>
+			<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>3</bed_healPerDay>
+		</building>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>EndTable</li>
+					<li>Dresser</li>
+					<li>WA_Glow_02Gatou</li>
+					<li>WA_Glow_03Andon</li>
+					<li>WA_Glow_04Bonbori</li>
+					<li>WA_Glow_05Chouchin</li>
+					<li>WA_Glow_07LongBrazier</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>WA_Research_Building_Funiture</li>
+		</researchPrerequisites>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<tradeTags>
+			<li>Furniture</li>
+		</tradeTags>
+		<uiIconScale>0.90</uiIconScale>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<designationCategory>WA_FutonCategory</designationCategory>
+	</ThingDef>
+
+
+  <!--========================= WA_Futon =============================-->
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon01m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon01m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon02m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon02m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon03m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon03m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon04m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon04m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon05m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon05m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon06m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon06m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon07m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon07m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon08m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon08m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon09m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon09m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon10m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon10m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon11m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon11m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon12m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon12m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_FutonBase">
+		<defName>WA_Futon13m</defName>
+		<label>Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Futon/WA-Futon13m</texPath>
+		</graphicData>
+	</ThingDef>
+
+
+
+  <!--========================= WA_DFutonBase =============================-->
+	<ThingDef ParentName="WA_FutonBase" Name="WA_DFutonBase" Abstract="True">
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<label>Double Futon</label>
+		<graphicData>
+			<texPath>Things/Building/DFuton/WA-DFuton04</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Beauty>3</Beauty>
+			<Mass>4</Mass>
+			<WorkToBuild>1200</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>0.9</BedRestEffectiveness>
+			<Comfort>1.05</Comfort>
+			<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<stuffCategories>
+				<li>Fabric</li>
+				<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+	</ThingDef>
+
+  <!--========================= WA_RoyalFutonBase =============================-->
+	<ThingDef ParentName="WA_FutonBase" Name="WA_RFutonBase" Abstract="True">
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<label>Royal Futon</label>
+		<graphicData>
+			<texPath>Things/Building/DFuton/WA-DFuton01</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>80</Beauty>
+			<Mass>4</Mass>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>1.10</BedRestEffectiveness>
+			<Comfort>1.10</Comfort>
+			<ImmunityGainSpeedFactor>1.20</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1.05</SurgerySuccessChanceFactor>
+		</statBases>
+		<stuffCategories>
+				<li>Fabric</li>
+				<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>4</bed_healPerDay>
+		</building>
+	</ThingDef>
+
+  <!--========================= WA_DFuton =============================-->
+	<ThingDef ParentName="WA_RFutonBase">
+		<defName>WA_DFuton01m</defName>
+		<label>Royal Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/DFuton/WA-DFuton01</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_RFutonBase">
+		<defName>WA_DFuton02m</defName>
+		<label>Royal Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/DFuton/WA-DFuton02</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_RFutonBase">
+		<defName>WA_DFuton03m</defName>
+		<label>Royal Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/DFuton/WA-DFuton03</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_DFutonBase">
+		<defName>WA_DFuton04m</defName>
+		<label>Double Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/DFuton/WA-DFuton04</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_DFutonBase">
+		<defName>WA_DFuton05m</defName>
+		<label>Double Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/DFuton/WA-DFuton05</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_DFutonBase">
+		<defName>WA_DFuton06m</defName>
+		<label>Double Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/DFuton/WA-DFuton06</texPath>
+		</graphicData>
+	</ThingDef>
+
+
+
+  <!--========================= WA_MFutonBase =============================-->
+	<ThingDef ParentName="WA_FutonBase" Name="WA_MFutonBase" Abstract="True">
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<texPath>Things/Building/MFuton/WA-MFuton01</texPath>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<castEdgeShadows>False</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>45</MaxHitPoints>
+			<WorkToBuild>350</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>1.00</BedRestEffectiveness>
+			<Comfort>0.80</Comfort>
+			<ImmunityGainSpeedFactor>1.10</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>2</bed_healPerDay>
+			<bed_caravansCanUse>true</bed_caravansCanUse>
+		</building>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>EndTable</li>
+					<li>Dresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<tradeTags>
+			<li>Furniture</li>
+		</tradeTags>
+		<uiIconScale>0.90</uiIconScale>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>WA_Research_Building_Funiture</li>
+		</researchPrerequisites>
+		<designationCategory>WA_FutonCategory</designationCategory>
+  </ThingDef>
+
+  <!--========================= WA_MFuton =============================-->
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton01m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton01m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton02m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton02m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton03m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton03m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton04m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton04m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton05m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton05m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton06m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton06m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton07m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton07m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton08m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton08m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton09m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton09m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton10m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton10m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton11m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton11m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton12m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton12m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_MFutonBase">
+		<defName>WA_MFuton13m</defName>
+		<label>Mobile Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/MFuton/WA-MFuton13m</texPath>
+		</graphicData>
+	</ThingDef>
+
+  <!--========================= WA_HFutonBase =============================-->
+	<ThingDef ParentName="ArtableBedBase" Name="WA_HFutonBase" Abstract="True">
+		<thingClass>Building_Bed</thingClass>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.</description>
+		<label>Hospital Futon</label>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/Futon</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Beauty>3</Beauty>
+			<Mass>2</Mass>
+			<WorkToBuild>1800</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			<Comfort>0.85</Comfort>
+			<ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1.15</SurgerySuccessChanceFactor>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<MedicineIndustrial>5</MedicineIndustrial>
+		</costList>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>10</bed_healPerDay>
+			<bed_defaultMedical>true</bed_defaultMedical>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>VitalsMonitor</li>
+					<li>EndTable</li>
+					<li>Dresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>HospitalBed</li>
+			<li>WA_Research_Building_Funiture</li>
+		</researchPrerequisites>
+		<uiIconScale>0.90</uiIconScale>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<designationCategory>WA_FutonCategory</designationCategory>
+	</ThingDef>
+
+  <!--========================= WA_HFuton =============================-->
+	<ThingDef ParentName="WA_HFutonBase">
+		<defName>WA_HFuton01m</defName>
+		<label>Hospital Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/HFuton/WA-HFuton01m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_HFutonBase">
+		<defName>WA_HFuton02m</defName>
+		<label>Hospital Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/HFuton/WA-HFuton02m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_HFutonBase">
+		<defName>WA_HFuton03m</defName>
+		<label>Hospital Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/HFuton/WA-HFuton03m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_HFutonBase">
+		<defName>WA_HFuton04m</defName>
+		<label>Hospital Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/HFuton/WA-HFuton04m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_HFutonBase">
+		<defName>WA_HFuton05m</defName>
+		<label>Hospital Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/HFuton/WA-HFuton05m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_HFutonBase">
+		<defName>WA_HFuton06m</defName>
+		<label>Hospital Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/HFuton/WA-HFuton06m</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_HFutonBase">
+		<defName>WA_HFuton07m</defName>
+		<label>Hospital Futon</label>
+		<description>Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/HFuton/WA-HFuton07m</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= FarmPlant =============================-->
+  <WA_FarmPlant_Azuki.label>红豆</WA_FarmPlant_Azuki.label>
+  <WA_FarmPlant_Azuki.description>暗红色的豆粒藏于豆荚中。
+煮熟的红豆能作为料理食用，加糖慢熬则能做成内馅。</WA_FarmPlant_Azuki.description>
+
+  <WA_FarmPlant_TeaTree.label>茶树</WA_FarmPlant_TeaTree.label>
+  <WA_FarmPlant_TeaTree.description>据说在公元前就已在中国开始栽培，不单作为饮品，作为鉴赏植物亦有一分雅致。经水冲泡而制的茶受到世界各地喜爱。</WA_FarmPlant_TeaTree.description>
+
+  <WA_FarmPlant_Igusa.label>灯心草</WA_FarmPlant_Igusa.label>
+  <WA_FarmPlant_Igusa.description>在湿地生长的细长植物，长者可达1.6米。常用于制作榻榻米，古时也常用作药草。</WA_FarmPlant_Igusa.description>
+
+  <WA_FarmPlant_Kouzo.label>楮树</WA_FarmPlant_Kouzo.label>
+  <WA_FarmPlant_Kouzo.description>楮树会在春天绽放淡黄绿色的花，立夏时则会结下红色的果实。能从树皮抽取良好的纤维，常作为和纸的原料。</WA_FarmPlant_Kouzo.description>
+
+  <WA_FarmPlant_Kuwa.label>桑树</WA_FarmPlant_Kuwa.label>
+  <WA_FarmPlant_Kuwa.description>桑树会结下红紫的野苺。自古桑叶就常作为丝蚕的饲料，是制作细绢时不可或缺的植物。</WA_FarmPlant_Kuwa.description>
+</LanguageData>

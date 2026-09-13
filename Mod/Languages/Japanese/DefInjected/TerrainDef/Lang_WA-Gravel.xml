@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= WA_Gravel =============================-->
+  <WA_GravelSandstone.label>砂岩の玉砂利</WA_GravelSandstone.label>
+  <WA_GravelSandstone.description>庭や外構に敷き詰める小さな石粒です。庭や玄関先、植え込みの装飾に使われます。装飾以外にも雑草の育成を妨げたり、防犯にも役立ちます。</WA_GravelSandstone.description>
+
+  <WA_GravelGranite.label>花崗岩の玉砂利</WA_GravelGranite.label>
+  <WA_GravelGranite.description>庭や外構に敷き詰める小さな石粒です。庭や玄関先、植え込みの装飾に使われます。装飾以外にも雑草の育成を妨げたり、防犯にも役立ちます。</WA_GravelGranite.description>
+
+  <WA_GravelLimestone.label>石灰石の玉砂利</WA_GravelLimestone.label>
+  <WA_GravelLimestone.description>庭や外構に敷き詰める小さな石粒です。庭や玄関先、植え込みの装飾に使われます。装飾以外にも雑草の育成を妨げたり、防犯にも役立ちます。</WA_GravelLimestone.description>
+
+  <WA_GravelSlate.label>粘板岩の玉砂利</WA_GravelSlate.label>
+  <WA_GravelSlate.description>庭や外構に敷き詰める小さな石粒です。庭や玄関先、植え込みの装飾に使われます。装飾以外にも雑草の育成を妨げたり、防犯にも役立ちます。</WA_GravelSlate.description>
+
+  <WA_GravelMarble.label>大理石の玉砂利</WA_GravelMarble.label>
+  <WA_GravelMarble.description>庭や外構に敷き詰める小さな石粒です。庭や玄関先、植え込みの装飾に使われます。装飾以外にも雑草の育成を妨げたり、防犯にも役立ちます。</WA_GravelMarble.description>
+
+</LanguageData>

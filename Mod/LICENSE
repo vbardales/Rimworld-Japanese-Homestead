@@ -1,0 +1,13 @@
+WA — NO EXPLICIT UPSTREAM LICENCE FOUND
+
+WA content belongs to its original authors. No explicit licence or redistribution
+permission for WA was found in the inspected sources. This file grants no licence
+to third-party code, definitions, translations or artwork. No blanket MIT licence
+applies. The workflow classification silent is not a rights grant.
+
+See ATTRIBUTION.md for Udon, Shion, dependency provenance and the ResourcePackCore
+restriction. Our replacement resources use vanilla texture references; their RPC
+identifiers do not by themselves establish copied upstream content.
+
+Tatara was extracted to RolledUpSleeves and is no longer included in Mod/.
+No additional licence for the port's own contributions is granted by this notice.

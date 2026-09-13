@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ApparelLayerDef>
+    <defName>WA_Kimono</defName>
+    <label>Kimono</label>
+    <drawOrder>450</drawOrder>
+  </ApparelLayerDef>
+</Defs>

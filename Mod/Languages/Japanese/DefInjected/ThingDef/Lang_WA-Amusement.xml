@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= FoldingScreen =============================-->
+
+	<WA_Koto.label>箏</WA_Koto.label>
+	<WA_Koto.description>箏は、弦楽器に似た13本の弦を持つ弦楽器です。弦は長方形の板の縦方向に張られています。</WA_Koto.description>
+
+	<WA_Karuta.label>かるた</WA_Karuta.label>
+	<WA_Karuta.description>かるたは主に正月に遊ぶ、カードを使った室内遊具です。</WA_Karuta.description>
+
+	<WA_ShellMatching.label>貝合わせ</WA_ShellMatching.label>
+	<WA_ShellMatching.description>貝合わせは、平安時代から伝わる日本の遊びです。貝殻の色合いや形の美しさ、珍しさを競ったり、その貝を題材にした歌を詠んでその優劣を競い合ったりする貴族たちの遊びでした。</WA_ShellMatching.description>
+
+	<WA_Sugoroku.label>双六</WA_Sugoroku.label>
+	<WA_Sugoroku.description>すごろくは、サイコロを振って出た目に従って升目にある駒を進めて上がりに近づけるボードゲームです。</WA_Sugoroku.description>
+
+	<WA_Cassolette.label>香炉</WA_Cassolette.label>
+	<WA_Cassolette.description>香炉は固体状の香料を加熱し、香気成分を発散させる目的で用いる器です。平安時代の貴族は、着物を香炉にくゆらせて体や服に香りを付けて香りを纏うことが男女の差なく日常的なことでした。</WA_Cassolette.description>
+
+	<WA_Aquarium.label>金魚鉢</WA_Aquarium.label>
+	<WA_Aquarium.description>江戸時代後期になると無色ガラスが生産できるようになり、ガラス製の水槽が庶民にも広まるようになりました。
+金魚を入れた水槽は見る人を涼しく感じさせます。</WA_Aquarium.description>
+
+</LanguageData>

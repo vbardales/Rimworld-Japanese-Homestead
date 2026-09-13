@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HediffDef>
+		<defName>WA_Hediff_Metabolic</defName>
+		<label>... A bit fat?</label>
+		<description>One sweet too many. It shows.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.05</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterLabel>{0} was fat</discoverLetterLabel>
+				<discoverLetterText>{0} is now Metabolic!</discoverLetterText>
+				<letterType>PositiveEvent</letterType>
+				<messageType>ThreatBig</messageType>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>The magical power of sugar gradually corroves you.</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>The magical power of sugar gradually corroves you.</label>
+				<minSeverity>0.7</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MeatAmount>20</MeatAmount>
+					<EatingSpeed>0.10</EatingSpeed>
+				</statOffsets>
+			</li>
+			<li>
+				<label>The magical power of sugar gradually corroves you.</label>
+				<minSeverity>1.0</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.40</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MeatAmount>40</MeatAmount>
+					<EatingSpeed>0.20</EatingSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_GreenTea</defName>
+		<label>Delicious Matcha</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>I drank delicious green tea and the spirit was sharpened.</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<MentalBreakThreshold>-0.10</MentalBreakThreshold>
+					<PsychicSensitivity>-0.10</PsychicSensitivity>
+					<WorkSpeedGlobal>0.02</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Daifuku</defName>
+		<label>Delicious Ichigo Daifuku</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Fresh and fresh strawberry acidity and elegant sweetness of strainer! Great!</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+					<MeleeHitChance>3</MeleeHitChance>
+					<MeleeDodgeChance>3</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Dango</defName>
+		<label>Delicious Mitarashi Dango</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>The compatibility of rich sweet sauce is great with rich mochi dumplings!</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<CarryingCapacity>25</CarryingCapacity>
+					<MoveSpeed>0.30</MoveSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Geppei</defName>
+		<label>Delicious Geppei</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>I was impressed with the crispy feeling of bean paste and walnut!</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<ComfyTemperatureMin>10</ComfyTemperatureMin>
+					<ComfyTemperatureMax>10</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Kashiwa</defName>
+		<label>Delicious Kashiwa Mochi</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>The sweetness of rice and the smell of rice are deeply flavored!</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<MiningSpeed>0.15</MiningSpeed>
+					<MiningYield>0.15</MiningYield>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Kasuteira</defName>
+		<label>Delicious Kasuteira</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>The fluffy dough and the texture of Zarame feel the supreme moment.</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Kintuba</defName>
+		<label>Delicious Kintuba</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Plenty of red bean paste sweetness is moderately sweet and you will even remember the freshness.</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Nerikiri</defName>
+		<label>Delicious Nerikiri</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Multicolored paste-making is artistic!</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<CookSpeed>0.15</CookSpeed>
+					<FoodPoisonChance>-0.15</FoodPoisonChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Sakura</defName>
+		<label>Delicious Sakura Mochi</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>An elegant scent of cherry leaves and a fabric of beautiful color make spring feel.</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<MedicalTendSpeed>0.15</MedicalTendSpeed>
+					<MedicalTendQuality>0.15</MedicalTendQuality>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Uguisu</defName>
+		<label>Delicious Ugusisu Mochi</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Vivid wakakusa color is very compatible with soft fertilizer.</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<ImmunityGainSpeed>0.20</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>WA_Hediff_Youkan</defName>
+		<label>Delicious Youkan</label>
+		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>The texture that is smooth enough to collapse as soon as it contains mouth is the ultimate gem!</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<AimingDelayFactor>-0.20</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

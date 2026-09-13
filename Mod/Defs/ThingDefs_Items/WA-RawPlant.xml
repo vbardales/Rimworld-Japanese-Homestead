@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=========================== 小豆 ==============================-->
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>WA_Azuki</defName>
+		<label>Azuki</label>
+		<description>Raw Red beens.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/WA-Azuki</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>90</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+  <!--=========================== 茶葉 ==============================-->
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>WA_TeaLeaf</defName>
+		<label>TeaLeaf</label>
+		<description>Raw Tea Leaf.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/WA-TeaLeaf</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.2</Flammability>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>90</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+  <!--=========================== 藺草 ==============================-->
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>WA_Igusa</defName>
+		<label>Rush</label>
+		<description>Rush is mainly used as a raw material for tatami mats, but it was used as a medicinal herbs in the past.</description>
+		<stackLimit>200</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/WA-Igusa</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<Mass>0.014</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<ingestible>
+			<optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>90</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+	</ThingDef>
+
+  <!--=========================== 繭 ==============================-->
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>RPC_Cocoon</defName>
+		<label>Cocoon</label>
+		<description>It is the cocoon made by silkworm larvae.
+Weaving the thread by spinning it will become the finest textile.</description>
+		<stackLimit>200</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/Resource/Cloth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(0.96, 0.93, 0.78)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<Mass>0.002</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+  <!--=========================== 楮 ==============================-->
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>RPC_Kouzo</defName>
+		<label>Kouzo</label>
+		<description>It is a bundle of bark which took from Kouzo Tree.
+Fibers of Kouzo bark are strongly intertwined long.
+Paper made from Kouzo is strong and lasts long.</description>
+		<stackLimit>200</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/RPC_Kouzo</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.2</MarketValue>
+			<Mass>0.002</Mass>
+			<Flammability>0.8</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>

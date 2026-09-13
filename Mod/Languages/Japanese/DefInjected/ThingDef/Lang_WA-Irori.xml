@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= FarmPlant =============================-->
+  <WA_Irori.label>囲炉裏</WA_Irori.label>
+  <WA_Irori.description>屋内に恒久的に設けられる炉の一種です。
+伝統的な日本の家屋において床を四角く切って開け灰を敷き詰め、薪や炭火などを熾すために設けられた一角です。
+大部屋の真ん中に置くタイプのもので、暖房、調理、照明、乾燥など様々な役割を持ちます。</WA_Irori.description>
+
+  <WA_Chagama.label>茶室用囲炉裏</WA_Chagama.label>
+  <WA_Chagama.description>屋内に恒久的に設けられる炉の一種です。
+伝統的な日本の家屋において床を四角く切って開け灰を敷き詰め、薪や炭火などを熾すために設けられた一角です。
+茶室に用いられる囲炉裏は畳1畳分のサイズのものが多く、主に湯を沸かす目的で使用します。</WA_Chagama.description>
+
+</LanguageData>

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_GreenTea</defName>
+		<label>Green Tea</label>
+		<description>Green Tea is a mixture of powdered tea leaves into hot water.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-GreenTea</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_IchigoDaifuku</defName>
+		<label>Ichigo Daifuku</label>
+		<description>"Daifuku" is a rice cake stuffed with sweet filling like red bean paste.Daifuku literally means "great luck".
+When eating, the fragrance of fresh strawberry spreads in the mouth, you can enjoy the sweetness of soft rice cake texture and elegant sweetness in exquisite balance.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Daifuku</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Daifuku</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_MitarashiDango</defName>
+		<label>Mitarashi Dango</label>
+		<description>"Mitarashi Dango" is a skewer dumpling with sugar and soy sauce.
+The amber colored sweet taste is compatible with the rice flour dumplings, and the fragrant aroma caused by grilling with charcoal also enhances appetite.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Dango</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Dango</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_Geppei</defName>
+		<label>Geppei</label>
+		<description>"Geppei" is an old sweet which is eaten in Mid-Autumn Festival in China.
+It has a round shape that is regarded as a full moon, wrapped in a soft dough and baked red bean paste mixed with walnuts, pine nuts etc. in soft cloth.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Geppei</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Geppei</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_KashiwaMochi</defName>
+		<label>Kashiwa Mochi</label>
+		<description>"Kashihachi" is wrapped in red bean paste with rice cake of rice flour.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Kashiwa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Kashiwa</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_Kasuteira</defName>
+		<label>Kasuteira</label>
+		<description>"Kasuteira" is confections adopted from Portugal.
+However, the actual situation is a completely different sweet that developed independently in Japan.
+Kasuteira is made by burning a flour fabric mixed with plenty of sugar and eggs.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Kasuteira</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Kasuteira</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_Kintuba</defName>
+		<label>Kintuba</label>
+		<description>"Kintuba" is a sweet made with red bean paste hardened with agar and baked with water flavored flour.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Kintuba</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Kintuba</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_Nerikiri</defName>
+		<label>Nerikiri</label>
+		<description>"Nerikiri" is a confectionary refined and adjusted by adding a connecting ingredient to white bean paste.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Nerikiri</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Nerikiri</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_SakuraNUguisu</defName>
+		<label>Sakura and Uguisu Mochi</label>
+		<description>It is a sweet imitating the color of cherry blossoms and the color of young plants.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-SakuraNUguisu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Sakura</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Uguisu</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="MealCooked">
+		<defName>WA_Youkan</defName>
+		<label>Youkan</label>
+		<description>"Youkan" is a Japanese sweet made by pouring azuki bean paste in mold and solidified with agar.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Food/WA-Youkan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>300</WorkToMake>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<joy>0.15</joy>
+			<joyKind>Enjoy_ChanoYu</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_GreenTea</hediffDef>
+					<severity>0.5</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Youkan</hediffDef>
+					<severity>1.0</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WA_Hediff_Metabolic</hediffDef>
+					<severity>0.05</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ResourcePackCore supplied soil through a dedicated gathering spot and
+       charcoal through a kiln. Neither survives, so both are recipes on
+       benches the colony already has. -->
+
+  <!--=========================== 土を掘る / dig soil ==============================-->
+  <RecipeDef>
+    <defName>WA_DigSoil</defName>
+    <label>dig soil</label>
+    <description>Dig up and carry in packed earth.</description>
+    <jobString>Digging soil.</jobString>
+    <workAmount>400</workAmount>
+    <ingredients />
+    <products>
+      <RPC_Dirt>20</RPC_Dirt>
+    </products>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Construction</workSkill>
+    <effectWorking>ConstructDirt</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!--=========================== 炭を焼く / burn charcoal ==============================-->
+  <RecipeDef>
+    <defName>WA_MakeCharcoal</defName>
+    <label>burn charcoal</label>
+    <description>Smother a wood fire so it chars the wood instead of consuming it.</description>
+    <jobString>Burning charcoal.</jobString>
+    <workAmount>800</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <RPC_Charcoal>20</RPC_Charcoal>
+    </products>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <recipeUsers>
+      <li>Campfire</li>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+
+</Defs>

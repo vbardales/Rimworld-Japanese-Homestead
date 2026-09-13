@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== WA-Aquarium ==============================-->
+	<ThingDef ParentName="FurnitureWithQualityBase" Abstract="True">
+		<defName>WA_Aquarium</defName>
+		<label>Aquarium</label>
+		<altitudeLayer>Building</altitudeLayer>
+		<description>As it became possible to produce colorless glass at the end of the Edo era, glass aquariums became widely spread among the commoners.
+The aquarium containing the goldfish makes the viewer cool.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA_Aquarium</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<rectN>(0,0.27,1,1.73)</rectN>
+				<rectS>(0,0.27,1,1.73)</rectS>
+				<rectE>(0.125,0.27,1.75,0.73)</rectE>
+				<rectW>(0.125,0.27,1.75,0.73)</rectW>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+			<WorkToBuild>2500</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>25</Beauty>
+			<Mass>30</Mass>
+			<Flammability>0</Flammability>
+			<JoyGainFactor>1</JoyGainFactor>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<canOverlapZones>false</canOverlapZones>
+		<costList>
+			<WoodLog>80</WoodLog>
+			<Steel>40</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.10</staticSunShadowHeight>
+		<tickerType>Normal</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_CoolerSimple</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>-30</heatPerSecond>
+				<heatPushMinTemperature>17</heatPushMinTemperature>
+      		</li>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+		</comps>
+		<designationCategory>WA_Builder</designationCategory>
+		<castEdgeShadows>false</castEdgeShadows>
+		<size>(1,1)</size>
+		<building>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<joyKind>Enjoy_WA</joyKind>
+		</building>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>WA_Research_Building_Funiture</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+
+</Defs>

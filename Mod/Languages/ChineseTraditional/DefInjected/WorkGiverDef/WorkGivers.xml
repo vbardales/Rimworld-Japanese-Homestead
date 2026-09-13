@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <!-- AAA: verb,gerundは不要 -->
+    <!-- ============= Firefighter ============= -->
+
+    <WA_DoBillsMakeGreenTea.label>點製抹茶。</WA_DoBillsMakeGreenTea.label>
+    <WA_DoBillsMakeGreenTea.verb>調理</WA_DoBillsMakeGreenTea.verb>
+    <WA_DoBillsMakeGreenTea.gerund>點茶。</WA_DoBillsMakeGreenTea.gerund>
+
+    <!-- ============= Patient ============= -->
+
+    <WA_DoBillsIroriCooking.label>在圍爐中烹製。</WA_DoBillsIroriCooking.label>
+    <WA_DoBillsIroriCooking.verb>調理</WA_DoBillsIroriCooking.verb>
+    <WA_DoBillsIroriCooking.gerund>烹調。</WA_DoBillsIroriCooking.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<WorkGiverDef>
+		<defName>WA_DoBillsMakeGreenTea</defName>
+		<label>make tea at Irori</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Cooking</workType>
+		<priorityInType>110</priorityInType>
+		<fixedBillGiverDefs>
+			<li>WA_Chagama</li>
+		</fixedBillGiverDefs>
+		<verb>cook</verb>
+		<gerund>making tea at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>WA_DoBillsIroriCooking</defName>
+		<label>cook meals at Irori</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Cooking</workType>
+		<priorityInType>110</priorityInType>
+		<fixedBillGiverDefs>
+			<li>WA_Irori</li>
+		</fixedBillGiverDefs>
+		<verb>cook</verb>
+		<gerund>cooking at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+</Defs>

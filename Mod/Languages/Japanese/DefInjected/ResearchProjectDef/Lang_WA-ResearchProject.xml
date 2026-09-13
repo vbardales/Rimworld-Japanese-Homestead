@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= WA_Research =============================-->
+	<WA_Research_Basic.label>和風技術_基礎</WA_Research_Basic.label>
+	<WA_Research_Basic.description>日本技術の基礎を学びます。各種日本技術を研究できるようになります。</WA_Research_Basic.description>
+
+	<!--=============== 建築ライン ====================-->
+	<WA_Research_Building_Basic.label>和風建築技術_基礎</WA_Research_Building_Basic.label>
+	<WA_Research_Building_Basic.description>和風建築の基礎を研究します。基本的な壁や塀を建築できるようになります。</WA_Research_Building_Basic.description>
+
+	<WA_Research_Building_Advanced.label>和風建築技術_応用</WA_Research_Building_Advanced.label>
+	<WA_Research_Building_Advanced.description>和風建築の応用を研究します。様々な壁や塀を建築できるようになります。</WA_Research_Building_Advanced.description>
+
+	<WA_Research_Building_Castle.label>和風築城技術</WA_Research_Building_Castle.label>
+	<WA_Research_Building_Castle.description>和風築城技術を研究します。防衛向けの堅牢な建築ができるようになります。</WA_Research_Building_Castle.description>
+
+	<WA_Research_Building_Garden.label>和風造園技術</WA_Research_Building_Garden.label>
+	<WA_Research_Building_Garden.description>和風造園技術を研究します。景観を整える建築ができるようになります。</WA_Research_Building_Garden.description>
+
+
+	<!--=============== 家具ライン ====================-->
+	<WA_Research_Building_Funiture.label>和風家具技術</WA_Research_Building_Funiture.label>
+	<WA_Research_Building_Funiture.description>和風家具の作成方法を研究します。様々な家具を製造できるようになります。</WA_Research_Building_Funiture.description>
+
+	<WA_Research_Building_Amusement.label>和風娯楽</WA_Research_Building_Amusement.label>
+	<WA_Research_Building_Amusement.description>エンターテイメント技術を学びます。いくつかのエンターテイメント用品を作ることができるようになります。</WA_Research_Building_Amusement.description>
+
+	<WA_Research_Art.label>和風芸術品</WA_Research_Art.label>
+	<WA_Research_Art.description>芸術を学びます。美しい芸術品を作ることができるようになります。</WA_Research_Art.description>
+
+
+	<!--=============== 栽培ライン ====================-->
+	<WA_Research_Farming.label>和風植物</WA_Research_Farming.label>
+	<WA_Research_Farming.description>日常生活に欠かせない植物の栽培方法を学びます。</WA_Research_Farming.description>
+
+	<WA_Research_TeaTimeset.label>茶会</WA_Research_TeaTimeset.label>
+	<WA_Research_TeaTimeset.description>お茶の淹れ方を学びます。お茶と様々なお茶菓子の作成ができるようになります。</WA_Research_TeaTimeset.description>
+
+	<WA_Research_Dressing.label>和装</WA_Research_Dressing.label>
+	<WA_Research_Dressing.description>日常的に使用する衣類の作成方法を学びます。</WA_Research_Dressing.description>
+</LanguageData>

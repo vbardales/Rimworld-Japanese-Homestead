@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= Dreassing =============================-->
+    <WA_Dressing_TownGirl.label>和服-町娘</WA_Dressing_TownGirl.label>
+    <WA_Dressing_TownGirl.description>小城镇的姑娘们穿着的服装。</WA_Dressing_TownGirl.description>
+
+    <WA_Dressing_TearHarvest.label>和服-茶娘</WA_Dressing_TearHarvest.label>
+    <WA_Dressing_TearHarvest.description>采茶女的服装。</WA_Dressing_TearHarvest.description>
+
+    <WA_Dressing_Samurai.label>和服-武士</WA_Dressing_Samurai.label>
+    <WA_Dressing_Samurai.description>武士的服装。</WA_Dressing_Samurai.description>
+
+    <WA_Dressing_Carpenter.label>和服-大木作</WA_Dressing_Carpenter.label>
+    <WA_Dressing_Carpenter.description>木匠的服装。</WA_Dressing_Carpenter.description>
+
+    <WA_Dressing_Courier.label>和服-飞脚</WA_Dressing_Courier.label>
+    <WA_Dressing_Courier.description>信使的服装。</WA_Dressing_Courier.description>
+
+    <WA_Dressing_Doctor.label>和服-医者</WA_Dressing_Doctor.label>
+    <WA_Dressing_Doctor.description>大夫的服装。</WA_Dressing_Doctor.description>
+
+    <WA_Dressing_TeaMaster.label>和服-茶人</WA_Dressing_TeaMaster.label>
+    <WA_Dressing_TeaMaster.description>茶人的服装。</WA_Dressing_TeaMaster.description>
+
+    <WA_Dressing_Oiran.label>和服-花魁</WA_Dressing_Oiran.label>
+    <WA_Dressing_Oiran.description>花魁的服装。</WA_Dressing_Oiran.description>
+
+    <WA_Dressing_Kamishimo.label>和服-裃</WA_Dressing_Kamishimo.label>
+    <WA_Dressing_Kamishimo.description>日本男性的正装。</WA_Dressing_Kamishimo.description>
+
+    <WA_Dressing_Matagi.label>和服-又鬼</WA_Dressing_Matagi.label>
+    <WA_Dressing_Matagi.description>日本传统冬季猎人的服装。</WA_Dressing_Matagi.description>
+
+    <WA_Dressing_Princess.label>和服-姫</WA_Dressing_Princess.label>
+    <WA_Dressing_Princess.description>皇室、公卿、将军，以及大名等显贵人家的女儿。公主高雅的品格能激励周围的友方角色。</WA_Dressing_Princess.description>
+
+    <WA_Dressing_Sumoman.label>和服-力士</WA_Dressing_Sumoman.label>
+    <WA_Dressing_Sumoman.description>力士的服装。力大无穷的横纲所散发出的魄力足以压制敌对角色。</WA_Dressing_Sumoman.description>
+
+</LanguageData>
+

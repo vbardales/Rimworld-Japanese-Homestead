@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- The aquarium was built out of ResourcePackCore's glass cullet. That mod
+       is gone, so the base cost falls back to steel. When Glass+Lights is
+       loaded it supplies a real glass resource, and the tank goes back to
+       being made of glass. -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Glass+Lights</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="WA_Aquarium"]/costList</xpath>
+      <value>
+        <costList>
+          <WoodLog>80</WoodLog>
+          <Glass>60</Glass>
+        </costList>
+      </value>
+    </match>
+  </Operation>
+
+</Patch>

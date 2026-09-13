@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--=============== 和技術_基礎 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Basic</defName>
+		<label>WA Basic</label>
+		<description>Learn the basics of Japanese technology. We will be able to study various Japanese technologies.</description>
+		<baseCost>10</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+
+	<!--=============== 建築ライン ====================-->
+	<!--=============== 建築 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Building_Basic</defName>
+		<label>Building Basic</label>
+		<description>Learn the basics of Japanese style building Technology.We will be able to build basic walls and fences</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+		<prerequisites><li>WA_Research_Basic</li></prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>WA_Research_Building_Advanced</defName>
+		<label>Building Advanced</label>
+		<description>Learn the application of Japanese style building Technology.We will be able to build various walls and fences.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+		<prerequisites><li>WA_Research_Building_Basic</li></prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>WA_Research_Building_Castle</defName>
+		<label>Building Castle</label>
+		<description>Learn the Japanese style casting technology.We will be able to build Robust building for defense.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+		<prerequisites><li>WA_Research_Building_Advanced</li></prerequisites>
+	</ResearchProjectDef>
+
+	<!--=============== 庭園 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Building_Garden</defName>
+		<label>Gardening</label>
+		<description>Learn the Japanese style gardening technology.We will be able to build the landscape.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+		<prerequisites><li>WA_Research_Building_Basic</li></prerequisites>
+	</ResearchProjectDef>
+
+
+	<!--=============== 家具ライン ====================-->
+	<!--=============== 家具 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Building_Funiture</defName>
+		<label>Funiture</label>
+		<description>Learn the Japanese style funiture technology.We will be able to build various furniture.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites><li>WA_Research_Basic</li></prerequisites>
+	</ResearchProjectDef>
+
+	<!--=============== 娯楽 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Building_Amusement</defName>
+		<label>Amusement</label>
+		<description>Learn the Japanese style Entertainment technology.We will be able to build some entertainment supplies.</description>
+		<baseCost>250</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites><li>WA_Research_Building_Funiture</li></prerequisites>
+	</ResearchProjectDef>
+
+	<!--=============== 美術品 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Art</defName>
+		<label>Art</label>
+		<description>Learn art.You will be able to make beautiful art pieces.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+		<prerequisites>
+			<li>WA_Research_Building_Amusement</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
+	<!--=============== 植物ライン ====================-->
+	<!--=============== 栽培 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Farming</defName>
+		<label>Farming</label>
+		<description>Learn cultivation of plants indispensable for Japanese style living.</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3</researchViewY>
+		<prerequisites><li>WA_Research_Basic</li></prerequisites>
+	</ResearchProjectDef>
+
+	<!--=============== 茶会 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_TeaTimeset</defName>
+		<label>Tea Time</label>
+		<description>Learn how to make tea.We will be able to make tea and kinds of tea confectionery.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3</researchViewY>
+		<prerequisites>
+			<li>WA_Research_Farming</li>
+			<li>WA_Research_Building_Funiture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<!--=============== 和服 ====================-->
+	<ResearchProjectDef>
+		<defName>WA_Research_Dressing</defName>
+		<label>Dress up</label>
+		<description>Learn how to make daily clothing.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<tab>WA_Research</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4</researchViewY>
+		<prerequisites><li>WA_Research_Farming</li></prerequisites>
+	</ResearchProjectDef>
+</Defs>

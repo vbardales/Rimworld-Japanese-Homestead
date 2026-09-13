@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=========================== WA-PlantBase ==============================-->
+	<ThingDef Name="WA_PlantBase" Abstract="True">
+		<defName>WA_PlantBase</defName>
+		<label>WA_PlantBase</label>
+		<description>WAシリーズ農産物のベースです。</description>
+		<category>Plant</category>
+		<thingClass>Plant</thingClass>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.2</Nutrition>
+			<Flammability>1</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<tickerType>Long</tickerType>
+		<selectable>true</selectable>
+		<neverMultiSelect>True</neverMultiSelect>
+		<drawerType>MapMeshOnly</drawerType>
+		<pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+		<pathCost>10</pathCost>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>CutoutPlant</shaderType>
+		</graphicData>
+		<ingestible>
+			<foodType>Plant</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<plant>
+			<fertilityMin>0.7</fertilityMin>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
+			<soundHarvesting>Harvest_Standard</soundHarvesting>
+			<soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+			<sowWork>170</sowWork>
+			<harvestWork>250</harvestWork>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>1.00</max>
+			</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<sowResearchPrerequisites>
+				<li>WA_Research_Farming</li>
+			</sowResearchPrerequisites>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+
+  <!--=========================== Igusa ==============================-->
+	<ThingDef ParentName="WA_PlantBase">
+		<defName>WA_FarmPlant_Igusa</defName>
+		<label>Rush</label>
+		<description>It is an elongated plant inhabited by wetlands and large ones grow to about 1.6 m.
+It is mainly used as a raw material for tatami mats, but it was used as a medicinal herbs in the past.</description>
+		<graphicData>
+			<texPath>Things/Plant/WA-Igusa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<plant>
+			<dieIfLeafless>true</dieIfLeafless>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>WA_Igusa</harvestedThingDef>
+			<harvestYield>20</harvestYield>
+			<growDays>6</growDays>
+      		<immatureGraphicPath>Things/Immature/WA-Igusa</immatureGraphicPath>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>0.9</max>
+			</visualSizeRange>
+			<sowMinSkill>5</sowMinSkill>
+		</plant>
+	</ThingDef>
+
+
+  <!--=========================== Azuki ==============================-->
+	<ThingDef ParentName="WA_PlantBase">
+		<defName>WA_FarmPlant_Azuki</defName>
+		<label>Azuki</label>
+		<description>Tie the dark red beans to the sheath.
+Beans are cooked or boiled sweet and then made into bean paste.</description>
+		<graphicData>
+			<texPath>Things/Plant/WA-Azuki</texPath>
+		</graphicData>
+		<plant>
+			<dieIfLeafless>true</dieIfLeafless>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>WA_Azuki</harvestedThingDef>
+			<harvestYield>10</harvestYield>
+			<growDays>3</growDays>
+      		<immatureGraphicPath>Things/Immature/WA-Azuki</immatureGraphicPath>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.4</max>
+			</visualSizeRange>
+			<sowMinSkill>2</sowMinSkill>
+		</plant>
+	</ThingDef>
+
+  <!--=========================== TeaLeaf ==============================-->
+	<ThingDef ParentName="WA_PlantBase">
+		<defName>WA_FarmPlant_TeaTree</defName>
+		<label>TeaTree</label>
+		<description>It is said that cultivation began in China since BC, it is used not only for edible but also for appreciation.
+The tea extracted from the leaves with water is loved around the world.</description>
+		<graphicData>
+			<texPath>Things/Plant/WA-Chanoki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.15)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.8</Flammability>
+			<Nutrition>1.7</Nutrition>
+			<Beauty>4</Beauty>
+		</statBases>
+		<ingestible>
+			<foodType>Tree</foodType>
+			<preferability>RawBad</preferability>
+		</ingestible>
+		<pathCost>5</pathCost>
+		<plant>
+			<dieIfLeafless>false</dieIfLeafless>
+			<lifespanDaysPerGrowDays>9</lifespanDaysPerGrowDays>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+			<maxMeshCount>1</maxMeshCount>
+			<growDays>9</growDays>
+			<visualSizeRange>
+				<min>1.5</min>
+				<max>1.5</max>
+			</visualSizeRange>
+			<topWindExposure>0.15</topWindExposure>
+			<mustBeWildToSow>false</mustBeWildToSow>
+			<immatureGraphicPath>Things/Immature/WA-Chanoki</immatureGraphicPath>
+			<leaflessGraphicPath>Things/Immature/WA-Chanoki</leaflessGraphicPath>
+			<sowWork>4000</sowWork>
+			<sowMinSkill>6</sowMinSkill>
+			<harvestWork>400</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestYield>10</harvestYield>
+			<harvestAfterGrowth>0.30</harvestAfterGrowth>
+			<harvestedThingDef>WA_TeaLeaf</harvestedThingDef>
+			<harvestFailable>true</harvestFailable>
+			<blockAdjacentSow>false</blockAdjacentSow>
+			<sowResearchPrerequisites>
+				<li>WA_Research_Farming</li>
+			</sowResearchPrerequisites>
+			<wildClusterRadius>8</wildClusterRadius>
+			<wildClusterWeight>24</wildClusterWeight>
+			<interferesWithRoof>false</interferesWithRoof>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+	</ThingDef>
+
+
+  <!--=========================== Kouzo ==============================-->
+	<ThingDef ParentName="WA_PlantBase">
+		<defName>WA_FarmPlant_Kouzo</defName>
+		<label>Kouzo</label>
+		<description>In spring, light yellow green flowers bloom and red fruits in early summer.
+It is used as a raw material for paper because it can take high quality fibers from the bark.</description>
+		<graphicData>
+			<texPath>Things/Plant/WA-Kouzo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<plant>
+			<dieIfLeafless>true</dieIfLeafless>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RPC_Kouzo</harvestedThingDef>
+			<harvestYield>15</harvestYield>
+			<growDays>6</growDays>
+      		<immatureGraphicPath>Things/Immature/WA-Kouzo</immatureGraphicPath>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.4</max>
+			</visualSizeRange>
+			<sowMinSkill>3</sowMinSkill>
+		</plant>
+	</ThingDef>
+
+  <!--=========================== Kuwa ==============================-->
+	<ThingDef ParentName="WA_PlantBase">
+		<defName>WA_FarmPlant_Kuwa</defName>
+		<label>Kuwa</label>
+		<description>Mulberry ties the purple of purplish red purple.
+It is used as a tree for silkworms since ancient times, it is a plant indispensable for making silk.</description>
+		<graphicData>
+			<texPath>Things/Plant/WA-Kuwa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<plant>
+			<dieIfLeafless>true</dieIfLeafless>
+			<maxMeshCount>1</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RPC_Cocoon</harvestedThingDef>
+			<harvestYield>10</harvestYield>
+			<growDays>10</growDays>
+      		<immatureGraphicPath>Things/Immature/WA-Kuwa</immatureGraphicPath>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.4</max>
+			</visualSizeRange>
+			<sowMinSkill>5</sowMinSkill>
+		</plant>
+	</ThingDef>
+
+</Defs>

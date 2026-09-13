@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= FarmPlant =============================-->
+  <WA_FarmPlant_Azuki.label>小豆</WA_FarmPlant_Azuki.label>
+  <WA_FarmPlant_Azuki.description>鞘に暗赤色の豆を結びます。
+豆は煮込み料理にしたり、甘く煮詰めて餡にしたりします。</WA_FarmPlant_Azuki.description>
+
+  <WA_FarmPlant_TeaTree.label>茶の木</WA_FarmPlant_TeaTree.label>
+  <WA_FarmPlant_TeaTree.description>紀元前より中国で栽培が始まったといわれ、食用だけでなく鑑賞用としても用いられます。
+葉から水で抽出したお茶は世界各地で愛されています。</WA_FarmPlant_TeaTree.description>
+
+  <WA_FarmPlant_Igusa.label>イ草</WA_FarmPlant_Igusa.label>
+  <WA_FarmPlant_Igusa.description>湿地に生息する細長い植物で、大きいものは1.6mほどまで成長します。
+主に畳の原材料として利用されますが、古くは薬草として用いられていました。</WA_FarmPlant_Igusa.description>
+
+  <WA_FarmPlant_Kouzo.label>楮</WA_FarmPlant_Kouzo.label>
+  <WA_FarmPlant_Kouzo.description>楮は春に淡黄緑色の花が咲き、初夏に赤い実を結びます。
+樹皮から良質な繊維が取れるため、紙の原料として使われています。</WA_FarmPlant_Kouzo.description>
+
+  <WA_FarmPlant_Kuwa.label>桑</WA_FarmPlant_Kuwa.label>
+  <WA_FarmPlant_Kuwa.description>桑は赤紫のノイチゴ状の実を結びます。
+古くから養蚕用の樹木として利用されており、絹の作成には欠かせない植物です。</WA_FarmPlant_Kuwa.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- Keep intermediates inside this repository, outside the installed Mod folder. -->
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)..\.build\obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)..\.build\bin\</BaseOutputPath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--========================= WA-FoldingScreen_Base =============================-->
+	<ThingDef ParentName="BuildingBase" Name="WA_FoldingScreen_Base" Abstract="True">
+		<label>Folding Screen</label>
+		<thingClass>Building_Art</thingClass>
+		<fillPercent>1.0</fillPercent>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<passability>Impassable</passability>
+		<useHitPoints>true</useHitPoints>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtSculpture</nameMaker>
+				<descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+					<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Artistic</workSkill>
+			<unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+			<effectWorking>Sculpt</effectWorking>
+			<soundWorking>Recipe_Sculpt</soundWorking>
+			<recipeUsers>
+				<li>TableSculpting</li>
+			</recipeUsers>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+			</defaultIngredientFilter>
+		</recipeMaker>
+		<neverMultiSelect>true</neverMultiSelect>
+	    <researchPrerequisites>
+			<li>WA_Research_Art</li>
+	    </researchPrerequisites>
+	</ThingDef>
+
+  <!--========================= WA-FoldingScreen =============================-->
+	<ThingDef ParentName="WA_FoldingScreen_Base">
+		<defName>WA_FoldingScreen</defName>
+		<description>Byobu is a folding screen which consists of a wooden frame covered with thick Japanese paper or cloth, usually silk.
+It is used as a decorative screen or room devider.</description>
+		<label>Folding Screen</label>
+		<graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<texPath>Things/Building/FoldingScreen</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.4,1.2)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+		<size>(2,1)</size>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Beauty>160</Beauty>
+			<Mass>5</Mass>
+			<WorkToMake>40000</WorkToMake>
+			<Flammability>1.0</Flammability>
+		</statBases>
+	    <costList>
+			<WoodLog>30</WoodLog>
+			<RPC_JapanesePaper>200</RPC_JapanesePaper>
+	    </costList>
+	</ThingDef>
+
+  <!--========================= WA-Drawer =============================-->
+	<ThingDef ParentName="FurnitureWithQualityBase" Abstract="True">
+		<defName>WA_Drawer</defName>
+		<label>Drawer</label>
+		<thingClass>Building</thingClass>
+		<description></description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Drawer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<pathCost>20</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<passability>Impassable</passability>
+		<fillPercent>1.0</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Never</tickerType>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Beauty>5</Beauty>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<building>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+		</building>
+	    <costList>
+	      <WoodLog>30</WoodLog>
+	    </costList>
+		<neverMultiSelect>true</neverMultiSelect>
+		<designationCategory>WA_Builder</designationCategory>
+	</ThingDef>
+
+</Defs>

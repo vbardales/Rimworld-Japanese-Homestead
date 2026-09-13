@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= FoldingScreen =============================-->
+
+    <WA_Koto.label>筝</WA_Koto.label>
+    <WA_Koto.description>日本筝是有十三根琴弦的弦楽器。琴弦平行琴身。</WA_Koto.description>
+
+    <WA_Karuta.label>歌牌</WA_Karuta.label>
+    <WA_Karuta.description>歌牌是在正月时游玩，利用卡牌进行的室内娱乐道具。</WA_Karuta.description>
+
+    <WA_ShellMatching.label>贝合</WA_ShellMatching.label>
+    <WA_ShellMatching.description>贝合是传自于平安时代的日本游戏。内容包括互相比较贝殻的色泽与外型，以及珍稀度。并以手中的贝壳为题材行歌颂咏，以分高下。是流行于贵族中的游戏。</WA_ShellMatching.description>
+
+    <WA_Sugoroku.label>双陆</WA_Sugoroku.label>
+    <WA_Sugoroku.description>双陆棋是种桌上游戏。棋子的移动以掷骰子的点数决定，首位把所有马移离棋盘的玩者可获得胜利。</WA_Sugoroku.description>
+
+    <WA_Cassolette.label>香炉</WA_Cassolette.label>
+    <WA_Cassolette.description>香炉是用于加热固体香料，藉以散发熏香的容器。平安时代的贵族，无论男女皆会在穿着和服前会先过香，使熏芳环绕其身。</WA_Cassolette.description>
+
+</LanguageData>

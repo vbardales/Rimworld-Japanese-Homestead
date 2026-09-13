@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================== Lighting ======================= -->
+  <!-- ======================== WA_Glow_Toudai ======================= -->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>WA_Glow_01Toudai</defName>
+    <label>Cow dung lighthouse</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>The lighthouse lights the light with a light on the lamp core soaked in "kerosene" produced from the animal's oil.
+It is said that it began to be used around the Heian era, and it is said that the aristocratic group used to love mainly.
+Cow dung lighthouse has been called by this name because its base part resembles the form of cow dung.</description>    
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Glow/WA-Glow-Toudai</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Glow/WA-Glow-Toudai</uiIconPath>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>8</pathCost>
+    <constructEffect>ConstructWood</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.05</fillPercent>
+    <statBases>
+      <MaxHitPoints>25</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Flammability>1.0</Flammability>
+	  <Mass>5</Mass>
+    </statBases>
+    <selectable>true</selectable>
+	<costList>
+		<WoodLog>15</WoodLog>
+	</costList>
+	<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.2</fuelConsumptionRate>
+        <fuelCapacity>40.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+			<li>RPC_Charcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.3</fireSize>
+        <offset>(0.1,0,0.5)</offset>
+      </li>
+    </comps>
+    <designationCategory>WA_Builder</designationCategory>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Funiture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- ======================== WA_Glow_Gatou ======================= -->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>WA_Glow_02Gatou</defName>
+    <label>Gato</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Gato is also a lighting fixture made from "kerosene" made from animal fat.
+It began to be used around the Muromachi period, and it circulated enough to be used as a light source for the common people in the Edo period.
+It is called a tile light because it makes it by baking it using the same soil as the Kawara.
+It is one of the popular reasons to be flame retardant materials.</description>    
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Glow/WA-Glow-Gatou</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <allowFlip>false</allowFlip>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Glow/WA-Glow-Gatou</uiIconPath>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>8</pathCost>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.05</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Flammability>0</Flammability>
+	  <Mass>10</Mass>
+    </statBases>
+    <selectable>true</selectable>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+	<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.2</fuelConsumptionRate>
+        <fuelCapacity>40.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+			<li>RPC_Charcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.04</Comfort>
+        </statOffsets>
+        <maxSimultaneous>3</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <designationCategory>WA_Builder</designationCategory>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Funiture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <!-- ======================== WA_Glow_Andon ======================= -->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>WA_Glow_03Andon</defName>
+    <label>Ariake lantern</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Lighthouses and Gato were problematic in windshields, so lanterns wrapped in Japanese paper were invented.
+Lanterns were originally used for carrying, but since it was "kerosene" made from animal oil, there is a difficulty in portability and it will be used for indoor stationary use.
+Ariake lanterns can be illuminated brightly when used out from the box, and when used in a box it gained popularity as an excellent one that can be used as a bedtime light with suppressed brightness.</description>    
+    <category>Building</category>
+    <graphicData>
+	  <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/Glow/WA-Glow-Andon</texPath>
+      <allowFlip>false</allowFlip>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Glow/WA-Glow-Andon_north</uiIconPath>
+    <rotatable>true</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>8</pathCost>
+    <constructEffect>ConstructWood</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.05</fillPercent>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Beauty>3</Beauty>
+      <Flammability>1.0</Flammability>
+	  <Mass>10</Mass>
+    </statBases>
+    <selectable>true</selectable>
+	<costList>
+		<WoodLog>20</WoodLog>
+		<RPC_JapanesePaper>10</RPC_JapanesePaper>
+	</costList>
+	<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.2</fuelConsumptionRate>
+        <fuelCapacity>40.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+			<li>RPC_Charcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+      <li Class="CompProperties_Glower">	  
+        <glowRadius>10</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.08</Comfort>
+        </statOffsets>
+        <maxSimultaneous>5</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <designationCategory>WA_Builder</designationCategory>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Funiture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- ======================== WA_Glow_Bonbori ======================= -->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>WA_Glow_04Bonbori</defName>
+    <label>Bonbori</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>The weak point of kerosene which is liquid is easy to spill and lack portability.
+So lighting using candles that will not spill will be accepted.
+Snow cave is made by covering a candle on a candlestick with paper or cloth, and something of various shapes such as square, hexagon, octagon, round shape etc are made.
+Even now there are habits left to decorate Bonbori during events such as dolls' festival.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Glow/WA-Glow-Bonbori</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Glow/WA-Glow-Bonbori</uiIconPath>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>8</pathCost>
+    <constructEffect>ConstructWood</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.05</fillPercent>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Beauty>4</Beauty>
+      <Flammability>1.0</Flammability>
+	  <Mass>5</Mass>
+    </statBases>
+    <selectable>true</selectable>
+	<costList>
+		<WoodLog>25</WoodLog>
+	</costList>
+	<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.0</fuelConsumptionRate>
+        <fuelCapacity>40.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+			<li>RPC_Charcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>15</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.08</Comfort>
+        </statOffsets>
+        <maxSimultaneous>5</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <designationCategory>WA_Builder</designationCategory>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Funiture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <!-- ======================== WA_Glow_Chouchin ======================= -->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>WA_Glow_05Chouchin</defName>
+    <label>Chochin</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Chochin is also lighting with a candle, which is very light because it covers the body made of bamboo chicken and Japanese paper.
+It became a structure that can be folded up, and because of its portability it became an alternative to lighting for portability.
+It is said that it was made in the Azuchi-Momoyama period and spread in the Edo period.
+Furthermore, even now the contents are different and loved and it continues to be used.</description>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Glow/WA-Glow-Chouchin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Glow/WA-Glow-Chouchin</uiIconPath>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>8</pathCost>
+    <constructEffect>ConstructWood</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.05</fillPercent>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>1300</WorkToBuild>
+      <Beauty>5</Beauty>
+      <Flammability>1.0</Flammability>
+	  <Mass>1</Mass>
+    </statBases>
+    <selectable>true</selectable>
+	<costList>
+		<WoodLog>25</WoodLog>
+	</costList>
+	<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.0</fuelConsumptionRate>
+        <fuelCapacity>40.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Chemfuel</li>
+			<li>RPC_Charcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>15</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.08</Comfort>
+        </statOffsets>
+        <maxSimultaneous>5</maxSimultaneous>
+        <mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+      </li>
+    </comps>
+    <designationCategory>WA_Builder</designationCategory>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Funiture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- ======================== WA_Glow_Bonfire ======================= -->
+  <ThingDef ParentName="ArtableFurnitureBase">
+    <defName>WA_Glow_06Bonfire</defName>
+    <label>Bonfire</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>Bonfire are one of the lighting fixtures since ancient times, mainly installed outdoors.
+Put the fire in a steel basket with fuel like pine as a fuel.
+In addition to being used for outdoor events such as martial forces and festivals, it also fulfills the role of a fishing light on fishing boats.
+Even now it is used at night festival events and cormorants.</description>    
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Glow/WA-Glow-Bonfire</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+      <allowFlip>false</allowFlip>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Glow/WA-Glow-Bonfire-i</uiIconPath>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>8</pathCost>
+    <constructEffect>ConstructWood</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.05</fillPercent>
+    <statBases>
+      <MaxHitPoints>25</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Flammability>1.0</Flammability>
+	  <Mass>5</Mass>
+    </statBases>
+    <selectable>true</selectable>
+	<costList>
+		<WoodLog>15</WoodLog>
+	</costList>
+	<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>2.2</fuelConsumptionRate>
+        <fuelCapacity>40.0</fuelCapacity>
+        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+			<li>RPC_Charcoal</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>3.5</heatPerSecond>
+        <heatPushMaxTemperature>23</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_FireOverlay">
+        <fireSize>0.6</fireSize>
+        <offset>(0,0,0.5)</offset>
+      </li>
+    </comps>
+    <designationCategory>WA_Builder</designationCategory>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Funiture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!--========================= WA-LongBrazier =============================-->
+	<ThingDef ParentName="FurnitureWithQualityBase">
+		<defName>WA_Glow_07LongBrazier</defName>
+		<label>Brazier</label>
+		<thingClass>Building</thingClass>
+		<description>Brazier is half-filled with burning charcoal.
+It is one of the traditional heating devices.
+In addition to heating, you can boil tea or tobacco pipe.</description>
+		<graphicData>
+			<texPath>Things/Building/Glow/WA-Glow-LongBrazier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<pathCost>20</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.2</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Beauty>5</Beauty>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<JoyGainFactor>2</JoyGainFactor>
+	  		<Mass>10</Mass>
+		</statBases>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+			<joyKind>Chemical</joyKind>
+		</building>
+	    <costList>
+	      <WoodLog>30</WoodLog>
+	    </costList>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>100.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+						<li>RPC_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>40</heatPerSecond>
+				<heatPushMaxTemperature>21</heatPushMaxTemperature>
+			</li>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<Comfort>0.08</Comfort>
+				</statOffsets>
+				<maxSimultaneous>8</maxSimultaneous>
+				<mustBePlacedAdjacentCardinalToBedHead>true</mustBePlacedAdjacentCardinalToBedHead>
+			</li>
+		</comps>
+		<designationCategory>WA_Builder</designationCategory>
+		<researchPrerequisites>
+			<li>WA_Research_Building_Funiture</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>
+
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= Alcove =============================-->
+	<WA_AlcoveA.label>床之間(松)</WA_AlcoveA.label>
+	<WA_AlcoveA.description>床之間，中文又作"凹間"。是和室中內凹的小空間。通常在其中佈上掛軸、生花或盆景，以示上座。</WA_AlcoveA.description>
+
+	<WA_AlcoveB.label>床之間(櫻)</WA_AlcoveB.label>
+	<WA_AlcoveB.description>床之間，中文又作"凹間"。是和室中內凹的小空間。通常在其中佈上掛軸、生花或盆景，以示上座。</WA_AlcoveB.description>
+
+	<WA_AlcoveC.label>床之間(南天)</WA_AlcoveC.label>
+	<WA_AlcoveC.description>床之間，中文又作"凹間"。是和室中內凹的小空間。通常在其中佈上掛軸、生花或盆景，以示上座。</WA_AlcoveC.description>
+
+	<WA_AlcoveD.label>床之間(朧月)</WA_AlcoveD.label>
+	<WA_AlcoveD.description>床之間，中文又作"凹間"。是和室中內凹的小空間。通常在其中佈上掛軸、生花或盆景，以示上座。</WA_AlcoveD.description>
+
+	<WA_AlcoveE.label>床之間(柊)</WA_AlcoveE.label>
+	<WA_AlcoveE.description>床之間，中文又作"凹間"。是和室中內凹的小空間。通常在其中佈上掛軸、生花或盆景，以示上座。</WA_AlcoveE.description>
+
+</LanguageData>

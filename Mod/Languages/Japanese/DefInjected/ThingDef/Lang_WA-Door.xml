@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= Fusuma =============================-->
+
+
+	<WA_Fusuma01_Akebono.label>襖-曙</WA_Fusuma01_Akebono.label>
+	<WA_Fusuma02_Yoru.label>襖-夜</WA_Fusuma02_Yoru.label>
+	<WA_Fusuma03_Yuugure.label>襖-夕暮</WA_Fusuma03_Yuugure.label>
+	<WA_Fusuma04_Tutomete.label>襖-夙</WA_Fusuma04_Tutomete.label>
+	<WA_Fusuma05_Spring.label>襖-春</WA_Fusuma05_Spring.label>
+	<WA_Fusuma06_Summer.label>襖-夏</WA_Fusuma06_Summer.label>
+	<WA_Fusuma07_Autumn.label>襖-秋</WA_Fusuma07_Autumn.label>
+	<WA_Fusuma08_Winter.label>襖-冬</WA_Fusuma08_Winter.label>
+	<WA_Fusuma09_White.label>襖-白</WA_Fusuma09_White.label>
+
+	<WA_Fusuma01_Akebono.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma01_Akebono.description>
+
+	<WA_Fusuma02_Yoru.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma02_Yoru.description>
+
+	<WA_Fusuma03_Yuugure.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma03_Yuugure.description>
+
+	<WA_Fusuma04_Tutomete.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma04_Tutomete.description>
+
+	<WA_Fusuma05_Spring.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma05_Spring.description>
+
+	<WA_Fusuma06_Summer.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma06_Summer.description>
+
+	<WA_Fusuma07_Autumn.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma07_Autumn.description>
+
+	<WA_Fusuma08_Winter.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma08_Winter.description>
+
+	<WA_Fusuma09_White.description>襖（ふすま）は、木などでできた骨組みの両面に紙や布を張って作ります。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+障子は中国伝来ですが、襖は日本発祥とされています。
+元は「臥す間」が由来とされ、寝所の間仕切りとして使用され始めました。</WA_Fusuma09_White.description>
+
+
+  <!--========================= Shoji =============================-->
+
+
+	<WA_Shoji01_Square.label>障子-角</WA_Shoji01_Square.label>
+	<WA_Shoji02_Circle.label>障子-丸</WA_Shoji02_Circle.label>
+	<WA_Shoji03_Combi.label>障子-組</WA_Shoji03_Combi.label>
+	<WA_Shoji04_Deco.label>障子-飾</WA_Shoji04_Deco.label>
+
+	<WA_Shoji01_Square.description>障子は格子状の骨組みに薄紙を張って作ります。ほのかに明かりを取り入れることができます。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+現代の障子と同じ形のものが現れたのは鎌倉時代以前の平清盛のころと言われています。
+非常に破れやすい構造であるため、ペットや子供のいる家では障子に穴が開くことは日常茶飯事です。</WA_Shoji01_Square.description>
+
+	<WA_Shoji02_Circle.description>障子は格子状の骨組みに薄紙を張って作ります。ほのかに明かりを取り入れることができます。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+現代の障子と同じ形のものが現れたのは鎌倉時代以前の平清盛のころと言われています。
+非常に破れやすい構造であるため、ペットや子供のいる家では障子に穴が開くことは日常茶飯事です。</WA_Shoji02_Circle.description>
+
+	<WA_Shoji03_Combi.description>障子は格子状の骨組みに薄紙を張って作ります。ほのかに明かりを取り入れることができます。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+現代の障子と同じ形のものが現れたのは鎌倉時代以前の平清盛のころと言われています。
+非常に破れやすい構造であるため、ペットや子供のいる家では障子に穴が開くことは日常茶飯事です。</WA_Shoji03_Combi.description>
+
+	<WA_Shoji04_Deco.description>障子は格子状の骨組みに薄紙を張って作ります。ほのかに明かりを取り入れることができます。
+とても軽いため、素早く開閉ができますが、耐久性は低いです。
+現代の障子と同じ形のものが現れたのは鎌倉時代以前の平清盛のころと言われています。
+非常に破れやすい構造であるため、ペットや子供のいる家では障子に穴が開くことは日常茶飯事です。</WA_Shoji04_Deco.description>
+
+</LanguageData>

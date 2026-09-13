@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>WA_TatamiIsGood</defName>
+		<durationDays>0.3</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>Comfortable Tatami</label>
+				<description>I feel great while I spend it on tatami mats!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--============ MassCooking ============-->
+  <WA_MassCook_SimpleMeal.label>大量烹调：简单的料理(6)</WA_MassCook_SimpleMeal.label>
+  <WA_MassCook_SimpleMeal.description>用一种原料烹调一份简单的料理。</WA_MassCook_SimpleMeal.description>
+  <WA_MassCook_SimpleMeal.jobString>批量烹调简单的料理。</WA_MassCook_SimpleMeal.jobString>
+
+  <WA_MassCook_FineMeal.label>大量烹调：精致的料理(6)</WA_MassCook_FineMeal.label>
+  <WA_MassCook_FineMeal.description>用肉和植物组合作为原料烹调一份相对复杂的料理。</WA_MassCook_FineMeal.description>
+  <WA_MassCook_FineMeal.jobString>批量烹调精致的料理。</WA_MassCook_FineMeal.jobString>
+
+  <WA_MassCook_LavishMeal.label>大量调理：奢侈的料理(6)</WA_MassCook_LavishMeal.label>
+  <WA_MassCook_LavishMeal.description>用肉和植物组合作为原料烹调一份非常复杂精致的料理。绝大多数原料会被浪费掉。</WA_MassCook_LavishMeal.description>
+  <WA_MassCook_LavishMeal.jobString>批量烹调奢侈的料理。</WA_MassCook_LavishMeal.jobString>
+
+  <!--============ TeaCooking ============-->
+  <WA_Recipe_GreenTea.label>点茶</WA_Recipe_GreenTea.label>
+  <WA_Recipe_GreenTea.description>将茶叶细磨成末并溶于热汤中，再以茶筅点茶。</WA_Recipe_GreenTea.description>
+  <WA_Recipe_GreenTea.jobString>点制抹茶。</WA_Recipe_GreenTea.jobString>
+
+  <WA_Recipe_Daifuku.label>制作草苺大福</WA_Recipe_Daifuku.label>
+  <WA_Recipe_Daifuku.description>以内馅与饼衣，包覆大粒苺果。</WA_Recipe_Daifuku.description>
+  <WA_Recipe_Daifuku.jobString>制作草苺大福。</WA_Recipe_Daifuku.jobString>
+
+  <WA_Recipe_Dango.label>制作御手洗团子</WA_Recipe_Dango.label>
+  <WA_Recipe_Dango.description>糯米粉制成的团子，淋上辛甜的琥珀色酱汁。</WA_Recipe_Dango.description>
+  <WA_Recipe_Dango.jobString>制作御手洗团子。</WA_Recipe_Dango.jobString>
+
+  <WA_Recipe_Geppei.label>制作月饼</WA_Recipe_Geppei.label>
+  <WA_Recipe_Geppei.description>以饼衣包上小红豆馅烘烤制成。</WA_Recipe_Geppei.description>
+  <WA_Recipe_Geppei.jobString>制作月饼。</WA_Recipe_Geppei.jobString>
+
+  <WA_Recipe_Kashiwa.label>制作柏饼</WA_Recipe_Kashiwa.label>
+  <WA_Recipe_Kashiwa.description>以饼衣包裹小红豆馅，再以覆上一枚槲叶。</WA_Recipe_Kashiwa.description>
+  <WA_Recipe_Kashiwa.jobString>制作柏饼。</WA_Recipe_Kashiwa.jobString>
+
+  <WA_Recipe_Kasuteira.label>制作蜂蜜蛋糕</WA_Recipe_Kasuteira.label>
+  <WA_Recipe_Kasuteira.description>搅拌蛋白直到起泡，与小麦粉、砂糖混成面团烘焙。</WA_Recipe_Kasuteira.description>
+  <WA_Recipe_Kasuteira.jobString>制作蜂蜜蛋糕。</WA_Recipe_Kasuteira.jobString>
+
+  <WA_Recipe_Kintuba.label>制作金锷饼</WA_Recipe_Kintuba.label>
+  <WA_Recipe_Kintuba.description>粒馅以寒天固定粒馅，在各面涂上溶于水的小麦粉后烘焙而成。</WA_Recipe_Kintuba.description>
+  <WA_Recipe_Kintuba.jobString>制作金锷饼。</WA_Recipe_Kintuba.jobString>
+
+  <WA_Recipe_Nerikiri.label>制作练切</WA_Recipe_Nerikiri.label>
+  <WA_Recipe_Nerikiri.description>揉进不同颜色的内馅中，添入增加黏性的食材。调整后反复捏制而成。</WA_Recipe_Nerikiri.description>
+  <WA_Recipe_Nerikiri.jobString>制作练切。</WA_Recipe_Nerikiri.jobString>
+
+  <WA_Recipe_SakuraNUguisu.label>制作樱饼与莺饼</WA_Recipe_SakuraNUguisu.label>
+  <WA_Recipe_SakuraNUguisu.description>取色于春天的两种饼皮，包覆馅儿而成。</WA_Recipe_SakuraNUguisu.description>
+  <WA_Recipe_SakuraNUguisu.jobString>制作樱饼与莺饼。</WA_Recipe_SakuraNUguisu.jobString>
+
+  <WA_Recipe_Youkan.label>制作羊羹</WA_Recipe_Youkan.label>
+  <WA_Recipe_Youkan.description>小红豆馅加上寒天，熬煮后凝固而成。</WA_Recipe_Youkan.description>
+  <WA_Recipe_Youkan.jobString>制作羊羹。</WA_Recipe_Youkan.jobString>
+
+  <!--============ イ草 ============-->
+  <WA_Igusa2Medicine.label>调药</WA_Igusa2Medicine.label>
+  <WA_Igusa2Medicine.description>将灯心草煎制成药。</WA_Igusa2Medicine.description>
+  <WA_Igusa2Medicine.jobString>煎煮灯心草。</WA_Igusa2Medicine.jobString>
+
+  <!--============ 茧 ============-->
+  <RPC_MakePureSilk.label>纺织蚕丝</RPC_MakePureSilk.label>
+  <RPC_MakePureSilk.description>纺织蚕丝。</RPC_MakePureSilk.description>
+  <RPC_MakePureSilk.jobString>纺织蚕丝。</RPC_MakePureSilk.jobString>
+
+  <!--============ 楮 ============-->
+  <RPC_MakePaper.label>制作楮纸</RPC_MakePaper.label>
+  <RPC_MakePaper.description>透过流漉将楮皮制成和纸。</RPC_MakePaper.description>
+  <RPC_MakePaper.jobString>制作楮纸。</RPC_MakePaper.jobString>
+</LanguageData>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<WA_Hediff_Metabolic.label>…ちょっと太った？</WA_Hediff_Metabolic.label>
+	<WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterLabel>{0}は太った</WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterLabel>
+	<WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterText>{0}は太った！</WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterText>
+	<WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-0.label>砂糖の魔力は徐々にあなたを蝕みます。</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-0.label>
+	<WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-1.label>砂糖の魔力は徐々にあなたを蝕みます。</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-1.label>
+	<WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-2.label>砂糖の魔力は徐々にあなたを蝕みます。</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-2.label>
+
+	<WA_Hediff_GreenTea.label>美味しい抹茶</WA_Hediff_GreenTea.label>
+	<WA_Hediff_GreenTea.stages.I_drank_delicious_green_tea_and_the_spirit_was_sharpened.label>美味しい抹茶を飲み、精神が研ぎ澄まされた。</WA_Hediff_GreenTea.stages.I_drank_delicious_green_tea_and_the_spirit_was_sharpened.label>
+
+ 	<WA_Hediff_Daifuku.label>美味しい苺大福</WA_Hediff_Daifuku.label>
+	<WA_Hediff_Daifuku.stages.Fresh_and_fresh_strawberry_acidity_and_elegant_sweetness_of_strainer_Great.label>新鮮でみずみずしい苺の酸味と、漉し餡の上品な甘み！素晴らしい！</WA_Hediff_Daifuku.stages.Fresh_and_fresh_strawberry_acidity_and_elegant_sweetness_of_strainer_Great.label>
+
+	<WA_Hediff_Dango.label>美味しいみたらし団子</WA_Hediff_Dango.label>
+	<WA_Hediff_Dango.stages.The_compatibility_of_rich_sweet_sauce_is_great_with_rich_mochi_dumplings.label>もちもちのお団子に濃厚な甘辛タレの相性は最高だ！</WA_Hediff_Dango.stages.The_compatibility_of_rich_sweet_sauce_is_great_with_rich_mochi_dumplings.label>
+
+	<WA_Hediff_Geppei.label>美味しい月餅</WA_Hediff_Geppei.label>
+	<WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>ずっしり餡子と胡桃のサクサク感に感銘を受けた！</WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>
+
+	<WA_Hediff_Kashiwa.label>美味しい柏餅</WA_Hediff_Kashiwa.label>
+	<WA_Hediff_Kashiwa.stages.The_sweetness_of_rice_and_the_smell_of_rice_are_deeply_flavored.label>お米の甘みと槲の香りが奥深い味わいだ！</WA_Hediff_Kashiwa.stages.The_sweetness_of_rice_and_the_smell_of_rice_are_deeply_flavored.label>
+
+	<WA_Hediff_Kasuteira.label>美味しいかすていら</WA_Hediff_Kasuteira.label>
+	<WA_Hediff_Kasuteira.stages.The_fluffy_dough_and_the_texture_of_Zarame_feel_the_supreme_moment.label>ふわふわ生地とザラメの食感は至高のひと時を感じる。</WA_Hediff_Kasuteira.stages.The_fluffy_dough_and_the_texture_of_Zarame_feel_the_supreme_moment.label>
+
+	<WA_Hediff_Kintuba.label>美味しいきんつば</WA_Hediff_Kintuba.label>
+	<WA_Hediff_Kintuba.stages.Plenty_of_red_bean_paste_sweetness_is_moderately_sweet_and_you_will_even_remember_the_freshness.label>たっぷりの小豆餡は程よい甘さでみずみずしさすら覚える。</WA_Hediff_Kintuba.stages.Plenty_of_red_bean_paste_sweetness_is_moderately_sweet_and_you_will_even_remember_the_freshness.label>
+
+	<WA_Hediff_Nerikiri.label>美味しい練り切り</WA_Hediff_Nerikiri.label>
+	<WA_Hediff_Nerikiri.stages.Multicolored_pastemaking_is_artistic.label>色とりどりの練り切りは芸術的だ！</WA_Hediff_Nerikiri.stages.Multicolored_pastemaking_is_artistic.label>
+
+	<WA_Hediff_Sakura.label>美味しい桜餅</WA_Hediff_Sakura.label>
+	<WA_Hediff_Sakura.stages.An_elegant_scent_of_cherry_leaves_and_a_fabric_of_beautiful_color_make_spring_feel.label>桜の葉の上品な香りと美しい色の生地が春を感じさせる。</WA_Hediff_Sakura.stages.An_elegant_scent_of_cherry_leaves_and_a_fabric_of_beautiful_color_make_spring_feel.label>
+
+	<WA_Hediff_Uguisu.label>美味しい鶯餅</WA_Hediff_Uguisu.label>
+	<WA_Hediff_Uguisu.stages.Vivid_wakakusa_color_is_very_compatible_with_soft_fertilizer.label>鮮やかな若草色が柔らかな求肥ととても相性がいい。</WA_Hediff_Uguisu.stages.Vivid_wakakusa_color_is_very_compatible_with_soft_fertilizer.label>
+
+	<WA_Hediff_Youkan.label>美味しい羊羹</WA_Hediff_Youkan.label>
+	<WA_Hediff_Youkan.stages.The_texture_that_is_smooth_enough_to_collapse_as_soon_as_it_contains_mouth_is_the_ultimate_gem.label>口に含むとたちまち崩れるほど滑らかな舌触りは究極の逸品だ！</WA_Hediff_Youkan.stages.The_texture_that_is_smooth_enough_to_collapse_as_soon_as_it_contains_mouth_is_the_ultimate_gem.label>
+
+
+	<HDA_Hediff_EncouragementOfThePrincess.label>姫の激励</HDA_Hediff_EncouragementOfThePrincess.label>
+	<HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label>姫から激励を受けた！</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label>
+	<HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label>姫から激励を受けた！</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label>
+	<HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label>姫から激励を受けた！</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label>
+	<HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label>姫から激励を受けた！</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label>
+	<HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label>姫から激励を受けた！</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label>
+
+	<HDA_Hediff_IntimidateOfTheYokozuna.label>横綱の威圧</HDA_Hediff_IntimidateOfTheYokozuna.label>
+	<HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label>横綱の威圧に怯えている。</HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label>
+</LanguageData>

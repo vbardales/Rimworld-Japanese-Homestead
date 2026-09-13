@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ===================== WA_DressingBase ===================== -->
+	<ThingDef Abstract="True" Name="WA_DressingBase">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<RPC_PureSilk>600</RPC_PureSilk>
+		</costList>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>10000</WorkToMake>
+			<Mass>2.0</Mass>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+      		<DeteriorationRate>3</DeteriorationRate>
+			<Beauty>1</Beauty>
+			<SellPriceFactor>0.75</SellPriceFactor>
+			<Comfort>1.50</Comfort>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<generateCommonality>0.001</generateCommonality>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<tags>
+				<li>Outlander</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<layers>
+				<li>WA_Kimono</li>
+			</layers>
+		</apparel>
+	    <thingCategories>
+			<li>WA_Category_Dreassing</li>
+	    </thingCategories>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-TownGirl ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_TownGirl</defName>
+		<label>Kimono-TownGirl</label>
+		<description>Kimono of Town Girl.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/TownGirl/WA-Dressing-TownGirl</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>10</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/TownGirl/WA-Dressing-TownGirl</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-TeaHarvest ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_TearHarvest</defName>
+		<label>Kimono-TeaHarvest</label>
+		<description>Kimono of Tea Harvest.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/TeaHarvest/WA-Dressing-TeaHarvest</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>7</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.20</PlantWorkSpeed>
+			<PlantHarvestYield>0.40</PlantHarvestYield>
+			<ForagedNutritionPerDay>10</ForagedNutritionPerDay>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/TeaHarvest/WA-Dressing-TeaHarvest</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-Samurai ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Samurai</defName>
+		<label>Kimono-Samurai</label>
+		<description>Kimono of Samurai.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Samurai/WA-Dressing-Samurai</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.35</ArmorRating_Heat>
+			<Beauty>1</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>1.0</MoveSpeed>
+			<MeleeHitChance>5</MeleeHitChance>
+			<MeleeDodgeChance>5</MeleeDodgeChance>
+			<MeleeArmorPenetration>5</MeleeArmorPenetration>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Samurai/WA-Dressing-Samurai</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-Carpenter ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Carpenter</defName>
+		<label>Kimono-Carpenter</label>
+		<description>Kimono of Carpenter.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Carpenter/WA-Dressing-Carpenter</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<ConstructionSpeed>0.5</ConstructionSpeed>
+			<ConstructSuccessChance>0.2</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Carpenter/WA-Dressing-Carpenter</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-Courier ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Courier</defName>
+		<label>Kimono-Curier</label>
+		<description>Kimono of Curier.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Courier/WA-Dressing-Courier</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>3.5</MoveSpeed>
+			<CarryingCapacity>20</CarryingCapacity>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Courier/WA-Dressing-Courier</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-Doctor ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Doctor</defName>
+		<label>Kimono-Doctor</label>
+		<description>Kimono of Doctor.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Doctor/WA-Dressing-Doctor</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<MedicalTendSpeed>0.3</MedicalTendSpeed>
+			<MedicalTendQuality>0.5</MedicalTendQuality>
+			<MedicalOperationSpeed>0.3</MedicalOperationSpeed>
+			<MedicalSurgerySuccessChance>0.3</MedicalSurgerySuccessChance>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Doctor/WA-Dressing-Doctor</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-TeaMaster ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_TeaMaster</defName>
+		<label>Kimono-TeaMaster</label>
+		<description>Kimono of Tea Master.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/TeaMaster/WA-Dressing-TeaMaster</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<CookSpeed>0.4</CookSpeed>
+			<FoodPoisonChance>-0.4</FoodPoisonChance>
+			<DrugCookingSpeed>0.4</DrugCookingSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/TeaMaster/WA-Dressing-TeaMaster</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-TeaMaster ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Oiran</defName>
+		<label>Kimono-Oiran</label>
+		<description>Kimono of Oiran.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Oiran/WA-Dressing-Oiran</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>10</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>1.0</SocialImpact>
+			<NegotiationAbility>0.3</NegotiationAbility>
+			<TradePriceImprovement>0.4</TradePriceImprovement>
+			<Beauty>40</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Oiran/WA-Dressing-Oiran</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-Kamishimo ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Kamishimo</defName>
+		<label>Kimono-Kamishimo</label>
+		<description>Kimono of Kamishimo.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Kamishimo/WA-Dressing-Kamishimo</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.3</GeneralLaborSpeed>
+			<ButcheryMechanoidEfficiency>0.3</ButcheryMechanoidEfficiency>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Kamishimo/WA-Dressing-Kamishimo</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-Matagi ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Matagi</defName>
+		<label>Kimono-Matagi</label>
+		<description>Kimono of Matagi</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Matagi/WA-Dressing-Matagi</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.5</AimingDelayFactor>
+			<HuntingStealth>0.5</HuntingStealth>
+			<ForagedNutritionPerDay>10</ForagedNutritionPerDay>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Matagi/WA-Dressing-Matagi</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	
+	<!-- ===================== WA-DressingWithAura ===================== -->
+	<!-- ===================== WA-Dressing-Princess ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Princess</defName>
+		<label>Kimono-Princess</label>
+		<description>Kimono of Princess.Princess' s dignity encourages surrounding friends.</description>
+		<modExtensions>
+			<li Class="WA.HediffAuraExtension">
+				<enableOnlyPlayerFaction>true</enableOnlyPlayerFaction>
+				<addHediffSeverity>0.5</addHediffSeverity>
+				<maxHediffSeverity>1.0</maxHediffSeverity>
+				<auraDistance>10.0</auraDistance>
+				<auraTickInterval>1000</auraTickInterval>
+				<hediffToAdd>HDA_Hediff_EncouragementOfThePrincess</hediffToAdd>
+				<targetsEnemies>false</targetsEnemies>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Princess/WA-Dressing-Princess</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>10</Beauty>
+		</statBases>
+		<costList>
+			<Gold>30</Gold>
+		</costList>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.3</NegotiationAbility>
+			<TameAnimalChance>0.3</TameAnimalChance>
+			<TrainAnimalChance>0.3</TrainAnimalChance>
+			<Beauty>40</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Princess/WA-Dressing-Princess</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-Sumoman ===================== -->
+	<ThingDef ParentName="WA_DressingBase">
+		<defName>WA_Dressing_Sumoman</defName>
+		<label>Kimono-Rikishi</label>
+		<description>Kimono of Rikishi.A Yokozuna with a mighty power overwhelms the enemy.</description>
+		<modExtensions>
+			<li Class="WA.HediffAuraExtension">
+				<enableOnlyPlayerFaction>true</enableOnlyPlayerFaction>
+				<addHediffSeverity>0.5</addHediffSeverity>
+				<maxHediffSeverity>1.0</maxHediffSeverity>
+				<auraDistance>15.0</auraDistance>
+				<auraTickInterval>1000</auraTickInterval>
+				<hediffToAdd>HDA_Hediff_IntimidateOfTheYokozuna</hediffToAdd>
+				<targetsEnemies>true</targetsEnemies>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Sumoman/WA-Dressing-Sumoman</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.45</ArmorRating_Heat>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<Gold>30</Gold>
+		</costList>
+		<equippedStatOffsets>
+			<PainShockThreshold>1.5</PainShockThreshold>
+			<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+			<PsychicSensitivity>-0.3</PsychicSensitivity>
+			<ToxicResistance>0.3</ToxicResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sumoman/WA-Dressing-Sumoman</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+	<!-- ===================== WA-Dressing-Elder ===================== -->
+	<ThingDef ParentName="WA_DressingBase" Abstract="True">
+		<defName>WA_Dressing_Elder</defName>
+		<label>Kimono-Elder</label>
+		<description>Kimono of Elder.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Elder/WA-Dressing-Elder</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Elder/WA-Dressing-Elder</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_DressingBase" Abstract="True">
+		<defName>WA_Dressing_Suke</defName>
+		<label>Kimono-Suke</label>
+		<description>Kimono of Suke.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Suke/WA-Dressing-Suke</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Suke/WA-Dressing-Suke</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_DressingBase" Abstract="True">
+		<defName>WA_Dressing_Kaku</defName>
+		<label>Kimono-Kaku</label>
+		<description>Kimono of Elder.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Kaku/WA-Dressing-Kaku</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Kaku/WA-Dressing-Kaku</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+	<!-- ===================== WA-Dressing-Kin ===================== -->
+	<ThingDef ParentName="WA_DressingBase" Abstract="True">
+		<defName>WA_Dressing_Kin</defName>
+		<label>Kimono-Kin</label>
+		<description>Kimono of Kin.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Kin/WA-Dressing-Kin</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/Kin/WA-Dressing-Kin</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<!-- ===================== WA-Dressing-PriestSoldier ===================== -->
+	<ThingDef ParentName="WA_DressingBase" Abstract="True">
+		<defName>WA_Dressing_PriestSoldier</defName>
+		<label>Kimono-PriestSoldier</label>
+		<description>Kimono of PriestSoldier.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PriestSoldier/WA-Dressing-PriestSoldier</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/PriestSoldier/WA-Dressing-PriestSoldier</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+
+
+</Defs>

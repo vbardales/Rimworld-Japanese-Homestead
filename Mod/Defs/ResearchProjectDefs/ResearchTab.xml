@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchTabDef>
+		<defName>WA_Research</defName>
+		<label>WA</label>
+	</ResearchTabDef>
+</Defs>

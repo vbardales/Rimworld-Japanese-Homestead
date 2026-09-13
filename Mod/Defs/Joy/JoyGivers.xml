@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<JoyGiverDef>
+		<defName>Make_GreenTea</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>4</baseChance>
+		<thingDefs>
+			<li>WA_Chagama</li>
+		</thingDefs>
+		<jobDef>Make_GreenTea</jobDef>
+		<desireSit>true</desireSit>
+		<joyKind>Enjoy_ChanoYu</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>WatchTheFire</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>4</baseChance>
+		<thingDefs>
+			<li>WA_Irori</li>
+		</thingDefs>
+		<jobDef>WatchTheFire</jobDef>
+		<desireSit>true</desireSit>
+		<joyKind>Social</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>Drink_GreenTea</defName>
+		<giverClass>JoyGiver_Ingest</giverClass>
+		<baseChance>3</baseChance>
+		<thingDefs>
+			<li>WA_GreenTea</li>
+		</thingDefs>
+		<jobDef>Drink_GreenTea</jobDef>
+		<joyKind>Enjoy_ChanoYu</joyKind>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>Play_Koto</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>4.5</baseChance>
+		<thingDefs>
+			<li>WA_Koto</li>
+		</thingDefs>
+		<jobDef>Play_Koto</jobDef>
+		<desireSit>true</desireSit>
+		<joyKind>Play_Music</joyKind>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>Play_PoemCardGame</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>4</baseChance>
+		<thingDefs>
+			<li>WA_Karuta</li>
+		</thingDefs>
+		<jobDef>Play_PoemCardGame</jobDef>
+		<joyKind>Enjoy_WA</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>Play_BozuMekuri</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>5</baseChance>
+		<thingDefs>
+			<li>WA_Karuta</li>
+		</thingDefs>
+		<jobDef>Play_BozuMekuri</jobDef>
+		<joyKind>Enjoy_WA</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>Play_ShellMatching</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>4</baseChance>
+		<thingDefs>
+			<li>WA_ShellMatching</li>
+		</thingDefs>
+		<jobDef>Play_ShellMatching</jobDef>
+		<joyKind>Enjoy_WA</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>Play_Sugoroku</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>4</baseChance>
+		<thingDefs>
+			<li>WA_Sugoroku</li>
+		</thingDefs>
+		<jobDef>Play_Sugoroku</jobDef>
+		<joyKind>Gaming_Dexterity</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>Enjoy_Aroma</defName>
+		<giverClass>JoyGiver_WatchBuilding</giverClass>
+		<baseChance>6</baseChance>
+		<thingDefs>
+			<li>WA_Cassolette</li>
+		</thingDefs>
+		<jobDef>Enjoy_Aroma</jobDef>
+		<joyKind>Chemical</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<!-- ===================== 保留 
+	<JoyGiverDef Abstract="True">
+		<defName>Enjoy_Aquarium</defName>
+		<giverClass>JoyGiver_WatchBuilding</giverClass>
+		<baseChance>5</baseChance>
+		<thingDefs>
+			<li>WA_Aquarium</li>
+		</thingDefs>
+		<jobDef>Enjoy_Aquarium</jobDef>
+		<joyKind>Enjoy_WA</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+										===================== -->
+
+	<JoyGiverDef>
+		<defName>PuffTobaccoPipe</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>1.5</baseChance>
+		<thingDefs>
+			<li>WA_Glow_07LongBrazier</li>
+		</thingDefs>
+		<jobDef>PuffTobaccoPipe</jobDef>
+		<desireSit>true</desireSit>
+		<joyKind>Chemical</joyKind>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+</Defs>

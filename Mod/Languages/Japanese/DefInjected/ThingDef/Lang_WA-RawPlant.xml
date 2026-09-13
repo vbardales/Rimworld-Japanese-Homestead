@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= RawPlant =============================-->
+  <WA_Azuki.label>小豆</WA_Azuki.label>
+  <WA_Azuki.description>生の小豆です。</WA_Azuki.description>
+
+  <WA_TeaLeaf.label>茶葉</WA_TeaLeaf.label>
+  <WA_TeaLeaf.description>生の茶葉です。</WA_TeaLeaf.description>
+
+  <WA_Igusa.label>イ草</WA_Igusa.label>
+  <WA_Igusa.description>イ草は主に畳の材料として用いられますが、古くは薬草として用いられていました。</WA_Igusa.description>
+
+  <RPC_Kouzo.label>楮</RPC_Kouzo.label>
+  <RPC_Kouzo.description>楮から樹皮を剥ぎ束ねたものです。楮の皮の繊維は長く繊維が絡み合う性質が強く、紙にすることで粘りが強く丈夫になります。</RPC_Kouzo.description>
+
+  <RPC_Cocoon.label>繭</RPC_Cocoon.label>
+  <RPC_Cocoon.description>蚕の幼虫が作る繭です。糸を紡いで織り込むことで最上級の織物になります。</RPC_Cocoon.description>
+
+</LanguageData>

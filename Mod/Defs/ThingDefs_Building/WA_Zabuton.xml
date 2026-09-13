@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--================ WA-Seat-ZabutonBase ================-->
+	<ThingDef ParentName="FurnitureWithQualityBase" Name="WA_Seat_ZabutonBase" Abstract="True">
+		<label>Zabuton</label>
+		<graphicData>
+		  <texPath>Things/Building/Furniture/WA-Seat-Zabuton</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>(1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<size>(1,1)</size>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>1</Mass>
+			<Beauty>3</Beauty>
+			<Comfort>0.8</Comfort>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+        </stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<pathCost>5</pathCost>
+		<fillPercent>0.01</fillPercent>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<designationCategory>WA_Builder</designationCategory>
+	    <researchPrerequisites>
+	      <li>WA_Research_Building_Funiture</li>
+	    </researchPrerequisites>
+		<designatorDropdown>Zabuton_Dropdown</designatorDropdown>
+	</ThingDef>
+  
+	<!--================ WA-Seat-Zabuton ================-->
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_Red</defName>
+		<label>Zabuton(Red)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Red</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_Pink</defName>
+		<label>Zabuton(Pink)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Pink</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_Yellow</defName>
+		<label>Zabuton(Yellow)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Yellow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_Green</defName>
+		<label>Zabuton(Green)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Green</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_Blue</defName>
+		<label>Zabuton(Blue)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Blue</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_Purple</defName>
+		<label>Zabuton(Purple)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Purple</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_Black</defName>
+		<label>Zabuton(Black)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Black</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_Seat_ZabutonBase">
+		<defName>WA_Seat_Zabuton_White</defName>
+		<label>Zabuton(White)</label>
+		<description>The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\n
+Elasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\n
+It was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\n
+It is said that middle people of the Edo period spread widely among ordinary people.\n
+It is a design which was originally completed, and it is widely used even now.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_White</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

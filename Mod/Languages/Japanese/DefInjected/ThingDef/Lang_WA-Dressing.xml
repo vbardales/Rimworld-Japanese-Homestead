@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= Dreassing =============================-->
+	<WA_Dressing_TownGirl.label>和服-町娘</WA_Dressing_TownGirl.label>
+	<WA_Dressing_TownGirl.description>町娘の服です。</WA_Dressing_TownGirl.description>
+
+	<WA_Dressing_TearHarvest.label>和服-茶摘み</WA_Dressing_TearHarvest.label>
+	<WA_Dressing_TearHarvest.description>茶摘みの服です。</WA_Dressing_TearHarvest.description>
+
+	<WA_Dressing_Samurai.label>和服-侍</WA_Dressing_Samurai.label>
+	<WA_Dressing_Samurai.description>侍の服です。</WA_Dressing_Samurai.description>
+
+	<WA_Dressing_Carpenter.label>和服-大工</WA_Dressing_Carpenter.label>
+	<WA_Dressing_Carpenter.description>大工の服です。</WA_Dressing_Carpenter.description>
+
+	<WA_Dressing_Courier.label>和服-飛脚</WA_Dressing_Courier.label>
+	<WA_Dressing_Courier.description>飛脚の服です。</WA_Dressing_Courier.description>
+
+	<WA_Dressing_Doctor.label>和服-医者</WA_Dressing_Doctor.label>
+	<WA_Dressing_Doctor.description>医者の服です。</WA_Dressing_Doctor.description>
+
+	<WA_Dressing_TeaMaster.label>和服-茶人</WA_Dressing_TeaMaster.label>
+	<WA_Dressing_TeaMaster.description>茶人の服です。</WA_Dressing_TeaMaster.description>
+
+	<WA_Dressing_Oiran.label>和服-花魁</WA_Dressing_Oiran.label>
+	<WA_Dressing_Oiran.description>花魁の服です。</WA_Dressing_Oiran.description>
+
+	<WA_Dressing_Kamishimo.label>和服-裃</WA_Dressing_Kamishimo.label>
+	<WA_Dressing_Kamishimo.description>裃です。</WA_Dressing_Kamishimo.description>
+
+	<WA_Dressing_Matagi.label>和服-マタギ</WA_Dressing_Matagi.label>
+	<WA_Dressing_Matagi.description>マタギの服です。</WA_Dressing_Matagi.description>
+
+	<WA_Dressing_Princess.label>和服-姫</WA_Dressing_Princess.label>
+	<WA_Dressing_Princess.description>姫の服です。姫の品格が周囲の味方を激励します。</WA_Dressing_Princess.description>
+
+	<WA_Dressing_Sumoman.label>和服-力士</WA_Dressing_Sumoman.label>
+	<WA_Dressing_Sumoman.description>力士の服です。強大な力を持つ横綱の気迫は敵対するものを圧倒します。</WA_Dressing_Sumoman.description>
+
+</LanguageData>

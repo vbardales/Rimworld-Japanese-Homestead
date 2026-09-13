@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= Light =============================-->
+  <WA_Glow_01Toudai.label>牛糞灯台</WA_Glow_01Toudai.label>
+  <WA_Glow_01Toudai.description>灯台は動物の油から作り出した「灯油」に浸した灯芯に火をつけて明かりを灯します。平安時代頃から使われ始めたといわれており、主に貴族階級が愛用していたといわれています。牛糞灯台は土台部分が牛糞の形に似ていることからこの名前で呼ばれるようになりました。</WA_Glow_01Toudai.description>
+
+  <WA_Glow_02Gatou.label>瓦灯</WA_Glow_02Gatou.label>
+  <WA_Glow_02Gatou.description>瓦灯もまた動物の脂から作った「灯油」を燃料にした照明器具です。室町時代頃から使われ始め、江戸時代には庶民のあかりとして使われるほどに流通しました。瓦と同じ土を使って焼き上げて作るため、瓦灯と呼ばれています。難燃性の素材であることも人気の理由の一つです。</WA_Glow_02Gatou.description>
+
+  <WA_Glow_03Andon.label>有明行灯</WA_Glow_03Andon.label>
+  <WA_Glow_03Andon.description>灯台や瓦灯は風防に問題があったため、明かりを和紙で包む行灯が発明されました。行灯はもとは持ち運び用として使われていましたが、燃料が動物の油から作る「灯油」であったために携帯性に難があり、室内据え置き用として用いられるようになっていきます。有明行灯は箱から出して使うと部屋を明るく照らすことができ、箱に収めて使うと明るさを抑えて就寝灯として使うことができる優れものとして人気を集めました。</WA_Glow_03Andon.description>
+
+  <WA_Glow_04Bonbori.label>雪洞</WA_Glow_04Bonbori.label>
+  <WA_Glow_04Bonbori.description>液状である灯油の弱点はこぼれ易く携帯性に欠ける点にありました。そこで、こぼれることのない蝋燭を使った照明が受け入れられていくようになります。雪洞は燭台に乗せた蝋燭を和紙や布で覆って作られるもので、四角形、六角形、八角形、丸型など様々な形状のものが作られています。現在でも雛祭などのイベントの際には雪洞を飾る習慣が残っています。</WA_Glow_04Bonbori.description>
+
+  <WA_Glow_05Chouchin.label>提灯</WA_Glow_05Chouchin.label>
+  <WA_Glow_05Chouchin.description>提灯もまた蝋燭を使った照明で、竹ひごと和紙で作られた胴体を被せているためとても軽いことが特徴です。折りたたむことのできる構造となっており、その携帯性から持ち運び用として行灯にとって代わる存在になっていきました。安土桃山時代に作られ、江戸時代に普及したといわれています。更には現在でも中身は違えど愛され使用され続けています。</WA_Glow_05Chouchin.description>
+
+  <WA_Glow_06Bonfire.label>篝火</WA_Glow_06Bonfire.label>
+  <WA_Glow_06Bonfire.description>篝火は古来よりある照明具の一つで、主に屋外に設置します。松のように脂の多い木を燃料として鉄製の籠に入れて火をつけます。軍陣や祭礼などの屋外の催しに使用するほか、漁船につけて集魚灯の役割も果たします。現在でも夜間の祭礼行事や鵜飼いなどで使用されています。</WA_Glow_06Bonfire.description>
+
+	<WA_Glow_07LongBrazier.label>火鉢</WA_Glow_07LongBrazier.label>
+	<WA_Glow_07LongBrazier.description>火鉢は半分ほどが燃えてる炭で満たされたbrazierのことです。火鉢は日本の伝統的な暖房器具のひとつです。</WA_Glow_07LongBrazier.description>
+
+
+</LanguageData>

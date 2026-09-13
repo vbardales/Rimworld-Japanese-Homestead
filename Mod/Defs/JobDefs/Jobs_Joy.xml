@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>Make_GreenTea</defName>
+		<driverClass>JobDriver_SitFacingBuilding</driverClass>
+		<reportString>Enjoy Tea Ceremony</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>2</joyMaxParticipants>
+		<joyGainRate>1.3</joyGainRate>
+		<joySkill>Cooking</joySkill>
+		<joyXpPerTick>0.004</joyXpPerTick>
+		<joyKind>Enjoy_ChanoYu</joyKind>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>WatchTheFire</defName>
+		<driverClass>JobDriver_SitFacingBuilding</driverClass>
+		<reportString>Looking at the fire in the hearth.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>2</joyMaxParticipants>
+		<joyGainRate>1.3</joyGainRate>
+		<joyKind>Social</joyKind>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>Drink_GreenTea</defName>
+		<driverClass>JobDriver_Ingest</driverClass>
+		<reportString>Enjoy Tea Ceremony</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>2</joyMaxParticipants>
+		<joyGainRate>1.3</joyGainRate>
+		<joyKind>Enjoy_ChanoYu</joyKind>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>Play_Koto</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>箏で美しい音色を奏でている。</reportString>
+		<joyDuration>6000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>1.4</joyGainRate>
+		<joySkill>Artistic</joySkill>
+		<joyXpPerTick>0.005</joyXpPerTick>
+		<joyKind>Play_Music</joyKind>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>Play_PoemCardGame</defName>
+		<driverClass>JobDriver_PlayPoker</driverClass>
+		<reportString>百人一首を遊んでいる。</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joySkill>Shooting</joySkill>
+		<joyXpPerTick>0.02</joyXpPerTick>
+		<joyKind>Enjoy_WA</joyKind>
+		<taleOnCompletion>PlayedGame</taleOnCompletion>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>Play_BozuMekuri</defName>
+		<driverClass>JobDriver_PlayPoker</driverClass>
+		<reportString>坊主めくりを遊んでいる。</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joySkill>Intellectual</joySkill>
+		<joyXpPerTick>0.005</joyXpPerTick>
+		<joyKind>Enjoy_WA</joyKind>
+		<taleOnCompletion>PlayedGame</taleOnCompletion>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>Play_ShellMatching</defName>
+		<driverClass>JobDriver_SitFacingBuilding</driverClass>
+		<reportString>貝合わせをして遊んでいる。</reportString>
+		<joyDuration>6000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joySkill>Intellectual</joySkill>
+		<joyXpPerTick>0.01</joyXpPerTick>
+		<joyKind>Enjoy_WA</joyKind>
+		<taleOnCompletion>PlayedGame</taleOnCompletion>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+  <JobDef>
+    <defName>Play_Sugoroku</defName>
+    <driverClass>JobDriver_PlayHorseshoes</driverClass>
+    <reportString>双六で競い合っている。</reportString>
+    <joyDuration>8000</joyDuration>
+    <joyMaxParticipants>8</joyMaxParticipants>
+    <joySkill>Shooting</joySkill>
+    <joyXpPerTick>0.04</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>Enjoy_Aroma</defName>
+    <driverClass>JobDriver_SitFacingBuilding</driverClass>
+    <reportString>香炉を焚いて香りを楽しんでいる。</reportString>
+    <joyDuration>5000</joyDuration>
+    <joyMaxParticipants>3</joyMaxParticipants>
+    <joySkill>Artistic</joySkill>
+    <joyXpPerTick>0.04</joyXpPerTick>
+    <joyKind>Chemical</joyKind>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+
+	<!-- ===================== 保留 
+	<JobDef>
+		<defName>Enjoy_Aquarium</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>金魚を眺めている。</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joyGainRate>1.3</joyGainRate>
+		<joySkill>Social</joySkill>
+		<joyXpPerTick>0.004</joyXpPerTick>
+		<joyKind>Enjoy_WA</joyKind>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+										===================== -->
+
+	<JobDef>
+		<defName>PuffTobaccoPipe</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>優雅に煙管をふかしている。</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joyGainRate>1.3</joyGainRate>
+		<joySkill>Social</joySkill>
+		<joyXpPerTick>0.004</joyXpPerTick>
+		<joyKind>Chemical</joyKind>
+		<taleOnCompletion>PlayedGame</taleOnCompletion>
+	</JobDef>
+
+</Defs>

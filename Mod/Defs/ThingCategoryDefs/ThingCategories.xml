@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>WA_Category_Dreassing</defName>
+		<label>和装</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+</Defs>

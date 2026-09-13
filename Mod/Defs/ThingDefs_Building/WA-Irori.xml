@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== WA-Irori ==============================-->
+	<ThingDef ParentName="BuildingBase">
+		<defName>WA_Irori</defName>
+		<label>Irori</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<description>It is a type of furnace permanently installed indoors.
+It is a corner established in traditional Japanese houses to cut off the floor square, open ash, spread firewood and charcoal fire.
+It is of the type put in the middle of a large room and has various roles such as heating, cooking, lighting, drying.</description>
+		<graphicData>
+			<texPath>Things/Building/Light/WA-Irori</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<allowFlip>false</allowFlip>
+			<drawSize>(2.2,2.2)</drawSize>
+			<damageData>
+				<rectN>(0,0.27,1,1.73)</rectN>
+				<rectS>(0,0.27,1,1.73)</rectS>
+				<rectE>(0.125,0.27,1.75,0.73)</rectE>
+				<rectW>(0.125,0.27,1.75,0.73)</rectW>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+			<WorkToBuild>2500</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>5</Beauty>
+			<Mass>50</Mass>
+			<Flammability>0.6</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<fillPercent>0.1</fillPercent>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<canOverlapZones>false</canOverlapZones>
+		<costList>
+			<WoodLog>80</WoodLog>
+			<Steel>20</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.10</staticSunShadowHeight>
+		<recipes>
+			<li>WA_MassCook_SimpleMeal</li>
+			<li>WA_MassCook_FineMeal</li>
+			<li>WA_MassCook_LavishMeal</li>
+		</recipes>
+		<surfaceType>Eat</surfaceType>
+		<tickerType>Normal</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>200.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+						<li>RPC_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+			</li>
+			<li Class="CompProperties_FireOverlay">
+				<fireSize>1.0</fireSize>
+				<offset>(0,0,-0.2)</offset>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>40</heatPerSecond>
+				<heatPushMaxTemperature>21</heatPushMaxTemperature>
+			</li>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellIcon>WA_Zabuton_Dummy</interactionCellIcon>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
+		<designationCategory>WA_Builder</designationCategory>
+		<castEdgeShadows>false</castEdgeShadows>
+		<size>(2,2)</size>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>WA_Research_Building_Funiture</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>WA_Chagama</defName>
+		<label>Irori(TeaSet)</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<description>It is a type of furnace permanently installed indoors.
+It is a corner established in traditional Japanese houses to cut off the floor square, open ash, spread firewood and charcoal fire.
+Most of the hearths used in the tea room are sized for one tatami mat, mainly used for boiling water.</description>
+		<graphicData>
+			<texPath>Things/Building/Light/WA-Chagama</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(1.1,1.1)</drawSize>
+			<damageData>
+				<rectN>(0,0.27,1,1.73)</rectN>
+				<rectS>(0,0.27,1,1.73)</rectS>
+				<rectE>(0.125,0.27,1.75,0.73)</rectE>
+				<rectW>(0.125,0.27,1.75,0.73)</rectW>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructEffect>ConstructWood</constructEffect>
+		<statBases>
+			<WorkToBuild>2500</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Beauty>5</Beauty>
+			<Flammability>0.6</Flammability>
+		</statBases>
+		<passability>PassThroughOnly</passability>
+		<pathCost>60</pathCost>
+		<fillPercent>0.1</fillPercent>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<canOverlapZones>false</canOverlapZones>
+		<costList>
+			<WoodLog>80</WoodLog>
+			<Steel>20</Steel>
+		</costList>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.10</staticSunShadowHeight>
+		<recipes>
+			<li>WA_Recipe_GreenTea</li>
+			<li>WA_Recipe_Daifuku</li>
+			<li>WA_Recipe_Dango</li>
+			<li>WA_Recipe_Geppei</li>
+			<li>WA_Recipe_Kashiwa</li>
+			<li>WA_Recipe_Kasuteira</li>
+			<li>WA_Recipe_Kintuba</li>
+			<li>WA_Recipe_Nerikiri</li>
+			<li>WA_Recipe_SakuraNUguisu</li>
+			<li>WA_Recipe_Youkan</li>
+		</recipes>
+		<surfaceType>Eat</surfaceType>
+		<tickerType>Normal</tickerType>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>2.0</fuelConsumptionRate>
+				<fuelCapacity>200.0</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Chemfuel</li>
+						<li>RPC_Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>40</heatPerSecond>
+				<heatPushMaxTemperature>21</heatPushMaxTemperature>
+			</li>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellIcon>WA_Zabuton_Dummy</interactionCellIcon>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<designationCategory>WA_Builder</designationCategory>
+		<castEdgeShadows>false</castEdgeShadows>
+		<size>(1,1)</size>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>WA_Research_TeaTimeset</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BuildingBase" Abstruct="true">
+		<defName>WA_Zabuton_Dummy</defName>
+		<label>ダミー座布団</label>
+		<description>ダミーです。</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-Seat-Zabuton_Red</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

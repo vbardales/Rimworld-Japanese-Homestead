@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= RawPlant =============================-->
+  <WA_Azuki.label>小豆</WA_Azuki.label>
+  <WA_Azuki.description>未煮过的小豆。</WA_Azuki.description>
+
+  <WA_TeaLeaf.label>茶叶</WA_TeaLeaf.label>
+  <WA_TeaLeaf.description>生茶叶。</WA_TeaLeaf.description>
+
+  <WA_Igusa.label>灯心草</WA_Igusa.label>
+  <WA_Igusa.description>灯心草主要用于制作榻榻米，在古时亦作为药草使用。</WA_Igusa.description>
+
+  <RPC_Kouzo.label>楮树皮</RPC_Kouzo.label>
+  <RPC_Kouzo.description>将树皮剥开后捆成一束的物品。楮树皮的纤维具有细长又相互纠结的特性，适用于制作高韧性而不易破的和纸。</RPC_Kouzo.description>
+
+  <RPC_Cocoon.label>茧</RPC_Cocoon.label>
+  <RPC_Cocoon.description>丝蚕的幼虫制成的茧。经由纺丝编织便可成为最上等的布帛。</RPC_Cocoon.description>
+
+</LanguageData>

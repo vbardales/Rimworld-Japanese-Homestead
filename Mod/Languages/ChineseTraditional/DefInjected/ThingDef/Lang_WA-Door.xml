@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= Fusuma =============================-->
+
+
+	<WA_Fusuma01_Akebono.label>襖-曙</WA_Fusuma01_Akebono.label>
+	<WA_Fusuma02_Yoru.label>襖-夜</WA_Fusuma02_Yoru.label>
+	<WA_Fusuma03_Yuugure.label>襖-夕暮</WA_Fusuma03_Yuugure.label>
+	<WA_Fusuma04_Tutomete.label>襖-夙</WA_Fusuma04_Tutomete.label>
+	<WA_Fusuma05_Spring.label>襖-春</WA_Fusuma05_Spring.label>
+	<WA_Fusuma06_Summer.label>襖-夏</WA_Fusuma06_Summer.label>
+	<WA_Fusuma07_Autumn.label>襖-秋</WA_Fusuma07_Autumn.label>
+	<WA_Fusuma08_Winter.label>襖-冬</WA_Fusuma08_Winter.label>
+	<WA_Fusuma09_White.label>襖-白</WA_Fusuma09_White.label>
+
+	<WA_Fusuma01_Akebono.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma01_Akebono.description>
+
+	<WA_Fusuma02_Yoru.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma02_Yoru.description>
+
+	<WA_Fusuma03_Yuugure.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma03_Yuugure.description>
+
+	<WA_Fusuma04_Tutomete.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma04_Tutomete.description>
+
+	<WA_Fusuma05_Spring.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma05_Spring.description>
+
+	<WA_Fusuma06_Summer.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma06_Summer.description>
+
+	<WA_Fusuma07_Autumn.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma07_Autumn.description>
+
+	<WA_Fusuma08_Winter.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma08_Winter.description>
+
+	<WA_Fusuma09_White.description>襖是以木頭製成骨架，並於兩側覆蓋紙布而成的障子。輕而方便開關，但耐久度也不高。障子原傳自於中國，襖則在日本發祥。原是作為寝室的隔間使用。</WA_Fusuma09_White.description>
+
+
+  <!--========================= Shoji =============================-->
+
+
+	<WA_Shoji01_Square.label>障子-角</WA_Shoji01_Square.label>
+	<WA_Shoji02_Circle.label>障子-丸</WA_Shoji02_Circle.label>
+	<WA_Shoji03_Combi.label>障子-組</WA_Shoji03_Combi.label>
+	<WA_Shoji04_Deco.label>障子-飾</WA_Shoji04_Deco.label>
+
+	<WA_Shoji01_Square.description>障子是由薄紙覆在格狀骨架上而成，具有少許透光性。輕而方便開關，但耐久度也不高。現今的障子，論其型式，可回溯至鎌倉幕府以前，平清盛的時代。具有十分易破的構造，被寵物及兒童開了個洞也是日常茶飯之事。</WA_Shoji01_Square.description>
+
+	<WA_Shoji02_Circle.description>障子是由薄紙覆在格狀骨架上而成，具有少許透光性。輕而方便開關，但耐久度也不高。現今的障子，論其型式，可回溯至鎌倉幕府以前，平清盛的時代。具有十分易破的構造，被寵物及兒童開了個洞也是日常茶飯之事。</WA_Shoji02_Circle.description>
+
+	<WA_Shoji03_Combi.description>障子是由薄紙覆在格狀骨架上而成，具有少許透光性。輕而方便開關，但耐久度也不高。現今的障子，論其型式，可回溯至鎌倉幕府以前，平清盛的時代。具有十分易破的構造，被寵物及兒童開了個洞也是日常茶飯之事。</WA_Shoji03_Combi.description>
+
+	<WA_Shoji04_Deco.description>障子是由薄紙覆在格狀骨架上而成，具有少許透光性。輕而方便開關，但耐久度也不高。現今的障子，論其型式，可回溯至鎌倉幕府以前，平清盛的時代。具有十分易破的構造，被寵物及兒童開了個洞也是日常茶飯之事。</WA_Shoji04_Deco.description>
+
+</LanguageData>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= Light =============================-->
+  <WA_Glow_01Toudai.label>牛糞燈台</WA_Glow_01Toudai.label>
+  <WA_Glow_01Toudai.description>燈台，是將燈芯浸入由動物的脂肪製成的「燈油」中，用以點火照明的器具。據說從平安時代就有使用紀錄，主要是作為貴族圈的愛用品。其名源自於燈座形狀相似牛糞，故作此稱。</WA_Glow_01Toudai.description>
+
+  <WA_Glow_02Gatou.label>瓦燈</WA_Glow_02Gatou.label>
+  <WA_Glow_02Gatou.description>瓦燈是以動物脂肪所製成的「燈油」為燃料的照明器具。從室町時代就傳用至今，江戶時代時作為尋常百姓的生活光源而被廣泛利用。如同燒製瓦磚一般，透過窯燒黏土而成，其名亦源於此。不易燃的特性也利於人所用。</WA_Glow_02Gatou.description>
+
+  <WA_Glow_03Andon.label>有明行燈</WA_Glow_03Andon.label>
+  <WA_Glow_03Andon.description>因為燈台與瓦燈防風不佳，易被吹滅。以和紙框住火光的「行燈」因而問世。行燈本是作為行路時的手提式光源。又因以動物脂肪製成的「燈油」常於行進時液出而不易攜帶，現在多擺設於室内使用。有明行燈可從箱中取出，增加室內照明效果。就寢時則能放入箱中，降低明亮度。因其優秀的機能性而頗具人氣。</WA_Glow_03Andon.description>
+
+  <WA_Glow_04Bonbori.label>雪洞</WA_Glow_04Bonbori.label>
+  <WA_Glow_04Bonbori.description>液態燈油液在行路攜帶時有著容易濺出的缺點。基於這點，固態蠟燭開始廣用於照明燈具。雪洞是將蠟燭放置在燭台上，再以和紙或布來包覆製成的物品。能製成四角形、六角形、八角形、圓型等多種造型。在現今，雛祭等節日時依然會以雪洞作為裝飾使用。</WA_Glow_04Bonbori.description>
+
+  <WA_Glow_05Chouchin.label>提燈</WA_Glow_05Chouchin.label>
+  <WA_Glow_05Chouchin.description>提燈亦是利用蠟燭的照明用具。用竹板與和紙製成的骨架十分輕便，是其一大特徵。加上可摺疊的機能，使其攜帶性優於行燈而逐漸代之。最早始於安土桃山時代，在江戸時代開始普及。即使是現今，亦能放入多不同光源而被持續使用。</WA_Glow_05Chouchin.description>
+
+  <WA_Glow_06Bonfire.label>篝火</WA_Glow_06Bonfire.label>
+  <WA_Glow_06Bonfire.description>篝火は是以古以來就有的照明用具。主要放置於屋外，以松木等富含樹脂的樹木作為燃料，放入鐵製籠座中點火使用。在排演軍陣、慶祝節日等屋外活動時常被使用，此外，在漁船上亦能作為聚魚燈。現今則能在夜間祭典上，或是鸕鶿捕魚時派上用場。</WA_Glow_06Bonfire.description>
+
+	<WA_Glow_07LongBrazier.label>火鉢</WA_Glow_07LongBrazier.label>
+	<WA_Glow_07LongBrazier.description>火鉢是在陶器中，放入半分滿的木炭，燃燒以提升室內溫度。火鉢是日本傳統的暖房器具之一。</WA_Glow_07LongBrazier.description>
+
+
+</LanguageData>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--================ WA-GardenlFloorBase ================-->
+	<TerrainDef Name="WA_GardenlFloorBase" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<designationCategory>WA_Builder</designationCategory>
+		<fertility>0</fertility>
+		<edgeType>FadeRough</edgeType>
+		<avoidWander>true</avoidWander>
+		<takeFootprints>true</takeFootprints>
+		<constructEffect>ConstructDirt</constructEffect>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</TerrainDef>
+
+	<!--================ WA-Moss ================-->
+	<TerrainDef ParentName="WA_GardenlFloorBase" Name="WA_MossBase" Abstract="True">
+		<renderPrecedence>220</renderPrecedence>
+		<description></description>
+		<texturePath>Things/Building/Terrain/WA-Moss</texturePath>
+		<statBases>
+			<WorkToBuild>90</WorkToBuild>
+			<Cleanliness>-0.2</Cleanliness>
+			<Beauty>2</Beauty>
+		</statBases>
+		<pathCost>1</pathCost>
+		<researchPrerequisites>
+			<li>WA_Research_Building_Garden</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_MossBase">
+		<defName>WA_Moss</defName>
+		<description>In Japan, moss is subject to appreciation. Moss growing beautifully in the garden and bonsai has been loved for a long time.</description>
+		<label>Moss</label>
+		<costList>
+			<RPC_Dirt>1</RPC_Dirt>
+		</costList>
+	</TerrainDef>	
+
+	<!--================ WA-Gravel ================-->
+	<TerrainDef ParentName="WA_GardenlFloorBase" Name="WA_GravelBase" Abstract="True">
+		<renderPrecedence>220</renderPrecedence>
+		<description>It is a small stone grain spreading in the garden and the outside structure.
+It is used for the decoration of the garden, entrance hall, implantation.
+In addition to decoration it hinders the growth of weeds, it also helps crime prevention.</description>
+		<texturePath>Things/Building/Terrain/WA-Gravel</texturePath>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+			<Cleanliness>0.1</Cleanliness>
+			<Beauty>2</Beauty>
+		</statBases>
+		<designatorDropdown>Gravel_Dropdown</designatorDropdown>
+		<pathCost>1</pathCost>
+		<scatterType>Rocky</scatterType>
+		<tags>
+			<li>Road</li>
+		</tags>
+		<researchPrerequisites>
+			<li>WA_Research_Building_Garden</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_GravelBase">
+		<defName>WA_GravelSandstone</defName>
+		<label>Sandstone Gravel</label>
+		<description>It is a small stone grain spreading in the garden and the outside structure.
+It is used for the decoration of the garden, entrance hall, implantation.
+In addition to decoration it hinders the growth of weeds, it also helps crime prevention.</description>
+		<texturePath>Things/Building/Terrain/WA-Gravel</texturePath>
+		<color>(126,104,94)</color>
+		<costList>
+			<BlocksSandstone>1</BlocksSandstone>
+		</costList>
+	</TerrainDef>	
+	<TerrainDef ParentName="WA_GravelBase">
+		<defName>WA_GravelGranite</defName>
+		<label>Granite Gravel</label>
+		<description>It is a small stone grain spreading in the garden and the outside structure.
+It is used for the decoration of the garden, entrance hall, implantation.
+In addition to decoration it hinders the growth of weeds, it also helps crime prevention.</description>
+		<texturePath>Things/Building/Terrain/WA-Gravel</texturePath>
+		<color>(105,95,97)</color>
+		<costList>
+			<BlocksGranite>1</BlocksGranite>
+		</costList>
+	</TerrainDef>	
+	<TerrainDef ParentName="WA_GravelBase">
+		<defName>WA_GravelLimestone</defName>
+		<label>Limestone Gravel</label>
+		<description>It is a small stone grain spreading in the garden and the outside structure.
+It is used for the decoration of the garden, entrance hall, implantation.
+In addition to decoration it hinders the growth of weeds, it also helps crime prevention.</description>
+		<texturePath>Things/Building/Terrain/WA-Gravel</texturePath>
+		<color>(158,153,135)</color>
+		<costList>
+			<BlocksLimestone>1</BlocksLimestone>
+		</costList>
+	</TerrainDef>	
+	<TerrainDef ParentName="WA_GravelBase">
+		<defName>WA_GravelSlate</defName>
+		<label>Slate Gravel</label>
+		<description>It is a small stone grain spreading in the garden and the outside structure.
+It is used for the decoration of the garden, entrance hall, implantation.
+In addition to decoration it hinders the growth of weeds, it also helps crime prevention.</description>
+		<texturePath>Things/Building/Terrain/WA-Gravel</texturePath>
+		<color>(70,70,70)</color>
+		<costList>
+			<BlocksSlate>1</BlocksSlate>
+		</costList>
+	</TerrainDef>	
+	<TerrainDef ParentName="WA_GravelBase">
+		<defName>WA_GravelMarble</defName>
+		<label>Marble Gravel</label>
+		<description>It is a small stone grain spreading in the garden and the outside structure.
+It is used for the decoration of the garden, entrance hall, implantation.
+In addition to decoration it hinders the growth of weeds, it also helps crime prevention.</description>
+		<texturePath>Things/Building/Terrain/WA-Gravel</texturePath>
+		<color>(132,135,132)</color>
+		<costList>
+			<BlocksMarble>1</BlocksMarble>
+		</costList>
+	</TerrainDef>
+</Defs>

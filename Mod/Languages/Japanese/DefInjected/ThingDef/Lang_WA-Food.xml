@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--========================= Tea & Confectionery =============================-->
+  <WA_GreenTea.label>抹茶</WA_GreenTea.label>
+  <WA_GreenTea.description>日本ではチャノキの葉から作った茶の多くは緑茶に分類されており、日本で最も飲まれている茶です。
+茶の湯の席では抹茶を用いますが、抹茶も緑茶の一種です。
+抹茶は茶葉を粉末にし、湯を加えて攪拌して飲料にします。</WA_GreenTea.description>
+
+  <WA_IchigoDaifuku.label>苺大福</WA_IchigoDaifuku.label>
+  <WA_IchigoDaifuku.description>大福は餡子のような甘い詰め物で詰まったお餅です。大福は文字通り「幸運」を意味します。
+食べると口の中で新鮮な苺の香りが広がり、柔らかな餅の食感と上品な甘さの餡が絶妙なバランスで楽しめます。</WA_IchigoDaifuku.description>
+
+  <WA_MitarashiDango.label>みたらし団子</WA_MitarashiDango.label>
+  <WA_MitarashiDango.description>みたらし団子は砂糖醤油の葛餡をかけた串団子です。
+琥珀色の甘辛のたれは米粉の団子と相性がよく、炭火で炙ったことによる香ばしさも食欲を引き立てます。</WA_MitarashiDango.description>
+
+  <WA_Geppei.label>月餅</WA_Geppei.label>
+  <WA_Geppei.description>月餅は中国で中秋節に食べられている、古くからあるお菓子です。
+満月に見立てた丸い形をしており、胡桃や松の実などを混ぜた小豆餡を柔らかい生地で包んで焼きます。</WA_Geppei.description>
+
+  <WA_KashiwaMochi.label>柏餅</WA_KashiwaMochi.label>
+  <WA_KashiwaMochi.description>柏餅は上新粉の餅に小豆餡を入れ、槲の葉で包んだお菓子です。
+もちもちとしていながら歯切れがよく、かみしめると米の優しい甘みがじわりと口の中に広がります。</WA_KashiwaMochi.description>
+
+  <WA_Kasuteira.label>かすていら</WA_Kasuteira.label>
+  <WA_Kasuteira.description>かすていらはポルトガルから伝わった南蛮菓子とされますが、実態は全くの別物で日本で独自に発展したお菓子です。
+砂糖と卵をふんだんに使った生地は、しっとりしつつもふわりとした食感で、ザラメ生地の香ばしさも相まって贅沢な逸品となります。</WA_Kasuteira.description>
+
+  <WA_Kintuba.label>きんつば</WA_Kintuba.label>
+  <WA_Kintuba.description>きんつばは小豆餡を寒天で固めたものを水で溶いた小麦粉をつけて焼いて作るお菓子です。
+艶やかでふっくらとした粒餡はみずみずしい食感を残しており、小豆の風味が生きた餡をたっぷり味わうことができます。</WA_Kintuba.description>
+
+  <WA_Nerikiri.label>練り切り</WA_Nerikiri.label>
+  <WA_Nerikiri.description>練り切りは白餡につなぎの食材を加えて調整して練り上げた生菓子です。
+上生菓子と言われるほど美しく、味わいも豊であるため高級な和菓子とされます。
+季節の移ろいを先取りしたデザインは、見るものの心を捉えて離しません。</WA_Nerikiri.description>
+
+  <WA_SakuraNUguisu.label>桜餅と鶯餅</WA_SakuraNUguisu.label>
+  <WA_SakuraNUguisu.description>春を知らせる桜の色と若草の色を模したお菓子です。
+どちらも餡子をお米の生地で包んで作ります。
+桜餅を包む桜の葉の香りと鶯餅にかけるきな粉の香りも幸福感をもたらします。</WA_SakuraNUguisu.description>
+
+  <WA_Youkan.label>羊羹</WA_Youkan.label>
+  <WA_Youkan.description>羊羹は小豆餡を型に流し込み寒天で固めた和菓子です。
+糖度の高い羊羹は切り口から砂糖が析出するため、日がたつと外側が白く固まります。
+この析出部分のシャリシャリ感と羊羹内部の柔らかさのハーモニーはまさに至高です。</WA_Youkan.description>
+</LanguageData>

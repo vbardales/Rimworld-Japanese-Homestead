@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= WA_Research =============================-->
+  <WA_Research_Basic.label>和风技术_基础</WA_Research_Basic.label>
+  <WA_Research_Basic.description>学习基础日本技术。解锁各种日本技术研究。</WA_Research_Basic.description>
+
+  <!--=============== 建筑ライン ====================-->
+  <WA_Research_Building_Basic.label>和风建筑技术_基础</WA_Research_Building_Basic.label>
+  <WA_Research_Building_Basic.description>研究和风建筑的基础。能建筑基本的墙壁与围栏。</WA_Research_Building_Basic.description>
+
+  <WA_Research_Building_Advanced.label>和风建筑技术_应用</WA_Research_Building_Advanced.label>
+  <WA_Research_Building_Advanced.description>研究和风建筑的进阶技术。以解锁各式墙壁与围栏。</WA_Research_Building_Advanced.description>
+
+  <WA_Research_Building_Castle.label>和风筑城技术</WA_Research_Building_Castle.label>
+  <WA_Research_Building_Castle.description>研究和风筑城技术。适用建造于防卫的坚牢建筑。</WA_Research_Building_Castle.description>
+
+  <WA_Research_Building_Garden.label>和风造园技术</WA_Research_Building_Garden.label>
+  <WA_Research_Building_Garden.description>研究和风造园技术。能解锁用以美化景观的建筑。</WA_Research_Building_Garden.description>
+
+  <!--=============== 家具ライン ====================-->
+  <WA_Research_Building_Funiture.label>和风家具技术</WA_Research_Building_Funiture.label>
+  <WA_Research_Building_Funiture.description>研究制作和风家具的方法。能制造多种家具。</WA_Research_Building_Funiture.description>
+
+  <WA_Research_Building_Amusement.label>和风娱乐</WA_Research_Building_Amusement.label>
+  <WA_Research_Building_Amusement.description>学习娱乐技术。以制造多种娱乐用品。</WA_Research_Building_Amusement.description>
+
+  <WA_Research_Art.label>和风艺术品</WA_Research_Art.label>
+  <WA_Research_Art.description>学习艺术。能制作美丽的艺术品。</WA_Research_Art.description>
+
+  <!--=============== 栽培ライン ====================-->
+  <WA_Research_Farming.label>和风植物</WA_Research_Farming.label>
+  <WA_Research_Farming.description>学习如何栽培日常生活中不可缺乏的植物。</WA_Research_Farming.description>
+
+  <WA_Research_TeaTimeset.label>茶会</WA_Research_TeaTimeset.label>
+  <WA_Research_TeaTimeset.description>学习如何泡茶。并能制作多种茶类与茶点。</WA_Research_TeaTimeset.description>
+
+  <WA_Research_Dressing.label>和服</WA_Research_Dressing.label>
+  <WA_Research_Dressing.description>学习日常用服装的制作手法。</WA_Research_Dressing.description>
+</LanguageData>

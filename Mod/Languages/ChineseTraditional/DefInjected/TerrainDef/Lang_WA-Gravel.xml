@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= WA_Gravel =============================-->
+  <WA_GravelSandstone.label>玉砂利(砂岩)</WA_GravelSandstone.label>
+  <WA_GravelSandstone.description>鋪設於庭與建築周圍的小顆石礫。常用於裝飾庭院、玄關，以及盆栽中。除了作為装飾，也具有防止雜草蔓生的用途。</WA_GravelSandstone.description>
+
+  <WA_GravelGranite.label>玉砂利(花崗岩)</WA_GravelGranite.label>
+  <WA_GravelGranite.description>鋪設於庭與建築周圍的小顆石礫。常用於裝飾庭院、玄關，以及盆栽中。除了作為装飾，也具有防止雜草蔓生的用途。</WA_GravelGranite.description>
+
+  <WA_GravelLimestone.label>玉砂利(石灰岩)</WA_GravelLimestone.label>
+  <WA_GravelLimestone.description>鋪設於庭與建築周圍的小顆石礫。常用於裝飾庭院、玄關，以及盆栽中。除了作為装飾，也具有防止雜草蔓生的用途。</WA_GravelLimestone.description>
+
+  <WA_GravelSlate.label>玉砂利(板岩)</WA_GravelSlate.label>
+  <WA_GravelSlate.description>鋪設於庭與建築周圍的小顆石礫。常用於裝飾庭院、玄關，以及盆栽中。除了作為装飾，也具有防止雜草蔓生的用途。</WA_GravelSlate.description>
+
+  <WA_GravelMarble.label>玉砂利(大理石)</WA_GravelMarble.label>
+  <WA_GravelMarble.description>鋪設於庭與建築周圍的小顆石礫。常用於裝飾庭院、玄關，以及盆栽中。除了作為装飾，也具有防止雜草蔓生的用途。</WA_GravelMarble.description>
+
+</LanguageData>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= WA_Wall =============================-->
+  <WA_Wall_Kawara.label>城壁</WA_Wall_Kawara.label>
+  <WA_Wall_Kawara.description>塗り壁の一種です。
+漆喰壁に葺かれた瓦は雨除けと装飾を兼ねます。
+当時は瓦は高価であり、主に武家屋敷の外壁などに用いられていました。</WA_Wall_Kawara.description>
+
+  <WA_Wall_Demado.label>城壁(出窓)</WA_Wall_Demado.label>
+  <WA_Wall_Demado.description>瓦付きの壁に出窓を取り付けたものです。
+出窓は平時は美観を与える役割のほかに監視窓として機能していました。
+また、戦時になると銃眼や石落としの役割を果たします。</WA_Wall_Demado.description>
+
+  <!--========================= StoneWall =============================-->
+  <WA_Wall_StoneWall.label>石垣</WA_Wall_StoneWall.label>
+  <WA_Wall_StoneWall.description>石垣は石や岩を組み上げて作る壁で、主に城塞などの防衛として用いられます。
+初期は自然石を積み上げただけのものでしたが、時代が進むにつれて加工した石を隙間なく積み込むことで防御性を高めたものが主流になりました。</WA_Wall_StoneWall.description>
+
+  <WA_Wall_WaterMoats.label>水堀</WA_Wall_WaterMoats.label>
+  <WA_Wall_WaterMoats.description>堀は敵や動物の侵入を防ぐため、古代より城や寺などの周辺に掘られていました。
+容易に超えることのできない幅と深さを持ち、重要な防衛施設として機能しました。
+堀に水を張ったものは特に水堀と呼び、近代以降多くの城に取り入れられています。</WA_Wall_WaterMoats.description>
+
+  <WA_Wall_DryMoats.label>空堀</WA_Wall_DryMoats.label>
+  <WA_Wall_DryMoats.description>堀は敵や動物の侵入を防ぐため、古代より城や寺などの周辺に掘られていました。
+容易に超えることのできない幅と深さを持ち、重要な防衛施設として機能しました。
+堀に水を張っていないものは空堀と呼び、中世の堀のほとんどは空堀です。
+空堀には水堀に船を持ち込ませないための役割も持ちます。
+また、冬季に凍らないことは水堀にはない利点です。</WA_Wall_DryMoats.description>
+
+  <WA_Step.label>階段</WA_Step.label>
+  <WA_Step.description>階段は高低差のある場所へ移動を行うための構造物です。
+人間の足で昇降可能な高さを持ついくつもの水平な段に分割されています。
+段差の概念のないRimworldでは見た目以外に意味を持ちません。</WA_Step.description>
+
+  <!--========================= WA_Gate =============================-->
+  <WA_Gate_CastleGate.label>城門</WA_Gate_CastleGate.label>
+  <WA_Gate_CastleGate.description>城門は城内へ入る数少ない場所であり、戦時は最も重要な防衛線の一つでした。
+そのため、簡単には抜けることのできない堅牢な作りになっており、迎撃のために数多くの工夫が凝らされていました。</WA_Gate_CastleGate.description>
+
+  <WA_Gate_IronGate.label>鉄扉</WA_Gate_IronGate.label>
+  <WA_Gate_IronGate.description>城門は城内へ入る数少ない場所であり、戦時は最も重要な防衛線の一つでした。
+扉の部分は重い鉄でできているものもあり、ただ開けるだけでも非常に大きな労力を必要としました。</WA_Gate_IronGate.description>
+
+
+  <!--========================= WA_Fence =============================-->
+  <WA_Fence_Yamatobei.label>大和塀</WA_Fence_Yamatobei.label>
+  <WA_Fence_Yamatobei.description>塀は人や動物の侵入を防止し、目隠しなどの効果を持つ工作物です。
+大和塀は板を1枚おきに裏表から少し重ねて張った塀です。
+板の間に横桟を通すことで隙間を開けています。
+そうすることで視線を遮りつつ、風も通す簡易の塀です。</WA_Fence_Yamatobei.description>
+
+
+  <WA_Fence_Sukibei.label>透塀</WA_Fence_Sukibei.label>
+  <WA_Fence_Sukibei.description>塀は人や動物の侵入を防止し、目隠しなどの効果を持つ工作物です。
+透塀は屋根付きの塀で、中ほどに格子をはめるなどして内部が透けて見えるようにしています。
+主に神社や廟などで使われています。</WA_Fence_Sukibei.description>
+
+
+  <WA_Fence_Tuijibei.label>築地塀</WA_Fence_Tuijibei.label>
+  <WA_Fence_Tuijibei.description>塀は人や動物の侵入を防止し、目隠しなどの効果を持つ工作物です。
+築地塀は石垣の基礎に柱を立てて骨組みを組み、練り土を流し込んで固めて作ります。
+古来より公家や寺院などで使われており、現在でもしばしば建築されています。</WA_Fence_Tuijibei.description>
+
+
+  <!--========================= WA_Wall =============================-->
+  <WA_Wall_White.label>真壁(白)</WA_Wall_White.label>
+  <WA_Wall_White.description>日本の伝統的な壁の作りは真壁と呼ばれます。
+真壁は柱や梁が室内に露出した構造になっており、壁の内部から湿気が逃げやすいので耐久性に優れるといわれています。</WA_Wall_White.description>
+
+  <WA_Wall_Pink.label>真壁(桜)</WA_Wall_Pink.label>
+  <WA_Wall_Pink.description>日本の伝統的な壁の作りは真壁と呼ばれます。
+真壁は柱や梁が室内に露出した構造になっており、壁の内部から湿気が逃げやすいので耐久性に優れるといわれています。</WA_Wall_Pink.description>
+
+  <WA_Wall_Yellow.label>真壁(梔子)</WA_Wall_Yellow.label>
+  <WA_Wall_Yellow.description>日本の伝統的な壁の作りは真壁と呼ばれます。
+真壁は柱や梁が室内に露出した構造になっており、壁の内部から湿気が逃げやすいので耐久性に優れるといわれています。</WA_Wall_Yellow.description>
+
+  <WA_Wall_Green.label>真壁(鶯)</WA_Wall_Green.label>
+  <WA_Wall_Green.description>日本の伝統的な壁の作りは真壁と呼ばれます。
+真壁は柱や梁が室内に露出した構造になっており、壁の内部から湿気が逃げやすいので耐久性に優れるといわれています。</WA_Wall_Green.description>
+
+  <WA_Wall_Blue.label>真壁(藍)</WA_Wall_Blue.label>
+  <WA_Wall_Blue.description>日本の伝統的な壁の作りは真壁と呼ばれます。
+真壁は柱や梁が室内に露出した構造になっており、壁の内部から湿気が逃げやすいので耐久性に優れるといわれています。</WA_Wall_Blue.description>
+
+  <WA_Wall_Gray.label>真壁(薄墨)</WA_Wall_Gray.label>
+  <WA_Wall_Gray.description>日本の伝統的な壁の作りは真壁と呼ばれます。
+真壁は柱や梁が室内に露出した構造になっており、壁の内部から湿気が逃げやすいので耐久性に優れるといわれています。</WA_Wall_Gray.description>
+
+  <WA_Wall_Black.label>真壁(鈍)</WA_Wall_Black.label>
+  <WA_Wall_Black.description>日本の伝統的な壁の作りは真壁と呼ばれます。
+真壁は柱や梁が室内に露出した構造になっており、壁の内部から湿気が逃げやすいので耐久性に優れるといわれています。</WA_Wall_Black.description>
+
+
+</LanguageData>

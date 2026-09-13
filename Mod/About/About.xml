@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Nelim's Japanese Homestead (unofficial)</name>
+  <author>Udon - 1.6 port by nelim</author>
+  <packageId>nelim.wa</packageId>
+  <url>https://github.com/vbardales/Rimworld-Japanese-Homestead</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>UNOFFICIAL. This mod is published without the original author's explicit consent.
+If the original author contacts me to request its removal, I undertake to take it down promptly.
+
+A RimWorld 1.6 revival of "WA v1.0" by Udon, which never left 1.0. Japanese architecture, furniture, gardens, pastimes, clothing and crops.
+
+What it adds:
+- Walls, ramparts, moats, steps, fusuma sliding doors (9 patterns) and shoji screens (4 patterns).
+- Tatami mats (9 shades), raked garden gravel (5 stones), moss.
+- Futons (39 variants), zabuton cushions (8 colours), tokonoma alcoves (6 patterns), folding screens, an aquarium.
+- Irori sunken hearths, which both cook and give a fire to sit by; a tea cauldron; a sutra-copying desk.
+- Lighting: andon, bonbori, chochin and ariake lanterns, braziers, a bonfire.
+- Pastimes: koto, karuta, kai-awase, sugoroku, an incense burner, and the tea ceremony.
+- 17 kimono outfits and headwear, on their own apparel layer. The princess kimono heartens allies around its wearer; the wrestler's kimono cows enemies.
+- Crops: azuki beans, tea bushes, igusa rush, kozo and mulberry - plus ten confections and green tea.
+
+What the port changes:
+- The two Udon base mods WA relied on, ResourcePackCore and HealthDifferenceAuraCore, are replaced here. They are replaced inside this mod: dirt, charcoal, washi paper and pure silk are redefined here with their recipes, and the aura carried by the two special kimonos is rewritten in C# for 1.6.
+- The aquarium used to cost glass cullet, which no longer exists. It costs steel instead, and switches back to glass when Glass+Lights is installed.
+- Thirteen buildings carried a component the game dropped after 1.0. Left alone, it would have taken down their whole def.
+- The shogi board is not included: it already lives in Joy Preservation.
+
+An unofficial revival. The textures and the original design belong to Udon - please do not republish without asking. See ATTRIBUTION.md.
+
+Content mod: removing it mid-save deletes anything built from it.
+
+[url=https://github.com/vbardales/Rimworld-Japanese-Homestead]Source code on GitHub[/url]</description>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+    <li>NanoCE.GlassLights</li>
+  </loadAfter>
+</ModMetaData>

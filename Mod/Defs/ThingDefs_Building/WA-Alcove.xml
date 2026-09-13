@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--========================= WA_AlcoveBase =============================-->
+	<ThingDef ParentName="FurnitureWithQualityBase" Name="WA_AlcoveBase" Abstract="True">
+		<defName>WA_AlcoveBase</defName>
+		<label>Alcove</label>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-AlcoveA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.55,2.11)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<size>(2,1)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>false</castEdgeShadows>
+		<pathCost>50</pathCost>
+		<pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+		<fillPercent>1.0</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Never</tickerType>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Beauty>60</Beauty>
+			<WorkToBuild>6000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<Mass>10</Mass>
+		</statBases>
+		<building>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+		</building>
+		<costList>
+			<WoodLog>50</WoodLog>
+			<RPC_JapanesePaper>30</RPC_JapanesePaper>
+		</costList>
+		<neverMultiSelect>true</neverMultiSelect>
+		<designationCategory>WA_Builder</designationCategory>
+	    <researchPrerequisites>
+			<li>WA_Research_Art</li>
+	    </researchPrerequisites>
+		<designatorDropdown>Alcove_Dropdown</designatorDropdown>
+	</ThingDef>
+
+	<!--========================= WA_AlcoveA    =============================-->
+	<ThingDef ParentName="WA_AlcoveBase">
+		<defName>WA_AlcoveA</defName>
+		<label>Alcove(Pine)</label>
+		<description>Tokonoma is a recessed alcove in a Japanese-style
+room. It is a place of honor where a hanging scroll,
+vase of arranged flowers or other ornaments are 
+displayed.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-AlcoveA</texPath>
+		</graphicData>
+    <uiIconPath>Things/Building/Furniture/WA-AlcoveA-i</uiIconPath>
+	</ThingDef>
+
+	<!--========================= WA_AlcoveB    =============================-->
+	<ThingDef ParentName="WA_AlcoveBase">
+		<defName>WA_AlcoveB</defName>
+		<label>Alcove(Sakura)</label>
+		<description>Tokonoma is a recessed alcove in a Japanese-style
+room. It is a place of honor where a hanging scroll,
+vase of arranged flowers or other ornaments are 
+displayed.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-AlcoveB</texPath>
+		</graphicData>
+    <uiIconPath>Things/Building/Furniture/WA-AlcoveB-i</uiIconPath>
+	</ThingDef>
+
+	<!--========================= WA_AlcoveC    =============================-->
+	<ThingDef ParentName="WA_AlcoveBase">
+		<defName>WA_AlcoveC</defName>
+		<label>Alcove(nandina)</label>
+		<description>Tokonoma is a recessed alcove in a Japanese-style
+room. It is a place of honor where a hanging scroll,
+vase of arranged flowers or other ornaments are 
+displayed.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-AlcoveC</texPath>
+		</graphicData>
+    <uiIconPath>Things/Building/Furniture/WA-AlcoveC-i</uiIconPath>
+	</ThingDef>
+
+	<!--========================= WA_AlcoveD    =============================-->
+	<ThingDef ParentName="WA_AlcoveBase">
+		<defName>WA_AlcoveD</defName>
+		<label>Alcove(Moon)</label>
+		<description>Tokonoma is a recessed alcove in a Japanese-style
+room. It is a place of honor where a hanging scroll,
+vase of arranged flowers or other ornaments are 
+displayed.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-AlcoveD</texPath>
+		</graphicData>
+    <uiIconPath>Things/Building/Furniture/WA-AlcoveD-i</uiIconPath>
+	</ThingDef>
+
+	<!--========================= WA_AlcoveE    =============================-->
+	<ThingDef ParentName="WA_AlcoveBase">
+		<defName>WA_AlcoveE</defName>
+		<label>Alcove(Holly)</label>
+		<description>Tokonoma is a recessed alcove in a Japanese-style
+room. It is a place of honor where a hanging scroll,
+vase of arranged flowers or other ornaments are 
+displayed.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/WA-AlcoveE</texPath>
+		</graphicData>
+    <uiIconPath>Things/Building/Furniture/WA-AlcoveE-i</uiIconPath>
+	</ThingDef>
+
+
+</Defs>

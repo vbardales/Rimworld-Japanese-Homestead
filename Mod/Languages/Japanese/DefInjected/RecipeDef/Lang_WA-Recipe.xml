@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!--============ MassCooking ============-->
+  <WA_MassCook_SimpleMeal.label>大量調理：簡単な食事(6)</WA_MassCook_SimpleMeal.label>
+  <WA_MassCook_SimpleMeal.description>ひとつの食材を簡単に調理します。</WA_MassCook_SimpleMeal.description>
+  <WA_MassCook_SimpleMeal.jobString>簡単な食事を大量に調理している。</WA_MassCook_SimpleMeal.jobString>
+
+  <WA_MassCook_FineMeal.label>大量調理：手の込んだ食事(6)</WA_MassCook_FineMeal.label>
+  <WA_MassCook_FineMeal.description>野菜系の食材と、肉系の食材を組み合わせて調理します。</WA_MassCook_FineMeal.description>
+  <WA_MassCook_FineMeal.jobString>手の込んだ食事を大量に調理している。</WA_MassCook_FineMeal.jobString>
+
+  <WA_MassCook_LavishMeal.label>大量調理：贅沢な食事(6)</WA_MassCook_LavishMeal.label>
+  <WA_MassCook_LavishMeal.description>野菜系の食材と、肉系の食材を、特に組み合わせて調理します。素材を厳選するので多くの部分は無駄に捨てられます。</WA_MassCook_LavishMeal.description>
+  <WA_MassCook_LavishMeal.jobString>贅沢な食事を大量に調理している。</WA_MassCook_LavishMeal.jobString>
+
+
+	<!--============ TeaCooking ============-->
+  <WA_Recipe_GreenTea.label>抹茶を点てる</WA_Recipe_GreenTea.label>
+  <WA_Recipe_GreenTea.description>茶の葉を粉末状にしたものを湯に溶かし、お茶を点てます。</WA_Recipe_GreenTea.description>
+  <WA_Recipe_GreenTea.jobString>抹茶を点てている。</WA_Recipe_GreenTea.jobString>
+
+  <WA_Recipe_Daifuku.label>苺大福を作る</WA_Recipe_Daifuku.label>
+  <WA_Recipe_Daifuku.description>大粒の苺を餡と餅で包んで作ります。</WA_Recipe_Daifuku.description>
+  <WA_Recipe_Daifuku.jobString>苺大福を作っている。</WA_Recipe_Daifuku.jobString>
+
+  <WA_Recipe_Dango.label>みたらし団子を作る</WA_Recipe_Dango.label>
+  <WA_Recipe_Dango.description>米粉で作った団子に甘辛い琥珀色のソースをかけて作ります。</WA_Recipe_Dango.description>
+  <WA_Recipe_Dango.jobString>みたらし団子を作っている。</WA_Recipe_Dango.jobString>
+
+  <WA_Recipe_Geppei.label>月餅を作る</WA_Recipe_Geppei.label>
+  <WA_Recipe_Geppei.description>小豆餡を生地で包んで焼きます。</WA_Recipe_Geppei.description>
+  <WA_Recipe_Geppei.jobString>月餅を作っている。</WA_Recipe_Geppei.jobString>
+
+  <WA_Recipe_Kashiwa.label>柏餅を作る</WA_Recipe_Kashiwa.label>
+  <WA_Recipe_Kashiwa.description>小豆餡を餅で包み、槲の葉で包んで作ります。</WA_Recipe_Kashiwa.description>
+  <WA_Recipe_Kashiwa.jobString>柏餅を作っている。</WA_Recipe_Kashiwa.jobString>
+
+  <WA_Recipe_Kasuteira.label>かすていらを作る</WA_Recipe_Kasuteira.label>
+  <WA_Recipe_Kasuteira.description>卵白を泡立てて小麦粉、砂糖を混ぜ合わせた生地を焼きます。</WA_Recipe_Kasuteira.description>
+  <WA_Recipe_Kasuteira.jobString>かすていらを作っている。</WA_Recipe_Kasuteira.jobString>
+
+  <WA_Recipe_Kintuba.label>きんつばを作る</WA_Recipe_Kintuba.label>
+  <WA_Recipe_Kintuba.description>粒餡を寒天で固め、各面を水で溶いた小麦粉をつけて焼き上げます。</WA_Recipe_Kintuba.description>
+  <WA_Recipe_Kintuba.jobString>きんつばを作っている。</WA_Recipe_Kintuba.jobString>
+
+  <WA_Recipe_Nerikiri.label>練り切りを作る</WA_Recipe_Nerikiri.label>
+  <WA_Recipe_Nerikiri.description>色合いをつけた餡につなぎの食材を加え、調整して練りあげて作ります。</WA_Recipe_Nerikiri.description>
+  <WA_Recipe_Nerikiri.jobString>練り切りを作っている。</WA_Recipe_Nerikiri.jobString>
+
+  <WA_Recipe_SakuraNUguisu.label>桜餅と鶯餅を作る</WA_Recipe_SakuraNUguisu.label>
+  <WA_Recipe_SakuraNUguisu.description>春を彩る2種類の皮で餡を包んで作ります。</WA_Recipe_SakuraNUguisu.description>
+  <WA_Recipe_SakuraNUguisu.jobString>桜餅と鶯餅を作っている。</WA_Recipe_SakuraNUguisu.jobString>
+
+  <WA_Recipe_Youkan.label>羊羹を作る</WA_Recipe_Youkan.label>
+  <WA_Recipe_Youkan.description>小豆餡に寒天を加えて煮詰めて作ります。</WA_Recipe_Youkan.description>
+  <WA_Recipe_Youkan.jobString>羊羹を作っている。</WA_Recipe_Youkan.jobString>
+
+
+	<!--============ イ草 ============-->
+  <WA_Igusa2Medicine.label>調薬する</WA_Igusa2Medicine.label>
+  <WA_Igusa2Medicine.description>イ草を煎じて薬にします。</WA_Igusa2Medicine.description>
+  <WA_Igusa2Medicine.jobString>イ草を煎じている。</WA_Igusa2Medicine.jobString>
+
+	<!--============ 繭 ============-->
+  <RPC_MakePureSilk.label>生糸を紡ぐ</RPC_MakePureSilk.label>
+  <RPC_MakePureSilk.description>生糸を紡いで織り込んでいます。</RPC_MakePureSilk.description>
+  <RPC_MakePureSilk.jobString>生糸を紡いでいる。</RPC_MakePureSilk.jobString>
+
+	<!--============ 楮 ============-->
+  <RPC_MakePaper.label>楮を漉く</RPC_MakePaper.label>
+  <RPC_MakePaper.description>楮を漉いて和紙を作ります。</RPC_MakePaper.description>
+  <RPC_MakePaper.jobString>楮を漉いている。</RPC_MakePaper.jobString>
+</LanguageData>

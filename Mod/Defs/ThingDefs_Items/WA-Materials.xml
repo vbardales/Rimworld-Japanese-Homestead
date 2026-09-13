@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Materials WA used to borrow from ResourcePackCore (Udon), which never
+       went past RimWorld 1.3 and has been pulled from the Workshop. Same
+       defNames, so every cost list in the mod keeps working untouched.
+       The icons are vanilla resource textures under a tint: the original art
+       lived in ResourcePackCore and does not ship with WA. -->
+
+  <!--=========================== 土 / soil ==============================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>RPC_Dirt</defName>
+    <label>soil</label>
+    <description>Packed earth, dug out and carried in. Mixed with straw and left to dry it makes the daub of a wattle-and-daub wall.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/StoneBlocks</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0.42, 0.32, 0.22)</color>
+    </graphicData>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+    <stackLimit>150</stackLimit>
+    <tradeability>Buyable</tradeability>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>0.4</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+  <!--=========================== 炭 / charcoal ==============================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>RPC_Charcoal</defName>
+    <label>charcoal</label>
+    <description>Wood burned slowly in a starved fire until only carbon is left. It burns hot, steady and nearly smokeless, which is what makes it fit to burn indoors.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/WoodLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0.22, 0.20, 0.19)</color>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>150</stackLimit>
+    <tradeability>All</tradeability>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+  </ThingDef>
+
+  <!--=========================== 和紙 / washi ==============================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>RPC_JapanesePaper</defName>
+    <label>washi</label>
+    <description>Paper combed from the long bark fibres of the kozo shrub. It is far tougher than it looks: stretched over a light wooden frame it holds up as a wall.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cloth</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0.94, 0.91, 0.82)</color>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>150</stackLimit>
+    <tradeability>All</tradeability>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1.8</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.6</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+  <!--=========================== 正絹 / pure silk ==============================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>RPC_PureSilk</defName>
+    <label>pure silk</label>
+    <description>Thread reeled off silkworm cocoons and woven, with nothing else blended in. Light, strong and cool against the skin, and slow enough to make that a bolt of it is worth its weight.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cloth</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(0.97, 0.95, 0.93)</color>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>150</stackLimit>
+    <tradeability>All</tradeability>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>3.2</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+</Defs>

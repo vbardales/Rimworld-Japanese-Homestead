@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ===================== WA_DressingHatBase ===================== -->
+	<ThingDef Abstract="True" Name="WA_DressingHatBase">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Tailor</effectWorking>
+			<soundWorking>Recipe_Tailor</soundWorking>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<RPC_PureSilk>100</RPC_PureSilk>
+		</costList>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToMake>2000</WorkToMake>
+			<Mass>0.5</Mass>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>5</Insulation_Cold>
+			<Insulation_Heat>5</Insulation_Heat>
+      		<DeteriorationRate>3</DeteriorationRate>
+			<Beauty>1</Beauty>
+			<Comfort>1.0</Comfort>
+			<SellPriceFactor>0.50</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<generateCommonality>0.001</generateCommonality>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<tags>
+				<li>Outlander</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+	    <thingCategories>
+			<li>WA_Category_Dreassing</li>
+	    </thingCategories>
+	</ThingDef>
+
+
+	<!-- ===================== WA-DressingHat-Hood ===================== -->
+	<ThingDef ParentName="WA_DressingHatBase" Abstract="True">
+		<defName>WA_DressingHat_Hood</defName>
+		<label>Kimono-Hood</label>
+		<description>Kimono of Hood.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Hats/Hood/WA-Dressing-Hood</texPath>
+		</graphicData>
+		<statBases>
+			<Beauty>10</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Hats/Hood/WA-Dressing-Hood</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_DressingHatBase" Abstract="True">
+		<defName>WA_DressingHat_Towel</defName>
+		<label>Kimono-Towel</label>
+		<description>Kimono of Towel.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Hats/Hood/WA-Dressing-Towel</texPath>
+		</graphicData>
+		<statBases>
+			<Beauty>10</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Hats/Hood/WA-Dressing-Towel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="WA_DressingHatBase" Abstract="True">
+		<defName>WA_DressingHat_Katou</defName>
+		<label>Kimono-Katou</label>
+		<description>Kimono of Katou.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Hats/Hood/WA-Dressing-Katou</texPath>
+		</graphicData>
+		<statBases>
+			<Beauty>10</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+			<MedicalTendSpeed>0.5</MedicalTendSpeed>
+			<Beauty>10</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/Humanlike/Hats/Hood/WA-Dressing-Katou</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
+</Defs>

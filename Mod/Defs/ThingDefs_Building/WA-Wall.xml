@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--========================= WA-WallKawaraBase =============================-->
+  <ThingDef ParentName="BuildingBase" Name="WA_WallKawaraBase" Abstract="True">
+    <defName>WA_WallKawaraBase</defName>
+    <label>和壁瓦ベース</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>Transmitter</linkType>
+      <linkFlags>
+        <li>Custom4</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    <statBases>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<WorkToBuild>250</WorkToBuild>
+		<Flammability>0.1</Flammability>
+        <Beauty>1</Beauty>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.8</staticSunShadowHeight>
+    <blockWind>false</blockWind>
+    <holdsRoof>false</holdsRoof>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <costList>
+      <WoodLog>1</WoodLog>
+	  <RPC_Dirt>2</RPC_Dirt>
+    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>3</costStuffCount>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+	  <blueprintGraphicData>
+		<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+	  </blueprintGraphicData>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+    </damageMultipliers>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Castle</li>
+    </researchPrerequisites>
+    <designationCategory>WA_Builder</designationCategory>
+  </ThingDef>
+
+  <!--========================= WA-Wall-Kawara =============================-->
+  <ThingDef ParentName="WA_WallKawaraBase">
+    <defName>WA_Wall_Kawara</defName>
+    <label>Rampart</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>It is a type of painted wall.
+The roof tiles(Kawara) roofed on the plastics wall also combine rain removal and decoration.
+At that time the tiles were expensive, mainly used for the outer walls of samurai residences.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Kawara</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <linkType>Transmitter</linkType>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-Kawara-i</uiIconPath>
+  </ThingDef>
+
+  <!--========================= WA-Wall-Demado =============================-->
+  <ThingDef ParentName="WA_WallKawaraBase">
+    <defName>WA_Wall_Demado</defName>
+    <label>Rampart(bay window)</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>It is one with a bay window attached to the wall with tiles.
+The bay window functioned as a surveillance window besides the role of giving aesthetic appearance during normal times.
+In addition, it fulfills the role of firearms and stone drops at wartime.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Demado</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <linkType>Transmitter</linkType>
+    </graphicData>	
+    <uiIconPath>Things/Building/Wall/WA-Wall-Demado-i</uiIconPath>
+	<statBases>
+        <Beauty>2</Beauty>
+	</statBases>
+    <fillPercent>1</fillPercent>
+  </ThingDef>
+
+  <!--========================= WA-Wall-StoneWall =============================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>WA_Wall_StoneWall</defName>
+    <label>Stone Wall</label>
+    <description>Ishigaki is a wall created by assembling stones and rocks, and is mainly used as a defense such as a castle.
+Initially it was just a stack of natural stones, but as the era has progressed, things that increased the defensibility by loading stones machined without gaps became mainstream.</description>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Security/WA-WALL-StoneWall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Sandbags</li>
+      </linkFlags>
+    </graphicData>
+    <uiIconPath>Things/Building/Security/WA-WALL-StoneWall-i</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <pathCost>400</pathCost>
+    <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Beauty>2</Beauty>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <building>
+		<ai_chillDestination>false</ai_chillDestination>
+		<isInert>true</isInert>
+    	<blueprintGraphicData>
+			<texPath>Things/Building/Security/WA-WALL-StoneWall-blueprint</texPath>
+		</blueprintGraphicData>
+    </building>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>6</costStuffCount>
+    <filthLeaving>SandbagRubble</filthLeaving>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <designationCategory>WA_Builder</designationCategory>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+    </damageMultipliers>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Castle</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!--========================= WA-MoatsBuildingBase =============================-->
+  <ThingDef ParentName="BuildingBase" Name="WA_MoatsBuildingBase" Abstract="True">
+    <defName>WA_MoatsBuilding</defName>
+    <label>堀ベース</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Custom7</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>6</costStuffCount>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Zone</altitudeLayer>
+    <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+    <passability>PassThroughOnly</passability>
+    <pathCost>300</pathCost>
+    <castEdgeShadows>false</castEdgeShadows>
+    <coversFloor>true</coversFloor>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <holdsRoof>false</holdsRoof>
+    <blockWind>false</blockWind>
+    <blockLight>false</blockLight>
+    <fillPercent>0</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+    </damageMultipliers>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Castle</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <!--========================= WA-Wall-WaterMoats =============================-->
+  <ThingDef ParentName="WA_MoatsBuildingBase">
+    <defName>WA_Wall_WaterMoats</defName>
+    <label>Water Moats</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>The moat was dug around the castle and temple from the ancient times to prevent invasion of enemies and animals.
+It has width and depth that can not easily be exceeded and it functions as an important defense facility.
+Those water-trenched to the moat are called Mizuhori in particular, and have been incorporated into many castles since the modern era.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-WaterMoats</texPath>
+    </graphicData>	
+    <uiIconPath>Things/Building/Wall/WA-Wall-WaterMoats-i</uiIconPath>
+    <building>
+		<ai_chillDestination>false</ai_chillDestination>
+		<isInert>true</isInert>
+	    <blueprintGraphicData>
+	      <texPath>Things/Building/Wall/WA-Wall-WaterMoats-blueprint</texPath>
+	    </blueprintGraphicData>
+    </building>
+    <designationCategory>WA_Builder</designationCategory>
+  </ThingDef>
+
+  <!--========================= WA-Wall-DryMoats =============================-->
+  <ThingDef ParentName="WA_MoatsBuildingBase">
+    <defName>WA_Wall_DryMoats</defName>
+    <label>Dry Moats</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>The moat was dug around the castle and temple from the ancient times to prevent invasion of enemies and animals.
+It has width and depth that can not easily be exceeded and it functions as an important defense facility.
+Those water-trenched to the moat are called Mizuhori in particular, and have been incorporated into many castles since the modern era.</description>
+    <pathCost>200</pathCost>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-DryMoats</texPath>
+      <linkType>Basic</linkType>
+    </graphicData>	
+    <uiIconPath>Things/Building/Wall/WA-Wall-DryMoats-i</uiIconPath>
+    <building>
+		<ai_chillDestination>false</ai_chillDestination>
+		<isInert>true</isInert>
+	    <blueprintGraphicData>
+	      <texPath>Things/Building/Wall/WA-Wall-WaterMoats-blueprint</texPath>
+	    </blueprintGraphicData>
+    </building>
+    <designationCategory>WA_Builder</designationCategory>
+  </ThingDef>
+
+  <!--========================= WA-Step =============================-->
+  <ThingDef ParentName="WA_MoatsBuildingBase">
+    <defName>WA_Step</defName>
+    <label>Step</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>The staircase is a structure to move to a place with a height difference.
+It is divided into several horizontal stages with a height that can be raised and lowered by human feet.
+Rimworld without the notion of step difference has no meaning other than appearance.</description>
+    <graphicData>
+      <drawSize>(3,1)</drawSize>
+      <linkType>None</linkType>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/Step/WA-Garden-Step</texPath>
+    </graphicData>	
+    <uiIconPath>Things/Building/Step/WA-Garden-Step-i</uiIconPath>
+	<statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <WorkToBuild>200</WorkToBuild>
+      <Flammability>1</Flammability>
+	</statBases>
+    <size>(3,1)</size>
+    <rotatable>true</rotatable>
+	<coversFloor>true</coversFloor>
+    <passability>Standable</passability>
+    <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
+    <pathCost>10</pathCost>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <fillPercent>0.01</fillPercent>
+    <stuffCategories>
+	  <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>5</costStuffCount>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <castEdgeShadows>false</castEdgeShadows>
+    <designationCategory>WA_Builder</designationCategory>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Advanced</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <!--========================= WA-Gate =============================-->
+  <!--========================= WA-CastleGate =============================-->
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>WA_Gate_CastleGate</defName>
+    <label>Castle Gate</label>
+    <description>The castle gate was one of the few places to enter the castle and it was one of the most important defense lines at wartime.
+For that reason, it was easy to make a robust structure that can not be withdrawn, and a lot of ingenious efforts were made for interception.</description>
+	<building>
+	    <blueprintGraphicData>
+	      <texPath>Things/Building/Gate/WA-Gate-CastleGate-blueprint</texPath>
+	    </blueprintGraphicData>
+    </building>
+	<uiIconPath>Things/Building/Gate/WA-Gate-CastleGate-i</uiIconPath>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <passability>Standable</passability>
+    <canOverlapZones>true</canOverlapZones>
+    <graphicData>
+      <texPath>Things/Building/Gate/WA-Gate-CastleGate</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <fillPercent>1.0</fillPercent>
+    <rotatable>true</rotatable>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>300</Mass>
+      <Flammability>0</Flammability>
+      <Beauty>10</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <holdsRoof>false</holdsRoof>
+    <blockLight>false</blockLight>
+	<blockWind>false</blockWind>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+	<costStuffCount>50</costStuffCount>
+    <pathCost>1</pathCost>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	<castEdgeShadows>false</castEdgeShadows>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<designationCategory>WA_Builder</designationCategory>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Castle</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!--========================= IronGate =============================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>WA_Gate_IronGate</defName>
+    <label>Castle Door</label>
+    <description>The castle gate was one of the few places to enter the castle and it was one of the most important defense lines at wartime.
+Some of the gate is made of heavy iron, and even just opening it required a very large effort.</description>
+    <thingClass>Building_Door</thingClass>
+    <category>Building</category>
+    <altitudeLayer>DoorMoveable</altitudeLayer>
+	<uiIconPath>Things/Building/Gate/WA-Gate-IronGate-i</uiIconPath>
+    <graphicData>
+      <texPath>Things/Building/Gate/WA-Gate-IronGate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1800</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>1</Beauty>
+      <DoorOpenSpeed>0.35</DoorOpenSpeed>
+    </statBases>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <holdsRoof>false</holdsRoof>
+    <blockLight>false</blockLight>
+	<blockWind>false</blockWind>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <drawerType>RealtimeOnly</drawerType>
+    <building>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+	  <blueprintClass>Blueprint_Door</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Gate/WA-Gate-IronGate-blueprint</texPath>
+      </blueprintGraphicData>
+      <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+      <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+    </building>
+    <costList>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_DoorLearnOpeningSpeed</li>
+    </placeWorkers>
+    <designationCategory>WA_Builder</designationCategory>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Castle</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!--========================= WA-Fence =============================-->
+  <!--========================= WA-FenceBase =============================-->
+  <ThingDef ParentName="BuildingBase" Name="WA_FenceBase" Abstract="True">
+    <defName>WA_FenceBase</defName>
+    <label>和塀ベース</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <holdsRoof>false</holdsRoof>
+    <blockLight>false</blockLight>
+    <blockWind>false</blockWind>
+    <coversFloor>false</coversFloor>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Basic</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!--========================= WA-Fence-Yamatobei =============================-->
+  <ThingDef ParentName="WA_FenceBase">
+    <defName>WA_Fence_Yamatobei</defName>
+    <label>Yamato Fence</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>The fence is a workpiece that has the effect of preventing invasion of people and animals and blindfolding.
+Yamato-Fence is a fence stretched from the front and back with alternating plates one by one.
+I open a gap by passing a crosspiece between the boards.
+By doing so, it is a simple fence that blocks the line of sight and also passes the wind.</description>
+    <graphicData>
+      <texPath>Things/Building/Fence/WA-Fence-Yamatobei</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Transmitter</linkType>
+      <linkFlags>
+        <li>Custom5</li>
+      </linkFlags>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconPath>Things/Building/Fence/WA-Fence-Yamatobei-i</uiIconPath>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToBuild>20</WorkToBuild>
+		<Flammability>1.0</Flammability>
+        <Beauty>0</Beauty>
+	</statBases>
+    <costList>
+      <WoodLog>2</WoodLog>
+    </costList>
+	<building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Fence/WA-Fence-blueprint</texPath>
+      </blueprintGraphicData>
+	</building>
+    <fillPercent>1</fillPercent>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<staticSunShadowHeight>0.7</staticSunShadowHeight>
+    <designationCategory>WA_Builder</designationCategory>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Basic</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!--========================= WA-Fence-Sukibei =============================-->
+  <ThingDef ParentName="WA_FenceBase">
+    <defName>WA_Fence_Sukibei</defName>
+    <label>Suki Fence</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>The fence is a workpiece that has the effect of preventing invasion of people and animals and blindfolding.
+Suki-Fence is a covered fence, so that the interior can be seen through by placing a lattice in the middle.
+It is mainly used in shrines and temples.</description>
+    <graphicData>
+      <texPath>Things/Building/Fence/WA-Fence-Sukibei</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Transmitter</linkType>
+      <linkFlags>
+        <li>Custom5</li>
+      </linkFlags>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconPath>Things/Building/Fence/WA-Fence-Sukibei-i</uiIconPath>
+	<statBases>
+		<MaxHitPoints>250</MaxHitPoints>
+		<WorkToBuild>60</WorkToBuild>
+		<Flammability>0.9</Flammability>
+        <Beauty>1</Beauty>
+	</statBases>
+    <costList>
+      <WoodLog>3</WoodLog>
+    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+	<costStuffCount>1</costStuffCount>
+	<building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Fence/WA-Fence-blueprint</texPath>
+      </blueprintGraphicData>
+	</building>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>1</fillPercent>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	<staticSunShadowHeight>0.7</staticSunShadowHeight>
+    <designationCategory>WA_Builder</designationCategory>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Advanced</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <!--========================= WA-Fence-Tuijibei =============================-->
+  <ThingDef ParentName="WA_FenceBase">
+    <defName>WA_Fence_Tuijibei</defName>
+    <label>Tsuiji Fence</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <description>The fence is a workpiece that has the effect of preventing invasion of people and animals and blindfolding.
+Tsuiji-Fence sets up a framework by setting up a pillar on the foundation of stone wall, pouring and kneading the kneading soil.
+It has been used in public places and temples since ancient times, and is still often built now.</description>
+    <graphicData>
+      <texPath>Things/Building/Fence/WA-Fence-Tuijibei</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Transmitter</linkType>
+      <linkFlags>
+        <li>Custom5</li>
+      </linkFlags>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconPath>Things/Building/Fence/WA-Fence-Tuijibei-i</uiIconPath>
+	<statBases>
+		<MaxHitPoints>600</MaxHitPoints>
+		<WorkToBuild>140</WorkToBuild>
+		<Flammability>0.8</Flammability>
+        <Beauty>2</Beauty>
+	</statBases>
+    <costList>
+      <WoodLog>1</WoodLog>
+	  <RPC_Dirt>1</RPC_Dirt>
+    </costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+	<costStuffCount>1</costStuffCount>
+	<building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Fence/WA-Fence-blueprint</texPath>
+      </blueprintGraphicData>
+	</building>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>1</fillPercent>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	<staticSunShadowHeight>0.7</staticSunShadowHeight>
+    <designationCategory>WA_Builder</designationCategory>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Advanced</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+
+  <!--========================= WA-Wall =============================-->
+  <!--========================= WA-WallBase =============================-->
+  <ThingDef ParentName="BuildingBase" Name="WA_WallBase" Abstract="True">
+    <defName>WA_WallBase</defName>
+    <label>真壁ベース</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>0.5</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <tickerType>Never</tickerType>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <canOverlapZones>false</canOverlapZones>
+    <costList>
+      <WoodLog>1</WoodLog>
+	  <RPC_Dirt>1</RPC_Dirt>
+    </costList>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>0.9</multiplier>
+      </li>
+    </damageMultipliers>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <coversFloor>true</coversFloor>
+    <holdsRoof>true</holdsRoof>
+    <blockLight>true</blockLight>
+    <blockWind>true</blockWind>
+    <designationCategory>WA_Builder</designationCategory>
+	<designatorDropdown>Wall_Dropdown</designatorDropdown>
+    <researchPrerequisites>
+      <li>WA_Research_Building_Basic</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+  <!--========================= WA-Wall =============================-->
+  <ThingDef ParentName="WA_WallBase">
+    <defName>WA_Wall_White</defName>
+    <label>Makabe(White)</label>
+    <description>Creating traditional Japanese walls is called Makabe.
+Makabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-White</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-White_i</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="WA_WallBase">
+    <defName>WA_Wall_Pink</defName>
+    <label>Makabe(Pink)</label>
+    <description>Creating traditional Japanese walls is called Makabe.
+Makabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Pink</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-Pink_i</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="WA_WallBase">
+    <defName>WA_Wall_Yellow</defName>
+    <label>Makabe(Yellow)</label>
+    <description>Creating traditional Japanese walls is called Makabe.
+Makabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Yellow</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-Yellow_i</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="WA_WallBase">
+    <defName>WA_Wall_Green</defName>
+    <label>Makabe(Green)</label>
+    <description>Creating traditional Japanese walls is called Makabe.
+Makabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Green</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-Green_i</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="WA_WallBase">
+    <defName>WA_Wall_Blue</defName>
+    <label>Makabe(Blue)</label>
+    <description>Creating traditional Japanese walls is called Makabe.
+Makabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Blue</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-Blue_i</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="WA_WallBase">
+    <defName>WA_Wall_Gray</defName>
+    <label>Makabe(Gray)</label>
+    <description>Creating traditional Japanese walls is called Makabe.
+Makabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Gray</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-Gray_i</uiIconPath>
+  </ThingDef>
+
+  <ThingDef ParentName="WA_WallBase">
+    <defName>WA_Wall_Black</defName>
+    <label>Makabe(Black)</label>
+    <description>Creating traditional Japanese walls is called Makabe.
+Makabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.</description>
+    <graphicData>
+      <texPath>Things/Building/Wall/WA-Wall-Black</texPath>
+    </graphicData>
+    <uiIconPath>Things/Building/Wall/WA-Wall-Black_i</uiIconPath>
+  </ThingDef>
+
+
+</Defs>

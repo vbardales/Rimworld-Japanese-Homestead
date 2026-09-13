@@ -1,0 +1,11 @@
+.build/
+.audit/
+Source/**/obj/
+Source/**/bin/
+.vs/
+.idea/
+.claude/
+.codex/
+.agents/
+*.user
+PROMPT_*.md

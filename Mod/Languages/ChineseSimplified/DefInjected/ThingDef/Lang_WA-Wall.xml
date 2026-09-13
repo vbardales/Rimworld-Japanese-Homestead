@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--========================= WA_Wall =============================-->
+  <WA_Wall_Kawara.label>城壁</WA_Wall_Kawara.label>
+  <WA_Wall_Kawara.description>一种涂墙，涂墙是使用水、土、植物等天然素材作为原料的墙壁。铺上漆喰壁的屋瓦既能防雨，亦带有装饰效果。在当时的瓦砖价格不斐，主要用来建筑武家房屋的外墙。</WA_Wall_Kawara.description>
+
+  <WA_Wall_Demado.label>城壁(凸窗)</WA_Wall_Demado.label>
+  <WA_Wall_Demado.description>在铺有屋瓦的墙壁上设置凸窗。凸窗平时除了美观效果，亦能用于监视外侧。战斗时则能作为铳眼、投石处来迎敌。</WA_Wall_Demado.description>
+
+  <!--========================= StoneWall =============================-->
+  <WA_Wall_StoneWall.label>石垣</WA_Wall_StoneWall.label>
+  <WA_Wall_StoneWall.description>石垣是由石头或岩石堆砌而成的墙壁，只要用来建造城塞的防卫墙。在早期只是将普通的石头堆栈起来而已。随着时代演进，将加工后的石块无间隙地堆砌成墙，以提高防御性能的形式逐渐成为主流。</WA_Wall_StoneWall.description>
+
+  <WA_Wall_WaterMoats.label>城壕</WA_Wall_WaterMoats.label>
+  <WA_Wall_WaterMoats.description>是古时由人工挖凿，环绕整座城、宫城、寺院等主要建筑的壕沟，具有防御作用，可防止敌人或动物入侵。具有不易越过的深度及宽度，能作为重要的防卫建设使用。
+  掘沟放水而成的城壕又称护城河，近代以后有多座城堡采用这种设计。</WA_Wall_WaterMoats.description>
+
+  <WA_Wall_DryMoats.label>干壕</WA_Wall_DryMoats.label>
+  <WA_Wall_DryMoats.description>是古时由人工挖凿，环绕整座城、宫城、寺院等主要建筑的壕沟，具有防御作用，可防止敌人或动物入侵。具有不易越过的深度及宽度，能作为重要的防卫建设使用。
+  掘沟而不引河而成的城壕又称干壕，中世纪时的壕沟多为干壕。空壕能防止敌人透过船只入侵，也没有护城河需顾虑到河面结冰的问题。</WA_Wall_DryMoats.description>
+
+  <WA_Step.label>阶梯</WA_Step.label>
+  <WA_Step.description>楼梯是常用来联系具有高低差的两地时所采用的交通建设。以人类的双脚能在其上升降的多个水平段落来分割垂直高度。在边缘世界这款没有段差概念的游戏，除了当装饰以外并不具有其他意义。</WA_Step.description>
+
+  <!--========================= WA_Gate =============================-->
+  <WA_Gate_CastleGate.label>城门</WA_Gate_CastleGate.label>
+  <WA_Gate_CastleGate.description>城门是能进入城内的少数区域，也是战时最为重要的防线之一。因此，
+  城门大多设计成无法轻易通过的坚固设施，凝聚了工匠的无数心力，以利于守城方迎击敌人。</WA_Gate_CastleGate.description>
+
+  <WA_Gate_IronGate.label>铁扉</WA_Gate_IronGate.label>
+  <WA_Gate_IronGate.description>城门是能进入城内的少数区域，也是战时最为重要的防线之一。
+  门扉的部分由沉重的铁所制，仅是要打开它就得耗上巨大劳力。</WA_Gate_IronGate.description>
+
+  <!--========================= WA_Fence =============================-->
+  <WA_Fence_Yamatobei.label>大和塀</WA_Fence_Yamatobei.label>
+  <WA_Fence_Yamatobei.description>围栏是为了防止敌人与动物的入侵，且具有遮蔽效果的防卫工事。
+大和塀是在一层木制栅栏，在里外具有数个重合部分。木板间能透过短桟开启缝隙。藉此形成能遮蔽视线，又能通风的简易屏障。</WA_Fence_Yamatobei.description>
+
+  <WA_Fence_Sukibei.label>透塀</WA_Fence_Sukibei.label>
+  <WA_Fence_Sukibei.description>围栏是为了防止敌人与动物的入侵，且具有遮蔽效果的防卫工事。
+透塀是搭盖了屋顶的围栏，中间凿了数个方格，能从方格看到内部。主要使用于神社及寺庙。</WA_Fence_Sukibei.description>
+
+  <WA_Fence_Tuijibei.label>筑地塀</WA_Fence_Tuijibei.label>
+  <WA_Fence_Tuijibei.description>围栏是为了防止敌人与动物的入侵，且具有遮蔽效果的防卫工事。
+  筑地塀是以石垣为基底，搭上梁柱、骨架后，填入混凝土而成。自古以来常用于日本朝廷及寺院建设，即使到了现代也常被建筑。
+  </WA_Fence_Tuijibei.description>
+
+  <!--========================= WA_Wall =============================-->
+  <WA_Wall_White.label>真壁(白)</WA_Wall_White.label>
+  <WA_Wall_White.description>真壁，是以日本传统工法制成的墙壁。露出梁柱的构造使墙内的湿气容易发散，这项特征有助于增加墙壁的耐久性。</WA_Wall_White.description>
+
+  <WA_Wall_Pink.label>真壁(桜)</WA_Wall_Pink.label>
+  <WA_Wall_Pink.description>真壁，是以日本传统工法制成的墙壁。露出梁柱的构造使墙内的湿气容易发散，这项特征有助于增加墙壁的耐久性。</WA_Wall_Pink.description>
+
+  <WA_Wall_Yellow.label>真壁(栀子)</WA_Wall_Yellow.label>
+  <WA_Wall_Yellow.description>真壁，是以日本传统工法制成的墙壁。露出梁柱的构造使墙内的湿气容易发散，这项特征有助于增加墙壁的耐久性。</WA_Wall_Yellow.description>
+
+  <WA_Wall_Green.label>真壁(莺)</WA_Wall_Green.label>
+  <WA_Wall_Green.description>真壁，是以日本传统工法制成的墙壁。露出梁柱的构造使墙内的湿气容易发散，这项特征有助于增加墙壁的耐久性。</WA_Wall_Green.description>
+
+  <WA_Wall_Blue.label>真壁(蓝)</WA_Wall_Blue.label>
+  <WA_Wall_Blue.description>真壁，是以日本传统工法制成的墙壁。露出梁柱的构造使墙内的湿气容易发散，这项特征有助于增加墙壁的耐久性。</WA_Wall_Blue.description>
+
+  <WA_Wall_Gray.label>真壁(薄墨)</WA_Wall_Gray.label>
+  <WA_Wall_Gray.description>真壁，是以日本传统工法制成的墙壁。露出梁柱的构造使墙内的湿气容易发散，这项特征有助于增加墙壁的耐久性。</WA_Wall_Gray.description>
+
+  <WA_Wall_Black.label>真壁(钝)</WA_Wall_Black.label>
+  <WA_Wall_Black.description>真壁，是以日本传统工法制成的墙壁。露出梁柱的构造使墙内的湿气容易发散，这项特征有助于增加墙壁的耐久性。</WA_Wall_Black.description>
+
+</LanguageData>

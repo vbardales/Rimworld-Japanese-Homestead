@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--================ WA_FloorBase ================-->
+	<TerrainDef Name="WA_FloorBase" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<designationCategory>WA_Builder</designationCategory>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</TerrainDef>
+
+	<!--================ WA_Seat_Tatami ================-->
+	<TerrainDef Abstract="True" ParentName="WA_FloorBase" Name="WA_Seat_TatamiBase">
+		<renderPrecedence>220</renderPrecedence>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Green</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<designatorDropdown>Tatami_Dropdown</designatorDropdown>
+		<researchPrerequisites>
+			<li>WA_Research_Building_Basic</li>
+		</researchPrerequisites>
+		<traversedThought>WA_TatamiIsGood</traversedThought>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Green</defName>
+		<label>Tatami(Green)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Green</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Lime</defName>
+		<label>Tatami(Lime)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Lime</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Yellow</defName>
+		<label>Tatami(Yellow)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Yellow</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Orange</defName>
+		<label>Tatami(Orange)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Orange</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_White</defName>
+		<label>Tatami(White)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_White</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Cherry</defName>
+		<label>Tatami(Cherry)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Cherry</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Gray</defName>
+		<label>Tatami(Gray)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Gray</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Dark</defName>
+		<label>Tatami(Dark)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Dark</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="WA_Seat_TatamiBase">
+		<defName>WA_Seat_Tatami_Black</defName>
+		<label>Tatami(Black)</label>
+		<description>Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.</description>
+		<texturePath>Things/Building/Terrain/WA-Seat-Tatami_Black</texturePath>
+		<costList>
+			<WA_Igusa>3</WA_Igusa>
+		</costList>
+	</TerrainDef>
+</Defs>
