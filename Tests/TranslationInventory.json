@@ -1,0 +1,3208 @@
+[
+  {
+    "type": "DesignationCategoryDef",
+    "key": "WA_Builder.label",
+    "source": "WA",
+    "french": "WA",
+    "english": "WA"
+  },
+  {
+    "type": "DesignationCategoryDef",
+    "key": "WA_Builder.description",
+    "source": "Better Rim life with Japanese style building.",
+    "french": "Une colonie au charme japonais.",
+    "english": "Japanese-style buildings for colony life."
+  },
+  {
+    "type": "DesignationCategoryDef",
+    "key": "WA_FutonCategory.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "DesignationCategoryDef",
+    "key": "WA_FutonCategory.description",
+    "source": "Japanese Beds.",
+    "french": "Literie japonaise.",
+    "english": "Japanese bedding."
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_EncouragementOfThePrincess.label",
+    "source": "Encouragement of the Princess",
+    "french": "Encouragement de la princesse",
+    "english": "Encouragement of the Princess"
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_EncouragementOfThePrincess.description",
+    "source": "The bearing of the princess in her kimono lifts everyone who works near her.",
+    "french": "La prestance de la princesse en kimono remonte le moral de ceux qui travaillent près d'elle.",
+    "english": "The bearing of the princess in her kimono lifts everyone who works near her."
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label",
+    "source": "I was encouraged by the princess!",
+    "french": "La princesse m'a encouragé !",
+    "english": "I was encouraged by the princess!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label",
+    "source": "I was encouraged by the princess!",
+    "french": "La princesse m'a encouragé !",
+    "english": "I was encouraged by the princess!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label",
+    "source": "I was encouraged by the princess!",
+    "french": "La princesse m'a encouragé !",
+    "english": "I was encouraged by the princess!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label",
+    "source": "I was encouraged by the princess!",
+    "french": "La princesse m'a encouragé !",
+    "english": "I was encouraged by the princess!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label",
+    "source": "I was encouraged by the princess!",
+    "french": "La princesse m'a encouragé !",
+    "english": "I was encouraged by the princess!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_IntimidateOfTheYokozuna.label",
+    "source": "Intimidate of the Yokozuna",
+    "french": "Intimidation du yokozuna",
+    "english": "Intimidation of the yokozuna"
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_IntimidateOfTheYokozuna.description",
+    "source": "The sheer presence of the yokozuna is enough to take the fight out of anyone facing him.",
+    "french": "La seule présence du yokozuna suffit à décourager ceux qui lui font face.",
+    "english": "The sheer presence of the yokozuna is enough to take the fight out of anyone facing him."
+  },
+  {
+    "type": "HediffDef",
+    "key": "HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label",
+    "source": "Overwhelmed by the Yokozuna.",
+    "french": "Intimidé par le yokozuna.",
+    "english": "Overwhelmed by the Yokozuna."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Metabolic.label",
+    "source": "... A bit fat?",
+    "french": "… Un peu de poids en plus ?",
+    "english": "... A little heavier?"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Metabolic.description",
+    "source": "One sweet too many. It shows.",
+    "french": "Une sucrerie de trop. Cela commence à se voir.",
+    "english": "One sweet too many. It shows."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterLabel",
+    "source": "{0} was fat",
+    "french": "{0} a pris du poids",
+    "english": "{0} gained weight"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterText",
+    "source": "{0} is now Metabolic!",
+    "french": "{0} souffre désormais des effets des excès de sucre !",
+    "english": "{0} is now suffering the effects of too much sugar!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-0.label",
+    "source": "The magical power of sugar gradually corroves you.",
+    "french": "La tentation du sucre fait peu à peu son œuvre.",
+    "english": "The temptation of sugar is taking its toll."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-1.label",
+    "source": "The magical power of sugar gradually corroves you.",
+    "french": "La tentation du sucre fait peu à peu son œuvre.",
+    "english": "The temptation of sugar is taking its toll."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-2.label",
+    "source": "The magical power of sugar gradually corroves you.",
+    "french": "La tentation du sucre fait peu à peu son œuvre.",
+    "english": "The temptation of sugar is taking its toll."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_GreenTea.label",
+    "source": "Delicious Matcha",
+    "french": "Délicieux matcha",
+    "english": "Delicious Matcha"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_GreenTea.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_GreenTea.stages.I_drank_delicious_green_tea_and_the_spirit_was_sharpened.label",
+    "source": "I drank delicious green tea and the spirit was sharpened.",
+    "french": "Ce délicieux thé vert m'a éclairci l'esprit.",
+    "english": "That delicious green tea cleared my mind."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Daifuku.label",
+    "source": "Delicious Ichigo Daifuku",
+    "french": "Délicieux ichigo daifuku",
+    "english": "Delicious Ichigo Daifuku"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Daifuku.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Daifuku.stages.Fresh_and_fresh_strawberry_acidity_and_elegant_sweetness_of_strainer_Great.label",
+    "source": "Fresh and fresh strawberry acidity and elegant sweetness of strainer! Great!",
+    "french": "Une fraise acidulée, une pâte de haricots sucrée et un mochi tendre : quel régal !",
+    "english": "Fresh strawberry, sweet bean paste and tender mochi: delicious!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Dango.label",
+    "source": "Delicious Mitarashi Dango",
+    "french": "Délicieux mitarashi dango",
+    "english": "Delicious Mitarashi Dango"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Dango.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Dango.stages.The_compatibility_of_rich_sweet_sauce_is_great_with_rich_mochi_dumplings.label",
+    "source": "The compatibility of rich sweet sauce is great with rich mochi dumplings!",
+    "french": "Cette sauce sucrée-salée accompagne à merveille les boulettes de mochi !",
+    "english": "The sweet and savoury sauce goes perfectly with these chewy dumplings!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Geppei.label",
+    "source": "Delicious Geppei",
+    "french": "Délicieux geppei",
+    "english": "Delicious Geppei"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Geppei.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label",
+    "source": "I was impressed with the crispy feeling of bean paste and walnut!",
+    "french": "La pâte de haricots et les noix croquantes m'ont ravi !",
+    "english": "The sweet bean paste and crunchy walnuts were delightful!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kashiwa.label",
+    "source": "Delicious Kashiwa Mochi",
+    "french": "Délicieux kashiwa mochi",
+    "english": "Delicious Kashiwa Mochi"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kashiwa.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kashiwa.stages.The_sweetness_of_rice_and_the_smell_of_rice_are_deeply_flavored.label",
+    "source": "The sweetness of rice and the smell of rice are deeply flavored!",
+    "french": "La douceur du riz et le parfum de la feuille de chêne se marient si bien !",
+    "english": "The sweetness of rice and the scent of oak leaves are a wonderful match!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kasuteira.label",
+    "source": "Delicious Kasuteira",
+    "french": "Délicieux kasutera",
+    "english": "Delicious Kasuteira"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kasuteira.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kasuteira.stages.The_fluffy_dough_and_the_texture_of_Zarame_feel_the_supreme_moment.label",
+    "source": "The fluffy dough and the texture of Zarame feel the supreme moment.",
+    "french": "Une pâte moelleuse et des cristaux de sucre : un instant de bonheur.",
+    "english": "Fluffy cake and crunchy sugar crystals: a moment of bliss."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kintuba.label",
+    "source": "Delicious Kintuba",
+    "french": "Délicieux kintsuba",
+    "english": "Delicious Kintuba"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kintuba.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Kintuba.stages.Plenty_of_red_bean_paste_sweetness_is_moderately_sweet_and_you_will_even_remember_the_freshness.label",
+    "source": "Plenty of red bean paste sweetness is moderately sweet and you will even remember the freshness.",
+    "french": "Cette généreuse pâte de haricots rouges est douce et délicate.",
+    "english": "Generous red bean paste with a delicate sweetness."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Nerikiri.label",
+    "source": "Delicious Nerikiri",
+    "french": "Délicieux nerikiri",
+    "english": "Delicious Nerikiri"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Nerikiri.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Nerikiri.stages.Multicolored_pastemaking_is_artistic.label",
+    "source": "Multicolored paste-making is artistic!",
+    "french": "Ces pâtes colorées sont de véritables œuvres d'art !",
+    "english": "These colourful sweets are little works of art!"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Sakura.label",
+    "source": "Delicious Sakura Mochi",
+    "french": "Délicieux sakura mochi",
+    "english": "Delicious Sakura Mochi"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Sakura.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Sakura.stages.An_elegant_scent_of_cherry_leaves_and_a_fabric_of_beautiful_color_make_spring_feel.label",
+    "source": "An elegant scent of cherry leaves and a fabric of beautiful color make spring feel.",
+    "french": "Le parfum de feuille de cerisier et ces jolies couleurs annoncent le printemps.",
+    "english": "The scent of cherry leaves and these delicate colours feel like spring."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Uguisu.label",
+    "source": "Delicious Ugusisu Mochi",
+    "french": "Délicieux uguisu mochi",
+    "english": "Delicious Uguisu Mochi"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Uguisu.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Uguisu.stages.Vivid_wakakusa_color_is_very_compatible_with_soft_fertilizer.label",
+    "source": "Vivid wakakusa color is very compatible with soft fertilizer.",
+    "french": "Cette couleur de jeune pousse accompagne un mochi délicieusement tendre.",
+    "english": "The fresh green colour suits this wonderfully soft mochi."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Youkan.label",
+    "source": "Delicious Youkan",
+    "french": "Délicieux yōkan",
+    "english": "Delicious Youkan"
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Youkan.description",
+    "source": "The lingering pleasure of a well-made Japanese sweet.",
+    "french": "Le plaisir persistant d'une pâtisserie japonaise bien préparée.",
+    "english": "The lingering pleasure of a well-made Japanese sweet."
+  },
+  {
+    "type": "HediffDef",
+    "key": "WA_Hediff_Youkan.stages.The_texture_that_is_smooth_enough_to_collapse_as_soon_as_it_contains_mouth_is_the_ultimate_gem.label",
+    "source": "The texture that is smooth enough to collapse as soon as it contains mouth is the ultimate gem!",
+    "french": "Cette douceur fond dans la bouche : un véritable délice !",
+    "english": "This smooth sweet melts in the mouth. A real treat!"
+  },
+  {
+    "type": "JobDef",
+    "key": "Make_GreenTea.reportString",
+    "source": "Enjoy Tea Ceremony",
+    "french": "Profite de la cérémonie du thé.",
+    "english": "Enjoying a tea ceremony."
+  },
+  {
+    "type": "JobDef",
+    "key": "WatchTheFire.reportString",
+    "source": "Looking at the fire in the hearth.",
+    "french": "Contemple le feu du foyer.",
+    "english": "Looking at the fire in the hearth."
+  },
+  {
+    "type": "JobDef",
+    "key": "Drink_GreenTea.reportString",
+    "source": "Enjoy Tea Ceremony",
+    "french": "Profite de la cérémonie du thé.",
+    "english": "Enjoying a tea ceremony."
+  },
+  {
+    "type": "JobDef",
+    "key": "Play_Koto.reportString",
+    "source": "箏で美しい音色を奏でている。",
+    "french": "Joue une douce mélodie au koto.",
+    "english": "Playing a gentle melody on the koto."
+  },
+  {
+    "type": "JobDef",
+    "key": "Play_PoemCardGame.reportString",
+    "source": "百人一首を遊んでいる。",
+    "french": "Joue au karuta des cent poètes.",
+    "english": "Playing hundred-poets karuta."
+  },
+  {
+    "type": "JobDef",
+    "key": "Play_BozuMekuri.reportString",
+    "source": "坊主めくりを遊んでいる。",
+    "french": "Joue au bōzu mekuri.",
+    "english": "Playing bozu mekuri."
+  },
+  {
+    "type": "JobDef",
+    "key": "Play_ShellMatching.reportString",
+    "source": "貝合わせをして遊んでいる。",
+    "french": "Joue à associer des coquillages.",
+    "english": "Playing shell matching."
+  },
+  {
+    "type": "JobDef",
+    "key": "Play_Sugoroku.reportString",
+    "source": "双六で競い合っている。",
+    "french": "Joue au sugoroku.",
+    "english": "Playing sugoroku."
+  },
+  {
+    "type": "JobDef",
+    "key": "Enjoy_Aroma.reportString",
+    "source": "香炉を焚いて香りを楽しんでいる。",
+    "french": "Profite du parfum de l'encens.",
+    "english": "Enjoying the scent of incense."
+  },
+  {
+    "type": "JobDef",
+    "key": "PuffTobaccoPipe.reportString",
+    "source": "優雅に煙管をふかしている。",
+    "french": "Fume tranquillement la pipe.",
+    "english": "Smoking a pipe."
+  },
+  {
+    "type": "JoyKindDef",
+    "key": "Enjoy_ChanoYu.label",
+    "source": "Enjoy Tea Ceremony",
+    "french": "Profite de la cérémonie du thé.",
+    "english": "Enjoying a tea ceremony."
+  },
+  {
+    "type": "JoyKindDef",
+    "key": "Play_Music.label",
+    "source": "Playing Music",
+    "french": "Musique",
+    "english": "Playing Music"
+  },
+  {
+    "type": "JoyKindDef",
+    "key": "Enjoy_WA.label",
+    "source": "Enjoy Miyabi",
+    "french": "Loisirs traditionnels japonais",
+    "english": "Traditional Japanese pastimes"
+  },
+  {
+    "type": "ApparelLayerDef",
+    "key": "WA_Kimono.label",
+    "source": "Kimono",
+    "french": "Kimono",
+    "english": "Kimono"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_DigSoil.label",
+    "source": "dig soil",
+    "french": "récolter de la terre",
+    "english": "dig soil"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_DigSoil.description",
+    "source": "Dig up and carry in packed earth.",
+    "french": "Creuser et rapporter de la terre compacte.",
+    "english": "Dig up and carry in packed earth."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_DigSoil.jobString",
+    "source": "Digging soil.",
+    "french": "Récolte de la terre.",
+    "english": "Digging soil."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MakeCharcoal.label",
+    "source": "burn charcoal",
+    "french": "produire du charbon de bois",
+    "english": "burn charcoal"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MakeCharcoal.description",
+    "source": "Smother a wood fire so it chars the wood instead of consuming it.",
+    "french": "Étouffer un feu de bois pour carboniser le bois au lieu de le consumer.",
+    "english": "Smother a wood fire so it chars the wood instead of consuming it."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MakeCharcoal.jobString",
+    "source": "Burning charcoal.",
+    "french": "Produit du charbon de bois.",
+    "english": "Burning charcoal."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_SimpleMeal.label",
+    "source": "MassCook MealSimple(6)",
+    "french": "Préparer 6 repas simples",
+    "english": "Cook simple meals x6"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_SimpleMeal.description",
+    "source": "cook simple meal",
+    "french": "Préparer un repas simple.",
+    "english": "Cook a simple meal."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_SimpleMeal.jobString",
+    "source": "Mass cooking simple meal.",
+    "french": "Prépare des repas simples en quantité.",
+    "english": "Cooking simple meals in bulk."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_FineMeal.label",
+    "source": "MassCook MealFine(6)",
+    "french": "Préparer 6 repas raffinés",
+    "english": "Cook fine meals x6"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_FineMeal.description",
+    "source": "Cook a somewhat complex meal from a combination of meat and plant ingredients.",
+    "french": "Préparer un repas élaboré à partir de viande et de végétaux.",
+    "english": "Cook a somewhat complex meal from a combination of meat and plant ingredients."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_FineMeal.jobString",
+    "source": "Mass cooking fine meal.",
+    "french": "Prépare des repas raffinés en quantité.",
+    "english": "Cooking fine meals in bulk."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_LavishMeal.label",
+    "source": "MassCook MealLavish(6)",
+    "french": "Préparer 6 repas gastronomiques",
+    "english": "Cook lavish meals x6"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_LavishMeal.description",
+    "source": "Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted.",
+    "french": "Préparer un repas très élaboré à partir de viande et de végétaux. Une grande partie des ingrédients est perdue.",
+    "english": "Cook a very complex meal from a combination of meat and plant ingredients. Much of the ingredients are wasted."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_MassCook_LavishMeal.jobString",
+    "source": "Mass cooking lavish meal.",
+    "french": "Prépare des repas gastronomiques en quantité.",
+    "english": "Cooking lavish meals in bulk."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_GreenTea.label",
+    "source": "Make Green Tea",
+    "french": "Préparer du thé vert",
+    "english": "Make Green Tea"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_GreenTea.description",
+    "source": "Dissolve tea leaves in powdered form in hot water and sprinkle tea.",
+    "french": "Mélanger des feuilles de thé réduites en poudre à de l'eau chaude.",
+    "english": "Whisk powdered tea leaves into hot water."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_GreenTea.jobString",
+    "source": "Making Green Tea",
+    "french": "Prépare du thé vert.",
+    "english": "Making Green Tea"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Daifuku.label",
+    "source": "Make Ichigo Daifuku",
+    "french": "Préparer des ichigo daifuku",
+    "english": "Make Ichigo Daifuku"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Daifuku.description",
+    "source": "Make big strawberries wrapped in bean paste and rice cake.",
+    "french": "Envelopper de grosses fraises de pâte de haricots rouges et de mochi.",
+    "english": "Wrap strawberries in sweet bean paste and mochi."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Daifuku.jobString",
+    "source": "Making Ichigo Daifuku.",
+    "french": "Prépare des ichigo daifuku.",
+    "english": "Making Ichigo Daifuku."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Dango.label",
+    "source": "Make Mitarashi dumplings",
+    "french": "Préparer des mitarashi dango",
+    "english": "Make Mitarashi dumplings"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Dango.description",
+    "source": "Make rice flour dumplings with a sweet amber colored sauce.",
+    "french": "Préparer des boulettes de farine de riz nappées d'une sauce ambrée sucrée-salée.",
+    "english": "Make rice flour dumplings with a sweet amber colored sauce."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Dango.jobString",
+    "source": "Making Mitarashi dumplings.",
+    "french": "Prépare des mitarashi dango.",
+    "english": "Making Mitarashi dumplings."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Geppei.label",
+    "source": "Make Geppei",
+    "french": "Préparer des geppei",
+    "english": "Make Geppei"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Geppei.description",
+    "source": "Wrap the red bean paste in a dough and bake it.",
+    "french": "Envelopper de la pâte de haricots rouges dans une pâte à gâteau et la cuire.",
+    "english": "Wrap sweet bean paste in pastry and bake it."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Geppei.jobString",
+    "source": "Making Geppei.",
+    "french": "Prépare des geppei.",
+    "english": "Making Geppei."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kashiwa.label",
+    "source": "Make Kashiwa Mochi",
+    "french": "Préparer des kashiwa mochi",
+    "english": "Make Kashiwa Mochi"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kashiwa.description",
+    "source": "Wrapped in red bean paste with rice cake, wrapped in leaves of bamboo to make.",
+    "french": "Envelopper de la pâte de haricots rouges dans du mochi, puis dans une feuille de chêne.",
+    "english": "Wrap sweet bean paste in mochi, then wrap the cake in an oak leaf."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kashiwa.jobString",
+    "source": "Making Kashiwa Mochi.",
+    "french": "Prépare des kashiwa mochi.",
+    "english": "Making Kashiwa Mochi."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kasuteira.label",
+    "source": "Make Kasuteira",
+    "french": "Préparer du kasutera",
+    "english": "Make Kasuteira"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kasuteira.description",
+    "source": "Bubble the egg whites and mix the flour and sugar mixed dough.",
+    "french": "Mélanger des œufs battus, de la farine et du sucre pour obtenir un gâteau moelleux.",
+    "english": "Mix beaten eggs, flour and sugar into a light cake batter."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kasuteira.jobString",
+    "source": "Making Kasuteira.",
+    "french": "Prépare du kasutera.",
+    "english": "Making Kasuteira."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kintuba.label",
+    "source": "Make Kintuba",
+    "french": "Préparer des kintsuba",
+    "english": "Make Kintuba"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kintuba.description",
+    "source": "Stir the grain bean paste with agar, bake each side with flour which is dissolved with water.",
+    "french": "Faire prendre la pâte de haricots rouges avec de l'agar-agar, puis cuire chaque face sous une fine couche de pâte.",
+    "english": "Set sweet bean paste with agar, then coat and cook each face in a thin batter."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Kintuba.jobString",
+    "source": "Making Kintuba.",
+    "french": "Prépare des kintsuba.",
+    "english": "Making Kintuba."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Nerikiri.label",
+    "source": "Make Nerikiri",
+    "french": "Préparer des nerikiri",
+    "english": "Make Nerikiri"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Nerikiri.description",
+    "source": "Add ingredients for the tie to the tinted bean paste, adjust and make it by making it.",
+    "french": "Mélanger un liant à de la pâte de haricots colorée, puis façonner des pâtisseries décoratives.",
+    "english": "Mix a binder into coloured bean paste and shape it into decorative sweets."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Nerikiri.jobString",
+    "source": "Making Nerikiri.",
+    "french": "Prépare des nerikiri.",
+    "english": "Making Nerikiri."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_SakuraNUguisu.label",
+    "source": "Make Sakura Mochi and Uguisu Mochi",
+    "french": "Préparer des sakura et uguisu mochi",
+    "english": "Make Sakura Mochi and Uguisu Mochi"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_SakuraNUguisu.description",
+    "source": "I make wrapped bean paste with two types of leather that colors spring.",
+    "french": "Envelopper de la pâte de haricots dans deux pâtes aux couleurs du printemps.",
+    "english": "Wrap sweet bean paste in two kinds of colourful spring mochi."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_SakuraNUguisu.jobString",
+    "source": "Making Sakura Mochi and Uguisu Mochi.",
+    "french": "Prépare des sakura et uguisu mochi.",
+    "english": "Making Sakura Mochi and Uguisu Mochi."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Youkan.label",
+    "source": "Make Youkan",
+    "french": "Préparer du yōkan",
+    "english": "Make Youkan"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Youkan.description",
+    "source": "Add the agar to the red bean paste and boil down to make it.",
+    "french": "Faire cuire de la pâte de haricots rouges avec de l'agar-agar pour la faire prendre.",
+    "english": "Cook sweet bean paste with agar to make a firm sweet."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Recipe_Youkan.jobString",
+    "source": "Making Youkan.",
+    "french": "Prépare du yōkan.",
+    "english": "Making Youkan."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Igusa2Medicine.label",
+    "source": "Purification Medicine",
+    "french": "Préparer des remèdes",
+    "english": "Prepare herbal medicine"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Igusa2Medicine.description",
+    "source": "Purify rush as MedicineHerbals.",
+    "french": "Transformer le jonc en remèdes à base de plantes.",
+    "english": "Process rush into herbal medicine."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "WA_Igusa2Medicine.jobString",
+    "source": "Purify rush.",
+    "french": "Prépare des remèdes à base de jonc.",
+    "english": "Preparing rush medicine."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "RPC_MakePureSilk.label",
+    "source": "Weaving silk",
+    "french": "Tisser de la soie",
+    "english": "Weaving silk"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "RPC_MakePureSilk.description",
+    "source": "Weaving Pure Silk from cocoon.",
+    "french": "Tisser de la soie pure à partir de cocons.",
+    "english": "Weave pure silk from silkworm cocoons."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "RPC_MakePureSilk.jobString",
+    "source": "Weaving silk.",
+    "french": "Tisse de la soie.",
+    "english": "Weaving silk."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "RPC_MakePaper.label",
+    "source": "Combing the Japanese paper",
+    "french": "Fabriquer du papier japonais",
+    "english": "Make Japanese paper"
+  },
+  {
+    "type": "RecipeDef",
+    "key": "RPC_MakePaper.description",
+    "source": "Combing the Japanese paper from Kouzo",
+    "french": "Fabriquer du papier japonais à partir d'écorce de kōzo.",
+    "english": "Make Japanese paper from kozo bark fibres."
+  },
+  {
+    "type": "RecipeDef",
+    "key": "RPC_MakePaper.jobString",
+    "source": "Combing paper.",
+    "french": "Fabrique du papier.",
+    "english": "Making paper."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Basic.label",
+    "source": "WA Basic",
+    "french": "Fondements japonais",
+    "english": "WA Basic"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Basic.description",
+    "source": "Learn the basics of Japanese technology. We will be able to study various Japanese technologies.",
+    "french": "Apprendre les bases des techniques japonaises pour accéder à leurs différents domaines.",
+    "english": "Learn the foundations of Japanese techniques to unlock further research."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Basic.label",
+    "source": "Building Basic",
+    "french": "Architecture élémentaire",
+    "english": "Basic architecture"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Basic.description",
+    "source": "Learn the basics of Japanese style building Technology.We will be able to build basic walls and fences",
+    "french": "Apprendre les bases de l'architecture japonaise pour construire des murs et clôtures simples.",
+    "english": "Learn basic Japanese building techniques to construct simple walls and fences."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Advanced.label",
+    "source": "Building Advanced",
+    "french": "Architecture avancée",
+    "english": "Advanced architecture"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Advanced.description",
+    "source": "Learn the application of Japanese style building Technology.We will be able to build various walls and fences.",
+    "french": "Approfondir les techniques japonaises pour construire des murs et clôtures variés.",
+    "english": "Learn advanced Japanese building techniques to construct a wider range of walls and fences."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Castle.label",
+    "source": "Building Castle",
+    "french": "Architecture fortifiée",
+    "english": "Fortified architecture"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Castle.description",
+    "source": "Learn the Japanese style casting technology.We will be able to build Robust building for defense.",
+    "french": "Apprendre les techniques japonaises de fortification pour construire de solides défenses.",
+    "english": "Learn Japanese fortification techniques to build strong defensive structures."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Garden.label",
+    "source": "Gardening",
+    "french": "Jardins",
+    "english": "Gardening"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Garden.description",
+    "source": "Learn the Japanese style gardening technology.We will be able to build the landscape.",
+    "french": "Apprendre les techniques de jardinage japonaises pour aménager le paysage.",
+    "english": "Learn Japanese gardening techniques to shape the landscape."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Funiture.label",
+    "source": "Funiture",
+    "french": "Mobilier",
+    "english": "Furniture"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Funiture.description",
+    "source": "Learn the Japanese style funiture technology.We will be able to build various furniture.",
+    "french": "Apprendre à fabriquer divers meubles de style japonais.",
+    "english": "Learn to make Japanese-style furniture."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Amusement.label",
+    "source": "Amusement",
+    "french": "Loisirs",
+    "english": "Amusement"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Building_Amusement.description",
+    "source": "Learn the Japanese style Entertainment technology.We will be able to build some entertainment supplies.",
+    "french": "Apprendre à fabriquer des objets de loisirs traditionnels japonais.",
+    "english": "Learn to make equipment for traditional Japanese pastimes."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Art.label",
+    "source": "Art",
+    "french": "Art",
+    "english": "Art"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Art.description",
+    "source": "Learn art.You will be able to make beautiful art pieces.",
+    "french": "Apprendre à réaliser de belles œuvres d'art.",
+    "english": "Learn to create beautiful works of art."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Farming.label",
+    "source": "Farming",
+    "french": "Agriculture",
+    "english": "Farming"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Farming.description",
+    "source": "Learn cultivation of plants indispensable for Japanese style living.",
+    "french": "Apprendre à cultiver les plantes indispensables à la vie japonaise.",
+    "english": "Learn cultivation of plants indispensable for Japanese style living."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_TeaTimeset.label",
+    "source": "Tea Time",
+    "french": "L'heure du thé",
+    "english": "Tea Time"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_TeaTimeset.description",
+    "source": "Learn how to make tea.We will be able to make tea and kinds of tea confectionery.",
+    "french": "Apprendre à préparer le thé et les pâtisseries qui l'accompagnent.",
+    "english": "Learn to prepare tea and traditional sweets to accompany it."
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Dressing.label",
+    "source": "Dress up",
+    "french": "Habillement",
+    "english": "Dress up"
+  },
+  {
+    "type": "ResearchProjectDef",
+    "key": "WA_Research_Dressing.description",
+    "source": "Learn how to make daily clothing.",
+    "french": "Apprendre à confectionner des vêtements du quotidien.",
+    "english": "Learn how to make daily clothing."
+  },
+  {
+    "type": "ResearchTabDef",
+    "key": "WA_Research.label",
+    "source": "WA",
+    "french": "WA",
+    "english": "WA"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Moss.description",
+    "source": "In Japan, moss is subject to appreciation. Moss growing beautifully in the garden and bonsai has been loved for a long time.",
+    "french": "Au Japon, la mousse est appréciée pour sa beauté. Elle orne depuis longtemps jardins et compositions de bonsaïs.",
+    "english": "In Japan, moss is subject to appreciation. Moss growing beautifully in the garden and bonsai has been loved for a long time."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Moss.label",
+    "source": "Moss",
+    "french": "Mousse",
+    "english": "Moss"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelSandstone.description",
+    "source": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention.",
+    "french": "Petits graviers destinés aux jardins, aux entrées et aux aménagements extérieurs. Ils décorent les lieux, freinent les mauvaises herbes et rendent les pas plus audibles.",
+    "english": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelSandstone.label",
+    "source": "Sandstone Gravel",
+    "french": "Gravier de grès",
+    "english": "Sandstone Gravel"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelGranite.description",
+    "source": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention.",
+    "french": "Petits graviers destinés aux jardins, aux entrées et aux aménagements extérieurs. Ils décorent les lieux, freinent les mauvaises herbes et rendent les pas plus audibles.",
+    "english": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelGranite.label",
+    "source": "Granite Gravel",
+    "french": "Gravier de granit",
+    "english": "Granite Gravel"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelLimestone.description",
+    "source": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention.",
+    "french": "Petits graviers destinés aux jardins, aux entrées et aux aménagements extérieurs. Ils décorent les lieux, freinent les mauvaises herbes et rendent les pas plus audibles.",
+    "english": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelLimestone.label",
+    "source": "Limestone Gravel",
+    "french": "Gravier de calcaire",
+    "english": "Limestone Gravel"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelSlate.description",
+    "source": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention.",
+    "french": "Petits graviers destinés aux jardins, aux entrées et aux aménagements extérieurs. Ils décorent les lieux, freinent les mauvaises herbes et rendent les pas plus audibles.",
+    "english": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelSlate.label",
+    "source": "Slate Gravel",
+    "french": "Gravier d'ardoise",
+    "english": "Slate Gravel"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelMarble.description",
+    "source": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention.",
+    "french": "Petits graviers destinés aux jardins, aux entrées et aux aménagements extérieurs. Ils décorent les lieux, freinent les mauvaises herbes et rendent les pas plus audibles.",
+    "english": "It is a small stone grain spreading in the garden and the outside structure.\nIt is used for the decoration of the garden, entrance hall, implantation.\nIn addition to decoration it hinders the growth of weeds, it also helps crime prevention."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_GravelMarble.label",
+    "source": "Marble Gravel",
+    "french": "Gravier de marbre",
+    "english": "Marble Gravel"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Green.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Green.label",
+    "source": "Tatami(Green)",
+    "french": "Tatami vert",
+    "english": "Tatami(Green)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Lime.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Lime.label",
+    "source": "Tatami(Lime)",
+    "french": "Tatami vert citron",
+    "english": "Tatami(Lime)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Yellow.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Yellow.label",
+    "source": "Tatami(Yellow)",
+    "french": "Tatami jaune",
+    "english": "Tatami(Yellow)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Orange.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Orange.label",
+    "source": "Tatami(Orange)",
+    "french": "Tatami orange",
+    "english": "Tatami(Orange)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_White.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_White.label",
+    "source": "Tatami(White)",
+    "french": "Tatami blanc",
+    "english": "Tatami(White)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Cherry.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Cherry.label",
+    "source": "Tatami(Cherry)",
+    "french": "Tatami rose cerisier",
+    "english": "Tatami(Cherry)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Gray.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Gray.label",
+    "source": "Tatami(Gray)",
+    "french": "Tatami gris",
+    "english": "Tatami(Gray)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Dark.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Dark.label",
+    "source": "Tatami(Dark)",
+    "french": "Tatami sombre",
+    "english": "Tatami(Dark)"
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Black.description",
+    "source": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity.",
+    "french": "Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.",
+    "english": "Tatami is called Straw mats and is laid on the floor of a Japanese style room. It has been used since ancient times during the Heian period, and has long been loved as a culture unique to Japan.Originally green and yellow were often used, but in recent years tatami of various colors was created and gaining popularity."
+  },
+  {
+    "type": "TerrainDef",
+    "key": "WA_Seat_Tatami_Black.label",
+    "source": "Tatami(Black)",
+    "french": "Tatami noir",
+    "english": "Tatami(Black)"
+  },
+  {
+    "type": "ThingCategoryDef",
+    "key": "WA_Category_Dreassing.label",
+    "source": "和装",
+    "french": "Vêtements japonais",
+    "english": "Japanese clothing"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Aquarium.label",
+    "source": "Aquarium",
+    "french": "Aquarium",
+    "english": "Aquarium"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Aquarium.description",
+    "source": "As it became possible to produce colorless glass at the end of the Edo era, glass aquariums became widely spread among the commoners.\nThe aquarium containing the goldfish makes the viewer cool.",
+    "french": "Un aquarium de poissons rouges qui invite à la contemplation. Les aquariums en verre se sont répandus avec l'amélioration de la fabrication du verre à la fin de l'époque d'Edo.",
+    "english": "As it became possible to produce colorless glass at the end of the Edo era, glass aquariums became widely spread among the commoners.\nThe aquarium containing the goldfish makes the viewer cool."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_01Toudai.label",
+    "source": "Cow dung lighthouse",
+    "french": "Lampe à huile sur pied",
+    "english": "Oil lamp stand"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_01Toudai.description",
+    "source": "The lighthouse lights the light with a light on the lamp core soaked in \"kerosene\" produced from the animal's oil.\nIt is said that it began to be used around the Heian era, and it is said that the aristocratic group used to love mainly.\nCow dung lighthouse has been called by this name because its base part resembles the form of cow dung.",
+    "french": "Une lampe dont la mèche trempe dans de l'huile. Son socle évoque une bouse de vache, à l'origine de son nom traditionnel. Ce type d'éclairage était notamment utilisé par les aristocrates.",
+    "english": "An oil lamp with a wick resting in a shallow dish. Its traditional name refers to the shape of its base, which resembles cow dung. Such lamps were once used in aristocratic households."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_02Gatou.label",
+    "source": "Gato",
+    "french": "Lampe gatō",
+    "english": "Gato"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_02Gatou.description",
+    "source": "Gato is also a lighting fixture made from \"kerosene\" made from animal fat.\nIt began to be used around the Muromachi period, and it circulated enough to be used as a light source for the common people in the Edo period.\nIt is called a tile light because it makes it by baking it using the same soil as the Kawara.\nIt is one of the popular reasons to be flame retardant materials.",
+    "french": "Une lampe à huile en terre cuite, fabriquée avec une argile semblable à celle des tuiles. Son matériau résiste au feu et son usage s'est répandu dans les foyers japonais.",
+    "english": "A clay oil lamp made from material similar to roof tiles. Its fire-resistant construction helped it become a common household light."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_03Andon.label",
+    "source": "Ariake lantern",
+    "french": "Lanterne ariake",
+    "english": "Ariake lantern"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_03Andon.description",
+    "source": "Lighthouses and Gato were problematic in windshields, so lanterns wrapped in Japanese paper were invented.\nLanterns were originally used for carrying, but since it was \"kerosene\" made from animal oil, there is a difficulty in portability and it will be used for indoor stationary use.\nAriake lanterns can be illuminated brightly when used out from the box, and when used in a box it gained popularity as an excellent one that can be used as a bedtime light with suppressed brightness.",
+    "french": "Une lanterne protégée par du papier japonais. Sortie de son coffret, elle éclaire largement ; replacée à l'intérieur, elle diffuse une lumière douce pour la nuit.",
+    "english": "A paper-covered lantern that shelters its flame. Outside its box it gives a brighter light; inside, it becomes a subdued night light."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_04Bonbori.label",
+    "source": "Bonbori",
+    "french": "Bonbori",
+    "english": "Bonbori"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_04Bonbori.description",
+    "source": "The weak point of kerosene which is liquid is easy to spill and lack portability.\nSo lighting using candles that will not spill will be accepted.\nSnow cave is made by covering a candle on a candlestick with paper or cloth, and something of various shapes such as square, hexagon, octagon, round shape etc are made.\nEven now there are habits left to decorate Bonbori during events such as dolls' festival.",
+    "french": "Une lanterne dont une armature de formes variées est couverte de papier ou de tissu. Les bonbori décorent encore les fêtes traditionnelles, notamment la fête des poupées.",
+    "english": "A lantern made by covering a frame with paper or cloth around a candle. Bonbori still decorate traditional celebrations such as the Doll Festival."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_05Chouchin.label",
+    "source": "Chochin",
+    "french": "Chōchin",
+    "english": "Chochin"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_05Chouchin.description",
+    "source": "Chochin is also lighting with a candle, which is very light because it covers the body made of bamboo chicken and Japanese paper.\nIt became a structure that can be folded up, and because of its portability it became an alternative to lighting for portability.\nIt is said that it was made in the Azuchi-Momoyama period and spread in the Edo period.\nFurthermore, even now the contents are different and loved and it continues to be used.",
+    "french": "Une lanterne légère de papier japonais tendu sur une armature de bambou pliable. Facile à transporter, elle accompagne depuis longtemps les rues et les fêtes.",
+    "english": "A lightweight paper lantern stretched over a folding bamboo frame. Portable and compact, it has long been used in streets and at festivals."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_06Bonfire.label",
+    "source": "Bonfire",
+    "french": "Feu sur brasero",
+    "english": "Bonfire"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_06Bonfire.description",
+    "source": "Bonfire are one of the lighting fixtures since ancient times, mainly installed outdoors.\nPut the fire in a steel basket with fuel like pine as a fuel.\nIn addition to being used for outdoor events such as martial forces and festivals, it also fulfills the role of a fishing light on fishing boats.\nEven now it is used at night festival events and cormorants.",
+    "french": "Un feu extérieur contenu dans une corbeille métallique. Il éclaire les rassemblements, les fêtes et certains bateaux de pêche.",
+    "english": "An outdoor fire held in a metal basket. It lights gatherings, festivals and some fishing boats."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_07LongBrazier.label",
+    "source": "Brazier",
+    "french": "Brasero",
+    "english": "Brazier"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Glow_07LongBrazier.description",
+    "source": "Brazier is half-filled with burning charcoal.\nIt is one of the traditional heating devices.\nIn addition to heating, you can boil tea or tobacco pipe.",
+    "french": "Un récipient partiellement rempli de charbon incandescent. Il sert à chauffer la pièce, à faire chauffer le thé ou à allumer une pipe.",
+    "english": "A vessel partly filled with glowing charcoal. It provides warmth and can heat tea or light a pipe."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Red.label",
+    "source": "Zabuton(Red)",
+    "french": "Zabuton rouge",
+    "english": "Zabuton(Red)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Red.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Pink.label",
+    "source": "Zabuton(Pink)",
+    "french": "Zabuton rose",
+    "english": "Zabuton(Pink)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Pink.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Yellow.label",
+    "source": "Zabuton(Yellow)",
+    "french": "Zabuton jaune",
+    "english": "Zabuton(Yellow)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Yellow.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Green.label",
+    "source": "Zabuton(Green)",
+    "french": "Zabuton vert",
+    "english": "Zabuton(Green)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Green.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Blue.label",
+    "source": "Zabuton(Blue)",
+    "french": "Zabuton bleu",
+    "english": "Zabuton(Blue)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Blue.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Purple.label",
+    "source": "Zabuton(Purple)",
+    "french": "Zabuton violet",
+    "english": "Zabuton(Purple)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Purple.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Black.label",
+    "source": "Zabuton(Black)",
+    "french": "Zabuton noir",
+    "english": "Zabuton(Black)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_Black.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_White.label",
+    "source": "Zabuton(White)",
+    "french": "Zabuton blanc",
+    "english": "Zabuton(White)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Seat_Zabuton_White.description",
+    "source": "The cushion contains cotton etc. as a cushioning material in a cloth bag and is used for sitting on tatami mats and floor.\\n\nElasticity as much as Namba cushion is not required and the main purpose is to prevent body temperature from being deprived to the floor.\\n\nIt was made around the Kamakura period, originally used as a symbol of power of authority and high priest.\\n\nIt is said that middle people of the Edo period spread widely among ordinary people.\\n\nIt is a design which was originally completed, and it is widely used even now.",
+    "french": "Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.",
+    "english": "A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveA.label",
+    "source": "Alcove(Pine)",
+    "french": "Alcôve au pin",
+    "english": "Alcove(Pine)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveA.description",
+    "source": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed.",
+    "french": "Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.",
+    "english": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveB.label",
+    "source": "Alcove(Sakura)",
+    "french": "Alcôve au cerisier",
+    "english": "Alcove(Sakura)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveB.description",
+    "source": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed.",
+    "french": "Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.",
+    "english": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveC.label",
+    "source": "Alcove(nandina)",
+    "french": "Alcôve au nandina",
+    "english": "Alcove(nandina)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveC.description",
+    "source": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed.",
+    "french": "Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.",
+    "english": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveD.label",
+    "source": "Alcove(Moon)",
+    "french": "Alcôve à la lune",
+    "english": "Alcove(Moon)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveD.description",
+    "source": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed.",
+    "french": "Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.",
+    "english": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveE.label",
+    "source": "Alcove(Holly)",
+    "french": "Alcôve au houx",
+    "english": "Alcove(Holly)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_AlcoveE.description",
+    "source": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed.",
+    "french": "Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.",
+    "english": "Tokonoma is a recessed alcove in a Japanese-style\nroom. It is a place of honor where a hanging scroll,\nvase of arranged flowers or other ornaments are \ndisplayed."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Koto.label",
+    "source": "Koto",
+    "french": "Koto",
+    "english": "Koto"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Koto.description",
+    "source": "Koto is a thirteen-stringed musical instrumentsimilar to a zither.The stirngs stretch over an oblong board.",
+    "french": "Une cithare japonaise à treize cordes tendues sur une longue caisse de bois.",
+    "english": "A Japanese thirteen-stringed zither with strings stretched over a long wooden body."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Karuta.label",
+    "source": "Karuta",
+    "french": "Karuta",
+    "english": "Karuta"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Karuta.description",
+    "source": "Karuta is an indoor playground equipment that uses cards, mainly playing in the New Year.",
+    "french": "Un jeu de cartes traditionnel japonais, particulièrement apprécié au Nouvel An.",
+    "english": "A traditional Japanese card game, especially popular at New Year."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_ShellMatching.label",
+    "source": "ShellMatching",
+    "french": "Jeu de coquillages",
+    "english": "Shell matching"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_ShellMatching.description",
+    "source": "Shell Matching is a Japanese game transmitted from the Heian period. It was a play of aristocrats who competed for coloring of seashells, beauty of shape, rarity, or singing songs with the shellfish as a theme and competing for superiority or inferiority.",
+    "french": "Un loisir traditionnel où l'on associe des coquillages. Il évoque les jeux de cour de l'époque de Heian, où l'on admirait leur forme et leurs couleurs et composait des poèmes.",
+    "english": "A traditional game of matching shells, recalling courtly pastimes in which their shapes, colours and associated poetry were admired."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Sugoroku.label",
+    "source": "Sugoroku",
+    "french": "Sugoroku",
+    "english": "Sugoroku"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Sugoroku.description",
+    "source": "Sugoroku is a board game that advances the piece in the square according to the eyes that waved the dice and brings it closer.",
+    "french": "Un jeu de plateau où les pions avancent selon le résultat des dés.",
+    "english": "A board game in which players move their pieces according to dice rolls."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Cassolette.label",
+    "source": "Cassolette",
+    "french": "Brûle-encens",
+    "english": "Incense burner"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Cassolette.description",
+    "source": "An Cassolette is used to heat a perfume in a solid state and emit fragrance components.The nobility of the Heian period was a routine thing for men and women to be able to wear kimonos into incense burners and smell their bodies and clothes with scents.",
+    "french": "Un récipient servant à chauffer de l'encens solide pour en libérer le parfum. À la cour de Heian, on parfumait aussi les vêtements à la fumée d'encens.",
+    "english": "A vessel for heating solid incense to release its scent. At the Heian court, incense was also used to perfume clothing."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma01_Akebono.label",
+    "source": "Fusuma-Dawn",
+    "french": "Fusuma à l'aube",
+    "english": "Fusuma-Dawn"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma01_Akebono.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma02_Yoru.label",
+    "source": "Fusuma-Night",
+    "french": "Fusuma de nuit",
+    "english": "Fusuma-Night"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma02_Yoru.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma03_Yuugure.label",
+    "source": "Fusuma-Dusk",
+    "french": "Fusuma au crépuscule",
+    "english": "Fusuma-Dusk"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma03_Yuugure.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma04_Tutomete.label",
+    "source": "Fusuma-Morning",
+    "french": "Fusuma du matin",
+    "english": "Fusuma-Morning"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma04_Tutomete.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma05_Spring.label",
+    "source": "Fusuma-Spring",
+    "french": "Fusuma de printemps",
+    "english": "Fusuma-Spring"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma05_Spring.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma06_Summer.label",
+    "source": "Fusuma-Summer",
+    "french": "Fusuma d'été",
+    "english": "Fusuma-Summer"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma06_Summer.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma07_Autumn.label",
+    "source": "Fusuma-Autumn",
+    "french": "Fusuma d'automne",
+    "english": "Fusuma-Autumn"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma07_Autumn.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma08_Winter.label",
+    "source": "Fusuma-Winter",
+    "french": "Fusuma d'hiver",
+    "english": "Fusuma-Winter"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma08_Winter.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma09_White.label",
+    "source": "Fusuma-White",
+    "french": "Fusuma blanc",
+    "english": "Fusuma-White"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fusuma09_White.description",
+    "source": "Fusuma is made by stretching paper and cloth on both sides of a framework made of wood and the like.\\n\nIt is very light, so you can open and close quickly, but durability is low.\\n\nAlthough the sliding door has arrived in China, the sliding door is supposed to originate in Japan.\\n\nOriginally it was originated \"during lying\" and began to be used as a partition of the bedroom.",
+    "french": "Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.",
+    "english": "A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji01_Square.label",
+    "source": "Shoji Square",
+    "french": "Shōji carré",
+    "english": "Shoji Square"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji01_Square.description",
+    "source": "Shoji paper is made by stretching thin paper in a grid-like framework. You can hide faint in the light.\nIt is very light, so you can open and close quickly, but durability is low.\nIt is said that the same form as the modern screed shoji appeared was around the time of the Kiyomori before the Kamakura period.\nBecause it is a structure that is extremely easy to break, it is a daily routine to open a hole in a shoji in a house with pets and children.",
+    "french": "Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.",
+    "english": "A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji02_Circle.label",
+    "source": "Shoji Circle",
+    "french": "Shōji circulaire",
+    "english": "Shoji Circle"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji02_Circle.description",
+    "source": "Shoji paper is made by stretching thin paper in a grid-like framework. You can hide faint in the light.\nIt is very light, so you can open and close quickly, but durability is low.\nIt is said that the same form as the modern screed shoji appeared was around the time of the Kiyomori before the Kamakura period.\nBecause it is a structure that is extremely easy to break, it is a daily routine to open a hole in a shoji in a house with pets and children.",
+    "french": "Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.",
+    "english": "A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji03_Combi.label",
+    "source": "Shoji Combi",
+    "french": "Shōji combiné",
+    "english": "Shoji Combi"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji03_Combi.description",
+    "source": "Shoji paper is made by stretching thin paper in a grid-like framework. You can hide faint in the light.\nIt is very light, so you can open and close quickly, but durability is low.\nIt is said that the same form as the modern screed shoji appeared was around the time of the Kiyomori before the Kamakura period.\nBecause it is a structure that is extremely easy to break, it is a daily routine to open a hole in a shoji in a house with pets and children.",
+    "french": "Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.",
+    "english": "A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji04_Deco.label",
+    "source": "Shoji Deco",
+    "french": "Shōji décoratif",
+    "english": "Shoji Deco"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Shoji04_Deco.description",
+    "source": "Shoji paper is made by stretching thin paper in a grid-like framework. You can hide faint in the light.\nIt is very light, so you can open and close quickly, but durability is low.\nIt is said that the same form as the modern screed shoji appeared was around the time of the Kiyomori before the Kamakura period.\nBecause it is a structure that is extremely easy to break, it is a daily routine to open a hole in a shoji in a house with pets and children.",
+    "french": "Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.",
+    "english": "A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FoldingScreen.label",
+    "source": "Folding Screen",
+    "french": "Paravent",
+    "english": "Folding Screen"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FoldingScreen.description",
+    "source": "Byobu is a folding screen which consists of a wooden frame covered with thick Japanese paper or cloth, usually silk.\nIt is used as a decorative screen or room devider.",
+    "french": "Un byōbu est un paravent pliant composé de cadres de bois couverts de papier japonais épais ou de tissu, souvent de soie. Il décore et sépare les espaces.",
+    "english": "A folding screen of wooden frames covered with thick Japanese paper or cloth, often silk. It decorates a room or divides the space."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon01m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon01m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon02m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon02m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon03m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon03m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon04m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon04m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon05m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon05m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon06m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon06m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon07m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon07m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon08m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon08m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon09m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon09m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon10m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon10m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon11m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon11m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon12m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon12m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon13m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Futon13m.label",
+    "source": "Futon",
+    "french": "Futon",
+    "english": "Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton01m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton01m.label",
+    "source": "Royal Futon",
+    "french": "Futon royal",
+    "english": "Royal Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton02m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton02m.label",
+    "source": "Royal Futon",
+    "french": "Futon royal",
+    "english": "Royal Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton03m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton03m.label",
+    "source": "Royal Futon",
+    "french": "Futon royal",
+    "english": "Royal Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton04m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton04m.label",
+    "source": "Double Futon",
+    "french": "Futon double",
+    "english": "Double Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton05m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton05m.label",
+    "source": "Double Futon",
+    "french": "Futon double",
+    "english": "Double Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton06m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.",
+    "french": "Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.",
+    "english": "A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_DFuton06m.label",
+    "source": "Double Futon",
+    "french": "Futon double",
+    "english": "Double Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton01m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton01m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton02m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton02m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton03m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton03m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton04m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton04m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton05m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton05m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton06m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton06m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton07m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton07m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton08m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton08m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton09m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton09m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton10m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton10m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton11m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton11m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton12m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton12m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton13m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is made for carrying and can be used like a bed roll.",
+    "french": "Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.",
+    "english": "A cotton-filled futon designed for carrying and use as a portable bedroll."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MFuton13m.label",
+    "source": "Mobile Futon",
+    "french": "Futon de voyage",
+    "english": "Mobile Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton01m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.",
+    "french": "Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.",
+    "english": "A futon with an antimicrobial treatment, suitable for medical care."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton01m.label",
+    "source": "Hospital Futon",
+    "french": "Futon médical",
+    "english": "Hospital Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton02m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.",
+    "french": "Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.",
+    "english": "A futon with an antimicrobial treatment, suitable for medical care."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton02m.label",
+    "source": "Hospital Futon",
+    "french": "Futon médical",
+    "english": "Hospital Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton03m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.",
+    "french": "Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.",
+    "english": "A futon with an antimicrobial treatment, suitable for medical care."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton03m.label",
+    "source": "Hospital Futon",
+    "french": "Futon médical",
+    "english": "Hospital Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton04m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.",
+    "french": "Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.",
+    "english": "A futon with an antimicrobial treatment, suitable for medical care."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton04m.label",
+    "source": "Hospital Futon",
+    "french": "Futon médical",
+    "english": "Hospital Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton05m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.",
+    "french": "Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.",
+    "english": "A futon with an antimicrobial treatment, suitable for medical care."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton05m.label",
+    "source": "Hospital Futon",
+    "french": "Futon médical",
+    "english": "Hospital Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton06m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.",
+    "french": "Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.",
+    "english": "A futon with an antimicrobial treatment, suitable for medical care."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton06m.label",
+    "source": "Hospital Futon",
+    "french": "Futon médical",
+    "english": "Hospital Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton07m.description",
+    "source": "Futon is a thick bed quilt or mattress stuffed with cottonwool.A set of futon placed on Tatami mats is used as bedding.This futon is highly antimicrobial treated and can be used in medical practice.",
+    "french": "Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.",
+    "english": "A futon with an antimicrobial treatment, suitable for medical care."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_HFuton07m.label",
+    "source": "Hospital Futon",
+    "french": "Futon médical",
+    "english": "Hospital Futon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Irori.label",
+    "source": "Irori",
+    "french": "Irori",
+    "english": "Irori"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Irori.description",
+    "source": "It is a type of furnace permanently installed indoors.\nIt is a corner established in traditional Japanese houses to cut off the floor square, open ash, spread firewood and charcoal fire.\nIt is of the type put in the middle of a large room and has various roles such as heating, cooking, lighting, drying.",
+    "french": "Un foyer aménagé dans une ouverture carrée du plancher, rempli de cendres, de bois et de charbon. Au centre d'une pièce, il sert à chauffer, cuisiner, éclairer et sécher.",
+    "english": "A sunken hearth in a square opening in the floor, filled with ash, wood and charcoal. It provides heating, cooking, light and a place to dry things."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Chagama.label",
+    "source": "Irori(TeaSet)",
+    "french": "Irori pour le thé",
+    "english": "Irori(TeaSet)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Chagama.description",
+    "source": "It is a type of furnace permanently installed indoors.\nIt is a corner established in traditional Japanese houses to cut off the floor square, open ash, spread firewood and charcoal fire.\nMost of the hearths used in the tea room are sized for one tatami mat, mainly used for boiling water.",
+    "french": "Un foyer aménagé dans le plancher d'une pièce de thé. Il sert principalement à chauffer l'eau de la cérémonie du thé.",
+    "english": "A sunken hearth set into the floor of a tea room, primarily used to heat water for tea."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Zabuton_Dummy.label",
+    "source": "ダミー座布団",
+    "french": "Zabuton auxiliaire",
+    "english": "Auxiliary zabuton"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Zabuton_Dummy.description",
+    "source": "ダミーです。",
+    "french": "Élément auxiliaire du foyer.",
+    "english": "An auxiliary hearth component."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_SutrasDesk.label",
+    "source": "sutra desk",
+    "french": "Bureau de copie des sutras",
+    "english": "sutra desk"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_SutrasDesk.description",
+    "source": "A low writing desk for copying sutras by hand. Slow, exacting work that doubles as a place to study.",
+    "french": "Un bureau bas pour recopier des sutras à la main. Un travail lent et minutieux, dans un espace qui sert aussi à étudier.",
+    "english": "A low writing desk for copying sutras by hand. Slow, exacting work that doubles as a place to study."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Kawara.label",
+    "source": "Rampart",
+    "french": "Rempart",
+    "english": "Rampart"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Kawara.description",
+    "source": "It is a type of painted wall.\nThe roof tiles(Kawara) roofed on the plastics wall also combine rain removal and decoration.\nAt that time the tiles were expensive, mainly used for the outer walls of samurai residences.",
+    "french": "Un mur enduit coiffé de tuiles. Ces tuiles le protègent de la pluie et le décorent ; autrefois coûteuses, elles ornaient notamment les enceintes des résidences de samouraïs.",
+    "english": "A plastered wall capped with roof tiles for weather protection and decoration. Such walls once surrounded the residences of samurai."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Demado.label",
+    "source": "Rampart(bay window)",
+    "french": "Rempart à fenêtre en saillie",
+    "english": "Rampart(bay window)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Demado.description",
+    "source": "It is one with a bay window attached to the wall with tiles.\nThe bay window functioned as a surveillance window besides the role of giving aesthetic appearance during normal times.\nIn addition, it fulfills the role of firearms and stone drops at wartime.",
+    "french": "Un mur coiffé de tuiles et doté d'une fenêtre en saillie. Celle-ci sert à observer les alentours et peut aider les défenseurs en cas d'attaque.",
+    "english": "A tiled wall with a projecting window for watching the surroundings and supporting its defenders."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_StoneWall.label",
+    "source": "Stone Wall",
+    "french": "Mur de pierre",
+    "english": "Stone Wall"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_StoneWall.description",
+    "source": "Ishigaki is a wall created by assembling stones and rocks, and is mainly used as a defense such as a castle.\nInitially it was just a stack of natural stones, but as the era has progressed, things that increased the defensibility by loading stones machined without gaps became mainstream.",
+    "french": "Un ishigaki est un mur de pierres assemblées, utilisé notamment dans les fortifications. Les ouvrages les plus élaborés emploient des pierres ajustées avec très peu d'interstices.",
+    "english": "Ishigaki is a wall created by assembling stones and rocks, and is mainly used as a defense such as a castle.\nInitially it was just a stack of natural stones, but as the era has progressed, things that increased the defensibility by loading stones machined without gaps became mainstream."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_WaterMoats.label",
+    "source": "Water Moats",
+    "french": "Douves en eau",
+    "english": "Water Moats"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_WaterMoats.description",
+    "source": "The moat was dug around the castle and temple from the ancient times to prevent invasion of enemies and animals.\nIt has width and depth that can not easily be exceeded and it functions as an important defense facility.\nThose water-trenched to the moat are called Mizuhori in particular, and have been incorporated into many castles since the modern era.",
+    "french": "Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue une défense supplémentaire.",
+    "english": "A wide, deep ditch around a fortification, filled with water to slow intruders."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_DryMoats.label",
+    "source": "Dry Moats",
+    "french": "Douves sèches",
+    "english": "Dry Moats"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_DryMoats.description",
+    "source": "The moat was dug around the castle and temple from the ancient times to prevent invasion of enemies and animals.\nIt has width and depth that can not easily be exceeded and it functions as an important defense facility.\nThose water-trenched to the moat are called Mizuhori in particular, and have been incorporated into many castles since the modern era.",
+    "french": "Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue une défense supplémentaire.",
+    "english": "A wide, deep ditch around a fortification, filled with water to slow intruders."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Step.label",
+    "source": "Step",
+    "french": "Marche",
+    "english": "Step"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Step.description",
+    "source": "The staircase is a structure to move to a place with a height difference.\nIt is divided into several horizontal stages with a height that can be raised and lowered by human feet.\nRimworld without the notion of step difference has no meaning other than appearance.",
+    "french": "Une marche décorative évoquant un escalier. RimWorld ne représentant pas les différences de niveau du sol, elle n'a ici qu'un rôle esthétique.",
+    "english": "A decorative step suggesting a change in floor level. RimWorld does not model such changes, so its role here is purely visual."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Gate_CastleGate.label",
+    "source": "Castle Gate",
+    "french": "Porte fortifiée",
+    "english": "Castle Gate"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Gate_CastleGate.description",
+    "source": "The castle gate was one of the few places to enter the castle and it was one of the most important defense lines at wartime.\nFor that reason, it was easy to make a robust structure that can not be withdrawn, and a lot of ingenious efforts were made for interception.",
+    "french": "Une entrée fortifiée, solide et conçue pour faciliter la défense d'un château.",
+    "english": "A strong, fortified castle entrance designed to aid its defenders."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Gate_IronGate.label",
+    "source": "Castle Door",
+    "french": "Porte de château",
+    "english": "Castle Door"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Gate_IronGate.description",
+    "source": "The castle gate was one of the few places to enter the castle and it was one of the most important defense lines at wartime.\nSome of the gate is made of heavy iron, and even just opening it required a very large effort.",
+    "french": "Une lourde porte protégeant l'entrée d'un château. Certaines portes historiques étaient renforcées de fer et difficiles à manœuvrer.",
+    "english": "A heavy door protecting a castle entrance, sometimes reinforced with iron."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fence_Yamatobei.label",
+    "source": "Yamato Fence",
+    "french": "Clôture yamato",
+    "english": "Yamato Fence"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fence_Yamatobei.description",
+    "source": "The fence is a workpiece that has the effect of preventing invasion of people and animals and blindfolding.\nYamato-Fence is a fence stretched from the front and back with alternating plates one by one.\nI open a gap by passing a crosspiece between the boards.\nBy doing so, it is a simple fence that blocks the line of sight and also passes the wind.",
+    "french": "Une clôture dont les planches alternent de part et d'autre des traverses. Elle coupe la vue tout en laissant circuler l'air.",
+    "english": "A fence with boards alternating on either side of its crosspieces. It blocks the view while allowing air to pass."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fence_Sukibei.label",
+    "source": "Suki Fence",
+    "french": "Clôture suki",
+    "english": "Suki Fence"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fence_Sukibei.description",
+    "source": "The fence is a workpiece that has the effect of preventing invasion of people and animals and blindfolding.\nSuki-Fence is a covered fence, so that the interior can be seen through by placing a lattice in the middle.\nIt is mainly used in shrines and temples.",
+    "french": "Une clôture couverte comportant un treillis central qui laisse entrevoir l'intérieur. On la rencontre notamment dans les sanctuaires et les temples.",
+    "english": "A covered fence with a central lattice that allows a partial view inside. Often used at shrines and temples."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fence_Tuijibei.label",
+    "source": "Tsuiji Fence",
+    "french": "Clôture tsuiji",
+    "english": "Tsuiji Fence"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Fence_Tuijibei.description",
+    "source": "The fence is a workpiece that has the effect of preventing invasion of people and animals and blindfolding.\nTsuiji-Fence sets up a framework by setting up a pillar on the foundation of stone wall, pouring and kneading the kneading soil.\nIt has been used in public places and temples since ancient times, and is still often built now.",
+    "french": "Une clôture traditionnelle en terre pétrie maintenue par une ossature de bois sur un soubassement de pierre. Elle entoure depuis longtemps temples et édifices publics.",
+    "english": "A traditional wall of packed earth held by a wooden framework on a stone foundation."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_White.label",
+    "source": "Makabe(White)",
+    "french": "Makabe blanc",
+    "english": "Makabe(White)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_White.description",
+    "source": "Creating traditional Japanese walls is called Makabe.\nMakabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.",
+    "french": "Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.",
+    "english": "A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Pink.label",
+    "source": "Makabe(Pink)",
+    "french": "Makabe rose",
+    "english": "Makabe(Pink)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Pink.description",
+    "source": "Creating traditional Japanese walls is called Makabe.\nMakabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.",
+    "french": "Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.",
+    "english": "A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Yellow.label",
+    "source": "Makabe(Yellow)",
+    "french": "Makabe jaune",
+    "english": "Makabe(Yellow)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Yellow.description",
+    "source": "Creating traditional Japanese walls is called Makabe.\nMakabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.",
+    "french": "Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.",
+    "english": "A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Green.label",
+    "source": "Makabe(Green)",
+    "french": "Makabe vert",
+    "english": "Makabe(Green)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Green.description",
+    "source": "Creating traditional Japanese walls is called Makabe.\nMakabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.",
+    "french": "Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.",
+    "english": "A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Blue.label",
+    "source": "Makabe(Blue)",
+    "french": "Makabe bleu",
+    "english": "Makabe(Blue)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Blue.description",
+    "source": "Creating traditional Japanese walls is called Makabe.\nMakabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.",
+    "french": "Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.",
+    "english": "A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Gray.label",
+    "source": "Makabe(Gray)",
+    "french": "Makabe gris",
+    "english": "Makabe(Gray)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Gray.description",
+    "source": "Creating traditional Japanese walls is called Makabe.\nMakabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.",
+    "french": "Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.",
+    "english": "A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Black.label",
+    "source": "Makabe(Black)",
+    "french": "Makabe noir",
+    "english": "Makabe(Black)"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Wall_Black.description",
+    "source": "Creating traditional Japanese walls is called Makabe.\nMakabe has a structure in which pillars and beams are exposed in the room, and it is said that durability is excellent because moisture easily escapes from the inside of the wall.",
+    "french": "Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.",
+    "english": "A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_GreenTea.label",
+    "source": "Green Tea",
+    "french": "Thé vert",
+    "english": "Green Tea"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_GreenTea.description",
+    "source": "Green Tea is a mixture of powdered tea leaves into hot water.",
+    "french": "Une boisson préparée en mélangeant des feuilles de thé en poudre à de l'eau chaude.",
+    "english": "Green Tea is a mixture of powdered tea leaves into hot water."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_IchigoDaifuku.label",
+    "source": "Ichigo Daifuku",
+    "french": "Ichigo daifuku",
+    "english": "Ichigo Daifuku"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_IchigoDaifuku.description",
+    "source": "\"Daifuku\" is a rice cake stuffed with sweet filling like red bean paste.Daifuku literally means \"great luck\".\nWhen eating, the fragrance of fresh strawberry spreads in the mouth, you can enjoy the sweetness of soft rice cake texture and elegant sweetness in exquisite balance.",
+    "french": "Un mochi garni de pâte de haricots rouges et d'une fraise fraîche. La douceur de la pâte accompagne l'acidité du fruit.",
+    "english": "A soft mochi filled with sweet red bean paste and a fresh strawberry. The fruit's tartness balances the sweet filling."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MitarashiDango.label",
+    "source": "Mitarashi Dango",
+    "french": "Mitarashi dango",
+    "english": "Mitarashi Dango"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_MitarashiDango.description",
+    "source": "\"Mitarashi Dango\" is a skewer dumpling with sugar and soy sauce.\nThe amber colored sweet taste is compatible with the rice flour dumplings, and the fragrant aroma caused by grilling with charcoal also enhances appetite.",
+    "french": "Des boulettes de farine de riz en brochette, nappées d'une sauce sucrée à base de sauce soja. Leur parfum grillé ouvre l'appétit.",
+    "english": "Skewered rice-flour dumplings coated in a sweet soy-based sauce. Their grilled aroma is appetising."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Geppei.label",
+    "source": "Geppei",
+    "french": "Geppei",
+    "english": "Geppei"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Geppei.description",
+    "source": "\"Geppei\" is an old sweet which is eaten in Mid-Autumn Festival in China.\nIt has a round shape that is regarded as a full moon, wrapped in a soft dough and baked red bean paste mixed with walnuts, pine nuts etc. in soft cloth.",
+    "french": "Un gâteau de lune traditionnel, garni de pâte de haricots et de fruits à coque. Sa forme ronde évoque la pleine lune de la fête de la mi-automne.",
+    "english": "A round mooncake filled with sweet bean paste and nuts, traditionally associated with the Mid-Autumn Festival."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_KashiwaMochi.label",
+    "source": "Kashiwa Mochi",
+    "french": "Kashiwa mochi",
+    "english": "Kashiwa Mochi"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_KashiwaMochi.description",
+    "source": "\"Kashihachi\" is wrapped in red bean paste with rice cake of rice flour.",
+    "french": "Un mochi à la pâte de haricots rouges, enveloppé d'une feuille de chêne.",
+    "english": "A rice-flour mochi filled with sweet bean paste and wrapped in an oak leaf."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Kasuteira.label",
+    "source": "Kasuteira",
+    "french": "Kasutera",
+    "english": "Kasuteira"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Kasuteira.description",
+    "source": "\"Kasuteira\" is confections adopted from Portugal.\nHowever, the actual situation is a completely different sweet that developed independently in Japan.\nKasuteira is made by burning a flour fabric mixed with plenty of sugar and eggs.",
+    "french": "Un gâteau moelleux aux œufs, à la farine et au sucre. Inspiré de pâtisseries portugaises, il s'est développé au Japon sous une forme propre.",
+    "english": "A light cake made from eggs, flour and sugar. Inspired by Portuguese baking, it developed its own distinctive form in Japan."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Kintuba.label",
+    "source": "Kintuba",
+    "french": "Kintsuba",
+    "english": "Kintuba"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Kintuba.description",
+    "source": "\"Kintuba\" is a sweet made with red bean paste hardened with agar and baked with water flavored flour.",
+    "french": "Une pâtisserie à la pâte de haricots rouges prise à l'agar-agar et couverte d'une fine croûte de pâte cuite.",
+    "english": "Sweet bean paste set with agar and cooked with a thin coating of batter."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Nerikiri.label",
+    "source": "Nerikiri",
+    "french": "Nerikiri",
+    "english": "Nerikiri"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Nerikiri.description",
+    "source": "\"Nerikiri\" is a confectionary refined and adjusted by adding a connecting ingredient to white bean paste.",
+    "french": "Une pâtisserie façonnée à partir de pâte de haricots blancs et d'un liant, souvent travaillée en motifs colorés.",
+    "english": "A decorative sweet shaped from white bean paste mixed with a binder, often coloured and formed into delicate patterns."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_SakuraNUguisu.label",
+    "source": "Sakura and Uguisu Mochi",
+    "french": "Sakura et uguisu mochi",
+    "english": "Sakura and Uguisu Mochi"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_SakuraNUguisu.description",
+    "source": "It is a sweet imitating the color of cherry blossoms and the color of young plants.",
+    "french": "Des douceurs évoquant les couleurs des fleurs de cerisier et des jeunes pousses.",
+    "english": "Sweets evoking cherry blossoms and fresh spring shoots."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Youkan.label",
+    "source": "Youkan",
+    "french": "Yōkan",
+    "english": "Youkan"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Youkan.description",
+    "source": "\"Youkan\" is a Japanese sweet made by pouring azuki bean paste in mold and solidified with agar.",
+    "french": "Une confiserie japonaise de pâte de haricots azuki, moulée et prise à l'agar-agar.",
+    "english": "A Japanese sweet made from azuki bean paste, moulded and set with agar."
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Dirt.label",
+    "source": "soil",
+    "french": "Terre",
+    "english": "soil"
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Dirt.description",
+    "source": "Packed earth, dug out and carried in. Mixed with straw and left to dry it makes the daub of a wattle-and-daub wall.",
+    "french": "De la terre compacte, creusée et transportée. Mélangée à de la paille puis séchée, elle sert à fabriquer du torchis.",
+    "english": "Packed earth, dug out and carried in. Mixed with straw and left to dry it makes the daub of a wattle-and-daub wall."
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Charcoal.label",
+    "source": "charcoal",
+    "french": "Charbon de bois",
+    "english": "charcoal"
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Charcoal.description",
+    "source": "Wood burned slowly in a starved fire until only carbon is left. It burns hot, steady and nearly smokeless, which is what makes it fit to burn indoors.",
+    "french": "Du bois lentement carbonisé dans un feu pauvre en air. Il brûle avec une chaleur régulière et peu de fumée, ce qui le rend utile dans les foyers intérieurs.",
+    "english": "Wood burned slowly in a starved fire until only carbon is left. It burns hot, steady and nearly smokeless, which is what makes it fit to burn indoors."
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_JapanesePaper.label",
+    "source": "washi",
+    "french": "Washi",
+    "english": "washi"
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_JapanesePaper.description",
+    "source": "Paper combed from the long bark fibres of the kozo shrub. It is far tougher than it looks: stretched over a light wooden frame it holds up as a wall.",
+    "french": "Du papier fabriqué avec les longues fibres d'écorce du kōzo. Résistant malgré sa finesse, il peut couvrir une armature légère pour former une cloison.",
+    "english": "Paper combed from the long bark fibres of the kozo shrub. It is far tougher than it looks: stretched over a light wooden frame it holds up as a wall."
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_PureSilk.label",
+    "source": "pure silk",
+    "french": "Soie pure",
+    "english": "pure silk"
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_PureSilk.description",
+    "source": "Thread reeled off silkworm cocoons and woven, with nothing else blended in. Light, strong and cool against the skin, and slow enough to make that a bolt of it is worth its weight.",
+    "french": "Du fil dévidé de cocons de vers à soie puis tissé sans mélange. Sa finesse, sa solidité et sa fabrication lente en font une étoffe précieuse.",
+    "english": "Thread reeled off silkworm cocoons and woven, with nothing else blended in. Light, strong and cool against the skin, and slow enough to make that a bolt of it is worth its weight."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Azuki.label",
+    "source": "Azuki",
+    "french": "Azuki",
+    "english": "Azuki"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Azuki.description",
+    "source": "Raw Red beens.",
+    "french": "Haricots rouges crus.",
+    "english": "Raw red beans."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_TeaLeaf.label",
+    "source": "TeaLeaf",
+    "french": "Feuilles de thé",
+    "english": "Tea leaves"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_TeaLeaf.description",
+    "source": "Raw Tea Leaf.",
+    "french": "Feuilles de thé fraîches.",
+    "english": "Fresh tea leaves."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Igusa.label",
+    "source": "Rush",
+    "french": "Jonc",
+    "english": "Rush"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Igusa.description",
+    "source": "Rush is mainly used as a raw material for tatami mats, but it was used as a medicinal herbs in the past.",
+    "french": "Une plante utilisée pour fabriquer des tatamis, et autrefois employée dans certains remèdes.",
+    "english": "Rush is mainly used as a raw material for tatami mats, but it was used as a medicinal herbs in the past."
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Cocoon.label",
+    "source": "Cocoon",
+    "french": "Cocon",
+    "english": "Cocoon"
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Cocoon.description",
+    "source": "It is the cocoon made by silkworm larvae.\nWeaving the thread by spinning it will become the finest textile.",
+    "french": "Un cocon de ver à soie. On en dévide le fil pour produire une étoffe fine.",
+    "english": "A silkworm cocoon. Its thread can be reeled off to produce fine silk fabric."
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Kouzo.label",
+    "source": "Kouzo",
+    "french": "Kōzo",
+    "english": "Kouzo"
+  },
+  {
+    "type": "ThingDef",
+    "key": "RPC_Kouzo.description",
+    "source": "It is a bundle of bark which took from Kouzo Tree.\nFibers of Kouzo bark are strongly intertwined long.\nPaper made from Kouzo is strong and lasts long.",
+    "french": "Un faisceau d'écorce de mûrier à papier. Ses longues fibres entrelacées permettent de fabriquer un papier solide et durable.",
+    "english": "A bundle of paper-mulberry bark. Its long, intertwined fibres make strong, lasting paper."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_TownGirl.label",
+    "source": "Kimono-TownGirl",
+    "french": "Kimono de citadine",
+    "english": "Kimono-TownGirl"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_TownGirl.description",
+    "source": "Kimono of Town Girl.",
+    "french": "Un kimono de citadine.",
+    "english": "Kimono of Town Girl."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_TearHarvest.label",
+    "source": "Kimono-TeaHarvest",
+    "french": "Kimono de cueilleur de thé",
+    "english": "Kimono-TeaHarvest"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_TearHarvest.description",
+    "source": "Kimono of Tea Harvest.",
+    "french": "Un kimono pour la récolte du thé.",
+    "english": "Kimono of Tea Harvest."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Samurai.label",
+    "source": "Kimono-Samurai",
+    "french": "Kimono de samouraï",
+    "english": "Kimono-Samurai"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Samurai.description",
+    "source": "Kimono of Samurai.",
+    "french": "Un kimono de samouraï.",
+    "english": "Kimono of Samurai."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Carpenter.label",
+    "source": "Kimono-Carpenter",
+    "french": "Kimono de charpentier",
+    "english": "Kimono-Carpenter"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Carpenter.description",
+    "source": "Kimono of Carpenter.",
+    "french": "Un kimono de charpentier.",
+    "english": "Kimono of Carpenter."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Courier.label",
+    "source": "Kimono-Curier",
+    "french": "Kimono de coursier",
+    "english": "Kimono-Courier"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Courier.description",
+    "source": "Kimono of Curier.",
+    "french": "Un kimono de coursier.",
+    "english": "A courier's kimono."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Doctor.label",
+    "source": "Kimono-Doctor",
+    "french": "Kimono de médecin",
+    "english": "Kimono-Doctor"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Doctor.description",
+    "source": "Kimono of Doctor.",
+    "french": "Un kimono de médecin.",
+    "english": "Kimono of Doctor."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_TeaMaster.label",
+    "source": "Kimono-TeaMaster",
+    "french": "Kimono de maître de thé",
+    "english": "Kimono-TeaMaster"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_TeaMaster.description",
+    "source": "Kimono of Tea Master.",
+    "french": "Un kimono de maître de thé.",
+    "english": "Kimono of Tea Master."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Oiran.label",
+    "source": "Kimono-Oiran",
+    "french": "Kimono d'oiran",
+    "english": "Kimono-Oiran"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Oiran.description",
+    "source": "Kimono of Oiran.",
+    "french": "Un kimono d'oiran.",
+    "english": "Kimono of Oiran."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Kamishimo.label",
+    "source": "Kimono-Kamishimo",
+    "french": "Kamishimo",
+    "english": "Kimono-Kamishimo"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Kamishimo.description",
+    "source": "Kimono of Kamishimo.",
+    "french": "Une tenue de cérémonie kamishimo.",
+    "english": "Kimono of Kamishimo."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Matagi.label",
+    "source": "Kimono-Matagi",
+    "french": "Kimono de matagi",
+    "english": "Kimono-Matagi"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Matagi.description",
+    "source": "Kimono of Matagi",
+    "french": "Un kimono de chasseur matagi.",
+    "english": "Kimono of Matagi"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Princess.label",
+    "source": "Kimono-Princess",
+    "french": "Kimono de princesse",
+    "english": "Kimono-Princess"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Princess.description",
+    "source": "Kimono of Princess.Princess' s dignity encourages surrounding friends.",
+    "french": "Un kimono de princesse. Sa dignité encourage les alliés à proximité.",
+    "english": "A princess's kimono. Her dignity encourages nearby allies."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Sumoman.label",
+    "source": "Kimono-Rikishi",
+    "french": "Kimono de rikishi",
+    "english": "Kimono-Rikishi"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_Dressing_Sumoman.description",
+    "source": "Kimono of Rikishi.A Yokozuna with a mighty power overwhelms the enemy.",
+    "french": "Un kimono de lutteur. La puissance du yokozuna intimide les ennemis.",
+    "english": "A wrestler's kimono. The yokozuna's imposing presence intimidates enemies."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Igusa.label",
+    "source": "Rush",
+    "french": "Jonc",
+    "english": "Rush"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Igusa.description",
+    "source": "It is an elongated plant inhabited by wetlands and large ones grow to about 1.6 m.\nIt is mainly used as a raw material for tatami mats, but it was used as a medicinal herbs in the past.",
+    "french": "Un jonc allongé des zones humides, pouvant atteindre environ 1,6 mètre. Il sert surtout à fabriquer des tatamis et était autrefois utilisé comme plante médicinale.",
+    "english": "A tall wetland rush used primarily to make tatami mats, and historically in some herbal remedies."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Azuki.label",
+    "source": "Azuki",
+    "french": "Azuki",
+    "english": "Azuki"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Azuki.description",
+    "source": "Tie the dark red beans to the sheath.\nBeans are cooked or boiled sweet and then made into bean paste.",
+    "french": "Une plante donnant des gousses de haricots rouge sombre. Ceux-ci se mangent cuits ou sucrés sous forme de pâte.",
+    "english": "A plant bearing pods of dark red beans. These can be cooked as food or sweetened into bean paste."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_TeaTree.label",
+    "source": "TeaTree",
+    "french": "Théier",
+    "english": "TeaTree"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_TeaTree.description",
+    "source": "It is said that cultivation began in China since BC, it is used not only for edible but also for appreciation.\nThe tea extracted from the leaves with water is loved around the world.",
+    "french": "Un arbuste cultivé depuis longtemps en Chine. Ses feuilles infusées donnent une boisson appréciée dans le monde entier.",
+    "english": "A shrub long cultivated for its leaves, which can be infused to make tea."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Kouzo.label",
+    "source": "Kouzo",
+    "french": "Kōzo",
+    "english": "Kouzo"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Kouzo.description",
+    "source": "In spring, light yellow green flowers bloom and red fruits in early summer.\nIt is used as a raw material for paper because it can take high quality fibers from the bark.",
+    "french": "Un arbre aux fleurs vert pâle au printemps et aux fruits rouges en début d'été. Les fibres de son écorce servent à fabriquer du papier.",
+    "english": "A paper-mulberry tree whose bark provides strong fibres for papermaking."
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Kuwa.label",
+    "source": "Kuwa",
+    "french": "Mûrier",
+    "english": "Kuwa"
+  },
+  {
+    "type": "ThingDef",
+    "key": "WA_FarmPlant_Kuwa.description",
+    "source": "Mulberry ties the purple of purplish red purple.\nIt is used as a tree for silkworms since ancient times, it is a plant indispensable for making silk.",
+    "french": "Un mûrier aux fruits rouge violacé. Ses feuilles nourrissent les vers à soie, ce qui en fait une plante essentielle à la production de soie.",
+    "english": "A mulberry tree with purplish-red fruit. Its leaves feed silkworms, making it important for silk production."
+  },
+  {
+    "type": "ThoughtDef",
+    "key": "WA_TatamiIsGood.stages.Comfortable_Tatami.label",
+    "source": "Comfortable Tatami",
+    "french": "Tatami confortable",
+    "english": "Comfortable Tatami"
+  },
+  {
+    "type": "ThoughtDef",
+    "key": "WA_TatamiIsGood.stages.Comfortable_Tatami.description",
+    "source": "I feel great while I spend it on tatami mats!",
+    "french": "Quel plaisir de passer du temps sur un tatami !",
+    "english": "It feels wonderful to spend time on tatami!"
+  },
+  {
+    "type": "WorkGiverDef",
+    "key": "WA_DoBillsMakeGreenTea.label",
+    "source": "make tea at Irori",
+    "french": "préparer du thé au foyer",
+    "english": "make tea at Irori"
+  },
+  {
+    "type": "WorkGiverDef",
+    "key": "WA_DoBillsMakeGreenTea.verb",
+    "source": "cook",
+    "french": "cuisiner",
+    "english": "cook"
+  },
+  {
+    "type": "WorkGiverDef",
+    "key": "WA_DoBillsMakeGreenTea.gerund",
+    "source": "making tea at",
+    "french": "prépare du thé à",
+    "english": "making tea at"
+  },
+  {
+    "type": "WorkGiverDef",
+    "key": "WA_DoBillsIroriCooking.label",
+    "source": "cook meals at Irori",
+    "french": "cuisiner au foyer",
+    "english": "cook meals at Irori"
+  },
+  {
+    "type": "WorkGiverDef",
+    "key": "WA_DoBillsIroriCooking.verb",
+    "source": "cook",
+    "french": "cuisiner",
+    "english": "cook"
+  },
+  {
+    "type": "WorkGiverDef",
+    "key": "WA_DoBillsIroriCooking.gerund",
+    "source": "cooking at",
+    "french": "cuisine à",
+    "english": "cooking at"
+  }
+]

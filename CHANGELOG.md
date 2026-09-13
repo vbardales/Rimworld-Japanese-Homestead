@@ -23,3 +23,12 @@ English translations remain incomplete; see STATUS.md for the audited state.
 - Update current metadata and rights notices for the WA-only scope.
 - Existing saves using Tatara must enable RolledUpSleeves together with this update;
   back up first. Save migration has not been tested in game.
+
+### Localization and validation — 2026-09-13
+- Move Preview text to the lower right and display the unofficial suffix.
+- Add French translations for 458 concrete inherited/direct text fields and English
+  corrections for Japanese reports and inaccurate source wording.
+- Make the advertised aquarium concrete so it can be constructed.
+- Add reproducible translation generation, static checks and functional scenarios.
+- Validate 1,896 injection keys without errors and 861 selected Core+WA references.
+- Runtime behavior, aura gameplay and save migration remain untested.

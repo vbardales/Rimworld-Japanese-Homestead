@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WA_Research_Basic.description>Learn the foundations of Japanese techniques to unlock further research.</WA_Research_Basic.description>
+  <WA_Research_Building_Basic.label>Basic architecture</WA_Research_Building_Basic.label>
+  <WA_Research_Building_Basic.description>Learn basic Japanese building techniques to construct simple walls and fences.</WA_Research_Building_Basic.description>
+  <WA_Research_Building_Advanced.label>Advanced architecture</WA_Research_Building_Advanced.label>
+  <WA_Research_Building_Advanced.description>Learn advanced Japanese building techniques to construct a wider range of walls and fences.</WA_Research_Building_Advanced.description>
+  <WA_Research_Building_Castle.label>Fortified architecture</WA_Research_Building_Castle.label>
+  <WA_Research_Building_Castle.description>Learn Japanese fortification techniques to build strong defensive structures.</WA_Research_Building_Castle.description>
+  <WA_Research_Building_Garden.description>Learn Japanese gardening techniques to shape the landscape.</WA_Research_Building_Garden.description>
+  <WA_Research_Building_Funiture.label>Furniture</WA_Research_Building_Funiture.label>
+  <WA_Research_Building_Funiture.description>Learn to make Japanese-style furniture.</WA_Research_Building_Funiture.description>
+  <WA_Research_Building_Amusement.description>Learn to make equipment for traditional Japanese pastimes.</WA_Research_Building_Amusement.description>
+  <WA_Research_Art.description>Learn to create beautiful works of art.</WA_Research_Art.description>
+  <WA_Research_TeaTimeset.description>Learn to prepare tea and traditional sweets to accompany it.</WA_Research_TeaTimeset.description>
+</LanguageData>

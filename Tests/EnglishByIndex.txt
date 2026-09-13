@@ -1,0 +1,132 @@
+1|Japanese-style buildings for colony life.
+3|Japanese bedding.
+7|Intimidation of the yokozuna
+10|... A little heavier?
+12|The temptation of sugar is taking its toll.
+15|That delicious green tea cleared my mind.
+17|Fresh strawberry, sweet bean paste and tender mochi: delicious!
+19|The sweet and savoury sauce goes perfectly with these chewy dumplings!
+21|The sweet bean paste and crunchy walnuts were delightful!
+23|The sweetness of rice and the scent of oak leaves are a wonderful match!
+25|Fluffy cake and crunchy sugar crystals: a moment of bliss.
+27|Generous red bean paste with a delicate sweetness.
+29|These colourful sweets are little works of art!
+31|The scent of cherry leaves and these delicate colours feel like spring.
+32|Delicious Uguisu Mochi
+33|The fresh green colour suits this wonderfully soft mochi.
+35|This smooth sweet melts in the mouth. A real treat!
+36|Enjoying a tea ceremony.
+38|Playing a gentle melody on the koto.
+39|Playing hundred-poets karuta.
+40|Playing bozu mekuri.
+41|Playing shell matching.
+42|Playing sugoroku.
+43|Enjoying the scent of incense.
+44|Smoking a pipe.
+46|Traditional Japanese pastimes
+54|Cook simple meals x6
+55|Cook a simple meal.
+56|Cooking simple meals in bulk.
+57|Cook fine meals x6
+59|Cooking fine meals in bulk.
+60|Cook lavish meals x6
+62|Cooking lavish meals in bulk.
+64|Whisk powdered tea leaves into hot water.
+67|Wrap strawberries in sweet bean paste and mochi.
+73|Wrap sweet bean paste in pastry and bake it.
+76|Wrap sweet bean paste in mochi, then wrap the cake in an oak leaf.
+79|Mix beaten eggs, flour and sugar into a light cake batter.
+82|Set sweet bean paste with agar, then coat and cook each face in a thin batter.
+85|Mix a binder into coloured bean paste and shape it into decorative sweets.
+88|Wrap sweet bean paste in two kinds of colourful spring mochi.
+91|Cook sweet bean paste with agar to make a firm sweet.
+93|Prepare herbal medicine
+94|Process rush into herbal medicine.
+95|Preparing rush medicine.
+97|Weave pure silk from silkworm cocoons.
+99|Make Japanese paper
+100|Make Japanese paper from kozo bark fibres.
+101|Making paper.
+103|Learn the foundations of Japanese techniques to unlock further research.
+104|Basic architecture
+105|Learn basic Japanese building techniques to construct simple walls and fences.
+106|Advanced architecture
+107|Learn advanced Japanese building techniques to construct a wider range of walls and fences.
+108|Fortified architecture
+109|Learn Japanese fortification techniques to build strong defensive structures.
+111|Learn Japanese gardening techniques to shape the landscape.
+112|Furniture
+113|Learn to make Japanese-style furniture.
+115|Learn to make equipment for traditional Japanese pastimes.
+117|Learn to create beautiful works of art.
+121|Learn to prepare tea and traditional sweets to accompany it.
+143|Japanese clothing
+146|Oil lamp stand
+147|An oil lamp with a wick resting in a shallow dish. Its traditional name refers to the shape of its base, which resembles cow dung. Such lamps were once used in aristocratic households.
+149|A clay oil lamp made from material similar to roof tiles. Its fire-resistant construction helped it become a common household light.
+151|A paper-covered lantern that shelters its flame. Outside its box it gives a brighter light; inside, it becomes a subdued night light.
+153|A lantern made by covering a frame with paper or cloth around a candle. Bonbori still decorate traditional celebrations such as the Doll Festival.
+155|A lightweight paper lantern stretched over a folding bamboo frame. Portable and compact, it has long been used in streets and at festivals.
+157|An outdoor fire held in a metal basket. It lights gatherings, festivals and some fishing boats.
+159|A vessel partly filled with glowing charcoal. It provides warmth and can heat tea or light a pipe.
+161|A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.
+178|A Japanese thirteen-stringed zither with strings stretched over a long wooden body.
+180|A traditional Japanese card game, especially popular at New Year.
+181|Shell matching
+182|A traditional game of matching shells, recalling courtly pastimes in which their shapes, colours and associated poetry were admired.
+184|A board game in which players move their pieces according to dice rolls.
+185|Incense burner
+186|A vessel for heating solid incense to release its scent. At the Heian court, incense was also used to perfume clothing.
+188|A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.
+199|A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured.
+205|A folding screen of wooden frames covered with thick Japanese paper or cloth, often silk. It decorates a room or divides the space.
+207|A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.
+211|A cotton-filled futon designed for carrying and use as a portable bedroll.
+213|A futon with an antimicrobial treatment, suitable for medical care.
+215|A sunken hearth in a square opening in the floor, filled with ash, wood and charcoal. It provides heating, cooking, light and a place to dry things.
+217|A sunken hearth set into the floor of a tea room, primarily used to heat water for tea.
+218|Auxiliary zabuton
+219|An auxiliary hearth component.
+222|Japanese tiled wall base
+224|A plastered wall capped with roof tiles for weather protection and decoration. Such walls once surrounded the residences of samurai.
+226|A tiled wall with a projecting window for watching the surroundings and supporting its defenders.
+229|Moat base
+231|A wide, deep ditch around a fortification, filled with water to slow intruders.
+234|A decorative step suggesting a change in floor level. RimWorld does not model such changes, so its role here is purely visual.
+236|A strong, fortified castle entrance designed to aid its defenders.
+238|A heavy door protecting a castle entrance, sometimes reinforced with iron.
+239|Japanese fence base
+241|A fence with boards alternating on either side of its crosspieces. It blocks the view while allowing air to pass.
+243|A covered fence with a central lattice that allows a partial view inside. Often used at shrines and temples.
+245|A traditional wall of packed earth held by a wooden framework on a stone foundation.
+246|Makabe wall base
+248|A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.
+258|A soft mochi filled with sweet red bean paste and a fresh strawberry. The fruit's tartness balances the sweet filling.
+260|Skewered rice-flour dumplings coated in a sweet soy-based sauce. Their grilled aroma is appetising.
+262|A round mooncake filled with sweet bean paste and nuts, traditionally associated with the Mid-Autumn Festival.
+264|A rice-flour mochi filled with sweet bean paste and wrapped in an oak leaf.
+266|A light cake made from eggs, flour and sugar. Inspired by Portuguese baking, it developed its own distinctive form in Japan.
+268|Sweet bean paste set with agar and cooked with a thin coating of batter.
+270|A decorative sweet shaped from white bean paste mixed with a binder, often coloured and formed into delicate patterns.
+272|Sweets evoking cherry blossoms and fresh spring shoots.
+274|A Japanese sweet made from azuki bean paste, moulded and set with agar.
+284|Raw red beans.
+285|Tea leaves
+286|Fresh tea leaves.
+290|A silkworm cocoon. Its thread can be reeled off to produce fine silk fabric.
+292|A bundle of paper-mulberry bark. Its long, intertwined fibres make strong, lasting paper.
+301|Kimono-Courier
+302|A courier's kimono.
+314|A princess's kimono. Her dignity encourages nearby allies.
+316|A wrestler's kimono. The yokozuna's imposing presence intimidates enemies.
+327|A hood worn with a kimono.
+329|A cloth head wrap.
+331|A kato head covering.
+332|WA plant base
+333|Base definition for WA crops.
+334|A tall wetland rush used primarily to make tatami mats, and historically in some herbal remedies.
+335|A plant bearing pods of dark red beans. These can be cooked as food or sweetened into bean paste.
+337|A shrub long cultivated for its leaves, which can be infused to make tea.
+338|A paper-mulberry tree whose bark provides strong fibres for papermaking.
+340|A mulberry tree with purplish-red fruit. Its leaves feed silkworms, making it important for silk production.
+342|It feels wonderful to spend time on tatami!

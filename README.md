@@ -16,7 +16,8 @@ WA is classified as silent: no explicit licence or permission was found. Origina
 Use the contents of `Mod/` as the mod directory under RimWorld's Mods folder, or point
 an existing directory junction there. Do not install the repository root as a mod.
 Enable package `nelim.wa` in RimWorld 1.6. Glass+Lights is an optional integration;
-its presence changes the aquarium material cost. Full dependency validation is pending.
+its presence changes the aquarium material cost. Static checks resolve the selected
+WA references against Core and validate both aquarium cost variants; runtime loading remains untested.
 Removing this content mod from a save can remove its buildings and items. Keep backups.
 
 ## Build
@@ -34,7 +35,8 @@ to `Mod/Assemblies/`; intermediate files remain in `.build/`, outside installed 
 
 See [STATUS.md](STATUS.md). The audited build matches the delivered DLL, XML parsing
 and existing injection-path checks passed. No final in-game validation is claimed.
-French is absent and some Japanese Def text lacks English coverage. There are no
+French covers 458 inherited and direct text fields; English overrides correct Japanese
+reports and inaccurate source text. Automated XML, injection-path and static checks pass. There are no
 mod-wide settings or empty settings shortcuts; vanilla gameplay controls remain available.
 
 ## Repository layout

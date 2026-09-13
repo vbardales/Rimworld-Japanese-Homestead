@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WA_Aquarium.label>Aquarium</WA_Aquarium.label>
+  <WA_Aquarium.description>Un aquarium de poissons rouges qui invite à la contemplation. Les aquariums en verre se sont répandus avec l'amélioration de la fabrication du verre à la fin de l'époque d'Edo.</WA_Aquarium.description>
+  <WA_Glow_01Toudai.label>Lampe à huile sur pied</WA_Glow_01Toudai.label>
+  <WA_Glow_01Toudai.description>Une lampe dont la mèche trempe dans de l'huile. Son socle évoque une bouse de vache, à l'origine de son nom traditionnel. Ce type d'éclairage était notamment utilisé par les aristocrates.</WA_Glow_01Toudai.description>
+  <WA_Glow_02Gatou.label>Lampe gatō</WA_Glow_02Gatou.label>
+  <WA_Glow_02Gatou.description>Une lampe à huile en terre cuite, fabriquée avec une argile semblable à celle des tuiles. Son matériau résiste au feu et son usage s'est répandu dans les foyers japonais.</WA_Glow_02Gatou.description>
+  <WA_Glow_03Andon.label>Lanterne ariake</WA_Glow_03Andon.label>
+  <WA_Glow_03Andon.description>Une lanterne protégée par du papier japonais. Sortie de son coffret, elle éclaire largement ; replacée à l'intérieur, elle diffuse une lumière douce pour la nuit.</WA_Glow_03Andon.description>
+  <WA_Glow_04Bonbori.label>Bonbori</WA_Glow_04Bonbori.label>
+  <WA_Glow_04Bonbori.description>Une lanterne dont une armature de formes variées est couverte de papier ou de tissu. Les bonbori décorent encore les fêtes traditionnelles, notamment la fête des poupées.</WA_Glow_04Bonbori.description>
+  <WA_Glow_05Chouchin.label>Chōchin</WA_Glow_05Chouchin.label>
+  <WA_Glow_05Chouchin.description>Une lanterne légère de papier japonais tendu sur une armature de bambou pliable. Facile à transporter, elle accompagne depuis longtemps les rues et les fêtes.</WA_Glow_05Chouchin.description>
+  <WA_Glow_06Bonfire.label>Feu sur brasero</WA_Glow_06Bonfire.label>
+  <WA_Glow_06Bonfire.description>Un feu extérieur contenu dans une corbeille métallique. Il éclaire les rassemblements, les fêtes et certains bateaux de pêche.</WA_Glow_06Bonfire.description>
+  <WA_Glow_07LongBrazier.label>Brasero</WA_Glow_07LongBrazier.label>
+  <WA_Glow_07LongBrazier.description>Un récipient partiellement rempli de charbon incandescent. Il sert à chauffer la pièce, à faire chauffer le thé ou à allumer une pipe.</WA_Glow_07LongBrazier.description>
+  <WA_Seat_Zabuton_Red.label>Zabuton rouge</WA_Seat_Zabuton_Red.label>
+  <WA_Seat_Zabuton_Red.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_Red.description>
+  <WA_Seat_Zabuton_Pink.label>Zabuton rose</WA_Seat_Zabuton_Pink.label>
+  <WA_Seat_Zabuton_Pink.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_Pink.description>
+  <WA_Seat_Zabuton_Yellow.label>Zabuton jaune</WA_Seat_Zabuton_Yellow.label>
+  <WA_Seat_Zabuton_Yellow.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_Yellow.description>
+  <WA_Seat_Zabuton_Green.label>Zabuton vert</WA_Seat_Zabuton_Green.label>
+  <WA_Seat_Zabuton_Green.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_Green.description>
+  <WA_Seat_Zabuton_Blue.label>Zabuton bleu</WA_Seat_Zabuton_Blue.label>
+  <WA_Seat_Zabuton_Blue.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_Blue.description>
+  <WA_Seat_Zabuton_Purple.label>Zabuton violet</WA_Seat_Zabuton_Purple.label>
+  <WA_Seat_Zabuton_Purple.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_Purple.description>
+  <WA_Seat_Zabuton_Black.label>Zabuton noir</WA_Seat_Zabuton_Black.label>
+  <WA_Seat_Zabuton_Black.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_Black.description>
+  <WA_Seat_Zabuton_White.label>Zabuton blanc</WA_Seat_Zabuton_White.label>
+  <WA_Seat_Zabuton_White.description>Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.</WA_Seat_Zabuton_White.description>
+  <WA_AlcoveA.label>Alcôve au pin</WA_AlcoveA.label>
+  <WA_AlcoveA.description>Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.</WA_AlcoveA.description>
+  <WA_AlcoveB.label>Alcôve au cerisier</WA_AlcoveB.label>
+  <WA_AlcoveB.description>Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.</WA_AlcoveB.description>
+  <WA_AlcoveC.label>Alcôve au nandina</WA_AlcoveC.label>
+  <WA_AlcoveC.description>Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.</WA_AlcoveC.description>
+  <WA_AlcoveD.label>Alcôve à la lune</WA_AlcoveD.label>
+  <WA_AlcoveD.description>Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.</WA_AlcoveD.description>
+  <WA_AlcoveE.label>Alcôve au houx</WA_AlcoveE.label>
+  <WA_AlcoveE.description>Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.</WA_AlcoveE.description>
+  <WA_Koto.label>Koto</WA_Koto.label>
+  <WA_Koto.description>Une cithare japonaise à treize cordes tendues sur une longue caisse de bois.</WA_Koto.description>
+  <WA_Karuta.label>Karuta</WA_Karuta.label>
+  <WA_Karuta.description>Un jeu de cartes traditionnel japonais, particulièrement apprécié au Nouvel An.</WA_Karuta.description>
+  <WA_ShellMatching.label>Jeu de coquillages</WA_ShellMatching.label>
+  <WA_ShellMatching.description>Un loisir traditionnel où l'on associe des coquillages. Il évoque les jeux de cour de l'époque de Heian, où l'on admirait leur forme et leurs couleurs et composait des poèmes.</WA_ShellMatching.description>
+  <WA_Sugoroku.label>Sugoroku</WA_Sugoroku.label>
+  <WA_Sugoroku.description>Un jeu de plateau où les pions avancent selon le résultat des dés.</WA_Sugoroku.description>
+  <WA_Cassolette.label>Brûle-encens</WA_Cassolette.label>
+  <WA_Cassolette.description>Un récipient servant à chauffer de l'encens solide pour en libérer le parfum. À la cour de Heian, on parfumait aussi les vêtements à la fumée d'encens.</WA_Cassolette.description>
+  <WA_Fusuma01_Akebono.label>Fusuma à l'aube</WA_Fusuma01_Akebono.label>
+  <WA_Fusuma01_Akebono.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma01_Akebono.description>
+  <WA_Fusuma02_Yoru.label>Fusuma de nuit</WA_Fusuma02_Yoru.label>
+  <WA_Fusuma02_Yoru.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma02_Yoru.description>
+  <WA_Fusuma03_Yuugure.label>Fusuma au crépuscule</WA_Fusuma03_Yuugure.label>
+  <WA_Fusuma03_Yuugure.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma03_Yuugure.description>
+  <WA_Fusuma04_Tutomete.label>Fusuma du matin</WA_Fusuma04_Tutomete.label>
+  <WA_Fusuma04_Tutomete.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma04_Tutomete.description>
+  <WA_Fusuma05_Spring.label>Fusuma de printemps</WA_Fusuma05_Spring.label>
+  <WA_Fusuma05_Spring.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma05_Spring.description>
+  <WA_Fusuma06_Summer.label>Fusuma d'été</WA_Fusuma06_Summer.label>
+  <WA_Fusuma06_Summer.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma06_Summer.description>
+  <WA_Fusuma07_Autumn.label>Fusuma d'automne</WA_Fusuma07_Autumn.label>
+  <WA_Fusuma07_Autumn.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma07_Autumn.description>
+  <WA_Fusuma08_Winter.label>Fusuma d'hiver</WA_Fusuma08_Winter.label>
+  <WA_Fusuma08_Winter.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma08_Winter.description>
+  <WA_Fusuma09_White.label>Fusuma blanc</WA_Fusuma09_White.label>
+  <WA_Fusuma09_White.description>Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.</WA_Fusuma09_White.description>
+  <WA_Shoji01_Square.label>Shōji carré</WA_Shoji01_Square.label>
+  <WA_Shoji01_Square.description>Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.</WA_Shoji01_Square.description>
+  <WA_Shoji02_Circle.label>Shōji circulaire</WA_Shoji02_Circle.label>
+  <WA_Shoji02_Circle.description>Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.</WA_Shoji02_Circle.description>
+  <WA_Shoji03_Combi.label>Shōji combiné</WA_Shoji03_Combi.label>
+  <WA_Shoji03_Combi.description>Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.</WA_Shoji03_Combi.description>
+  <WA_Shoji04_Deco.label>Shōji décoratif</WA_Shoji04_Deco.label>
+  <WA_Shoji04_Deco.description>Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.</WA_Shoji04_Deco.description>
+  <WA_FoldingScreen.label>Paravent</WA_FoldingScreen.label>
+  <WA_FoldingScreen.description>Un byōbu est un paravent pliant composé de cadres de bois couverts de papier japonais épais ou de tissu, souvent de soie. Il décore et sépare les espaces.</WA_FoldingScreen.description>
+  <WA_Futon01m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon01m.description>
+  <WA_Futon01m.label>Futon</WA_Futon01m.label>
+  <WA_Futon02m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon02m.description>
+  <WA_Futon02m.label>Futon</WA_Futon02m.label>
+  <WA_Futon03m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon03m.description>
+  <WA_Futon03m.label>Futon</WA_Futon03m.label>
+  <WA_Futon04m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon04m.description>
+  <WA_Futon04m.label>Futon</WA_Futon04m.label>
+  <WA_Futon05m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon05m.description>
+  <WA_Futon05m.label>Futon</WA_Futon05m.label>
+  <WA_Futon06m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon06m.description>
+  <WA_Futon06m.label>Futon</WA_Futon06m.label>
+  <WA_Futon07m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon07m.description>
+  <WA_Futon07m.label>Futon</WA_Futon07m.label>
+  <WA_Futon08m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon08m.description>
+  <WA_Futon08m.label>Futon</WA_Futon08m.label>
+  <WA_Futon09m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon09m.description>
+  <WA_Futon09m.label>Futon</WA_Futon09m.label>
+  <WA_Futon10m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon10m.description>
+  <WA_Futon10m.label>Futon</WA_Futon10m.label>
+  <WA_Futon11m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon11m.description>
+  <WA_Futon11m.label>Futon</WA_Futon11m.label>
+  <WA_Futon12m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon12m.description>
+  <WA_Futon12m.label>Futon</WA_Futon12m.label>
+  <WA_Futon13m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_Futon13m.description>
+  <WA_Futon13m.label>Futon</WA_Futon13m.label>
+  <WA_DFuton01m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_DFuton01m.description>
+  <WA_DFuton01m.label>Futon royal</WA_DFuton01m.label>
+  <WA_DFuton02m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_DFuton02m.description>
+  <WA_DFuton02m.label>Futon royal</WA_DFuton02m.label>
+  <WA_DFuton03m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_DFuton03m.description>
+  <WA_DFuton03m.label>Futon royal</WA_DFuton03m.label>
+  <WA_DFuton04m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_DFuton04m.description>
+  <WA_DFuton04m.label>Futon double</WA_DFuton04m.label>
+  <WA_DFuton05m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_DFuton05m.description>
+  <WA_DFuton05m.label>Futon double</WA_DFuton05m.label>
+  <WA_DFuton06m.description>Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.</WA_DFuton06m.description>
+  <WA_DFuton06m.label>Futon double</WA_DFuton06m.label>
+  <WA_MFuton01m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton01m.description>
+  <WA_MFuton01m.label>Futon de voyage</WA_MFuton01m.label>
+  <WA_MFuton02m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton02m.description>
+  <WA_MFuton02m.label>Futon de voyage</WA_MFuton02m.label>
+  <WA_MFuton03m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton03m.description>
+  <WA_MFuton03m.label>Futon de voyage</WA_MFuton03m.label>
+  <WA_MFuton04m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton04m.description>
+  <WA_MFuton04m.label>Futon de voyage</WA_MFuton04m.label>
+  <WA_MFuton05m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton05m.description>
+  <WA_MFuton05m.label>Futon de voyage</WA_MFuton05m.label>
+  <WA_MFuton06m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton06m.description>
+  <WA_MFuton06m.label>Futon de voyage</WA_MFuton06m.label>
+  <WA_MFuton07m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton07m.description>
+  <WA_MFuton07m.label>Futon de voyage</WA_MFuton07m.label>
+  <WA_MFuton08m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton08m.description>
+  <WA_MFuton08m.label>Futon de voyage</WA_MFuton08m.label>
+  <WA_MFuton09m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton09m.description>
+  <WA_MFuton09m.label>Futon de voyage</WA_MFuton09m.label>
+  <WA_MFuton10m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton10m.description>
+  <WA_MFuton10m.label>Futon de voyage</WA_MFuton10m.label>
+  <WA_MFuton11m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton11m.description>
+  <WA_MFuton11m.label>Futon de voyage</WA_MFuton11m.label>
+  <WA_MFuton12m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton12m.description>
+  <WA_MFuton12m.label>Futon de voyage</WA_MFuton12m.label>
+  <WA_MFuton13m.description>Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.</WA_MFuton13m.description>
+  <WA_MFuton13m.label>Futon de voyage</WA_MFuton13m.label>
+  <WA_HFuton01m.description>Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.</WA_HFuton01m.description>
+  <WA_HFuton01m.label>Futon médical</WA_HFuton01m.label>
+  <WA_HFuton02m.description>Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.</WA_HFuton02m.description>
+  <WA_HFuton02m.label>Futon médical</WA_HFuton02m.label>
+  <WA_HFuton03m.description>Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.</WA_HFuton03m.description>
+  <WA_HFuton03m.label>Futon médical</WA_HFuton03m.label>
+  <WA_HFuton04m.description>Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.</WA_HFuton04m.description>
+  <WA_HFuton04m.label>Futon médical</WA_HFuton04m.label>
+  <WA_HFuton05m.description>Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.</WA_HFuton05m.description>
+  <WA_HFuton05m.label>Futon médical</WA_HFuton05m.label>
+  <WA_HFuton06m.description>Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.</WA_HFuton06m.description>
+  <WA_HFuton06m.label>Futon médical</WA_HFuton06m.label>
+  <WA_HFuton07m.description>Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.</WA_HFuton07m.description>
+  <WA_HFuton07m.label>Futon médical</WA_HFuton07m.label>
+  <WA_Irori.label>Irori</WA_Irori.label>
+  <WA_Irori.description>Un foyer aménagé dans une ouverture carrée du plancher, rempli de cendres, de bois et de charbon. Au centre d'une pièce, il sert à chauffer, cuisiner, éclairer et sécher.</WA_Irori.description>
+  <WA_Chagama.label>Irori pour le thé</WA_Chagama.label>
+  <WA_Chagama.description>Un foyer aménagé dans le plancher d'une pièce de thé. Il sert principalement à chauffer l'eau de la cérémonie du thé.</WA_Chagama.description>
+  <WA_Zabuton_Dummy.label>Zabuton auxiliaire</WA_Zabuton_Dummy.label>
+  <WA_Zabuton_Dummy.description>Élément auxiliaire du foyer.</WA_Zabuton_Dummy.description>
+  <WA_SutrasDesk.label>Bureau de copie des sutras</WA_SutrasDesk.label>
+  <WA_SutrasDesk.description>Un bureau bas pour recopier des sutras à la main. Un travail lent et minutieux, dans un espace qui sert aussi à étudier.</WA_SutrasDesk.description>
+  <WA_Wall_Kawara.label>Rempart</WA_Wall_Kawara.label>
+  <WA_Wall_Kawara.description>Un mur enduit coiffé de tuiles. Ces tuiles le protègent de la pluie et le décorent ; autrefois coûteuses, elles ornaient notamment les enceintes des résidences de samouraïs.</WA_Wall_Kawara.description>
+  <WA_Wall_Demado.label>Rempart à fenêtre en saillie</WA_Wall_Demado.label>
+  <WA_Wall_Demado.description>Un mur coiffé de tuiles et doté d'une fenêtre en saillie. Celle-ci sert à observer les alentours et peut aider les défenseurs en cas d'attaque.</WA_Wall_Demado.description>
+  <WA_Wall_StoneWall.label>Mur de pierre</WA_Wall_StoneWall.label>
+  <WA_Wall_StoneWall.description>Un ishigaki est un mur de pierres assemblées, utilisé notamment dans les fortifications. Les ouvrages les plus élaborés emploient des pierres ajustées avec très peu d'interstices.</WA_Wall_StoneWall.description>
+  <WA_Wall_WaterMoats.label>Douves en eau</WA_Wall_WaterMoats.label>
+  <WA_Wall_WaterMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue une défense supplémentaire.</WA_Wall_WaterMoats.description>
+  <WA_Wall_DryMoats.label>Douves sèches</WA_Wall_DryMoats.label>
+  <WA_Wall_DryMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue une défense supplémentaire.</WA_Wall_DryMoats.description>
+  <WA_Step.label>Marche</WA_Step.label>
+  <WA_Step.description>Une marche décorative évoquant un escalier. RimWorld ne représentant pas les différences de niveau du sol, elle n'a ici qu'un rôle esthétique.</WA_Step.description>
+  <WA_Gate_CastleGate.label>Porte fortifiée</WA_Gate_CastleGate.label>
+  <WA_Gate_CastleGate.description>Une entrée fortifiée, solide et conçue pour faciliter la défense d'un château.</WA_Gate_CastleGate.description>
+  <WA_Gate_IronGate.label>Porte de château</WA_Gate_IronGate.label>
+  <WA_Gate_IronGate.description>Une lourde porte protégeant l'entrée d'un château. Certaines portes historiques étaient renforcées de fer et difficiles à manœuvrer.</WA_Gate_IronGate.description>
+  <WA_Fence_Yamatobei.label>Clôture yamato</WA_Fence_Yamatobei.label>
+  <WA_Fence_Yamatobei.description>Une clôture dont les planches alternent de part et d'autre des traverses. Elle coupe la vue tout en laissant circuler l'air.</WA_Fence_Yamatobei.description>
+  <WA_Fence_Sukibei.label>Clôture suki</WA_Fence_Sukibei.label>
+  <WA_Fence_Sukibei.description>Une clôture couverte comportant un treillis central qui laisse entrevoir l'intérieur. On la rencontre notamment dans les sanctuaires et les temples.</WA_Fence_Sukibei.description>
+  <WA_Fence_Tuijibei.label>Clôture tsuiji</WA_Fence_Tuijibei.label>
+  <WA_Fence_Tuijibei.description>Une clôture traditionnelle en terre pétrie maintenue par une ossature de bois sur un soubassement de pierre. Elle entoure depuis longtemps temples et édifices publics.</WA_Fence_Tuijibei.description>
+  <WA_Wall_White.label>Makabe blanc</WA_Wall_White.label>
+  <WA_Wall_White.description>Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.</WA_Wall_White.description>
+  <WA_Wall_Pink.label>Makabe rose</WA_Wall_Pink.label>
+  <WA_Wall_Pink.description>Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.</WA_Wall_Pink.description>
+  <WA_Wall_Yellow.label>Makabe jaune</WA_Wall_Yellow.label>
+  <WA_Wall_Yellow.description>Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.</WA_Wall_Yellow.description>
+  <WA_Wall_Green.label>Makabe vert</WA_Wall_Green.label>
+  <WA_Wall_Green.description>Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.</WA_Wall_Green.description>
+  <WA_Wall_Blue.label>Makabe bleu</WA_Wall_Blue.label>
+  <WA_Wall_Blue.description>Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.</WA_Wall_Blue.description>
+  <WA_Wall_Gray.label>Makabe gris</WA_Wall_Gray.label>
+  <WA_Wall_Gray.description>Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.</WA_Wall_Gray.description>
+  <WA_Wall_Black.label>Makabe noir</WA_Wall_Black.label>
+  <WA_Wall_Black.description>Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.</WA_Wall_Black.description>
+  <WA_GreenTea.label>Thé vert</WA_GreenTea.label>
+  <WA_GreenTea.description>Une boisson préparée en mélangeant des feuilles de thé en poudre à de l'eau chaude.</WA_GreenTea.description>
+  <WA_IchigoDaifuku.label>Ichigo daifuku</WA_IchigoDaifuku.label>
+  <WA_IchigoDaifuku.description>Un mochi garni de pâte de haricots rouges et d'une fraise fraîche. La douceur de la pâte accompagne l'acidité du fruit.</WA_IchigoDaifuku.description>
+  <WA_MitarashiDango.label>Mitarashi dango</WA_MitarashiDango.label>
+  <WA_MitarashiDango.description>Des boulettes de farine de riz en brochette, nappées d'une sauce sucrée à base de sauce soja. Leur parfum grillé ouvre l'appétit.</WA_MitarashiDango.description>
+  <WA_Geppei.label>Geppei</WA_Geppei.label>
+  <WA_Geppei.description>Un gâteau de lune traditionnel, garni de pâte de haricots et de fruits à coque. Sa forme ronde évoque la pleine lune de la fête de la mi-automne.</WA_Geppei.description>
+  <WA_KashiwaMochi.label>Kashiwa mochi</WA_KashiwaMochi.label>
+  <WA_KashiwaMochi.description>Un mochi à la pâte de haricots rouges, enveloppé d'une feuille de chêne.</WA_KashiwaMochi.description>
+  <WA_Kasuteira.label>Kasutera</WA_Kasuteira.label>
+  <WA_Kasuteira.description>Un gâteau moelleux aux œufs, à la farine et au sucre. Inspiré de pâtisseries portugaises, il s'est développé au Japon sous une forme propre.</WA_Kasuteira.description>
+  <WA_Kintuba.label>Kintsuba</WA_Kintuba.label>
+  <WA_Kintuba.description>Une pâtisserie à la pâte de haricots rouges prise à l'agar-agar et couverte d'une fine croûte de pâte cuite.</WA_Kintuba.description>
+  <WA_Nerikiri.label>Nerikiri</WA_Nerikiri.label>
+  <WA_Nerikiri.description>Une pâtisserie façonnée à partir de pâte de haricots blancs et d'un liant, souvent travaillée en motifs colorés.</WA_Nerikiri.description>
+  <WA_SakuraNUguisu.label>Sakura et uguisu mochi</WA_SakuraNUguisu.label>
+  <WA_SakuraNUguisu.description>Des douceurs évoquant les couleurs des fleurs de cerisier et des jeunes pousses.</WA_SakuraNUguisu.description>
+  <WA_Youkan.label>Yōkan</WA_Youkan.label>
+  <WA_Youkan.description>Une confiserie japonaise de pâte de haricots azuki, moulée et prise à l'agar-agar.</WA_Youkan.description>
+  <RPC_Dirt.label>Terre</RPC_Dirt.label>
+  <RPC_Dirt.description>De la terre compacte, creusée et transportée. Mélangée à de la paille puis séchée, elle sert à fabriquer du torchis.</RPC_Dirt.description>
+  <RPC_Charcoal.label>Charbon de bois</RPC_Charcoal.label>
+  <RPC_Charcoal.description>Du bois lentement carbonisé dans un feu pauvre en air. Il brûle avec une chaleur régulière et peu de fumée, ce qui le rend utile dans les foyers intérieurs.</RPC_Charcoal.description>
+  <RPC_JapanesePaper.label>Washi</RPC_JapanesePaper.label>
+  <RPC_JapanesePaper.description>Du papier fabriqué avec les longues fibres d'écorce du kōzo. Résistant malgré sa finesse, il peut couvrir une armature légère pour former une cloison.</RPC_JapanesePaper.description>
+  <RPC_PureSilk.label>Soie pure</RPC_PureSilk.label>
+  <RPC_PureSilk.description>Du fil dévidé de cocons de vers à soie puis tissé sans mélange. Sa finesse, sa solidité et sa fabrication lente en font une étoffe précieuse.</RPC_PureSilk.description>
+  <WA_Azuki.label>Azuki</WA_Azuki.label>
+  <WA_Azuki.description>Haricots rouges crus.</WA_Azuki.description>
+  <WA_TeaLeaf.label>Feuilles de thé</WA_TeaLeaf.label>
+  <WA_TeaLeaf.description>Feuilles de thé fraîches.</WA_TeaLeaf.description>
+  <WA_Igusa.label>Jonc</WA_Igusa.label>
+  <WA_Igusa.description>Une plante utilisée pour fabriquer des tatamis, et autrefois employée dans certains remèdes.</WA_Igusa.description>
+  <RPC_Cocoon.label>Cocon</RPC_Cocoon.label>
+  <RPC_Cocoon.description>Un cocon de ver à soie. On en dévide le fil pour produire une étoffe fine.</RPC_Cocoon.description>
+  <RPC_Kouzo.label>Kōzo</RPC_Kouzo.label>
+  <RPC_Kouzo.description>Un faisceau d'écorce de mûrier à papier. Ses longues fibres entrelacées permettent de fabriquer un papier solide et durable.</RPC_Kouzo.description>
+  <WA_Dressing_TownGirl.label>Kimono de citadine</WA_Dressing_TownGirl.label>
+  <WA_Dressing_TownGirl.description>Un kimono de citadine.</WA_Dressing_TownGirl.description>
+  <WA_Dressing_TearHarvest.label>Kimono de cueilleur de thé</WA_Dressing_TearHarvest.label>
+  <WA_Dressing_TearHarvest.description>Un kimono pour la récolte du thé.</WA_Dressing_TearHarvest.description>
+  <WA_Dressing_Samurai.label>Kimono de samouraï</WA_Dressing_Samurai.label>
+  <WA_Dressing_Samurai.description>Un kimono de samouraï.</WA_Dressing_Samurai.description>
+  <WA_Dressing_Carpenter.label>Kimono de charpentier</WA_Dressing_Carpenter.label>
+  <WA_Dressing_Carpenter.description>Un kimono de charpentier.</WA_Dressing_Carpenter.description>
+  <WA_Dressing_Courier.label>Kimono de coursier</WA_Dressing_Courier.label>
+  <WA_Dressing_Courier.description>Un kimono de coursier.</WA_Dressing_Courier.description>
+  <WA_Dressing_Doctor.label>Kimono de médecin</WA_Dressing_Doctor.label>
+  <WA_Dressing_Doctor.description>Un kimono de médecin.</WA_Dressing_Doctor.description>
+  <WA_Dressing_TeaMaster.label>Kimono de maître de thé</WA_Dressing_TeaMaster.label>
+  <WA_Dressing_TeaMaster.description>Un kimono de maître de thé.</WA_Dressing_TeaMaster.description>
+  <WA_Dressing_Oiran.label>Kimono d'oiran</WA_Dressing_Oiran.label>
+  <WA_Dressing_Oiran.description>Un kimono d'oiran.</WA_Dressing_Oiran.description>
+  <WA_Dressing_Kamishimo.label>Kamishimo</WA_Dressing_Kamishimo.label>
+  <WA_Dressing_Kamishimo.description>Une tenue de cérémonie kamishimo.</WA_Dressing_Kamishimo.description>
+  <WA_Dressing_Matagi.label>Kimono de matagi</WA_Dressing_Matagi.label>
+  <WA_Dressing_Matagi.description>Un kimono de chasseur matagi.</WA_Dressing_Matagi.description>
+  <WA_Dressing_Princess.label>Kimono de princesse</WA_Dressing_Princess.label>
+  <WA_Dressing_Princess.description>Un kimono de princesse. Sa dignité encourage les alliés à proximité.</WA_Dressing_Princess.description>
+  <WA_Dressing_Sumoman.label>Kimono de rikishi</WA_Dressing_Sumoman.label>
+  <WA_Dressing_Sumoman.description>Un kimono de lutteur. La puissance du yokozuna intimide les ennemis.</WA_Dressing_Sumoman.description>
+  <WA_FarmPlant_Igusa.label>Jonc</WA_FarmPlant_Igusa.label>
+  <WA_FarmPlant_Igusa.description>Un jonc allongé des zones humides, pouvant atteindre environ 1,6 mètre. Il sert surtout à fabriquer des tatamis et était autrefois utilisé comme plante médicinale.</WA_FarmPlant_Igusa.description>
+  <WA_FarmPlant_Azuki.label>Azuki</WA_FarmPlant_Azuki.label>
+  <WA_FarmPlant_Azuki.description>Une plante donnant des gousses de haricots rouge sombre. Ceux-ci se mangent cuits ou sucrés sous forme de pâte.</WA_FarmPlant_Azuki.description>
+  <WA_FarmPlant_TeaTree.label>Théier</WA_FarmPlant_TeaTree.label>
+  <WA_FarmPlant_TeaTree.description>Un arbuste cultivé depuis longtemps en Chine. Ses feuilles infusées donnent une boisson appréciée dans le monde entier.</WA_FarmPlant_TeaTree.description>
+  <WA_FarmPlant_Kouzo.label>Kōzo</WA_FarmPlant_Kouzo.label>
+  <WA_FarmPlant_Kouzo.description>Un arbre aux fleurs vert pâle au printemps et aux fruits rouges en début d'été. Les fibres de son écorce servent à fabriquer du papier.</WA_FarmPlant_Kouzo.description>
+  <WA_FarmPlant_Kuwa.label>Mûrier</WA_FarmPlant_Kuwa.label>
+  <WA_FarmPlant_Kuwa.description>Un mûrier aux fruits rouge violacé. Ses feuilles nourrissent les vers à soie, ce qui en fait une plante essentielle à la production de soie.</WA_FarmPlant_Kuwa.description>
+</LanguageData>

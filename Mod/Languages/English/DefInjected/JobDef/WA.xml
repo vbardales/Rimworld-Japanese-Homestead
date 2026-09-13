@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_GreenTea.reportString>Enjoying a tea ceremony.</Make_GreenTea.reportString>
+  <Drink_GreenTea.reportString>Enjoying a tea ceremony.</Drink_GreenTea.reportString>
+  <Play_Koto.reportString>Playing a gentle melody on the koto.</Play_Koto.reportString>
+  <Play_PoemCardGame.reportString>Playing hundred-poets karuta.</Play_PoemCardGame.reportString>
+  <Play_BozuMekuri.reportString>Playing bozu mekuri.</Play_BozuMekuri.reportString>
+  <Play_ShellMatching.reportString>Playing shell matching.</Play_ShellMatching.reportString>
+  <Play_Sugoroku.reportString>Playing sugoroku.</Play_Sugoroku.reportString>
+  <Enjoy_Aroma.reportString>Enjoying the scent of incense.</Enjoy_Aroma.reportString>
+  <PuffTobaccoPipe.reportString>Smoking a pipe.</PuffTobaccoPipe.reportString>
+</LanguageData>

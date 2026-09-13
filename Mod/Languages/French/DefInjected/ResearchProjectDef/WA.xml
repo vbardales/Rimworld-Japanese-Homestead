@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WA_Research_Basic.label>Fondements japonais</WA_Research_Basic.label>
+  <WA_Research_Basic.description>Apprendre les bases des techniques japonaises pour accéder à leurs différents domaines.</WA_Research_Basic.description>
+  <WA_Research_Building_Basic.label>Architecture élémentaire</WA_Research_Building_Basic.label>
+  <WA_Research_Building_Basic.description>Apprendre les bases de l'architecture japonaise pour construire des murs et clôtures simples.</WA_Research_Building_Basic.description>
+  <WA_Research_Building_Advanced.label>Architecture avancée</WA_Research_Building_Advanced.label>
+  <WA_Research_Building_Advanced.description>Approfondir les techniques japonaises pour construire des murs et clôtures variés.</WA_Research_Building_Advanced.description>
+  <WA_Research_Building_Castle.label>Architecture fortifiée</WA_Research_Building_Castle.label>
+  <WA_Research_Building_Castle.description>Apprendre les techniques japonaises de fortification pour construire de solides défenses.</WA_Research_Building_Castle.description>
+  <WA_Research_Building_Garden.label>Jardins</WA_Research_Building_Garden.label>
+  <WA_Research_Building_Garden.description>Apprendre les techniques de jardinage japonaises pour aménager le paysage.</WA_Research_Building_Garden.description>
+  <WA_Research_Building_Funiture.label>Mobilier</WA_Research_Building_Funiture.label>
+  <WA_Research_Building_Funiture.description>Apprendre à fabriquer divers meubles de style japonais.</WA_Research_Building_Funiture.description>
+  <WA_Research_Building_Amusement.label>Loisirs</WA_Research_Building_Amusement.label>
+  <WA_Research_Building_Amusement.description>Apprendre à fabriquer des objets de loisirs traditionnels japonais.</WA_Research_Building_Amusement.description>
+  <WA_Research_Art.label>Art</WA_Research_Art.label>
+  <WA_Research_Art.description>Apprendre à réaliser de belles œuvres d'art.</WA_Research_Art.description>
+  <WA_Research_Farming.label>Agriculture</WA_Research_Farming.label>
+  <WA_Research_Farming.description>Apprendre à cultiver les plantes indispensables à la vie japonaise.</WA_Research_Farming.description>
+  <WA_Research_TeaTimeset.label>L'heure du thé</WA_Research_TeaTimeset.label>
+  <WA_Research_TeaTimeset.description>Apprendre à préparer le thé et les pâtisseries qui l'accompagnent.</WA_Research_TeaTimeset.description>
+  <WA_Research_Dressing.label>Habillement</WA_Research_Dressing.label>
+  <WA_Research_Dressing.description>Apprendre à confectionner des vêtements du quotidien.</WA_Research_Dressing.description>
+</LanguageData>

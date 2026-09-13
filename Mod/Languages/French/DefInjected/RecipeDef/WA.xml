@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WA_DigSoil.label>récolter de la terre</WA_DigSoil.label>
+  <WA_DigSoil.description>Creuser et rapporter de la terre compacte.</WA_DigSoil.description>
+  <WA_DigSoil.jobString>Récolte de la terre.</WA_DigSoil.jobString>
+  <WA_MakeCharcoal.label>produire du charbon de bois</WA_MakeCharcoal.label>
+  <WA_MakeCharcoal.description>Étouffer un feu de bois pour carboniser le bois au lieu de le consumer.</WA_MakeCharcoal.description>
+  <WA_MakeCharcoal.jobString>Produit du charbon de bois.</WA_MakeCharcoal.jobString>
+  <WA_MassCook_SimpleMeal.label>Préparer 6 repas simples</WA_MassCook_SimpleMeal.label>
+  <WA_MassCook_SimpleMeal.description>Préparer un repas simple.</WA_MassCook_SimpleMeal.description>
+  <WA_MassCook_SimpleMeal.jobString>Prépare des repas simples en quantité.</WA_MassCook_SimpleMeal.jobString>
+  <WA_MassCook_FineMeal.label>Préparer 6 repas raffinés</WA_MassCook_FineMeal.label>
+  <WA_MassCook_FineMeal.description>Préparer un repas élaboré à partir de viande et de végétaux.</WA_MassCook_FineMeal.description>
+  <WA_MassCook_FineMeal.jobString>Prépare des repas raffinés en quantité.</WA_MassCook_FineMeal.jobString>
+  <WA_MassCook_LavishMeal.label>Préparer 6 repas gastronomiques</WA_MassCook_LavishMeal.label>
+  <WA_MassCook_LavishMeal.description>Préparer un repas très élaboré à partir de viande et de végétaux. Une grande partie des ingrédients est perdue.</WA_MassCook_LavishMeal.description>
+  <WA_MassCook_LavishMeal.jobString>Prépare des repas gastronomiques en quantité.</WA_MassCook_LavishMeal.jobString>
+  <WA_Recipe_GreenTea.label>Préparer du thé vert</WA_Recipe_GreenTea.label>
+  <WA_Recipe_GreenTea.description>Mélanger des feuilles de thé réduites en poudre à de l'eau chaude.</WA_Recipe_GreenTea.description>
+  <WA_Recipe_GreenTea.jobString>Prépare du thé vert.</WA_Recipe_GreenTea.jobString>
+  <WA_Recipe_Daifuku.label>Préparer des ichigo daifuku</WA_Recipe_Daifuku.label>
+  <WA_Recipe_Daifuku.description>Envelopper de grosses fraises de pâte de haricots rouges et de mochi.</WA_Recipe_Daifuku.description>
+  <WA_Recipe_Daifuku.jobString>Prépare des ichigo daifuku.</WA_Recipe_Daifuku.jobString>
+  <WA_Recipe_Dango.label>Préparer des mitarashi dango</WA_Recipe_Dango.label>
+  <WA_Recipe_Dango.description>Préparer des boulettes de farine de riz nappées d'une sauce ambrée sucrée-salée.</WA_Recipe_Dango.description>
+  <WA_Recipe_Dango.jobString>Prépare des mitarashi dango.</WA_Recipe_Dango.jobString>
+  <WA_Recipe_Geppei.label>Préparer des geppei</WA_Recipe_Geppei.label>
+  <WA_Recipe_Geppei.description>Envelopper de la pâte de haricots rouges dans une pâte à gâteau et la cuire.</WA_Recipe_Geppei.description>
+  <WA_Recipe_Geppei.jobString>Prépare des geppei.</WA_Recipe_Geppei.jobString>
+  <WA_Recipe_Kashiwa.label>Préparer des kashiwa mochi</WA_Recipe_Kashiwa.label>
+  <WA_Recipe_Kashiwa.description>Envelopper de la pâte de haricots rouges dans du mochi, puis dans une feuille de chêne.</WA_Recipe_Kashiwa.description>
+  <WA_Recipe_Kashiwa.jobString>Prépare des kashiwa mochi.</WA_Recipe_Kashiwa.jobString>
+  <WA_Recipe_Kasuteira.label>Préparer du kasutera</WA_Recipe_Kasuteira.label>
+  <WA_Recipe_Kasuteira.description>Mélanger des œufs battus, de la farine et du sucre pour obtenir un gâteau moelleux.</WA_Recipe_Kasuteira.description>
+  <WA_Recipe_Kasuteira.jobString>Prépare du kasutera.</WA_Recipe_Kasuteira.jobString>
+  <WA_Recipe_Kintuba.label>Préparer des kintsuba</WA_Recipe_Kintuba.label>
+  <WA_Recipe_Kintuba.description>Faire prendre la pâte de haricots rouges avec de l'agar-agar, puis cuire chaque face sous une fine couche de pâte.</WA_Recipe_Kintuba.description>
+  <WA_Recipe_Kintuba.jobString>Prépare des kintsuba.</WA_Recipe_Kintuba.jobString>
+  <WA_Recipe_Nerikiri.label>Préparer des nerikiri</WA_Recipe_Nerikiri.label>
+  <WA_Recipe_Nerikiri.description>Mélanger un liant à de la pâte de haricots colorée, puis façonner des pâtisseries décoratives.</WA_Recipe_Nerikiri.description>
+  <WA_Recipe_Nerikiri.jobString>Prépare des nerikiri.</WA_Recipe_Nerikiri.jobString>
+  <WA_Recipe_SakuraNUguisu.label>Préparer des sakura et uguisu mochi</WA_Recipe_SakuraNUguisu.label>
+  <WA_Recipe_SakuraNUguisu.description>Envelopper de la pâte de haricots dans deux pâtes aux couleurs du printemps.</WA_Recipe_SakuraNUguisu.description>
+  <WA_Recipe_SakuraNUguisu.jobString>Prépare des sakura et uguisu mochi.</WA_Recipe_SakuraNUguisu.jobString>
+  <WA_Recipe_Youkan.label>Préparer du yōkan</WA_Recipe_Youkan.label>
+  <WA_Recipe_Youkan.description>Faire cuire de la pâte de haricots rouges avec de l'agar-agar pour la faire prendre.</WA_Recipe_Youkan.description>
+  <WA_Recipe_Youkan.jobString>Prépare du yōkan.</WA_Recipe_Youkan.jobString>
+  <WA_Igusa2Medicine.label>Préparer des remèdes</WA_Igusa2Medicine.label>
+  <WA_Igusa2Medicine.description>Transformer le jonc en remèdes à base de plantes.</WA_Igusa2Medicine.description>
+  <WA_Igusa2Medicine.jobString>Prépare des remèdes à base de jonc.</WA_Igusa2Medicine.jobString>
+  <RPC_MakePureSilk.label>Tisser de la soie</RPC_MakePureSilk.label>
+  <RPC_MakePureSilk.description>Tisser de la soie pure à partir de cocons.</RPC_MakePureSilk.description>
+  <RPC_MakePureSilk.jobString>Tisse de la soie.</RPC_MakePureSilk.jobString>
+  <RPC_MakePaper.label>Fabriquer du papier japonais</RPC_MakePaper.label>
+  <RPC_MakePaper.description>Fabriquer du papier japonais à partir d'écorce de kōzo.</RPC_MakePaper.description>
+  <RPC_MakePaper.jobString>Fabrique du papier.</RPC_MakePaper.jobString>
+</LanguageData>

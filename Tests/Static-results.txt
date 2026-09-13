@@ -1,0 +1,2 @@
+PASS: 134 XML files; 861 selected references resolve in Core+WA; 458 EN/FR text entries and parameters; conditional aquarium costs; settings surface; metadata copies.
+No game execution, complete engine Def loading, optional mod runtime or save migration is claimed.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HDA_Hediff_IntimidateOfTheYokozuna.label>Intimidation of the yokozuna</HDA_Hediff_IntimidateOfTheYokozuna.label>
+  <WA_Hediff_Metabolic.label>... A little heavier?</WA_Hediff_Metabolic.label>
+  <WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterLabel>{0} gained weight</WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterLabel>
+  <WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterText>{0} is now suffering the effects of too much sugar!</WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterText>
+  <WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-0.label>The temptation of sugar is taking its toll.</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-0.label>
+  <WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-1.label>The temptation of sugar is taking its toll.</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-1.label>
+  <WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-2.label>The temptation of sugar is taking its toll.</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-2.label>
+  <WA_Hediff_GreenTea.stages.I_drank_delicious_green_tea_and_the_spirit_was_sharpened.label>That delicious green tea cleared my mind.</WA_Hediff_GreenTea.stages.I_drank_delicious_green_tea_and_the_spirit_was_sharpened.label>
+  <WA_Hediff_Daifuku.stages.Fresh_and_fresh_strawberry_acidity_and_elegant_sweetness_of_strainer_Great.label>Fresh strawberry, sweet bean paste and tender mochi: delicious!</WA_Hediff_Daifuku.stages.Fresh_and_fresh_strawberry_acidity_and_elegant_sweetness_of_strainer_Great.label>
+  <WA_Hediff_Dango.stages.The_compatibility_of_rich_sweet_sauce_is_great_with_rich_mochi_dumplings.label>The sweet and savoury sauce goes perfectly with these chewy dumplings!</WA_Hediff_Dango.stages.The_compatibility_of_rich_sweet_sauce_is_great_with_rich_mochi_dumplings.label>
+  <WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>The sweet bean paste and crunchy walnuts were delightful!</WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>
+  <WA_Hediff_Kashiwa.stages.The_sweetness_of_rice_and_the_smell_of_rice_are_deeply_flavored.label>The sweetness of rice and the scent of oak leaves are a wonderful match!</WA_Hediff_Kashiwa.stages.The_sweetness_of_rice_and_the_smell_of_rice_are_deeply_flavored.label>
+  <WA_Hediff_Kasuteira.stages.The_fluffy_dough_and_the_texture_of_Zarame_feel_the_supreme_moment.label>Fluffy cake and crunchy sugar crystals: a moment of bliss.</WA_Hediff_Kasuteira.stages.The_fluffy_dough_and_the_texture_of_Zarame_feel_the_supreme_moment.label>
+  <WA_Hediff_Kintuba.stages.Plenty_of_red_bean_paste_sweetness_is_moderately_sweet_and_you_will_even_remember_the_freshness.label>Generous red bean paste with a delicate sweetness.</WA_Hediff_Kintuba.stages.Plenty_of_red_bean_paste_sweetness_is_moderately_sweet_and_you_will_even_remember_the_freshness.label>
+  <WA_Hediff_Nerikiri.stages.Multicolored_pastemaking_is_artistic.label>These colourful sweets are little works of art!</WA_Hediff_Nerikiri.stages.Multicolored_pastemaking_is_artistic.label>
+  <WA_Hediff_Sakura.stages.An_elegant_scent_of_cherry_leaves_and_a_fabric_of_beautiful_color_make_spring_feel.label>The scent of cherry leaves and these delicate colours feel like spring.</WA_Hediff_Sakura.stages.An_elegant_scent_of_cherry_leaves_and_a_fabric_of_beautiful_color_make_spring_feel.label>
+  <WA_Hediff_Uguisu.label>Delicious Uguisu Mochi</WA_Hediff_Uguisu.label>
+  <WA_Hediff_Uguisu.stages.Vivid_wakakusa_color_is_very_compatible_with_soft_fertilizer.label>The fresh green colour suits this wonderfully soft mochi.</WA_Hediff_Uguisu.stages.Vivid_wakakusa_color_is_very_compatible_with_soft_fertilizer.label>
+  <WA_Hediff_Youkan.stages.The_texture_that_is_smooth_enough_to_collapse_as_soon_as_it_contains_mouth_is_the_ultimate_gem.label>This smooth sweet melts in the mouth. A real treat!</WA_Hediff_Youkan.stages.The_texture_that_is_smooth_enough_to_collapse_as_soon_as_it_contains_mouth_is_the_ultimate_gem.label>
+</LanguageData>

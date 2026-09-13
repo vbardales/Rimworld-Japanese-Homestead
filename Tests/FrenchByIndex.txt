@@ -1,0 +1,348 @@
+0|WA
+1|Une colonie au charme japonais.
+2|Futon
+3|Literie japonaise.
+4|Encouragement de la princesse
+5|La prestance de la princesse en kimono remonte le moral de ceux qui travaillent près d'elle.
+6|La princesse m'a encouragé !
+7|Intimidation du yokozuna
+8|La seule présence du yokozuna suffit à décourager ceux qui lui font face.
+9|Intimidé par le yokozuna.
+10|… Un peu de poids en plus ?
+11|Une sucrerie de trop. Cela commence à se voir.
+12|La tentation du sucre fait peu à peu son œuvre.
+13|Délicieux matcha
+14|Le plaisir persistant d'une pâtisserie japonaise bien préparée.
+15|Ce délicieux thé vert m'a éclairci l'esprit.
+16|Délicieux ichigo daifuku
+17|Une fraise acidulée, une pâte de haricots sucrée et un mochi tendre : quel régal !
+18|Délicieux mitarashi dango
+19|Cette sauce sucrée-salée accompagne à merveille les boulettes de mochi !
+20|Délicieux geppei
+21|La pâte de haricots et les noix croquantes m'ont ravi !
+22|Délicieux kashiwa mochi
+23|La douceur du riz et le parfum de la feuille de chêne se marient si bien !
+24|Délicieux kasutera
+25|Une pâte moelleuse et des cristaux de sucre : un instant de bonheur.
+26|Délicieux kintsuba
+27|Cette généreuse pâte de haricots rouges est douce et délicate.
+28|Délicieux nerikiri
+29|Ces pâtes colorées sont de véritables œuvres d'art !
+30|Délicieux sakura mochi
+31|Le parfum de feuille de cerisier et ces jolies couleurs annoncent le printemps.
+32|Délicieux uguisu mochi
+33|Cette couleur de jeune pousse accompagne un mochi délicieusement tendre.
+34|Délicieux yōkan
+35|Cette douceur fond dans la bouche : un véritable délice !
+36|Profite de la cérémonie du thé.
+37|Contemple le feu du foyer.
+38|Joue une douce mélodie au koto.
+39|Joue au karuta des cent poètes.
+40|Joue au bōzu mekuri.
+41|Joue à associer des coquillages.
+42|Joue au sugoroku.
+43|Profite du parfum de l'encens.
+44|Fume tranquillement la pipe.
+45|Musique
+46|Loisirs traditionnels japonais
+47|Kimono
+48|récolter de la terre
+49|Creuser et rapporter de la terre compacte.
+50|Récolte de la terre.
+51|produire du charbon de bois
+52|Étouffer un feu de bois pour carboniser le bois au lieu de le consumer.
+53|Produit du charbon de bois.
+54|Préparer 6 repas simples
+55|Préparer un repas simple.
+56|Prépare des repas simples en quantité.
+57|Préparer 6 repas raffinés
+58|Préparer un repas élaboré à partir de viande et de végétaux.
+59|Prépare des repas raffinés en quantité.
+60|Préparer 6 repas gastronomiques
+61|Préparer un repas très élaboré à partir de viande et de végétaux. Une grande partie des ingrédients est perdue.
+62|Prépare des repas gastronomiques en quantité.
+63|Préparer du thé vert
+64|Mélanger des feuilles de thé réduites en poudre à de l'eau chaude.
+65|Prépare du thé vert.
+66|Préparer des ichigo daifuku
+67|Envelopper de grosses fraises de pâte de haricots rouges et de mochi.
+68|Prépare des ichigo daifuku.
+69|Préparer des mitarashi dango
+70|Préparer des boulettes de farine de riz nappées d'une sauce ambrée sucrée-salée.
+71|Prépare des mitarashi dango.
+72|Préparer des geppei
+73|Envelopper de la pâte de haricots rouges dans une pâte à gâteau et la cuire.
+74|Prépare des geppei.
+75|Préparer des kashiwa mochi
+76|Envelopper de la pâte de haricots rouges dans du mochi, puis dans une feuille de chêne.
+77|Prépare des kashiwa mochi.
+78|Préparer du kasutera
+79|Mélanger des œufs battus, de la farine et du sucre pour obtenir un gâteau moelleux.
+80|Prépare du kasutera.
+81|Préparer des kintsuba
+82|Faire prendre la pâte de haricots rouges avec de l'agar-agar, puis cuire chaque face sous une fine couche de pâte.
+83|Prépare des kintsuba.
+84|Préparer des nerikiri
+85|Mélanger un liant à de la pâte de haricots colorée, puis façonner des pâtisseries décoratives.
+86|Prépare des nerikiri.
+87|Préparer des sakura et uguisu mochi
+88|Envelopper de la pâte de haricots dans deux pâtes aux couleurs du printemps.
+89|Prépare des sakura et uguisu mochi.
+90|Préparer du yōkan
+91|Faire cuire de la pâte de haricots rouges avec de l'agar-agar pour la faire prendre.
+92|Prépare du yōkan.
+93|Préparer des remèdes
+94|Transformer le jonc en remèdes à base de plantes.
+95|Prépare des remèdes à base de jonc.
+96|Tisser de la soie
+97|Tisser de la soie pure à partir de cocons.
+98|Tisse de la soie.
+99|Fabriquer du papier japonais
+100|Fabriquer du papier japonais à partir d'écorce de kōzo.
+101|Fabrique du papier.
+102|Fondements japonais
+103|Apprendre les bases des techniques japonaises pour accéder à leurs différents domaines.
+104|Architecture élémentaire
+105|Apprendre les bases de l'architecture japonaise pour construire des murs et clôtures simples.
+106|Architecture avancée
+107|Approfondir les techniques japonaises pour construire des murs et clôtures variés.
+108|Architecture fortifiée
+109|Apprendre les techniques japonaises de fortification pour construire de solides défenses.
+110|Jardins
+111|Apprendre les techniques de jardinage japonaises pour aménager le paysage.
+112|Mobilier
+113|Apprendre à fabriquer divers meubles de style japonais.
+114|Loisirs
+115|Apprendre à fabriquer des objets de loisirs traditionnels japonais.
+116|Art
+117|Apprendre à réaliser de belles œuvres d'art.
+118|Agriculture
+119|Apprendre à cultiver les plantes indispensables à la vie japonaise.
+120|L'heure du thé
+121|Apprendre à préparer le thé et les pâtisseries qui l'accompagnent.
+122|Habillement
+123|Apprendre à confectionner des vêtements du quotidien.
+124|
+125|Au Japon, la mousse est appréciée pour sa beauté. Elle orne depuis longtemps jardins et compositions de bonsaïs.
+126|Mousse
+127|Petits graviers destinés aux jardins, aux entrées et aux aménagements extérieurs. Ils décorent les lieux, freinent les mauvaises herbes et rendent les pas plus audibles.
+128|Gravier de grès
+129|Gravier de granit
+130|Gravier de calcaire
+131|Gravier d'ardoise
+132|Gravier de marbre
+133|Le tatami est une natte de paille qui couvre le sol des pièces japonaises. Utilisé depuis des siècles, il existe aujourd'hui dans une grande variété de couleurs.
+134|Tatami vert
+135|Tatami vert citron
+136|Tatami jaune
+137|Tatami orange
+138|Tatami blanc
+139|Tatami rose cerisier
+140|Tatami gris
+141|Tatami sombre
+142|Tatami noir
+143|Vêtements japonais
+144|Aquarium
+145|Un aquarium de poissons rouges qui invite à la contemplation. Les aquariums en verre se sont répandus avec l'amélioration de la fabrication du verre à la fin de l'époque d'Edo.
+146|Lampe à huile sur pied
+147|Une lampe dont la mèche trempe dans de l'huile. Son socle évoque une bouse de vache, à l'origine de son nom traditionnel. Ce type d'éclairage était notamment utilisé par les aristocrates.
+148|Lampe gatō
+149|Une lampe à huile en terre cuite, fabriquée avec une argile semblable à celle des tuiles. Son matériau résiste au feu et son usage s'est répandu dans les foyers japonais.
+150|Lanterne ariake
+151|Une lanterne protégée par du papier japonais. Sortie de son coffret, elle éclaire largement ; replacée à l'intérieur, elle diffuse une lumière douce pour la nuit.
+152|Bonbori
+153|Une lanterne dont une armature de formes variées est couverte de papier ou de tissu. Les bonbori décorent encore les fêtes traditionnelles, notamment la fête des poupées.
+154|Chōchin
+155|Une lanterne légère de papier japonais tendu sur une armature de bambou pliable. Facile à transporter, elle accompagne depuis longtemps les rues et les fêtes.
+156|Feu sur brasero
+157|Un feu extérieur contenu dans une corbeille métallique. Il éclaire les rassemblements, les fêtes et certains bateaux de pêche.
+158|Brasero
+159|Un récipient partiellement rempli de charbon incandescent. Il sert à chauffer la pièce, à faire chauffer le thé ou à allumer une pipe.
+160|Zabuton
+161|Un coussin de tissu garni de coton pour s'asseoir sur un tatami ou à même le sol. Il isole du froid du plancher. Autrefois réservé aux dignitaires, il s'est progressivement répandu dans les foyers.
+162|Zabuton rouge
+163|Zabuton rose
+164|Zabuton jaune
+165|Zabuton vert
+166|Zabuton bleu
+167|Zabuton violet
+168|Zabuton noir
+169|Zabuton blanc
+170|Alcôve
+171|Alcôve au pin
+172|Le tokonoma est une alcôve d'honneur dans une pièce japonaise. On y expose un rouleau calligraphié, un bouquet ou d'autres ornements.
+173|Alcôve au cerisier
+174|Alcôve au nandina
+175|Alcôve à la lune
+176|Alcôve au houx
+177|Koto
+178|Une cithare japonaise à treize cordes tendues sur une longue caisse de bois.
+179|Karuta
+180|Un jeu de cartes traditionnel japonais, particulièrement apprécié au Nouvel An.
+181|Jeu de coquillages
+182|Un loisir traditionnel où l'on associe des coquillages. Il évoque les jeux de cour de l'époque de Heian, où l'on admirait leur forme et leurs couleurs et composait des poèmes.
+183|Sugoroku
+184|Un jeu de plateau où les pions avancent selon le résultat des dés.
+185|Brûle-encens
+186|Un récipient servant à chauffer de l'encens solide pour en libérer le parfum. À la cour de Heian, on parfumait aussi les vêtements à la fumée d'encens.
+187|Fusuma
+188|Une cloison coulissante en papier ou en tissu tendu sur un cadre de bois. Très légère, elle s'ouvre rapidement mais résiste mal aux chocs. Elle sert à séparer les pièces.
+189|Fusuma à l'aube
+190|Fusuma de nuit
+191|Fusuma au crépuscule
+192|Fusuma du matin
+193|Fusuma de printemps
+194|Fusuma d'été
+195|Fusuma d'automne
+196|Fusuma d'hiver
+197|Fusuma blanc
+198|Shōji
+199|Une cloison légère constituée de papier translucide sur un treillis de bois. Elle laisse passer une lumière douce tout en masquant la vue. Son papier fragile se perce facilement.
+200|Shōji carré
+201|Shōji circulaire
+202|Shōji combiné
+203|Shōji décoratif
+204|Paravent
+205|Un byōbu est un paravent pliant composé de cadres de bois couverts de papier japonais épais ou de tissu, souvent de soie. Il décore et sépare les espaces.
+206|Commode
+207|Un matelas ou une couverture épaisse garnie de coton. Posé sur des tatamis, le futon constitue une literie traditionnelle.
+208|Futon double
+209|Futon royal
+210|Futon de voyage
+211|Un futon garni de coton conçu pour être transporté et utilisé comme couchage de voyage.
+212|Futon médical
+213|Un futon ayant reçu un traitement antimicrobien, adapté aux soins médicaux.
+214|Irori
+215|Un foyer aménagé dans une ouverture carrée du plancher, rempli de cendres, de bois et de charbon. Au centre d'une pièce, il sert à chauffer, cuisiner, éclairer et sécher.
+216|Irori pour le thé
+217|Un foyer aménagé dans le plancher d'une pièce de thé. Il sert principalement à chauffer l'eau de la cérémonie du thé.
+218|Zabuton auxiliaire
+219|Élément auxiliaire du foyer.
+220|Bureau de copie des sutras
+221|Un bureau bas pour recopier des sutras à la main. Un travail lent et minutieux, dans un espace qui sert aussi à étudier.
+222|Base de mur japonais à tuiles
+223|Rempart
+224|Un mur enduit coiffé de tuiles. Ces tuiles le protègent de la pluie et le décorent ; autrefois coûteuses, elles ornaient notamment les enceintes des résidences de samouraïs.
+225|Rempart à fenêtre en saillie
+226|Un mur coiffé de tuiles et doté d'une fenêtre en saillie. Celle-ci sert à observer les alentours et peut aider les défenseurs en cas d'attaque.
+227|Mur de pierre
+228|Un ishigaki est un mur de pierres assemblées, utilisé notamment dans les fortifications. Les ouvrages les plus élaborés emploient des pierres ajustées avec très peu d'interstices.
+229|Base de douves
+230|Douves en eau
+231|Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue une défense supplémentaire.
+232|Douves sèches
+233|Marche
+234|Une marche décorative évoquant un escalier. RimWorld ne représentant pas les différences de niveau du sol, elle n'a ici qu'un rôle esthétique.
+235|Porte fortifiée
+236|Une entrée fortifiée, solide et conçue pour faciliter la défense d'un château.
+237|Porte de château
+238|Une lourde porte protégeant l'entrée d'un château. Certaines portes historiques étaient renforcées de fer et difficiles à manœuvrer.
+239|Base de clôture japonaise
+240|Clôture yamato
+241|Une clôture dont les planches alternent de part et d'autre des traverses. Elle coupe la vue tout en laissant circuler l'air.
+242|Clôture suki
+243|Une clôture couverte comportant un treillis central qui laisse entrevoir l'intérieur. On la rencontre notamment dans les sanctuaires et les temples.
+244|Clôture tsuiji
+245|Une clôture traditionnelle en terre pétrie maintenue par une ossature de bois sur un soubassement de pierre. Elle entoure depuis longtemps temples et édifices publics.
+246|Base de mur makabe
+247|Makabe blanc
+248|Un mur japonais traditionnel dont les poteaux et poutres restent apparents. Cette structure permet à l'humidité de s'évacuer et favorise la durabilité du mur.
+249|Makabe rose
+250|Makabe jaune
+251|Makabe vert
+252|Makabe bleu
+253|Makabe gris
+254|Makabe noir
+255|Thé vert
+256|Une boisson préparée en mélangeant des feuilles de thé en poudre à de l'eau chaude.
+257|Ichigo daifuku
+258|Un mochi garni de pâte de haricots rouges et d'une fraise fraîche. La douceur de la pâte accompagne l'acidité du fruit.
+259|Mitarashi dango
+260|Des boulettes de farine de riz en brochette, nappées d'une sauce sucrée à base de sauce soja. Leur parfum grillé ouvre l'appétit.
+261|Geppei
+262|Un gâteau de lune traditionnel, garni de pâte de haricots et de fruits à coque. Sa forme ronde évoque la pleine lune de la fête de la mi-automne.
+263|Kashiwa mochi
+264|Un mochi à la pâte de haricots rouges, enveloppé d'une feuille de chêne.
+265|Kasutera
+266|Un gâteau moelleux aux œufs, à la farine et au sucre. Inspiré de pâtisseries portugaises, il s'est développé au Japon sous une forme propre.
+267|Kintsuba
+268|Une pâtisserie à la pâte de haricots rouges prise à l'agar-agar et couverte d'une fine croûte de pâte cuite.
+269|Nerikiri
+270|Une pâtisserie façonnée à partir de pâte de haricots blancs et d'un liant, souvent travaillée en motifs colorés.
+271|Sakura et uguisu mochi
+272|Des douceurs évoquant les couleurs des fleurs de cerisier et des jeunes pousses.
+273|Yōkan
+274|Une confiserie japonaise de pâte de haricots azuki, moulée et prise à l'agar-agar.
+275|Terre
+276|De la terre compacte, creusée et transportée. Mélangée à de la paille puis séchée, elle sert à fabriquer du torchis.
+277|Charbon de bois
+278|Du bois lentement carbonisé dans un feu pauvre en air. Il brûle avec une chaleur régulière et peu de fumée, ce qui le rend utile dans les foyers intérieurs.
+279|Washi
+280|Du papier fabriqué avec les longues fibres d'écorce du kōzo. Résistant malgré sa finesse, il peut couvrir une armature légère pour former une cloison.
+281|Soie pure
+282|Du fil dévidé de cocons de vers à soie puis tissé sans mélange. Sa finesse, sa solidité et sa fabrication lente en font une étoffe précieuse.
+283|Azuki
+284|Haricots rouges crus.
+285|Feuilles de thé
+286|Feuilles de thé fraîches.
+287|Jonc
+288|Une plante utilisée pour fabriquer des tatamis, et autrefois employée dans certains remèdes.
+289|Cocon
+290|Un cocon de ver à soie. On en dévide le fil pour produire une étoffe fine.
+291|Kōzo
+292|Un faisceau d'écorce de mûrier à papier. Ses longues fibres entrelacées permettent de fabriquer un papier solide et durable.
+293|Kimono de citadine
+294|Un kimono de citadine.
+295|Kimono de cueilleur de thé
+296|Un kimono pour la récolte du thé.
+297|Kimono de samouraï
+298|Un kimono de samouraï.
+299|Kimono de charpentier
+300|Un kimono de charpentier.
+301|Kimono de coursier
+302|Un kimono de coursier.
+303|Kimono de médecin
+304|Un kimono de médecin.
+305|Kimono de maître de thé
+306|Un kimono de maître de thé.
+307|Kimono d'oiran
+308|Un kimono d'oiran.
+309|Kamishimo
+310|Une tenue de cérémonie kamishimo.
+311|Kimono de matagi
+312|Un kimono de chasseur matagi.
+313|Kimono de princesse
+314|Un kimono de princesse. Sa dignité encourage les alliés à proximité.
+315|Kimono de rikishi
+316|Un kimono de lutteur. La puissance du yokozuna intimide les ennemis.
+317|Kimono d'ancien
+318|Un kimono d'ancien.
+319|Kimono de Suke
+320|Un kimono de Suke.
+321|Kimono de Kaku
+322|Kimono de Kin
+323|Un kimono de Kin.
+324|Kimono de moine guerrier
+325|Un kimono de moine guerrier.
+326|Capuche de kimono
+327|Une capuche assortie au kimono.
+328|Bandeau de tissu
+329|Un bandeau de tissu pour la tête.
+330|Coiffe katō
+331|Une coiffe katō.
+332|Base de plante WA
+333|Base des cultures de la série WA.
+334|Un jonc allongé des zones humides, pouvant atteindre environ 1,6 mètre. Il sert surtout à fabriquer des tatamis et était autrefois utilisé comme plante médicinale.
+335|Une plante donnant des gousses de haricots rouge sombre. Ceux-ci se mangent cuits ou sucrés sous forme de pâte.
+336|Théier
+337|Un arbuste cultivé depuis longtemps en Chine. Ses feuilles infusées donnent une boisson appréciée dans le monde entier.
+338|Un arbre aux fleurs vert pâle au printemps et aux fruits rouges en début d'été. Les fibres de son écorce servent à fabriquer du papier.
+339|Mûrier
+340|Un mûrier aux fruits rouge violacé. Ses feuilles nourrissent les vers à soie, ce qui en fait une plante essentielle à la production de soie.
+341|Tatami confortable
+342|Quel plaisir de passer du temps sur un tatami !
+343|préparer du thé au foyer
+344|cuisiner
+345|prépare du thé à
+346|cuisiner au foyer
+347|cuisine à

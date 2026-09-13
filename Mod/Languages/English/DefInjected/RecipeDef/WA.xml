@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WA_MassCook_SimpleMeal.label>Cook simple meals x6</WA_MassCook_SimpleMeal.label>
+  <WA_MassCook_SimpleMeal.description>Cook a simple meal.</WA_MassCook_SimpleMeal.description>
+  <WA_MassCook_SimpleMeal.jobString>Cooking simple meals in bulk.</WA_MassCook_SimpleMeal.jobString>
+  <WA_MassCook_FineMeal.label>Cook fine meals x6</WA_MassCook_FineMeal.label>
+  <WA_MassCook_FineMeal.jobString>Cooking fine meals in bulk.</WA_MassCook_FineMeal.jobString>
+  <WA_MassCook_LavishMeal.label>Cook lavish meals x6</WA_MassCook_LavishMeal.label>
+  <WA_MassCook_LavishMeal.jobString>Cooking lavish meals in bulk.</WA_MassCook_LavishMeal.jobString>
+  <WA_Recipe_GreenTea.description>Whisk powdered tea leaves into hot water.</WA_Recipe_GreenTea.description>
+  <WA_Recipe_Daifuku.description>Wrap strawberries in sweet bean paste and mochi.</WA_Recipe_Daifuku.description>
+  <WA_Recipe_Geppei.description>Wrap sweet bean paste in pastry and bake it.</WA_Recipe_Geppei.description>
+  <WA_Recipe_Kashiwa.description>Wrap sweet bean paste in mochi, then wrap the cake in an oak leaf.</WA_Recipe_Kashiwa.description>
+  <WA_Recipe_Kasuteira.description>Mix beaten eggs, flour and sugar into a light cake batter.</WA_Recipe_Kasuteira.description>
+  <WA_Recipe_Kintuba.description>Set sweet bean paste with agar, then coat and cook each face in a thin batter.</WA_Recipe_Kintuba.description>
+  <WA_Recipe_Nerikiri.description>Mix a binder into coloured bean paste and shape it into decorative sweets.</WA_Recipe_Nerikiri.description>
+  <WA_Recipe_SakuraNUguisu.description>Wrap sweet bean paste in two kinds of colourful spring mochi.</WA_Recipe_SakuraNUguisu.description>
+  <WA_Recipe_Youkan.description>Cook sweet bean paste with agar to make a firm sweet.</WA_Recipe_Youkan.description>
+  <WA_Igusa2Medicine.label>Prepare herbal medicine</WA_Igusa2Medicine.label>
+  <WA_Igusa2Medicine.description>Process rush into herbal medicine.</WA_Igusa2Medicine.description>
+  <WA_Igusa2Medicine.jobString>Preparing rush medicine.</WA_Igusa2Medicine.jobString>
+  <RPC_MakePureSilk.description>Weave pure silk from silkworm cocoons.</RPC_MakePureSilk.description>
+  <RPC_MakePaper.label>Make Japanese paper</RPC_MakePaper.label>
+  <RPC_MakePaper.description>Make Japanese paper from kozo bark fibres.</RPC_MakePaper.description>
+  <RPC_MakePaper.jobString>Making paper.</RPC_MakePaper.jobString>
+</LanguageData>

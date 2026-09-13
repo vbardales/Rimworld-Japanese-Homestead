@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WA_Glow_01Toudai.label>Oil lamp stand</WA_Glow_01Toudai.label>
+  <WA_Glow_01Toudai.description>An oil lamp with a wick resting in a shallow dish. Its traditional name refers to the shape of its base, which resembles cow dung. Such lamps were once used in aristocratic households.</WA_Glow_01Toudai.description>
+  <WA_Glow_02Gatou.description>A clay oil lamp made from material similar to roof tiles. Its fire-resistant construction helped it become a common household light.</WA_Glow_02Gatou.description>
+  <WA_Glow_03Andon.description>A paper-covered lantern that shelters its flame. Outside its box it gives a brighter light; inside, it becomes a subdued night light.</WA_Glow_03Andon.description>
+  <WA_Glow_04Bonbori.description>A lantern made by covering a frame with paper or cloth around a candle. Bonbori still decorate traditional celebrations such as the Doll Festival.</WA_Glow_04Bonbori.description>
+  <WA_Glow_05Chouchin.description>A lightweight paper lantern stretched over a folding bamboo frame. Portable and compact, it has long been used in streets and at festivals.</WA_Glow_05Chouchin.description>
+  <WA_Glow_06Bonfire.description>An outdoor fire held in a metal basket. It lights gatherings, festivals and some fishing boats.</WA_Glow_06Bonfire.description>
+  <WA_Glow_07LongBrazier.description>A vessel partly filled with glowing charcoal. It provides warmth and can heat tea or light a pipe.</WA_Glow_07LongBrazier.description>
+  <WA_Seat_Zabuton_Red.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_Red.description>
+  <WA_Seat_Zabuton_Pink.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_Pink.description>
+  <WA_Seat_Zabuton_Yellow.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_Yellow.description>
+  <WA_Seat_Zabuton_Green.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_Green.description>
+  <WA_Seat_Zabuton_Blue.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_Blue.description>
+  <WA_Seat_Zabuton_Purple.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_Purple.description>
+  <WA_Seat_Zabuton_Black.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_Black.description>
+  <WA_Seat_Zabuton_White.description>A cloth cushion stuffed with cotton, used for sitting on tatami or the floor. It insulates the sitter from the cold floor. Once associated with dignitaries, it later became common in ordinary homes.</WA_Seat_Zabuton_White.description>
+  <WA_Koto.description>A Japanese thirteen-stringed zither with strings stretched over a long wooden body.</WA_Koto.description>
+  <WA_Karuta.description>A traditional Japanese card game, especially popular at New Year.</WA_Karuta.description>
+  <WA_ShellMatching.label>Shell matching</WA_ShellMatching.label>
+  <WA_ShellMatching.description>A traditional game of matching shells, recalling courtly pastimes in which their shapes, colours and associated poetry were admired.</WA_ShellMatching.description>
+  <WA_Sugoroku.description>A board game in which players move their pieces according to dice rolls.</WA_Sugoroku.description>
+  <WA_Cassolette.label>Incense burner</WA_Cassolette.label>
+  <WA_Cassolette.description>A vessel for heating solid incense to release its scent. At the Heian court, incense was also used to perfume clothing.</WA_Cassolette.description>
+  <WA_Fusuma01_Akebono.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma01_Akebono.description>
+  <WA_Fusuma02_Yoru.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma02_Yoru.description>
+  <WA_Fusuma03_Yuugure.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma03_Yuugure.description>
+  <WA_Fusuma04_Tutomete.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma04_Tutomete.description>
+  <WA_Fusuma05_Spring.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma05_Spring.description>
+  <WA_Fusuma06_Summer.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma06_Summer.description>
+  <WA_Fusuma07_Autumn.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma07_Autumn.description>
+  <WA_Fusuma08_Winter.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma08_Winter.description>
+  <WA_Fusuma09_White.description>A sliding partition of paper or cloth stretched over a wooden frame. Light and quick to open, but easily damaged, it divides the rooms of a house.</WA_Fusuma09_White.description>
+  <WA_Shoji01_Square.description>A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured.</WA_Shoji01_Square.description>
+  <WA_Shoji02_Circle.description>A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured.</WA_Shoji02_Circle.description>
+  <WA_Shoji03_Combi.description>A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured.</WA_Shoji03_Combi.description>
+  <WA_Shoji04_Deco.description>A light wooden lattice covered with translucent paper. It admits soft light while screening the view. Its fragile paper is easily punctured.</WA_Shoji04_Deco.description>
+  <WA_FoldingScreen.description>A folding screen of wooden frames covered with thick Japanese paper or cloth, often silk. It decorates a room or divides the space.</WA_FoldingScreen.description>
+  <WA_Futon01m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon01m.description>
+  <WA_Futon02m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon02m.description>
+  <WA_Futon03m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon03m.description>
+  <WA_Futon04m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon04m.description>
+  <WA_Futon05m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon05m.description>
+  <WA_Futon06m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon06m.description>
+  <WA_Futon07m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon07m.description>
+  <WA_Futon08m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon08m.description>
+  <WA_Futon09m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon09m.description>
+  <WA_Futon10m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon10m.description>
+  <WA_Futon11m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon11m.description>
+  <WA_Futon12m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon12m.description>
+  <WA_Futon13m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_Futon13m.description>
+  <WA_DFuton01m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_DFuton01m.description>
+  <WA_DFuton02m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_DFuton02m.description>
+  <WA_DFuton03m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_DFuton03m.description>
+  <WA_DFuton04m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_DFuton04m.description>
+  <WA_DFuton05m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_DFuton05m.description>
+  <WA_DFuton06m.description>A thick quilt or mattress stuffed with cotton. A futon laid on tatami serves as traditional bedding.</WA_DFuton06m.description>
+  <WA_MFuton01m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton01m.description>
+  <WA_MFuton02m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton02m.description>
+  <WA_MFuton03m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton03m.description>
+  <WA_MFuton04m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton04m.description>
+  <WA_MFuton05m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton05m.description>
+  <WA_MFuton06m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton06m.description>
+  <WA_MFuton07m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton07m.description>
+  <WA_MFuton08m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton08m.description>
+  <WA_MFuton09m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton09m.description>
+  <WA_MFuton10m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton10m.description>
+  <WA_MFuton11m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton11m.description>
+  <WA_MFuton12m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton12m.description>
+  <WA_MFuton13m.description>A cotton-filled futon designed for carrying and use as a portable bedroll.</WA_MFuton13m.description>
+  <WA_HFuton01m.description>A futon with an antimicrobial treatment, suitable for medical care.</WA_HFuton01m.description>
+  <WA_HFuton02m.description>A futon with an antimicrobial treatment, suitable for medical care.</WA_HFuton02m.description>
+  <WA_HFuton03m.description>A futon with an antimicrobial treatment, suitable for medical care.</WA_HFuton03m.description>
+  <WA_HFuton04m.description>A futon with an antimicrobial treatment, suitable for medical care.</WA_HFuton04m.description>
+  <WA_HFuton05m.description>A futon with an antimicrobial treatment, suitable for medical care.</WA_HFuton05m.description>
+  <WA_HFuton06m.description>A futon with an antimicrobial treatment, suitable for medical care.</WA_HFuton06m.description>
+  <WA_HFuton07m.description>A futon with an antimicrobial treatment, suitable for medical care.</WA_HFuton07m.description>
+  <WA_Irori.description>A sunken hearth in a square opening in the floor, filled with ash, wood and charcoal. It provides heating, cooking, light and a place to dry things.</WA_Irori.description>
+  <WA_Chagama.description>A sunken hearth set into the floor of a tea room, primarily used to heat water for tea.</WA_Chagama.description>
+  <WA_Zabuton_Dummy.label>Auxiliary zabuton</WA_Zabuton_Dummy.label>
+  <WA_Zabuton_Dummy.description>An auxiliary hearth component.</WA_Zabuton_Dummy.description>
+  <WA_Wall_Kawara.description>A plastered wall capped with roof tiles for weather protection and decoration. Such walls once surrounded the residences of samurai.</WA_Wall_Kawara.description>
+  <WA_Wall_Demado.description>A tiled wall with a projecting window for watching the surroundings and supporting its defenders.</WA_Wall_Demado.description>
+  <WA_Wall_WaterMoats.description>A wide, deep ditch around a fortification, filled with water to slow intruders.</WA_Wall_WaterMoats.description>
+  <WA_Wall_DryMoats.description>A wide, deep ditch around a fortification, filled with water to slow intruders.</WA_Wall_DryMoats.description>
+  <WA_Step.description>A decorative step suggesting a change in floor level. RimWorld does not model such changes, so its role here is purely visual.</WA_Step.description>
+  <WA_Gate_CastleGate.description>A strong, fortified castle entrance designed to aid its defenders.</WA_Gate_CastleGate.description>
+  <WA_Gate_IronGate.description>A heavy door protecting a castle entrance, sometimes reinforced with iron.</WA_Gate_IronGate.description>
+  <WA_Fence_Yamatobei.description>A fence with boards alternating on either side of its crosspieces. It blocks the view while allowing air to pass.</WA_Fence_Yamatobei.description>
+  <WA_Fence_Sukibei.description>A covered fence with a central lattice that allows a partial view inside. Often used at shrines and temples.</WA_Fence_Sukibei.description>
+  <WA_Fence_Tuijibei.description>A traditional wall of packed earth held by a wooden framework on a stone foundation.</WA_Fence_Tuijibei.description>
+  <WA_Wall_White.description>A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.</WA_Wall_White.description>
+  <WA_Wall_Pink.description>A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.</WA_Wall_Pink.description>
+  <WA_Wall_Yellow.description>A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.</WA_Wall_Yellow.description>
+  <WA_Wall_Green.description>A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.</WA_Wall_Green.description>
+  <WA_Wall_Blue.description>A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.</WA_Wall_Blue.description>
+  <WA_Wall_Gray.description>A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.</WA_Wall_Gray.description>
+  <WA_Wall_Black.description>A traditional Japanese wall with exposed posts and beams. Its structure allows moisture to escape, helping the wall last.</WA_Wall_Black.description>
+  <WA_IchigoDaifuku.description>A soft mochi filled with sweet red bean paste and a fresh strawberry. The fruit's tartness balances the sweet filling.</WA_IchigoDaifuku.description>
+  <WA_MitarashiDango.description>Skewered rice-flour dumplings coated in a sweet soy-based sauce. Their grilled aroma is appetising.</WA_MitarashiDango.description>
+  <WA_Geppei.description>A round mooncake filled with sweet bean paste and nuts, traditionally associated with the Mid-Autumn Festival.</WA_Geppei.description>
+  <WA_KashiwaMochi.description>A rice-flour mochi filled with sweet bean paste and wrapped in an oak leaf.</WA_KashiwaMochi.description>
+  <WA_Kasuteira.description>A light cake made from eggs, flour and sugar. Inspired by Portuguese baking, it developed its own distinctive form in Japan.</WA_Kasuteira.description>
+  <WA_Kintuba.description>Sweet bean paste set with agar and cooked with a thin coating of batter.</WA_Kintuba.description>
+  <WA_Nerikiri.description>A decorative sweet shaped from white bean paste mixed with a binder, often coloured and formed into delicate patterns.</WA_Nerikiri.description>
+  <WA_SakuraNUguisu.description>Sweets evoking cherry blossoms and fresh spring shoots.</WA_SakuraNUguisu.description>
+  <WA_Youkan.description>A Japanese sweet made from azuki bean paste, moulded and set with agar.</WA_Youkan.description>
+  <WA_Azuki.description>Raw red beans.</WA_Azuki.description>
+  <WA_TeaLeaf.label>Tea leaves</WA_TeaLeaf.label>
+  <WA_TeaLeaf.description>Fresh tea leaves.</WA_TeaLeaf.description>
+  <RPC_Cocoon.description>A silkworm cocoon. Its thread can be reeled off to produce fine silk fabric.</RPC_Cocoon.description>
+  <RPC_Kouzo.description>A bundle of paper-mulberry bark. Its long, intertwined fibres make strong, lasting paper.</RPC_Kouzo.description>
+  <WA_Dressing_Courier.label>Kimono-Courier</WA_Dressing_Courier.label>
+  <WA_Dressing_Courier.description>A courier's kimono.</WA_Dressing_Courier.description>
+  <WA_Dressing_Princess.description>A princess's kimono. Her dignity encourages nearby allies.</WA_Dressing_Princess.description>
+  <WA_Dressing_Sumoman.description>A wrestler's kimono. The yokozuna's imposing presence intimidates enemies.</WA_Dressing_Sumoman.description>
+  <WA_FarmPlant_Igusa.description>A tall wetland rush used primarily to make tatami mats, and historically in some herbal remedies.</WA_FarmPlant_Igusa.description>
+  <WA_FarmPlant_Azuki.description>A plant bearing pods of dark red beans. These can be cooked as food or sweetened into bean paste.</WA_FarmPlant_Azuki.description>
+  <WA_FarmPlant_TeaTree.description>A shrub long cultivated for its leaves, which can be infused to make tea.</WA_FarmPlant_TeaTree.description>
+  <WA_FarmPlant_Kouzo.description>A paper-mulberry tree whose bark provides strong fibres for papermaking.</WA_FarmPlant_Kouzo.description>
+  <WA_FarmPlant_Kuwa.description>A mulberry tree with purplish-red fruit. Its leaves feed silkworms, making it important for silk production.</WA_FarmPlant_Kuwa.description>
+</LanguageData>

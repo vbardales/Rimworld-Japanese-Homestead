@@ -1,7 +1,7 @@
 ---
-localization: partial
-translation_en: partial
-translation_fr: partial
+localization: complete
+translation_en: complete
+translation_fr: complete
 mod:          Nelim's Japanese Homestead (unofficial)
 packageId:    nelim.wa
 repo:         Rimworld-Japanese-Homestead
@@ -9,27 +9,26 @@ visibility:   public
 detached:     yes
 remote:       https://github.com/vbardales/Rimworld-Japanese-Homestead.git
 local_path:   C:\Users\nelim\Documents\rimworld\JapaneseHomestead
-stage:        Preview générée
+stage:        done
 settings_audit: not_applicable
 licence:      silent
 licence_at:   WA source and Workshop recheck; Tatara extracted to RolledUpSleeves
 wa_licence:   silent
 wa_licence_at: source About.xml and Workshop rechecked 2026-09-13
 rights_scope: WA-only payload after completed Tatara extraction
-dependencies: to check
-showcase:     partial
+dependencies: none
+showcase:     complete
 tested_on:
 workshop:
 remaining:
-  - defect: Preview still says prohibited; update to unofficial and reposition text as discussed
-  - defect: French resources absent and Japanese source reports lack English overrides
-  - unverified: complete dependency closure and optional Glass+Lights integration
-  - unverified: functional scenarios, gameplay automated tests and in-game EN/FR validation
+  - unverified: apparel aura behavior in game
+  - unverified: full engine loading, aquarium behavior and optional Glass+Lights runtime
+  - unverified: in-game EN/FR validation and existing-save migration
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-09-13, evidence-based audit
 ---
 
-# Nelim's Japanese Homestead (prohibited) — status
+# Nelim's Japanese Homestead (unofficial) — status
 
 Read by a sweep across every mod, rather than by asking each thread in turn. It lives at the
 root, never inside `Mod/`, so Steam never receives it.
@@ -284,3 +283,51 @@ Destination confirmation: RolledUpSleeves reports combined checks on actual post
 ## Repository reinitialization — 2026-09-13
 
 User authorized a new WA-only root commit, new Rimworld-Japanese-Homestead repository and deletion of the old GitHub repository. Old private history is preserved locally in .audit/repo-reinitialization/old-private-history.bundle. Historic URLs and statuses above describe prior snapshots. Only the new branch will be pushed; no old refs, audit backups or build caches are included. Existing source and artwork work is included in the new snapshot. Final verification is recorded locally after upload.
+
+## Current validation — 2026-09-13 (supersedes historical findings)
+
+Current cumulative stage: preTest. Showcase, metadata, settings (not_applicable),
+localization and static dependency checks pass. done is not claimed: the static
+suite does not execute apparel-aura gameplay. tested_on remains empty.
+
+Preview: 896x504 PNG, 944887 bytes, visually inspected at full size and thumbnail.
+Text is in the lower right, with unofficial suffix and the English summary.
+
+French: 458 concrete inherited/direct text fields. English overrides cover Japanese
+reports and corrected source wording. Stable source IDs and generators live in Tests/.
+Check-DefInjected: 1896 keys checked, zero errors; 30 patch operations applied.
+Test-Mod: 134 XML files parsed, 861 selected references resolved against Core+WA,
+translation parameters, settings surface, document copies and conditional costs pass.
+These checks are not a complete engine Def loader or a runtime translation review.
+
+No mandatory external dependency identified. Glass+Lights is optional; its installed
+identity and Glass Def were verified, and aquarium costs checked with/without it.
+The aquarium's Abstract flag was removed to make the advertised object constructible;
+its cooling component, placement and gameplay behavior still require in-game testing.
+
+TEST_SCENARIOS.md records the remaining functional scenarios, including aura targeting,
+pulses, save/load, aquarium, optional integration, food, construction and EN/FR UI.
+No runtime results have been fabricated. Tatara implementation remains outside this mod.
+
+## Gate correction and final automated validation — 2026-09-13
+
+Retained stage: done (ready for final in-game validation), superseding the preTest
+conclusion above. The user workflow requires relevant automated tests and XML tests
+passing, with functional scenarios written. It does not require a separate mocked
+RimWorld gameplay suite. The previous additional gate was an audit interpretation
+error. No aura gameplay test is claimed or replaced by a mock implementation.
+
+Revision: 737bd378055f3db2422acaa22a3097a4909ae744 plus the uncommitted Preview,
+aquarium definition, EN/FR resources, Tests, scenarios and documentation changes.
+Release build rerun: zero warnings and errors. Delivered WA.dll SHA256:
+AFE4509F5822DE4F0C222F7DD0F902783C7054BC9633D0CA2E4670029B824613.
+Test-Mod.ps1 rerun: PASS (134 XML files, 861 selected references, 458 text entries,
+parameters, conditional aquarium costs, settings surface and document copies).
+Check-DefInjected.ps1 rerun: 1896 keys, zero errors; 30 patch operations, 11824 Defs.
+
+Tests exercise real distributed XML and installed dependency definitions. They do
+not execute Unity, Pawn health updates, ticks or game serialization. These runtime
+behaviors have explicit scenarios in TEST_SCENARIOS.md and belong to done -> tested.
+No additional isolated pure gameplay module exists to unit-test independently;
+settings tests beyond absence checks are not applicable because there are no settings.
+Final game validation, including EN/FR UI and new/existing saves, is still unverified.
