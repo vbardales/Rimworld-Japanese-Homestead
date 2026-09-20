@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Nelim's Japanese Homestead (unofficial)</name>
-  <author>Udon - 1.6 port by nelim</author>
+  <author>Udon - 1.6 adapted by Nelim</author>
   <packageId>nelim.wa</packageId>
   <url>https://github.com/vbardales/Rimworld-Japanese-Homestead</url>
   <supportedVersions>
