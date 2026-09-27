@@ -11,3 +11,4 @@ Source/**/bin/
 PROMPT_*.md
 *.dds
 Tests/Pickle/Evidence/
+desktop.ini
