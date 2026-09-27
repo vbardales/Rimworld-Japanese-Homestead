@@ -9,3 +9,5 @@ Source/**/bin/
 .agents/
 *.user
 PROMPT_*.md
+*.dds
+Tests/Pickle/Evidence/

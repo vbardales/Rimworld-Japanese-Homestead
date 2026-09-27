@@ -19,7 +19,7 @@ rights_scope: WA-only payload after completed Tatara extraction
 dependencies: none
 showcase:     complete
 tested_on:
-workshop:
+workshop:     3806764776 (0.1.0 prepublish, 2026-09-27; item created private, not switched to public)
 remaining:
   - unverified: apparel aura behavior in game
   - unverified: full engine loading, aquarium behavior and optional Glass+Lights runtime

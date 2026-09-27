@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+The `1.0.0` tag and GitHub release land here once the item created by `0.1.0` passes
+final in-game validation and the owner switches it to public.
+
+## [0.1.0] - 2026-09-27
+
+Creation of a `Mod/About/PublishedFileId.txt` (Workshop item `3806764776`). This entry
+does not claim the mod is public or tested: the item is created private, as Steam
+creates every item, and stays that way until the owner switches it herself. It records
+what the prepublishing upload contained — `Mod/` as it stood at this commit — and
+everything that had already changed since the port was imported:
+
 ### Existing port imported from the monorepo
 - Port WA content and the Tatara ironmaking chain to RimWorld 1.6.
 - Replace unavailable material and apparel-aura dependencies locally.
