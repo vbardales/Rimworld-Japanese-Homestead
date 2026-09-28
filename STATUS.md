@@ -15,6 +15,7 @@ licence:      silent
 licence_at:   WA source and Workshop recheck; Tatara extracted to RolledUpSleeves
 wa_licence:   silent
 wa_licence_at: source About.xml and Workshop rechecked 2026-09-13
+upstream_mod_remotes: N/A
 rights_scope: WA-only payload after completed Tatara extraction
 dependencies: none
 showcase:     complete
