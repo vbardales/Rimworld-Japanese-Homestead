@@ -5,6 +5,10 @@
 The `1.0.0` tag and GitHub release land here once the item created by `0.1.0` passes
 final in-game validation and the owner switches it to public.
 
+- Rename the packageId from `nelim.wa` to `nelim.japanesehomestead`. No save, no active
+  mod list and no subscriber referenced the old id; the private 0.1.0 item was uploaded
+  with `nelim.wa`, so its next upload carries the new one.
+
 ## [0.1.0] - 2026-09-27
 
 Creation of a `Mod/About/PublishedFileId.txt` (Workshop item `3806764776`). This entry

@@ -14,7 +14,7 @@ $inventory=Get-Content "$PSScriptRoot/TranslationInventory.json" -Raw|ConvertFro
 $translated=@{};foreach($f in Get-ChildItem "$root/Mod/Languages/French/DefInjected" -Recurse -Filter *.xml){$d=[xml](Get-Content $f.FullName -Raw);foreach($n in $d.DocumentElement.ChildNodes|Where-Object NodeType -eq Element){$k=(Split-Path $f.DirectoryName -Leaf)+':'+$n.Name;Assert (-not $translated.ContainsKey($k)) "Duplicate FR $k";$translated[$k]=$n.InnerText}}
 foreach($row in $inventory){$k=$row.type+':'+$row.key;Assert ($translated.ContainsKey($k)) "Missing FR $k";Assert (-not [string]::IsNullOrWhiteSpace($translated[$k])) "Empty FR $k";Assert ($row.english -notmatch '[一-龯ぁ-んァ-ン]') "Non-English text $k";foreach($language in 'french','english'){$a=(@([regex]::Matches($row.source,'\{[^{}]+\}')|ForEach-Object Value)|Sort-Object)-join ',';$b=(@([regex]::Matches($row.$language,'\{[^{}]+\}')|ForEach-Object Value)|Sort-Object)-join ',';Assert ($a -eq $b) "Parameter mismatch $language $k"}}
 $about=[xml](Get-Content "$root/Mod/About/About.xml" -Raw)
-Assert ($about.ModMetaData.packageId -eq 'nelim.wa') 'PackageId changed'
+Assert ($about.ModMetaData.packageId -eq 'nelim.japanesehomestead') 'PackageId changed'
 Assert ($about.ModMetaData.description.Trim().EndsWith('[url=https://github.com/vbardales/Rimworld-Japanese-Homestead]Source code on GitHub[/url]')) 'Repository link missing'
 $glass=[xml](Get-Content "$GlassRoot/About/About.xml" -Raw)
 Assert ($glass.ModMetaData.packageId -ieq 'NanoCE.GlassLights') 'Glass packageId mismatch'

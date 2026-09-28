@@ -15,7 +15,7 @@ WA is classified as silent: no explicit licence or permission was found. Origina
 
 Use the contents of `Mod/` as the mod directory under RimWorld's Mods folder, or point
 an existing directory junction there. Do not install the repository root as a mod.
-Enable package `nelim.wa` in RimWorld 1.6. Glass+Lights is an optional integration;
+Enable package `nelim.japanesehomestead` in RimWorld 1.6. Glass+Lights is an optional integration;
 its presence changes the aquarium material cost. Static checks resolve the selected
 WA references against Core and validate both aquarium cost variants; runtime loading remains untested.
 Removing this content mod from a save can remove its buildings and items. Keep backups.

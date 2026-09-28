@@ -3,7 +3,7 @@ localization: complete
 translation_en: complete
 translation_fr: complete
 mod:          Nelim's Japanese Homestead (unofficial)
-packageId:    nelim.wa
+packageId:    nelim.japanesehomestead
 repo:         Rimworld-Japanese-Homestead
 visibility:   public
 detached:     yes
