@@ -23,6 +23,6 @@ and the EnglishByIndex/FrenchByIndex dictionaries. English source text is retain
 where no override is needed. TranslationInventory.json records resolved fields.
 
 The real map component depends on Unity/RimWorld pawn, health, tick and save state.
-Its behavior is covered by written runtime scenarios in ../TEST_SCENARIOS.md;
-these scenarios have not been executed. No substitute game implementation is used
+Its behavior is covered by the Pickle scenarios in Pickle/ (see ../TESTING.md);
+they are written and have not been executed. No substitute game implementation is used
 as evidence that the delivered component works in game.

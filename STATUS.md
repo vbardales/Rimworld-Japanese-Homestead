@@ -21,11 +21,10 @@ showcase:     complete
 tested_on:
 workshop:     3806764776 (0.1.0 prepublish, 2026-09-27; item created private, not switched to public)
 remaining:
-  - unverified: apparel aura behavior in game
-  - unverified: full engine loading, aquarium behavior and optional Glass+Lights runtime
-  - unverified: in-game EN/FR validation and existing-save migration
+  - unverified: Pickle passes 1, 2 and 3 of TESTING.md have not been played (aura, pastimes, aquarium cost, language, save)
+  - unverified: Pickle steps compile and resolve but no step has run in the game
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-09-13, evidence-based audit
+updated:      2026-09-28, Pickle suite and TESTING.md written
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
@@ -331,3 +330,17 @@ behaviors have explicit scenarios in TEST_SCENARIOS.md and belong to done -> tes
 No additional isolated pure gameplay module exists to unit-test independently;
 settings tests beyond absence checks are not applicable because there are no settings.
 Final game validation, including EN/FR UI and new/existing saves, is still unverified.
+
+## Pickle suite written — 2026-09-28
+
+`TESTING.md` replaces `TEST_SCENARIOS.md`. `Tests/Pickle/` holds a companion mod (`nelim.japanesehomestead.pickletests`),
+six features (101 step lines) and 17 local steps. Checked, not run: the step assembly builds (`dotnet build`, no
+warning), and `Check-Steps.ps1` reports 17 patterns compiled, none declared twice, every line resolving to exactly
+one expression across Pickle and 65 other suites. `Test-Mod.ps1` under pwsh still passes (134 XML, 861 references).
+
+Three passes are declared in `TESTING.md` (English bare, French bare, English with Glass+Lights). None has been
+played: no ticket was submitted, so `tested_on` stays empty and the stage stays `done`. The steps are untried code
+against the real game; a failure in a first run may be a step's, not the mod's.
+
+The packageId became `nelim.japanesehomestead` on 2026-09-28 (commit `12b45a8`). Earlier sections of this file that
+say `nelim.wa` describe the state at their date.

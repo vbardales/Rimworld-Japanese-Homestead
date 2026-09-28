@@ -12,3 +12,4 @@ PROMPT_*.md
 *.dds
 Tests/Pickle/Evidence/
 desktop.ini
+Tests/Pickle/Mod/Pickle/Assemblies/

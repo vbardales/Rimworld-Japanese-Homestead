@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Japanese Homestead - Pickle tests</name>
+  <author>Nelim</author>
+  <packageId>nelim.japanesehomestead.pickletests</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>In-game functional tests for Japanese Homestead, run by Pickle. Development only: never published.
+
+The scenarios dress colonists in the two aura kimonos and read what the aura does to friends, foes and the wearer over several pulses; send colonists to the tea hearth, the koto and the aquarium through the game's own joy givers; read the aquarium's cost after the game's patch pass; and check that no Japanese text is left in the pass's language.
+
+The mod under test needs no DLC and this companion declares none: the fixture is Pickle's own test-colony.</description>
+  <modDependencies>
+    <li>
+      <packageId>nelim.japanesehomestead</packageId>
+      <displayName>Nelim's Japanese Homestead (unofficial)</displayName>
+      <downloadUrl>https://github.com/vbardales/Rimworld-Japanese-Homestead</downloadUrl>
+    </li>
+    <li>
+      <packageId>rimworks.pickle</packageId>
+      <displayName>Pickle</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3791648678</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>nelim.japanesehomestead</li>
+    <li>rimworks.pickle</li>
+  </loadAfter>
+</ModMetaData>
