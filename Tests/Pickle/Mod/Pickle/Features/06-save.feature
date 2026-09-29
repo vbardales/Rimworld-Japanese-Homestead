@@ -11,7 +11,7 @@ Feature: a save with the aura running
     Given a colonist "Princess" exists
     And a colonist "Near" exists
     And Japanese Homestead: "Princess" stands on a row of open ground 8 cells long
-    And "Princess" is wearing "WA_Dressing_Princess"
+    And I dress "Princess" in "WA_Dressing_Princess"
     And Japanese Homestead: "Near" stands 5 cells east of "Princess"
     And game speed is ultrafast
     When Japanese Homestead: I wait for 1 pulses of the aura of "WA_Dressing_Princess"

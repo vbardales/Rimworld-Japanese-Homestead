@@ -31,8 +31,12 @@ namespace JapaneseHomestead.PickleSteps
         private const string ModPackageId = "nelim.japanesehomestead";
         private const string AuraExtensionName = "HediffAuraExtension";
 
-        // Open ground of Pickle's test-colony, where its own construction and map features place things.
-        private static readonly IntVec3 Anchor = new IntVec3(146, 0, 156);
+        // Open ground of Pickle's test-colony. NOT the CrystalBall anchor (146, 156): that fixture's own
+        // construction and map features place walls, stockpiles and stones between x 140..152 and z 150..165
+        // (CrystalBall/Tests/Pickle/README.md), which starved every JoyGiver_InteractBuildingSitAdjacent and
+        // JoyGiver_WatchBuilding scenario here on the first run (2026-09-28): the building itself could be
+        // placed there, but TryGiveJob found no reachable interaction cell beside it. Kept well clear of that box.
+        private static readonly IntVec3 Anchor = new IntVec3(200, 0, 200);
 
         // ------------------------------------------------------------------ what a scenario remembers
 
@@ -131,6 +135,13 @@ namespace JapaneseHomestead.PickleSteps
             return IntVec3.Invalid;
         }
 
+        /// <summary>
+        /// Not just a cell the building fits on: a spot with open, standable neighbours all round. A cell that only
+        /// passes <c>CanPlaceBlueprintAt</c> can still starve a JoyGiver_InteractBuildingSitAdjacent or
+        /// JoyGiver_WatchBuilding scenario, whose TryGiveJob needs a reachable cell beside the building and fails
+        /// silently (CanBeGivenTo true, TryGiveJob null) when every neighbour is blocked. Found on the first run,
+        /// 2026-09-28.
+        /// </summary>
         private static IntVec3 FindSpot(PickleContext ctx, Map map, ThingDef def, IEnumerable<IntVec3> taken)
         {
             List<IntVec3> others = taken.ToList();
@@ -146,13 +157,36 @@ namespace JapaneseHomestead.PickleSteps
                     continue;
                 }
 
-                if (GenConstruct.CanPlaceBlueprintAt(def, cell, Rot4.North, map).Accepted)
+                if (!GenConstruct.CanPlaceBlueprintAt(def, cell, Rot4.North, map).Accepted)
+                {
+                    continue;
+                }
+
+                int open = 0;
+                for (int dx = -1; dx <= 1; dx++)
+                {
+                    for (int dz = -1; dz <= 1; dz++)
+                    {
+                        if (dx == 0 && dz == 0)
+                        {
+                            continue;
+                        }
+
+                        IntVec3 n = cell + new IntVec3(dx, 0, dz);
+                        if (n.InBounds(map) && n.Standable(map) && n.GetEdifice(map) == null)
+                        {
+                            open++;
+                        }
+                    }
+                }
+
+                if (open >= 6)
                 {
                     return cell;
                 }
             }
 
-            ctx.Assert(false, $"no cell within 40 of ({Anchor.x}, {Anchor.z}) accepts a {def.defName}");
+            ctx.Assert(false, $"no cell within 40 of ({Anchor.x}, {Anchor.z}) accepts a {def.defName} with open neighbours");
             return IntVec3.Invalid;
         }
 

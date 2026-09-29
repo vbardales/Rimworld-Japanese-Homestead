@@ -3,7 +3,11 @@
 # finds THIS building, gives ITS job, and the colonist starts it. TESTING.md scenario 4.
 #
 # Not here: the tea ceremony (Make_GreenTea and Drink_GreenTea need tea leaves and hot water to be worth a run, and
-# the recipes are proved offline) and the tobacco pipe (a vanilla-shaped giver on a brazier).
+# the recipes are proved offline) and the tobacco pipe (a vanilla-shaped giver on a brazier). Not here EITHER, and
+# not by choice: the aquarium's own JoyGiverDef and JobDef, both named Enjoy_Aquarium, are commented out in
+# Mod/Defs/Joy/JoyGivers.xml and Mod/Defs/JobDefs/Jobs_Joy.xml ("<!-- ===== 保留 ..."). The aquarium builds and can
+# be watched passively, but the game has no giver to send a colonist to it — found on the first run, 2026-09-28,
+# see STATUS.md.
 Feature: the pastimes
 
   Background:
@@ -28,7 +32,6 @@ Feature: the pastimes
       | Play_Sugoroku     | WA_Sugoroku      |
       | WatchTheFire      | WA_Irori         |
       | Enjoy_Aroma       | WA_Cassolette    |
-      | Enjoy_Aquarium    | WA_Aquarium      |
 
   # The other half of "finds THIS building": with none on the map, the giver has nothing to offer.
   @timeout:120

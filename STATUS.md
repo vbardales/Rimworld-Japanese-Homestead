@@ -22,8 +22,15 @@ showcase:     complete
 tested_on:
 workshop:     3806764776 (0.1.0 prepublish, 2026-09-27; item created private, not switched to public)
 remaining:
-  - unverified: Pickle passes 1, 2 and 3 of TESTING.md have not been played (aura, pastimes, aquarium cost, language, save)
-  - unverified: Pickle steps compile and resolve but no step has run in the game
+  - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
+    and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
+    "Known defects")
+  - unverified: pass 1 (English bare) ran on the pre-fix suite and failed 12/26 on two step bugs, both fixed
+    2026-09-28 (a dressing step that only asserted instead of acting, and a placement anchor overlapping
+    CrystalBall's fixture walls); not yet rerun on the fix
+  - unverified: pass 2 (French bare) was RUNNING when the fix landed, so its build is of uncertain provenance;
+    its result, whatever it says, does not count and must be rerun
+  - unverified: pass 3 (English with Glass+Lights) has not been played
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-09-28, Pickle suite and TESTING.md written
 ---

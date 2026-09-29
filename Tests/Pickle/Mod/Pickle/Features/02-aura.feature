@@ -14,7 +14,7 @@ Feature: the aura kimonos
     And a colonist "Near" exists
     And a colonist "Far" exists
     And Japanese Homestead: "Princess" stands on a row of open ground 13 cells long
-    And "Princess" is wearing "WA_Dressing_Princess"
+    And I dress "Princess" in "WA_Dressing_Princess"
     And Japanese Homestead: "Near" stands 5 cells east of "Princess"
     And Japanese Homestead: "Far" stands 12 cells east of "Princess"
     And Japanese Homestead: a hostile pawn "Foe" lies unconscious 5 cells east of "Princess"
@@ -31,7 +31,7 @@ Feature: the aura kimonos
     Given a colonist "Rikishi" exists
     And a colonist "Friend" exists
     And Japanese Homestead: "Rikishi" stands on a row of open ground 18 cells long
-    And "Rikishi" is wearing "WA_Dressing_Sumoman"
+    And I dress "Rikishi" in "WA_Dressing_Sumoman"
     And Japanese Homestead: "Friend" stands 5 cells east of "Rikishi"
     And Japanese Homestead: a hostile pawn "Near" lies unconscious 12 cells east of "Rikishi"
     And Japanese Homestead: a hostile pawn "Beyond" lies unconscious 17 cells east of "Rikishi"
@@ -50,7 +50,7 @@ Feature: the aura kimonos
     Given a colonist "Princess" exists
     And a colonist "Near" exists
     And Japanese Homestead: "Princess" stands on a row of open ground 8 cells long
-    And "Princess" is wearing "WA_Dressing_Princess"
+    And I dress "Princess" in "WA_Dressing_Princess"
     And Japanese Homestead: "Near" stands 5 cells east of "Princess"
     And game speed is ultrafast
     When Japanese Homestead: I wait for 1 pulses of the aura of "WA_Dressing_Princess"

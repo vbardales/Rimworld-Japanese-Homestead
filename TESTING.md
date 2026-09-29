@@ -22,11 +22,20 @@ Run `Test-Mod.ps1` with `pwsh`; Windows PowerShell 5.1 cannot parse it.
 | 1 | The mod loads on a fresh colony: its defs exist after the game's loader, no error, no warning from the mod | Pickle `01-loads`. A texture that fails to load logs at startup, outside any scenario: read `Player.log` from the start of each pass |
 | 2 | A save taken with the aura running loads clean and the pulses go on | Pickle `06-save` |
 | 3 | The aquarium costs 80 wood and 40 steel alone, 80 wood and 60 glass with Glass+Lights | Offline (patch applied by the script) and Pickle `04-aquarium` (the game's own patch pass), one pass each |
-| 4 | Pastimes: the joy giver finds its building, gives its job, the colonist starts it. Koto, karuta twice, shell matching, sugoroku, irori, incense, aquarium | Pickle `03-pastimes` |
+| 4 | Pastimes: the joy giver finds its building, gives its job, the colonist starts it. Koto, karuta twice, shell matching, sugoroku, irori, incense | Pickle `03-pastimes`. The aquarium has no working giver at all — see "Known defects" |
 | 5 | Aura targeting: the princess's kimono hearten friends in range 10, and no foe, no wearer, no one beyond. The rikishi's cows enemies in range 15, and no friend, no wearer, no one beyond | Pickle `02-aura` |
 | 6 | The pulses stop when the kimono comes off | Pickle `02-aura` |
 | 7 | Language: the texts of both passes, no Japanese left in a label, description or job report | Offline for keys and parameters; Pickle `05-language` for what the game shows |
 | 8 | No settings: no Mod options page, no shortcut | Offline (`Test-Mod.ps1`, "settings surface"): the mod has no `Verse.Mod` subclass. Nothing to see in game |
+
+## Known defects
+
+- **The aquarium has no joy giver.** `Enjoy_Aquarium`, both the `JoyGiverDef` in `Mod/Defs/Joy/JoyGivers.xml` and
+  the `JobDef` in `Mod/Defs/JobDefs/Jobs_Joy.xml`, are wrapped in an XML comment ("`<!-- ===== 保留 ...`", "reserved")
+  and never load. Found running pass 1 on 2026-09-28: the aquarium's `WA_Aquarium` costs and description promise a
+  building colonists can enjoy, but no giver ever sends one to it. It still builds, still glows, still costs what
+  `TESTING.md` scenario 3 says. Fixing this is the mod owner's call — uncomment both, or drop the promise from the
+  description — not something a test suite decides; the scenario that would cover it is not written until then.
 
 ## Not automated, and why
 
