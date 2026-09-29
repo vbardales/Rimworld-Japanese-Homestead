@@ -25,15 +25,21 @@ remaining:
   - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
     and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
     "Known defects")
-  - unverified: passes 1, 2 and 3 all ran on the pre-fix suite; none of their results counts. Four suite bugs
-    found and fixed 2026-09-28: a dressing step that only asserted instead of acting (12/26 failed), a placement
-    anchor overlapping CrystalBall's fixture walls (same failures), a language check comparing against the bare
-    language name instead of the installed folder name ("French (Français)", not "French", +1 failure), and
-    pass 3's `wsl-deps.avec-glasslights.map` naming Glass+Lights with no Workshop id — a `-DepMap` line needs
-    the id inline, `wsl-ids.map` only resolves hard dependencies declared in `About.xml`, which this mod has
-    none of; staging refused before the game ever launched, no report written. Rerun of all three submitted.
+  - unverified: reruns after the 2026-09-28 fixes (submitted on d46ec68) came back 2026-09-29 still failing.
+    Pass 1 (English): 13/25 passed, 11 failed. Pass 2 (French): 14/25 passed, 10 failed (same failures, plus
+    "the pulses stop" passed this time on identical code — a timing flake, not a fix). Pass 3 (Glass+Lights):
+    the WSL runner segfaulted before the game loaded (exit 139), no report written — infra flake, unrelated
+    to the suite. Three more suite bugs found from this evidence and fixed 2026-09-29 (not yet re-verified
+    in game): (1) `HostileEastOf` required a pre-existing Pirate faction that the `test-colony` fixture does
+    not carry (PickleTools/docs/FIXTURES.md confirms) — now generates one; (2) the Anchor at (200, 200), moved
+    there 2026-09-28 to clear CrystalBall's fixture, starved every JoyGiver_InteractBuildingSitAdjacent /
+    JoyGiver_WatchBuilding scenario again with the same "CanBeGivenTo holds but TryGiveJob returned no job" —
+    FIXTURES.md places the fixture's own colonists at (109-114, 203), 85+ cells from (200, 200) on an
+    unsurveyed part of the map; moved to (165, 195), next to that documented region instead; (3) the aura
+    wait margin (5 ticks) was tight enough to flake at ultrafast speed, widened to 30. Rerun of all three
+    passes submitted; still unverified until they come back green.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-09-28, Pickle suite and TESTING.md written
+updated:      2026-09-29, three more Pickle suite bugs found and fixed from the second round of runs
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status

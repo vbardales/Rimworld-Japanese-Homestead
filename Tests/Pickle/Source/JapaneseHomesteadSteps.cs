@@ -35,8 +35,16 @@ namespace JapaneseHomestead.PickleSteps
         // construction and map features place walls, stockpiles and stones between x 140..152 and z 150..165
         // (CrystalBall/Tests/Pickle/README.md), which starved every JoyGiver_InteractBuildingSitAdjacent and
         // JoyGiver_WatchBuilding scenario here on the first run (2026-09-28): the building itself could be
-        // placed there, but TryGiveJob found no reachable interaction cell beside it. Kept well clear of that box.
-        private static readonly IntVec3 Anchor = new IntVec3(200, 0, 200);
+        // placed there, but TryGiveJob found no reachable interaction cell beside it.
+        //
+        // Also NOT (200, 200): that move (2026-09-28) cleared CrystalBall's box but starved every same-shaped
+        // scenario again on 2026-09-29, with the identical "CanBeGivenTo holds but TryGiveJob returned no job".
+        // FindSpot already requires 6 of 8 open neighbours there, so the building itself is not the problem;
+        // the suspect is region connectivity, not local space. PickleTools/docs/FIXTURES.md places the
+        // test-colony's own colonists (Jet, Larson, Morrison) at (109-114, 203): (200, 200) is 85+ cells from
+        // the only region the fixture documents as inhabited, on an unsurveyed part of the 250x250 map. Moved
+        // next to that documented, reachable region instead of guessing at emptiness far from it.
+        private static readonly IntVec3 Anchor = new IntVec3(165, 0, 195);
 
         // ------------------------------------------------------------------ what a scenario remembers
 
@@ -340,8 +348,16 @@ namespace JapaneseHomestead.PickleSteps
         {
             Map map = CurrentMap(ctx);
             Pawn reference = PawnNamed(ctx, other);
+            // The test-colony fixture carries no Pirate faction (confirmed 2026-09-29: every scenario calling
+            // this step failed with "no pirate faction to be hostile with"). Generate one for the scenario
+            // rather than depending on what the save happened to ship with.
             Faction pirates = Find.FactionManager.FirstFactionOfDef(FactionDefOf.Pirate);
-            ctx.Require(pirates != null, "the test colony's world has no pirate faction to be hostile with");
+            if (pirates == null)
+            {
+                pirates = FactionGenerator.NewGeneratedFaction(new FactionGeneratorParms(FactionDefOf.Pirate, default));
+                Find.FactionManager.Add(pirates);
+            }
+            ctx.Require(pirates != null, "could not generate a pirate faction to be hostile with");
             PawnKindDef kind = DefDatabase<PawnKindDef>.GetNamedSilentFail("Pirate");
             ctx.Require(kind != null, "the game has no PawnKindDef named Pirate any more");
 
@@ -365,9 +381,12 @@ namespace JapaneseHomestead.PickleSteps
             int interval = AuraField<int>(ctx, AuraOf(ctx, apparelDefName), "auraTickInterval");
             ctx.Require(interval > 0, $"{apparelDefName} has a pulse interval of {interval}");
             int now = Find.TickManager.TicksGame;
-            // Up to the next multiple of the interval, then the following ones, plus a few ticks of margin: the
-            // map component pulses on the tick where TicksGame is a multiple of the interval.
-            int ticks = interval - (now % interval) + interval * (pulses - 1) + 5;
+            // Up to the next multiple of the interval, then the following ones, plus margin: the map component
+            // pulses on the tick where TicksGame is a multiple of the interval. A margin of 5 was too tight at
+            // ultrafast speed: "the pulses stop when the kimono comes off" passed on one run and failed on the
+            // next with the same code (2026-09-29), pointing at scheduling jitter around WaitTicks, not a fixed
+            // off-by-one. Widened well past what jitter alone should ever cost.
+            int ticks = interval - (now % interval) + interval * (pulses - 1) + 30;
             await ctx.WaitTicks(ticks);
         }
 
