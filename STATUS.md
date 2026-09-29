@@ -25,12 +25,11 @@ remaining:
   - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
     and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
     "Known defects")
-  - unverified: pass 1 (English bare) ran on the pre-fix suite and failed 12/26 on two step bugs, both fixed
-    2026-09-28 (a dressing step that only asserted instead of acting, and a placement anchor overlapping
-    CrystalBall's fixture walls); not yet rerun on the fix
-  - unverified: pass 2 (French bare) was RUNNING when the fix landed, so its build is of uncertain provenance;
-    its result, whatever it says, does not count and must be rerun
-  - unverified: pass 3 (English with Glass+Lights) has not been played
+  - unverified: passes 1, 2 and 3 all ran on the pre-fix suite (12/26, 13/26 and an unread count failed).
+    Three suite bugs found and fixed 2026-09-28: a dressing step that only asserted instead of acting, a
+    placement anchor overlapping CrystalBall's fixture walls, and a language check comparing against the bare
+    language name instead of the installed folder name ("French (Français)", not "French"). Rerun of all three
+    submitted; none of these three results counts.
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-09-28, Pickle suite and TESTING.md written
 ---

@@ -454,11 +454,15 @@ namespace JapaneseHomestead.PickleSteps
 
         // ------------------------------------------------------------------ the language as the game loaded it
 
+        // The installed folderName carries the native name too ("French (Français)"), the same prefix
+        // Run-PickleWsl's own -Language takes. A {word} in the feature cannot hold the parenthesis or the space,
+        // so the step matches by prefix instead of full equality. Found on the French pass, 2026-09-28.
         [Then("Japanese Homestead: the game language is {word}")]
         public void LanguageIs(PickleContext ctx, string folderName)
         {
             string active = LanguageDatabase.activeLanguage.folderName;
-            ctx.Assert(active == folderName, $"the pass runs in {active}, not {folderName}");
+            ctx.Assert(active.StartsWith(folderName, StringComparison.OrdinalIgnoreCase),
+                $"the pass runs in {active}, not {folderName}");
         }
 
         private static readonly Regex Japanese = new Regex(@"[぀-ヿ㐀-䶿一-鿿]");
