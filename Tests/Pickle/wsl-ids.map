@@ -1,5 +1,0 @@
-# Workshop ids that resolve in EVERY pass, the bare one included. Nothing here is activated by itself:
-# only what About.xml declares, plus what a pass map names, is staged.
-#
-# packageId          workshopId   why
-NanoCE.GlassLights   826153738    the one optional integration: with it the aquarium is made of glass (avec-glasslights pass)

@@ -18,7 +18,6 @@ minutes. Nothing here restates any of it.
 | `Mod/Pickle/Features/04-aquarium.feature` | the aquarium's cost with and without Glass+Lights |
 | `Mod/Pickle/Features/05-language.feature` | the game language of the pass, and no Japanese left in a label, description or report |
 | `Mod/Pickle/Features/06-save.feature` | a save taken with the aura running, reloaded |
-| `wsl-ids.map` | the Workshop id of Glass+Lights, so a pass map can name it |
 | `wsl-deps.avec-glasslights.map` | pass 3: Glass+Lights and nothing else |
 | `Source/` | the step assembly, `JapaneseHomestead.PickleSteps.dll` (17 steps) |
 | `Check-Steps.ps1` | compiles every step pattern with Pickle's own engine and checks each feature line resolves to exactly one |

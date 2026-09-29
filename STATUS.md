@@ -25,11 +25,13 @@ remaining:
   - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
     and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
     "Known defects")
-  - unverified: passes 1, 2 and 3 all ran on the pre-fix suite (12/26, 13/26 and an unread count failed).
-    Three suite bugs found and fixed 2026-09-28: a dressing step that only asserted instead of acting, a
-    placement anchor overlapping CrystalBall's fixture walls, and a language check comparing against the bare
-    language name instead of the installed folder name ("French (Français)", not "French"). Rerun of all three
-    submitted; none of these three results counts.
+  - unverified: passes 1, 2 and 3 all ran on the pre-fix suite; none of their results counts. Four suite bugs
+    found and fixed 2026-09-28: a dressing step that only asserted instead of acting (12/26 failed), a placement
+    anchor overlapping CrystalBall's fixture walls (same failures), a language check comparing against the bare
+    language name instead of the installed folder name ("French (Français)", not "French", +1 failure), and
+    pass 3's `wsl-deps.avec-glasslights.map` naming Glass+Lights with no Workshop id — a `-DepMap` line needs
+    the id inline, `wsl-ids.map` only resolves hard dependencies declared in `About.xml`, which this mod has
+    none of; staging refused before the game ever launched, no report written. Rerun of all three submitted.
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-09-28, Pickle suite and TESTING.md written
 ---
