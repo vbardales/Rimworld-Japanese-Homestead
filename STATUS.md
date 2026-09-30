@@ -1,7 +1,7 @@
 ---
 localization: complete
 translation_en: complete
-translation_fr: complete
+translation_fr: partial
 mod:          Nelim's Japanese Homestead (unofficial)
 packageId:    nelim.japanesehomestead
 repo:         Rimworld-Japanese-Homestead
@@ -22,6 +22,12 @@ showcase:     complete
 tested_on:
 workshop:     3806764776 (0.1.0 prepublish, 2026-09-27; item created private, not switched to public)
 remaining:
+  - defect: two French DefInjected texts agree in the masculine only, with no {PAWN_gender ? ...} switch, though
+    the pawn they describe can be any gender — "encouragé" (HDA_Hediff_EncouragementOfThePrincess, 5 duplicate
+    stage labels) and "Intimidé" (HDA_Hediff_IntimidateOfTheYokozuna, 1 stage label). Flagged in FRENCH_REVIEW.md.
+  - unverified: French review by Virginie (TRANSLATIONS.md, "Systematic French review by Virginie"). FRENCH_REVIEW.md
+    generated 2026-09-30 by _tools/Generate-FrenchReview.ps1 from the working tree; translation_fr cannot become
+    complete until Virginie reviews it.
   - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
     and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
     "Known defects")
@@ -359,3 +365,28 @@ against the real game; a failure in a first run may be a step's, not the mod's.
 
 The packageId became `nelim.japanesehomestead` on 2026-09-28 (commit `12b45a8`). Earlier sections of this file that
 say `nelim.wa` describe the state at their date.
+
+## Translation audit — 2026-09-30
+
+`translation_fr` was reset to `unchecked` for the mod-wide gender-agreement rule (TRANSLATIONS.md,
+"French gender agreement", 2026-09-30). Read all 13 French DefInjected files (this mod carries no Keyed
+strings): `ApparelLayerDef`, `DesignationCategoryDef`, `HediffDef`, `JobDef`, `JoyKindDef`, `RecipeDef`,
+`ResearchProjectDef`, `ResearchTabDef`, `TerrainDef`, `ThingCategoryDef`, `ThingDef`, `WorkGiverDef`, all
+under `Mod/Languages/French/DefInjected/`.
+
+Two texts agree with a pawn in the masculine only, with no `{PAWN_gender ? ...}` switch: "encouragé"
+(`HDA_Hediff_EncouragementOfThePrincess`, five duplicate stage labels) and "Intimidé"
+(`HDA_Hediff_IntimidateOfTheYokozuna`, one stage label) — the princess's and rikishi's auras land on a
+pawn of any gender. Recorded as a `defect` above and flagged in `FRENCH_REVIEW.md`. Not fixed here: a
+session does not correct French text pending Virginie's own reading of it.
+
+Every other French text read (recipes, research, buildings, terrain, furniture, job report strings) is
+either gender-neutral by construction (nouns, infinitives, object descriptions) or has no pawn to agree
+with.
+
+`FRENCH_REVIEW.md` generated at the mod root by `_tools/Generate-FrenchReview.ps1`, from the working tree
+after commit `79874e9`. Original column: ChineseSimplified DefInjected text, merged by key across every
+file in each def type's folder (that language splits one file per category where French and English each
+keep one file per def type) — WA is a Chinese-authored mod and its own Defs carry English, not the source
+language, natively. `translation_fr` set to `partial`: the gender-agreement defect is recorded and the
+review file exists, but `complete` is reserved for Virginie's own reading, per TRANSLATIONS.md.
