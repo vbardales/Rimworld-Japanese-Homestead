@@ -9,7 +9,8 @@ visibility:   public
 detached:     yes
 remote:       https://github.com/vbardales/Rimworld-Japanese-Homestead.git
 local_path:   C:\Users\nelim\Documents\rimworld\JapaneseHomestead
-stage:        done
+stage:        showcase
+workflow_stage: options
 settings_audit: not_applicable
 licence:      silent
 licence_at:   WA source and Workshop recheck; Tatara extracted to RolledUpSleeves
@@ -31,21 +32,15 @@ remaining:
   - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
     and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
     "Known defects")
-  - unverified: reruns after the 2026-09-28 fixes (submitted on d46ec68) came back 2026-09-29 still failing.
-    Pass 1 (English): 13/25 passed, 11 failed. Pass 2 (French): 14/25 passed, 10 failed (same failures, plus
-    "the pulses stop" passed this time on identical code — a timing flake, not a fix). Pass 3 (Glass+Lights):
-    the WSL runner segfaulted before the game loaded (exit 139), no report written — infra flake, unrelated
-    to the suite. Three more suite bugs found from this evidence and fixed 2026-09-29 (not yet re-verified
-    in game): (1) `HostileEastOf` required a pre-existing Pirate faction that the `test-colony` fixture does
-    not carry (PickleTools/docs/FIXTURES.md confirms) — now generates one; (2) the Anchor at (200, 200), moved
-    there 2026-09-28 to clear CrystalBall's fixture, starved every JoyGiver_InteractBuildingSitAdjacent /
-    JoyGiver_WatchBuilding scenario again with the same "CanBeGivenTo holds but TryGiveJob returned no job" —
-    FIXTURES.md places the fixture's own colonists at (109-114, 203), 85+ cells from (200, 200) on an
-    unsurveyed part of the map; moved to (165, 195), next to that documented region instead; (3) the aura
-    wait margin (5 ticks) was tight enough to flake at ultrafast speed, widened to 30. Rerun of all three
-    passes submitted; still unverified until they come back green.
+  - defect: Pickle suite red on 7fd0d8b (2026-09-30, docs/runs/history.md). Pass 1 (English) 13/25 passed, 11 failed;
+    pass 2 (French) 13/25, 11 failed; pass 3 (Glass+Lights) 10/17, 7 failed; exitReason failed, flaky 0. Same failures
+    in all three: aura (3: "Near carries no HDA_Hediff_..."), pastimes (7: "CanBeGivenTo holds but TryGiveJob
+    returned no job"), save (1). The 79874e9 suite fixes did not clear them. Cause (suite or mod) not established.
+  - unverified: pass 3 ended after 17 scenarios (up to 4 of the 7 pastimes; none of 04-aquarium, 05, 06 played), so the
+    Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
+    every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-09-29, three more Pickle suite bugs found and fixed from the second round of runs
+updated:      2026-10-02, audit: stage back to showcase / options (French gender defect), Pickle evidence trimmed
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
@@ -390,3 +385,29 @@ file in each def type's folder (that language splits one file per category where
 keep one file per def type) — WA is a Chinese-authored mod and its own Defs carry English, not the source
 language, natively. `translation_fr` set to `partial`: the gender-agreement defect is recorded and the
 review file exists, but `complete` is reserved for Virginie's own reading, per TRANSLATIONS.md.
+
+## Audit — 2026-10-02
+
+Revision 7fd0d8b, working tree clean before this audit (changes: STATUS.md, TESTING.md, docs/).
+Previous `stage: done` -> retained `stage: showcase`, `workflow_stage: options` (the field was missing; added).
+
+- **options -> l10n fails** against TRANSLATIONS.md as of 2026-10-02 (French agreement, 2026-09-30): "encouragé"
+  and "Intimidé" agree with a pawn in the masculine only, no three-segment switch. Recorded as a defect on
+  2026-09-30 but `stage` was left at `done`; a translation defect lowers it. Not fixed here (a session does not
+  correct French pending Virginie's reading). Return path: add the switches, regenerate FRENCH_REVIEW.md, audit again.
+  Plural keys: none (the mod carries no Keyed strings). The shared `scripts/Make-FrenchReview.ps1` now exists; this
+  mod still uses its own `_tools/Generate-FrenchReview.ps1` (equivalence unverified).
+- l10n -> preTest and preTest -> done: not rejudged below the failing gate. The Pickle suite is written and justified
+  (TESTING.md). `Test-Mod.ps1` and `Check-DefInjected.ps1` were not rerun this audit (unverified).
+- done -> tested: not reached. Three passes played on 7fd0d8b, all red (see `remaining`). `tested_on` stays empty.
+- Upstream: the original WA (Workshop 1548358607, Udon) has no git repository that could be found (web search
+  2026-10-02 finds only Workshop pages). `upstream_mod_remotes: N/A` stands; no pull request is possible. The source
+  is the Workshop copy, see ATTRIBUTION.md.
+- 0.1.0: `Mod/About/PublishedFileId.txt` is committed (3806764776) and CHANGELOG.md opens with `## [0.1.0]`.
+- .dds: none is tracked (`git ls-files` finds none) and `*.dds` is in .gitignore.
+- Evidence: `Tests/Pickle/Evidence/` 348 MB -> 1.6 MB. Kept the latest run per pass (summary, junit, Player.log,
+  evidence-complete) of 7fd0d8b; removed the three superseded 2026-09-29 reports and the screenshots, report.html and
+  messages.ndjson of the kept ones. Nothing in this file points at a removed report.
+- Not touched: the shared `pickle-reports-archive/` (full copies for every mod; no folder there was identified as
+  this mod's own run).
+- Docs read and their value: docs/PROTOCOLS-READ.md.

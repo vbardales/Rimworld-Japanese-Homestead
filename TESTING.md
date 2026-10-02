@@ -77,16 +77,28 @@ All of the following, from reports read rather than assumed:
 - `flaky` is 0 in each `summary.json`. A scenario that passed only on a retry does not certify anything.
 - `Player.log` from startup is read too: `no errors were logged` covers its scenario, not the load.
 - No manual test is left to validate: the "Not automated" list above is the complete answer.
+- No `@wip` scenario (re-checked 2026-10-02: none), every `@requires` scenario ran in a pass that mounts its mod
+  (`@requires:NanoCE.GlassLights`, pass 3 only), and no manual test is left (the "Not automated" list).
+
+## Order of the passes
+
+New and red scenarios first, alone, in small tickets (`-Filter` on the feature or the scenario). The three full passes
+above are non-regression: submit them all together, at the end, on the final revision. A scenario is non-regression
+once it has a green run on the current logic; a change to the mod or to a step it uses makes it new again.
+2026-10-02: `01-loads`, the nine "buildings that carried the dropped component" scenarios, the koto-absent guard, the aquarium
+cost without Glass+Lights and the English language check are green on `7fd0d8b` (pass 1). `02-aura` (3), `03-pastimes` (7)
+and `06-save` (1) are red, so the next tickets are those features alone, not the full passes.
 
 ## What to keep after a run
 
 Launch with `-EvidenceDir JapaneseHomestead/Tests/Pickle/Evidence/<date>-<pass>`. The folder is ignored by git.
 
-Keep, per pass: `summary.json`, `summary.md`, `junit.xml`, `messages.ndjson`, `Player.log`, and `evidence-complete.txt`
-or `no-report.txt`. Delete a whole `screenshots/` folder copied from the shared report directory, and `report.html`
-once the verdict is recorded. A report superseded by a newer one for the same scenario and the same revision goes,
-unless it is the only proof of a check the newer run did not repeat. A report on an older build proves nothing about the
-current one.
+Keep, per pass, the latest run only: `summary.json`, `summary.md`, `junit.xml`, `Player.log`, and
+`evidence-complete.txt` or `no-report.txt` (about 600 KB; the verdict, the counts, `exitReason` and the startup log).
+Delete `messages.ndjson` (tens of MB, the failure messages are in `junit.xml`), `report.html` and `screenshots/`
+once the verdict is recorded. Keep `screenshots/` only for a `@review` run whose images have yet to be looked at.
+A report superseded by a newer one for the same scenario and the same revision goes, unless it is the only proof of
+a check the newer run did not repeat. A report on an older build proves nothing about the current one.
 
 The history is one text line per run in `docs/runs/`, never a folder, and `STATUS.md` cites that line. Never delete a
 report a `STATUS.md` field still points to: repoint it first.
