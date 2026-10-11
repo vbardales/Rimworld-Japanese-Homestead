@@ -1,0 +1,8 @@
+{
+  "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label": "Source: \"I was encouraged by the princess!\". Three-segment switch added 2026-10-11 (al neutral -ae). Unverified in game: a hediff stage label may not resolve PAWN_gender.",
+  "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label": "Same text as -0 (source: \"I was encouraged by the princess!\").",
+  "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label": "Same text as -0 (source: \"I was encouraged by the princess!\").",
+  "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label": "Same text as -0 (source: \"I was encouraged by the princess!\").",
+  "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label": "Same text as -0 (source: \"I was encouraged by the princess!\").",
+  "HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label": "Source: \"Overwhelmed by the Yokozuna.\". Three-segment switch added 2026-10-11 (al neutral -ae). Unverified in game: same PAWN_gender resolution question."
+}

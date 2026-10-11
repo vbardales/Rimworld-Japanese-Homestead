@@ -2,14 +2,14 @@
 <LanguageData>
   <HDA_Hediff_EncouragementOfThePrincess.label>Encouragement de la princesse</HDA_Hediff_EncouragementOfThePrincess.label>
   <HDA_Hediff_EncouragementOfThePrincess.description>La prestance de la princesse en kimono remonte le moral de ceux qui travaillent près d'elle.</HDA_Hediff_EncouragementOfThePrincess.description>
-  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label>La princesse m'a encouragé !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label>
-  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label>La princesse m'a encouragé !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label>
-  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label>La princesse m'a encouragé !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label>
-  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label>La princesse m'a encouragé !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label>
-  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label>La princesse m'a encouragé !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label>
+  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label>La princesse m'a {PAWN_gender ? encouragé : encouragée : encouragæ} !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label>
+  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label>La princesse m'a {PAWN_gender ? encouragé : encouragée : encouragæ} !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-1.label>
+  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label>La princesse m'a {PAWN_gender ? encouragé : encouragée : encouragæ} !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label>
+  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label>La princesse m'a {PAWN_gender ? encouragé : encouragée : encouragæ} !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label>
+  <HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label>La princesse m'a {PAWN_gender ? encouragé : encouragée : encouragæ} !</HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label>
   <HDA_Hediff_IntimidateOfTheYokozuna.label>Intimidation du yokozuna</HDA_Hediff_IntimidateOfTheYokozuna.label>
   <HDA_Hediff_IntimidateOfTheYokozuna.description>La seule présence du yokozuna suffit à décourager ceux qui lui font face.</HDA_Hediff_IntimidateOfTheYokozuna.description>
-  <HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label>Intimidé par le yokozuna.</HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label>
+  <HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label>{PAWN_gender ? Intimidé : Intimidée : Intimidæ} par le yokozuna.</HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label>
   <WA_Hediff_Metabolic.label>… Un peu de poids en plus ?</WA_Hediff_Metabolic.label>
   <WA_Hediff_Metabolic.description>Une sucrerie de trop. Cela commence à se voir.</WA_Hediff_Metabolic.description>
   <WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterLabel>{0} a pris du poids</WA_Hediff_Metabolic.comps.HediffComp_Discoverable.discoverLetterLabel>
