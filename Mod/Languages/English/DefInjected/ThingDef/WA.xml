@@ -82,8 +82,8 @@
   <WA_Zabuton_Dummy.description>An auxiliary hearth component.</WA_Zabuton_Dummy.description>
   <WA_Wall_Kawara.description>A plastered wall capped with roof tiles for weather protection and decoration. Such walls once surrounded the residences of samurai.</WA_Wall_Kawara.description>
   <WA_Wall_Demado.description>A tiled wall with a projecting window for watching the surroundings and supporting its defenders.</WA_Wall_Demado.description>
-  <WA_Wall_WaterMoats.description>A wide, deep ditch around a fortification, filled with water to slow intruders.</WA_Wall_WaterMoats.description>
-  <WA_Wall_DryMoats.description>A wide, deep ditch around a fortification, filled with water to slow intruders.</WA_Wall_DryMoats.description>
+  <WA_Wall_WaterMoats.description>A wide, deep ditch dug around a fortification to slow intruders. It stays dry and is an obstacle for attackers.</WA_Wall_WaterMoats.description>
+  <WA_Wall_DryMoats.description>A wide, deep ditch dug around a fortification to slow intruders. It stays dry and is an obstacle for attackers.</WA_Wall_DryMoats.description>
   <WA_Step.description>A decorative step suggesting a change in floor level. RimWorld does not model such changes, so its role here is purely visual.</WA_Step.description>
   <WA_Gate_CastleGate.description>A strong, fortified castle entrance designed to aid its defenders.</WA_Gate_CastleGate.description>
   <WA_Gate_IronGate.description>A heavy door protecting a castle entrance, sometimes reinforced with iron.</WA_Gate_IronGate.description>

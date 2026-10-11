@@ -18,7 +18,7 @@
   <WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-1.label>La tentation du sucre fait peu à peu son œuvre.</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-1.label>
   <WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-2.label>La tentation du sucre fait peu à peu son œuvre.</WA_Hediff_Metabolic.stages.The_magical_power_of_sugar_gradually_corroves_you-2.label>
   <WA_Hediff_GreenTea.label>Délicieux matcha</WA_Hediff_GreenTea.label>
-  <WA_Hediff_GreenTea.description>Le plaisir persistant d'une pâtisserie japonaise bien préparée.</WA_Hediff_GreenTea.description>
+  <WA_Hediff_GreenTea.description>Le plaisir persistant d'un thé vert bien préparé.</WA_Hediff_GreenTea.description>
   <WA_Hediff_GreenTea.stages.I_drank_delicious_green_tea_and_the_spirit_was_sharpened.label>Ce délicieux thé vert m'a éclairci l'esprit.</WA_Hediff_GreenTea.stages.I_drank_delicious_green_tea_and_the_spirit_was_sharpened.label>
   <WA_Hediff_Daifuku.label>Délicieux ichigo daifuku</WA_Hediff_Daifuku.label>
   <WA_Hediff_Daifuku.description>Le plaisir persistant d'une pâtisserie japonaise bien préparée.</WA_Hediff_Daifuku.description>
@@ -28,7 +28,7 @@
   <WA_Hediff_Dango.stages.The_compatibility_of_rich_sweet_sauce_is_great_with_rich_mochi_dumplings.label>Cette sauce sucrée-salée accompagne à merveille les boulettes de mochi !</WA_Hediff_Dango.stages.The_compatibility_of_rich_sweet_sauce_is_great_with_rich_mochi_dumplings.label>
   <WA_Hediff_Geppei.label>Délicieux geppei</WA_Hediff_Geppei.label>
   <WA_Hediff_Geppei.description>Le plaisir persistant d'une pâtisserie japonaise bien préparée.</WA_Hediff_Geppei.description>
-  <WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>La pâte de haricots et les noix croquantes m'ont ravi !</WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>
+  <WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>La pâte de haricots et les noix croquantes m'ont {PAWN_gender ? ravi : ravie : ravix} !</WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label>
   <WA_Hediff_Kashiwa.label>Délicieux kashiwa mochi</WA_Hediff_Kashiwa.label>
   <WA_Hediff_Kashiwa.description>Le plaisir persistant d'une pâtisserie japonaise bien préparée.</WA_Hediff_Kashiwa.description>
   <WA_Hediff_Kashiwa.stages.The_sweetness_of_rice_and_the_smell_of_rice_are_deeply_flavored.label>La douceur du riz et le parfum de la feuille de chêne se marient si bien !</WA_Hediff_Kashiwa.stages.The_sweetness_of_rice_and_the_smell_of_rice_are_deeply_flavored.label>

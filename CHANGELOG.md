@@ -8,12 +8,19 @@ final in-game validation and the owner switches it to public.
 - Rename the packageId from `nelim.wa` to `nelim.japanesehomestead`. No save, no active
   mod list and no subscriber referenced the old id; the private 0.1.0 item was uploaded
   with `nelim.wa`, so its next upload carries the new one.
+- French: add three-segment gender switches (`{PAWN_gender ? masculine : feminine : neutral}`)
+  to the six pawn-agreeing stage labels of the princess's encouragement and the yokozuna's
+  intimidation, and to the Geppei label (seven in all). In-game resolution of the token in a
+  hediff stage label is not yet verified.
+- French and English: dry moats are no longer described as filled with water; the Green Tea
+  hediff describes tea, not a sweet; the tea ceremony joy kind is named "Cérémonie du thé" /
+  "Tea ceremony" instead of an action sentence.
 
 ## [0.1.0] - 2026-09-27
 
 Creation of a `Mod/About/PublishedFileId.txt` (Workshop item `3806764776`). This entry
-does not claim the mod is public or tested: the item is created private, as Steam
-creates every item, and stays that way until the owner switches it herself. It records
+does not claim the mod is public or tested: the initial upload created this item
+privately, and it stays that way until the owner switches it herself. It records
 what the prepublishing upload contained — `Mod/` as it stood at this commit — and
 everything that had already changed since the port was imported:
 

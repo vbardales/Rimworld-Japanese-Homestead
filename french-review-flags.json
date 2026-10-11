@@ -4,5 +4,6 @@
   "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-2.label": "Same text as -0 (source: \"I was encouraged by the princess!\").",
   "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-3.label": "Same text as -0 (source: \"I was encouraged by the princess!\").",
   "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-4.label": "Same text as -0 (source: \"I was encouraged by the princess!\").",
-  "HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label": "Source: \"Overwhelmed by the Yokozuna.\". Three-segment switch added 2026-10-11 (al neutral -ae). Unverified in game: same PAWN_gender resolution question."
+  "HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label": "Source: \"Overwhelmed by the Yokozuna.\". Three-segment switch added 2026-10-11 (al neutral -ae). Unverified in game: same PAWN_gender resolution question.",
+  "WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label": "Seventh pawn-agreeing label (Virginie review 2026-10-11). Three-segment switch (ravi / ravie / ravix). Unverified in game: PAWN_gender in a hediff stage label."
 }

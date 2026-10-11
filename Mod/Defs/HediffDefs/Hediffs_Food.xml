@@ -57,7 +57,7 @@
 	<HediffDef>
 		<defName>WA_Hediff_GreenTea</defName>
 		<label>Delicious Matcha</label>
-		<description>The lingering pleasure of a well-made Japanese sweet.</description>
+		<description>The lingering pleasure of a well-prepared cup of green tea.</description>
 		<initialSeverity>1</initialSeverity>
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>

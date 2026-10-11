@@ -173,9 +173,9 @@
   <WA_Wall_StoneWall.label>Mur de pierre</WA_Wall_StoneWall.label>
   <WA_Wall_StoneWall.description>Un ishigaki est un mur de pierres assemblées, utilisé notamment dans les fortifications. Les ouvrages les plus élaborés emploient des pierres ajustées avec très peu d'interstices.</WA_Wall_StoneWall.description>
   <WA_Wall_WaterMoats.label>Douves en eau</WA_Wall_WaterMoats.label>
-  <WA_Wall_WaterMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue une défense supplémentaire.</WA_Wall_WaterMoats.description>
+  <WA_Wall_WaterMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Il reste à sec et constitue un obstacle pour les assaillants.</WA_Wall_WaterMoats.description>
   <WA_Wall_DryMoats.label>Douves sèches</WA_Wall_DryMoats.label>
-  <WA_Wall_DryMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue une défense supplémentaire.</WA_Wall_DryMoats.description>
+  <WA_Wall_DryMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Il reste à sec et constitue un obstacle pour les assaillants.</WA_Wall_DryMoats.description>
   <WA_Step.label>Marche</WA_Step.label>
   <WA_Step.description>Une marche décorative évoquant un escalier. RimWorld ne représentant pas les différences de niveau du sol, elle n'a ici qu'un rôle esthétique.</WA_Step.description>
   <WA_Gate_CastleGate.label>Porte fortifiée</WA_Gate_CastleGate.label>
