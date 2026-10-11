@@ -1,7 +1,7 @@
 ---
 localization: complete
 translation_en: complete
-translation_fr: partial
+translation_fr: complete
 mod:          Nelim's Japanese Homestead (unofficial)
 packageId:    nelim.japanesehomestead
 repo:         Rimworld-Japanese-Homestead
@@ -9,7 +9,7 @@ visibility:   public
 detached:     yes
 remote:       https://github.com/vbardales/Rimworld-Japanese-Homestead.git
 local_path:   C:\Users\nelim\Documents\rimworld\JapaneseHomestead
-workflow_stage: writeTests[1.0.0]
+workflow_stage: playTests[1.0.0]
 settings_audit: not_applicable
 licence:      silent
 licence_at:   WA source and Workshop recheck; Tatara extracted to RolledUpSleeves
@@ -26,9 +26,6 @@ remaining:
     ("tolère"). Source left unchanged.
   - unverified: the six French stage labels now carry three-segment {PAWN_gender ? ... : ... : ...} switches (al neutral -æ,
     2026-10-11). Whether a hediff stage label resolves PAWN_gender in game is not established; check at playTests.
-  - unverified: French review by Virginie (TRANSLATIONS.md, "Systematic French review by Virginie"). FRENCH_REVIEW.md
-    generated 2026-09-30 by scripts/Make-FrenchReview.ps1 from the working tree; translation_fr cannot become
-    complete until Virginie reviews it.
   - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
     and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
     "Known defects")
@@ -40,8 +37,8 @@ remaining:
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-10-11, audit: writeTests[1.0.0]; French review corrections applied (4bee295), Virginie rereading
-protocols_read_sha: 75e5637acd3085fb241fbbee0e9c125a862fdea9
+updated:      2026-10-11, audit: playTests[1.0.0]; French reading validated by Virginie, translations complete
+protocols_read_sha: ac587c23f2481ac64ab621b92d75aac0742dce9e
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
@@ -484,3 +481,13 @@ CHANGELOG `[Unreleased]` lists the corrections; 0.1.0 wording changed to "The in
   of that label), so the five princess stages show their English; revision is a clean `4bee295` (generated from a detached worktree
   at HEAD, so the uncommitted `Art/` tree does not taint it). `french-review-flags.json` trimmed to the three runtime doubts.
   Virginie: the four corrections are present, no other French correction. `PAWN_gender` in stage labels: verify in game at `playTests`.
+
+### Translation audit: French review, 2026-10-11
+
+Reviewer: Virginie (confirmed in chat, 2026-10-11). Revision reviewed: `4bee295`. Corrections requested and applied: dry moats
+description, Green Tea description, "Cérémonie du thé" label, Geppei gender switch (`ravi : ravie : ravix`), review file generation
+(English for duplicate stage labels, clean revision). No further French correction. `translation_fr` set to `complete`; the remaining
+reserve is in `remaining` as `unverified`: `PAWN_gender` resolution in the seven hediff stage labels, to check in game at `playTests`.
+- **writeTests -> playTests (7.a to 7.i): passed 2026-10-11.** Scenarios in TESTING.md, Pickle suites written (3 passes, `@requires:NanoCE.GlassLights`
+  in pass 3 with its map), `Test-Mod.ps1` and `Check-DefInjected.ps1` rerun at `4bee295` (PASS, 0 errors), translations complete.
+  Tested SHA for this state: `4bee295` (later commits touch documents only). Stage `playTests[1.0.0]`.
