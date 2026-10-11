@@ -234,8 +234,64 @@ namespace JapaneseHomestead.PickleSteps
             }
 
             Job job = giver.TryGiveJob(pawn);
-            why = job == null ? "CanBeGivenTo holds but TryGiveJob returned no job" : null;
+            why = job == null ? "CanBeGivenTo holds but TryGiveJob returned no job; " + WhyNoJob(giverDef, pawn) : null;
             return job;
+        }
+
+        // What TryGiveJob looks at, written into the failure so a red run names the cause instead of repeating itself
+        // (three passes on 2026-09-29/30 failed the same way with no further information).
+        private static string WhyNoJob(JoyGiverDef giverDef, Pawn pawn)
+        {
+            var parts = new List<string>();
+            try
+            {
+                parts.Add($"pawn at {pawn.Position}, drafted={pawn.Drafted}, downed={pawn.Downed}, " +
+                    $"outdoorsOk={JoyUtility.EnjoyableOutsideNow(pawn)}, joyKind={giverDef.joyKind?.defName}, " +
+                    $"bored={(giverDef.joyKind != null && pawn.needs?.joy != null ? pawn.needs.joy.tolerances.BoredOf(giverDef.joyKind) : false)}");
+                foreach (ThingDef def in giverDef.thingDefs ?? new List<ThingDef>())
+                {
+                    List<Thing> things = pawn.Map.listerThings.ThingsOfDef(def);
+                    parts.Add($"{def.defName} on map: {things.Count}");
+                    foreach (Thing t in things)
+                    {
+                        parts.Add($"  {t.def.defName} at {t.Position}: spawned={t.Spawned}, forbidden={t.IsForbidden(pawn)}, " +
+                            $"canReserve={pawn.CanReserve(t)}, canReachTouch={pawn.CanReach(t, PathEndMode.Touch, Danger.None)}, " +
+                            $"canReachInteraction={pawn.CanReach(t, PathEndMode.InteractionCell, Danger.None)}, " +
+                            $"roofed={t.Position.Roofed(t.Map)}, interactionCell={t.InteractionCell}");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                parts.Add("diagnosis failed: " + e.GetType().Name + " " + e.Message);
+            }
+
+            return string.Join("; ", parts);
+        }
+
+        private static string AuraDiagnosis(Pawn target)
+        {
+            var parts = new List<string>();
+            try
+            {
+                Map map = target.Map;
+                parts.Add($"tick {Find.TickManager.TicksGame}, map has WaAuraMapComponent={map.components.Any(c => c.GetType().Name == "WaAuraMapComponent")}");
+                foreach (Pawn p in map.mapPawns.AllPawnsSpawned)
+                {
+                    string aura = string.Join(",", p.apparel?.WornApparel.Where(a => a.def.defName.StartsWith("WA_Dressing")).Select(a => a.def.defName) ?? new string[0]);
+                    if (aura.Length > 0 || p == target)
+                    {
+                        parts.Add($"{p.LabelShort} at {p.Position} faction={p.Faction?.def.defName} wears [{aura}] hediffs=[" +
+                            string.Join(",", p.health.hediffSet.hediffs.Select(h => h.def.defName + "@" + h.Severity.ToString("0.00"))) + "]");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                parts.Add("diagnosis failed: " + e.GetType().Name + " " + e.Message);
+            }
+
+            return string.Join("; ", parts);
         }
 
         private static JoyGiverDef Giver(PickleContext ctx, string defName)
@@ -407,7 +463,7 @@ namespace JapaneseHomestead.PickleSteps
             Pawn pawn = PawnNamed(ctx, nickname);
             Hediff hediff = pawn.health.hediffSet.hediffs.FirstOrDefault(h => h.def.defName == hediffDefName);
             ctx.Assert(hediff != null, $"{nickname} carries no {hediffDefName}; carries: " +
-                string.Join(", ", pawn.health.hediffSet.hediffs.Select(h => h.def.defName)));
+                string.Join(", ", pawn.health.hediffSet.hediffs.Select(h => h.def.defName)) + " | " + AuraDiagnosis(pawn));
             ctx.Assert(hediff.Severity > 0f && hediff.Severity <= ceiling + 0.0001f,
                 $"{nickname}'s {hediffDefName} is at severity {hediff.Severity:0.000}, outside (0, {ceiling}]");
         }
