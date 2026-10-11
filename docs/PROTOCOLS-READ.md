@@ -29,3 +29,9 @@ Not read this pass: `README.md`, `LICENSE`, `Mod/About/About.xml`, `Tests/Pickle
 
 Absent from this repo, deliberately: `PUBLICATION.md` (first needed at `tested -> prepublished`), `NOTES.md`, `BUGS.md`,
 `BACKLOG.md` (no upstream repo, so no pull request to track; known defects live in `STATUS.md` and `TESTING.md`).
+
+## 2026-10-11
+
+AGENTS.md, AUDIT.md, TRANSLATIONS.md, MOD_SETTINGS.md, PUBLISHING.md read in full; STYLE_RIMWORLD.md palette rule (line 312) only;
+Ticket Dispatcher WELCOME.md in full. PICKLE.md and WORKSHOP_COMMENTS.md not read: no ticket is filed and no comment goes out at
+`makeSources`. Reread PICKLE.md before the first ticket.

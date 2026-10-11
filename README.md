@@ -29,7 +29,7 @@ dotnet build Source/WA/WA.csproj -c Release
 ```
 
 Reference assemblies come from Krafs.Rimworld.Ref via NuGet. The compiled WA.dll goes
-to `Mod/Assemblies/`; intermediate files remain in `.build/`, outside installed content.
+to `Mod/Assemblies/`; intermediate files remain in `Source/obj/` and `Source/bin/`, outside installed content.
 
 ## Validation status
 
