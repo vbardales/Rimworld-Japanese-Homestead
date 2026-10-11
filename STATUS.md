@@ -40,8 +40,8 @@ remaining:
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-10-11, audit: workflow_stage writeTests[1.0.0]; waiting on Virginie French reading (6.g, 7.g)
-protocols_read_sha: f041b2e7a70bfd0552b8ff414acd03c0c84f8d45
+updated:      2026-10-11, audit: writeTests[1.0.0]; French review corrections applied (4bee295), Virginie rereading
+protocols_read_sha: 75e5637acd3085fb241fbbee0e9c125a862fdea9
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
@@ -467,3 +467,16 @@ build output (`Source/Directory.Build.props`), no tracked file.
 - **localize -> writeTests (6.i): passed.** 6.a to 6.f done (inventory, coverage, switches, `FRENCH_REVIEW.md`); 6.g is required at the
   `writeTests` exit, not here. Stage now `writeTests[1.0.0]`. Exit blocked by 7.g (`translation_fr` partial: Virginie's reading of
   `FRENCH_REVIEW.md`, revision of the commit after 26e8ffa) and by 7.b/7.c reruns at the final SHA (done today on this tree: PASS).
+
+### French review corrections, 2026-10-11 (Virginie's full reading)
+
+Applied in commit 4bee295: `WA_Wall_DryMoats.description` (FR and EN: dry, not filled with water), `WA_Hediff_GreenTea.description` (FR and
+the English Def: tea, not a sweet), `Enjoy_ChanoYu.label` (FR "Cérémonie du thé", EN "Tea ceremony"; the task report strings keep their
+wording), `WA_Hediff_Geppei` stage label (seventh gendered label: ravi / ravie / ravix; the epicene fallback "Quel régal, cette pâte de
+haricots et ces noix croquantes !" is the answer if `PAWN_gender` turns out not to resolve in a stage label, unverified). Not changed:
+clothing names (no systematic neutralisation), upstream English (no upstream git in this file, no pull request identifiable).
+`FRENCH_REVIEW.md` generation: `french-review-sources.json` now gives Original from the real source (ChineseSimplified; JobDef from the
+Defs, e.g. Japanese for the koto) and English from `Languages/English` over the Defs; revision shown is 4bee295, the `+uncommitted`
+suffix comes from the owner's uncommitted `Art/` tree. 36 rows read "(not found in ChineseSimplified)": the source has no such text.
+CHANGELOG `[Unreleased]` lists the corrections; 0.1.0 wording changed to "The initial upload created this item privately."
+`Test-Mod.ps1` PASS, `Check-DefInjected.ps1` 1896 keys, 0 errors. `translation_fr` stays `partial` until Virginie validates the corrected texts.
