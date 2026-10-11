@@ -480,3 +480,7 @@ Defs, e.g. Japanese for the koto) and English from `Languages/English` over the 
 suffix comes from the owner's uncommitted `Art/` tree. 36 rows read "(not found in ChineseSimplified)": the source has no such text.
 CHANGELOG `[Unreleased]` lists the corrections; 0.1.0 wording changed to "The initial upload created this item privately."
 `Test-Mod.ps1` PASS, `Check-DefInjected.ps1` 1896 keys, 0 errors. `translation_fr` stays `partial` until Virginie validates the corrected texts.
+- 2026-10-11, second reading: `scripts/Make-FrenchReview.ps1` now resolves duplicate-label stage handles (`<handle>-N` is the Nth item
+  of that label), so the five princess stages show their English; revision is a clean `4bee295` (generated from a detached worktree
+  at HEAD, so the uncommitted `Art/` tree does not taint it). `french-review-flags.json` trimmed to the three runtime doubts.
+  Virginie: the four corrections are present, no other French correction. `PAWN_gender` in stage labels: verify in game at `playTests`.
