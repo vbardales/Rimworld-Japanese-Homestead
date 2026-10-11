@@ -26,7 +26,7 @@ remaining:
     the pawn they describe can be any gender — "encouragé" (HDA_Hediff_EncouragementOfThePrincess, 5 duplicate
     stage labels) and "Intimidé" (HDA_Hediff_IntimidateOfTheYokozuna, 1 stage label). Flagged in FRENCH_REVIEW.md.
   - unverified: French review by Virginie (TRANSLATIONS.md, "Systematic French review by Virginie"). FRENCH_REVIEW.md
-    generated 2026-09-30 by _tools/Generate-FrenchReview.ps1 from the working tree; translation_fr cannot become
+    generated 2026-09-30 by scripts/Make-FrenchReview.ps1 from the working tree; translation_fr cannot become
     complete until Virginie reviews it.
   - defect: the aquarium's JoyGiverDef and JobDef (Enjoy_Aquarium) are commented out in Mod/Defs/Joy/JoyGivers.xml
     and Mod/Defs/JobDefs/Jobs_Joy.xml; the aquarium builds but no giver ever sends a colonist to it (TESTING.md,
@@ -378,7 +378,7 @@ Every other French text read (recipes, research, buildings, terrain, furniture, 
 either gender-neutral by construction (nouns, infinitives, object descriptions) or has no pawn to agree
 with.
 
-`FRENCH_REVIEW.md` generated at the mod root by `_tools/Generate-FrenchReview.ps1`, from the working tree
+`FRENCH_REVIEW.md` generated at the mod root by `scripts/Make-FrenchReview.ps1`, from the working tree
 after commit `79874e9`. Original column: ChineseSimplified DefInjected text, merged by key across every
 file in each def type's folder (that language splits one file per category where French and English each
 keep one file per def type) — WA is a Chinese-authored mod and its own Defs carry English, not the source
@@ -395,7 +395,7 @@ Previous `stage: done` -> retained `stage: showcase`, `workflow_stage: options` 
   2026-09-30 but `stage` was left at `done`; a translation defect lowers it. Not fixed here (a session does not
   correct French pending Virginie's reading). Return path: add the switches, regenerate FRENCH_REVIEW.md, audit again.
   Plural keys: none (the mod carries no Keyed strings). The shared `scripts/Make-FrenchReview.ps1` now exists; this
-  mod still uses its own `_tools/Generate-FrenchReview.ps1` (equivalence unverified).
+  mod now uses it (own copy deleted 2026-10-11; output regenerated).
 - l10n -> preTest and preTest -> done: not rejudged below the failing gate. The Pickle suite is written and justified
   (TESTING.md). `Test-Mod.ps1` and `Check-DefInjected.ps1` were not rerun this audit (unverified).
 - done -> tested: not reached. Three passes played on 7fd0d8b, all red (see `remaining`). `tested_on` stays empty.
@@ -433,3 +433,7 @@ replaces the 2026-10-02 stage decision; that section's evidence notes stand.
   Pickle red on 7fd0d8b (see `remaining`); `tested_on` stays empty.
 - `protocols_read_sha` not written: `Mark-ProtocolsRead.ps1` refuses (`WORKSHOP_COMMENTS.md` uncommitted in the protocols repo) and
   this session read AUDIT.md and WELCOME.md only this pass (the other protocols: unread). Linter WARN stays until a full read.
+
+`_tools/` removed 2026-10-11 (its one script, `Generate-FrenchReview.ps1`, replaced by the shared `scripts/Make-FrenchReview.ps1`;
+`FRENCH_REVIEW.md` regenerated, new layout, same 479 rows' worth of content to be re-read by Virginie). `.build/` stays: gitignored
+build output (`Source/Directory.Build.props`), no tracked file.
