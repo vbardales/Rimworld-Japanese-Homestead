@@ -9,8 +9,7 @@ visibility:   public
 detached:     yes
 remote:       https://github.com/vbardales/Rimworld-Japanese-Homestead.git
 local_path:   C:\Users\nelim\Documents\rimworld\JapaneseHomestead
-stage:        showcase
-workflow_stage: options
+workflow_stage: localize[1.0.0]
 settings_audit: not_applicable
 licence:      silent
 licence_at:   WA source and Workshop recheck; Tatara extracted to RolledUpSleeves
@@ -40,7 +39,7 @@ remaining:
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-10-02, audit: stage back to showcase / options (French gender defect), Pickle evidence trimmed
+updated:      2026-10-11, audit: workflow_stage localize[1.0.0] (French gender defect), ModIcon.png regenerated from its source
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
@@ -411,3 +410,26 @@ Previous `stage: done` -> retained `stage: showcase`, `workflow_stage: options` 
 - Not touched: the shared `pickle-reports-archive/` (full copies for every mod; no folder there was identified as
   this mod's own run).
 - Docs read and their value: docs/PROTOCOLS-READ.md.
+
+## Audit — 2026-10-11
+
+Revision bfae7aa. Working tree not clean before this audit: `Art/` holds other uncommitted work (Preview re-render,
+`Art/Gallery/`, `Art/echo.png`, `Art/Preview.config.json`, deleted `Preview-*.png`, `Mod/About/Preview.png`), left untouched.
+`stage` retired (was `showcase`); `options` reassessed against the 2026-10-11 chain (AUDIT.md section 16). This section
+replaces the 2026-10-02 stage decision; that section's evidence notes stand.
+
+- **makeSources -> code:** `Mod/About/ModIcon.png` (2026-09-03, RGB) was older than `Art/ModIcon-source.png` (2026-09-29, 128x128
+  RGBA): stale derivative (2.b). Regenerated from the source by the session (Lanczos, 128x128, 25,512 bytes, within 20-30 KB).
+  `Art/ModIcon.ico` (2026-10-03) postdates the source. `Art/Preview-source.png` present. 2.e palette checks not rerun (unverified).
+- **code -> declareDependencies:** build not rerun this audit (unverified). No `feature` left in `remaining`; `[Unreleased]` open.
+- **declareDependencies (4.g):** `Mod/About/About.xml` at bfae7aa, 2026-10-11: no `modDependencies`; `loadAfter` Core, Royalty,
+  Ideology, Biotech, Anomaly, Odyssey, `NanoCE.GlassLights` (optional, patch gated by display name); `supportedVersions` 1.6 only.
+  Glass+Lights identity and costs verified 2026-09-13, unchanged.
+- **auditSettings:** `not_applicable` stands (no `Verse.Mod`, no settings class, no MainButtonDef; inventory 2026-09-13).
+- **localize -> writeTests: fails (6.d).** `Mod/Languages/French/DefInjected/HediffDef/WA.xml` still has "m'a encouragé" (5 stage
+  labels) and "Intimidé" with no `{PAWN_gender ? ... : ... : ...}` switch. Retained state `localize[1.0.0]`; `translation_fr` stays
+  `partial`. Return path: add the switches, regenerate `FRENCH_REVIEW.md`, audit again; Virginie's reading precedes the `writeTests` exit (6.g).
+- **writeTests / playTests:** not rejudged below the failing gate. `Test-Mod.ps1` and `Check-DefInjected.ps1` not rerun (unverified).
+  Pickle red on 7fd0d8b (see `remaining`); `tested_on` stays empty.
+- `protocols_read_sha` not written: `Mark-ProtocolsRead.ps1` refuses (`WORKSHOP_COMMENTS.md` uncommitted in the protocols repo) and
+  this session read AUDIT.md and WELCOME.md only this pass (the other protocols: unread). Linter WARN stays until a full read.
