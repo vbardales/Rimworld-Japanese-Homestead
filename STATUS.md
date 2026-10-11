@@ -9,7 +9,7 @@ visibility:   public
 detached:     yes
 remote:       https://github.com/vbardales/Rimworld-Japanese-Homestead.git
 local_path:   C:\Users\nelim\Documents\rimworld\JapaneseHomestead
-workflow_stage: localize[1.0.0]
+workflow_stage: writeTests[1.0.0]
 settings_audit: not_applicable
 licence:      silent
 licence_at:   WA source and Workshop recheck; Tatara extracted to RolledUpSleeves
@@ -40,7 +40,7 @@ remaining:
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-10-11, audit: workflow_stage localize[1.0.0]; French gender switches added, Virginie reading pending
+updated:      2026-10-11, audit: workflow_stage writeTests[1.0.0]; waiting on Virginie French reading (6.g, 7.g)
 protocols_read_sha: f041b2e7a70bfd0552b8ff414acd03c0c84f8d45
 ---
 
@@ -464,3 +464,6 @@ build output (`Source/Directory.Build.props`), no tracked file.
   added (source text and the runtime doubt; the shared script leaves Original/English empty for stage keys). `Test-Mod.ps1`
   (pwsh) PASS, `Check-DefInjected.ps1` 1896 keys, 0 errors. Still `localize[1.0.0]`: `translation_fr` stays `partial` until
   Virginie reads `FRENCH_REVIEW.md` (6.g, required before leaving `writeTests`, not `localize`). Next: exit `localize` to `writeTests`.
+- **localize -> writeTests (6.i): passed.** 6.a to 6.f done (inventory, coverage, switches, `FRENCH_REVIEW.md`); 6.g is required at the
+  `writeTests` exit, not here. Stage now `writeTests[1.0.0]`. Exit blocked by 7.g (`translation_fr` partial: Virginie's reading of
+  `FRENCH_REVIEW.md`, revision of the commit after 26e8ffa) and by 7.b/7.c reruns at the final SHA (done today on this tree: PASS).
