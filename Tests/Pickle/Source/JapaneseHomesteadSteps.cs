@@ -388,6 +388,29 @@ namespace JapaneseHomestead.PickleSteps
             pawn.Notify_Teleported(true, true);
         }
 
+        [Given("Japanese Homestead: {string} stands near the {string}")]
+        public void StandNearThing(PickleContext ctx, string nickname, string thingName)
+        {
+            Map map = CurrentMap(ctx);
+            Pawn pawn = PawnNamed(ctx, nickname);
+            Thing thing = ThingNamed(ctx, thingName);
+            IntVec3 cell = IntVec3.Invalid;
+            for (int r = 3; r <= 6 && !cell.IsValid; r++)
+            {
+                foreach (IntVec3 c in GenRadial.RadialCellsAround(thing.Position, r, false))
+                {
+                    if (c.DistanceTo(thing.Position) >= 3f && Open(map, c))
+                    {
+                        cell = c;
+                        break;
+                    }
+                }
+            }
+
+            ctx.Assert(cell.IsValid, $"no open cell 3 to 6 cells from the {thingName} at {thing.Position}");
+            Teleport(pawn, cell);
+        }
+
         [Given("Japanese Homestead: {string} stands {int} cells east of {string}")]
         public void StandEastOf(PickleContext ctx, string nickname, int cells, string other)
         {
