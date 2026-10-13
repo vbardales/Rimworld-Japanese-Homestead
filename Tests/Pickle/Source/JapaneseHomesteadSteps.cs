@@ -255,7 +255,7 @@ namespace JapaneseHomestead.PickleSteps
                     foreach (Thing t in things)
                     {
                         parts.Add($"  {t.def.defName} at {t.Position}: spawned={t.Spawned}, forbidden={t.IsForbidden(pawn)}, " +
-                            $"canReserve={pawn.CanReserve(t)}, canReachTouch={pawn.CanReach(t, PathEndMode.Touch, Danger.None)}, " +
+                            $"fogged={t.Fogged()}, socially={t.IsSociallyProper(pawn)}, politically={t.IsPoliticallyProper(pawn)}, vacuum={t.VacuumConcernTo(pawn)}, powerOn={t.TryGetComp<CompPowerTrader>()?.PowerOn}, canReachOnCell={pawn.CanReach(t, PathEndMode.OnCell, Danger.None)}, canReserve={pawn.CanReserve(t)}, canReachTouch={pawn.CanReach(t, PathEndMode.Touch, Danger.None)}, " +
                             $"canReachInteraction={pawn.CanReach(t, PathEndMode.InteractionCell, Danger.None)}, " +
                             $"roofed={t.Position.Roofed(t.Map)}, interactionCell={t.InteractionCell}");
                     }
