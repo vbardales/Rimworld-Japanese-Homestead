@@ -10,7 +10,7 @@
   <description>UNOFFICIAL. This mod is published without the original author's explicit consent.
 If the original author contacts me to request its removal, I undertake to take it down promptly.
 
-A RimWorld 1.6 revival of "WA v1.0" by Udon, which never left 1.0. Japanese architecture, furniture, gardens, pastimes, clothing and crops.
+A revival, for the latest RimWorld version, of "WA v1.0" by Udon, which never left 1.0. Japanese architecture, furniture, gardens, pastimes, clothing and crops.
 
 What it adds:
 - Walls, ramparts, moats, steps, fusuma sliding doors (9 patterns) and shoji screens (4 patterns).
@@ -23,7 +23,7 @@ What it adds:
 - Crops: azuki beans, tea bushes, igusa rush, kozo and mulberry - plus ten confections and green tea.
 
 What the port changes:
-- The two Udon base mods WA relied on, ResourcePackCore and HealthDifferenceAuraCore, are replaced here. They are replaced inside this mod: dirt, charcoal, washi paper and pure silk are redefined here with their recipes, and the aura carried by the two special kimonos is rewritten in C# for 1.6.
+- The two Udon base mods WA relied on, ResourcePackCore and HealthDifferenceAuraCore, are replaced here. They are replaced inside this mod: dirt, charcoal, washi paper and pure silk are redefined here with their recipes, and the aura carried by the two special kimonos is rewritten in C# for the latest RimWorld version.
 - The aquarium used to cost glass cullet, which no longer exists. It costs steel instead, and switches back to glass when Glass+Lights is installed.
 - Thirteen buildings carried a component the game dropped after 1.0. Left alone, it would have taken down their whole def.
 - The shogi board is not included: it already lives in Joy Preservation.

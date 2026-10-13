@@ -32,7 +32,7 @@ remaining:
   - defect: Pickle suite red on 7fd0d8b (2026-09-30, docs/runs/history.md). Pass 1 (English) 13/25 passed, 11 failed;
     pass 2 (French) 13/25, 11 failed; pass 3 (Glass+Lights) 10/17, 7 failed; exitReason failed, flaky 0. Same failures
     in all three: aura (3: "Near carries no HDA_Hediff_..."), pastimes (7: "CanBeGivenTo holds but TryGiveJob
-    returned no job"), save (1). The 79874e9 suite fixes did not clear them. Cause (suite or mod) not established.
+    returned no job"), save (1). The 79874e9 suite fixes did not clear them. Cause: a vanilla control (Play_Chess on a vanilla ChessTable) fails the same way on b35b9d0 (docs/runs/history.md, 2026-10-12): the reds come from the step or the harness, not the mod; cause inside TryGiveJob still to find.
   - unverified: pass 3 ended after 17 scenarios (up to 4 of the 7 pastimes; none of 04-aquarium, 05, 06 played), so the
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
