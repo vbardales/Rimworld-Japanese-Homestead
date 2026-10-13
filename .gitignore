@@ -13,3 +13,5 @@ PROMPT_*.md
 Tests/Pickle/Evidence/
 desktop.ini
 Tests/Pickle/Mod/Pickle/Assemblies/
+
+Art/.render/

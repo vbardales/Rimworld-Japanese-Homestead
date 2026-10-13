@@ -38,7 +38,7 @@ remaining:
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-10-11, audit: playTests[1.0.0]; French reading validated by Virginie, translations complete
-protocols_read_sha: ac587c23f2481ac64ab621b92d75aac0742dce9e
+protocols_read_sha: 2f4e0002e2543fcde57999c51ff8b2f0dfc8efdb
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
