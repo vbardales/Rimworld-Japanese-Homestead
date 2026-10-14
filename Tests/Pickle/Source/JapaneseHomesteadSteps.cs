@@ -258,6 +258,12 @@ namespace JapaneseHomestead.PickleSteps
                             $"fogged={t.Fogged()}, socially={t.IsSociallyProper(pawn)}, politically={t.IsPoliticallyProper(pawn)}, vacuum={t.VacuumConcernTo(pawn)}, powerOn={t.TryGetComp<CompPowerTrader>()?.PowerOn}, canReachOnCell={pawn.CanReach(t, PathEndMode.OnCell, Danger.None)}, canReserve={pawn.CanReserve(t)}, canReachTouch={pawn.CanReach(t, PathEndMode.Touch, Danger.None)}, " +
                             $"canReachInteraction={pawn.CanReach(t, PathEndMode.InteractionCell, Danger.None)}, " +
                             $"roofed={t.Position.Roofed(t.Map)}, interactionCell={t.InteractionCell}");
+                        foreach (IntVec3 c in GenAdjFast.AdjacentCellsCardinal(t))
+                        {
+                            Building e = c.GetEdifice(t.Map);
+                            parts.Add($"    adjacent {c}: standable={c.Standable(t.Map)}, edifice={e?.def.defName}, forbidden={c.IsForbidden(pawn)}, " +
+                                $"sittableOrSpot={pawn.CanReserveSittableOrSpot(c)}, allowedArea={ForbidUtility.InAllowedArea(c, pawn)}");
+                        }
                     }
                 }
             }
