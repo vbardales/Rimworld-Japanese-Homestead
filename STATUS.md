@@ -37,8 +37,8 @@ remaining:
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-10-11, audit: playTests[1.0.0]; French reading validated by Virginie, translations complete
-protocols_read_sha: 2f4e0002e2543fcde57999c51ff8b2f0dfc8efdb
+updated:      2026-10-15, audit: playTests[1.0.0] confirmed; pastime reds are the harness (vanilla control red x3), mod checks green at df0178a
+protocols_read_sha: e733386f133716f60efbad53c37602935eda7050
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
@@ -491,3 +491,11 @@ reserve is in `remaining` as `unverified`: `PAWN_gender` resolution in the seven
 - **writeTests -> playTests (7.a to 7.i): passed 2026-10-11.** Scenarios in TESTING.md, Pickle suites written (3 passes, `@requires:NanoCE.GlassLights`
   in pass 3 with its map), `Test-Mod.ps1` and `Check-DefInjected.ps1` rerun at `4bee295` (PASS, 0 errors), translations complete.
   Tested SHA for this state: `4bee295` (later commits touch documents only). Stage `playTests[1.0.0]`.
+
+### Audit 2026-10-15 (replay to the current stage, revision df0178a)
+
+Stage `playTests[1.0.0]` confirmed. Replayed on df0178a: `Test-Mod.ps1` PASS (134 XML, 861 references, 458 text entries), `Check-DefInjected.ps1` 1896 keys 0 errors,
+`dotnet build` of `Source/WA` and `Tests/Pickle/Source` 0 warnings 0 errors, built `WA.dll` identical to `Mod/Assemblies/WA.dll` (SHA256 AFE4509F...4613), `Check-Status.ps1` 0 ERROR.
+Since 4bee295 only documents, `About.xml` (no hard-coded RimWorld version), the Preview/ModIcon art and the Pickle steps changed: no `Source/` change, so the code is the one tested.
+Protocols changed since 2f4e0002 and read this pass by diff: AGENTS.md, AUDIT.md (markers: the session name carries none any more, the Workflow Board computes them; echo, `Art/Gallery-clean/`, RIMMSQOL 1.7 skip rule: not applicable here). Not read: CICD.md, GALLERY.md, README.md, STYLE_RIMWORLD.md (gallery/preview work is for `shootGallery`/`mountPreview`), scripts/LOCAL_SCRIPTS.md.
+Pickle: the diagnosis tickets (2026-10-12 to 2026-10-15, `docs/runs/history.md`) show a vanilla `Play_Chess` on a vanilla `ChessTable` red the same way as the mod's seven pastime scenarios, in every placement tried (far, near, with the four adjacent cells reported standable, allowed and sittable). The cause is in the harness, not the mod's Defs; still open. The princess aura passed on 08f8e3b. Nothing is certified green: `tested_on` stays empty.
