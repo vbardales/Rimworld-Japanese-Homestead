@@ -137,8 +137,7 @@
 		</requiredCapacities>
 	</JoyGiverDef>
 
-	<!-- ===================== 保留 
-	<JoyGiverDef Abstract="True">
+	<JoyGiverDef>
 		<defName>Enjoy_Aquarium</defName>
 		<giverClass>JoyGiver_WatchBuilding</giverClass>
 		<baseChance>5</baseChance>
@@ -152,7 +151,6 @@
 			<li>Manipulation</li>
 		</requiredCapacities>
 	</JoyGiverDef>
-										===================== -->
 
 	<JoyGiverDef>
 		<defName>PuffTobaccoPipe</defName>

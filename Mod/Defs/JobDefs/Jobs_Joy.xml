@@ -114,7 +114,6 @@
   </JobDef>
 
 
-	<!-- ===================== 保留 
 	<JobDef>
 		<defName>Enjoy_Aquarium</defName>
 		<driverClass>JobDriver_WatchBuilding</driverClass>
@@ -127,7 +126,6 @@
 		<joyKind>Enjoy_WA</joyKind>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>
-										===================== -->
 
 	<JobDef>
 		<defName>PuffTobaccoPipe</defName>
