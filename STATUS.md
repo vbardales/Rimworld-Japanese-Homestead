@@ -27,6 +27,7 @@ remaining:
   - unverified: the six French stage labels now carry three-segment {PAWN_gender ? ... : ... : ...} switches (al neutral -æ,
     2026-10-11). Whether a hediff stage label resolves PAWN_gender in game is not established; check at playTests.
   - unverified: the aquarium giver (Enjoy_Aquarium, uncommented 2026-10-26) is a row of 03-pastimes and has never played.
+  - ticket: diagnosis 20261026-025421-582-ec97 (70a945a, 08-diagnosis, Play_Chess forced with PickleTools ColonistRace step, map wsl-deps.diag.map), result to Tests/Pickle/Inbox/diag-chess. Read the failure text; if it names no cause send it to NPT (local_5c111699-82e6-4951-9bb6-f656cfbc270f). Then fix the step, replay 03-pastimes as a small ticket. Delete 07-control and 08-diagnosis once explained. Keep Mod/ Source/ Tests/ frozen until RUN_DONE.
   - defect: Pickle suite red on 7fd0d8b (2026-09-30, docs/runs/history.md). Pass 1 (English) 13/25 passed, 11 failed;
     pass 2 (French) 13/25, 11 failed; pass 3 (Glass+Lights) 10/17, 7 failed; exitReason failed, flaky 0. Same failures
     in all three: aura (3: "Near carries no HDA_Hediff_..."), pastimes (7: "CanBeGivenTo holds but TryGiveJob
@@ -35,7 +36,7 @@ remaining:
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-10-15, audit: playTests[1.0.0] confirmed; pastime reds are the harness (vanilla control red x3), mod checks green at df0178a
+updated:      2026-10-26, aquarium giver restored, Preview re-rendered (badge mode), diagnosis ticket filed
 protocols_read_sha: f30279258f786a4ccc35343fb03e74ec992a0956
 ---
 
