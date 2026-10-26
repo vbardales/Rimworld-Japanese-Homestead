@@ -1,0 +1,4 @@
+# Diagnosis pass (2026-10-26): PickleTools' ColonistRace step "the joy giver X job is forced on P" says per candidate why a
+# giver returns no job (reserve, forbidden, fog, social, political, power, roof, chairs). Used with -DepMap wsl-deps.diag.map.
+# Not a dependency of the distributed mod; only 08-diagnosis.feature needs it.
+nelim.pickletools.colonistrace path:PickleTools/ColonistRace/Mod
