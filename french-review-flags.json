@@ -1,5 +1,0 @@
-{
-  "HDA_Hediff_EncouragementOfThePrincess.stages.I_was_encouraged_by_the_princess-0.label": "Three-segment switch added 2026-10-11 (al neutral -ae); the same text is stages -0 to -4. Unverified in game: a hediff stage label may not resolve PAWN_gender.",
-  "HDA_Hediff_IntimidateOfTheYokozuna.stages.Overwhelmed_by_the_Yokozuna.label": "Three-segment switch added 2026-10-11 (al neutral -ae). Unverified in game: same PAWN_gender resolution question.",
-  "WA_Hediff_Geppei.stages.I_was_impressed_with_the_crispy_feeling_of_bean_paste_and_walnut.label": "Seventh pawn-agreeing label (ravi / ravie / ravix). Unverified in game: PAWN_gender in a hediff stage label."
-}

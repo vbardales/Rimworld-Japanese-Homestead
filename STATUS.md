@@ -38,7 +38,7 @@ remaining:
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-10-15, audit: playTests[1.0.0] confirmed; pastime reds are the harness (vanilla control red x3), mod checks green at df0178a
-protocols_read_sha: e733386f133716f60efbad53c37602935eda7050
+protocols_read_sha: f30279258f786a4ccc35343fb03e74ec992a0956
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status

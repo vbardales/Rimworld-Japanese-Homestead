@@ -1,2 +1,0 @@
-{ "sources": [ { "match": "DefInjected/JobDef/*", "original": "Defs", "english": "English" },
-               { "match": "*", "original": "ChineseSimplified", "english": "English" } ] }
