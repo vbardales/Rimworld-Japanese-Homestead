@@ -20,14 +20,13 @@ minutes. Nothing here restates any of it.
 | `Mod/Pickle/Features/06-save.feature` | a save taken with the aura running, reloaded |
 | `wsl-deps.avec-glasslights.map` | pass 3: Glass+Lights and nothing else |
 | `Source/` | the step assembly, `JapaneseHomestead.PickleSteps.dll` (17 steps) |
-| `Check-Steps.ps1` | compiles every step pattern with Pickle's own engine and checks each feature line resolves to exactly one |
 
 The mod's own assembly, `WA.dll`, is not referenced: the aura extension is read by reflection, so a renamed field fails a
 scenario with a message that names it, not the build.
 
 **Every step text starts with `Japanese Homestead:`.** Pickle loads the steps of every active suite into one namespace.
-`Check-Steps.ps1` compares this suite's lines with Pickle's vocabulary and with 65 other suites when the collection is
-around this repository.
+The shared `scripts/Check-Steps.ps1 -Mod JapaneseHomestead` (protocols root) compares this suite's lines with Pickle's
+vocabulary and with the other suites of the collection.
 
 ## Tags that select
 
