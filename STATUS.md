@@ -37,7 +37,7 @@ remaining:
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-10-26, aquarium giver restored, Preview re-rendered (badge mode), diagnosis ticket filed
-protocols_read_sha: f30279258f786a4ccc35343fb03e74ec992a0956
+protocols_read_sha: b65a47e481994a65d9390bb543d2c7cbadfcac41
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
