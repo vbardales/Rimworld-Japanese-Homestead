@@ -27,7 +27,7 @@ remaining:
   - unverified: the six French stage labels now carry three-segment {PAWN_gender ? ... : ... : ...} switches (al neutral -æ,
     2026-10-11). Whether a hediff stage label resolves PAWN_gender in game is not established; check at playTests.
   - unverified: the aquarium giver (Enjoy_Aquarium, uncommented 2026-10-26) is a row of 03-pastimes and has never played.
-  - defect: diagnosis ec97 (70a945a, 08-diagnosis) failed at `Given a colonist "Player" exists`: "Accessing map pawns off main thread" (step, not mod). Sent to NPT 2026-11-01, answer awaited; result parked in Tests/Pickle/Parked/diag-chess (RELEASE.md). Then replay 08-diagnosis/03-pastimes as a small ticket. Delete 07-control and 08-diagnosis once explained.
+  - ticket: 20261101-002631-167-c850 (3825015, 08-diagnosis Play_Chess alone, map wsl-deps.diag.map), result to Tests/Pickle/Inbox/diag-chess2. Earlier ec97 failed at `Given a colonist "Player" exists`: "Accessing map pawns off main thread"; NPT (2026-11-01): Pickle's own step, known intermittent on save-loading scenarios, scenario fine, refile unchanged; tell NPT (local_03a66e9e) only if c850 fails the same way. ec97 parked in Tests/Pickle/Parked/diag-chess (RELEASE.md). On green: replay 03-pastimes as a small ticket. Delete 07-control and 08-diagnosis once explained. Mod/ Source/ Tests/ frozen until RUN_DONE.
   - defect: Pickle suite red on 7fd0d8b (2026-09-30, docs/runs/history.md). Pass 1 (English) 13/25 passed, 11 failed;
     pass 2 (French) 13/25, 11 failed; pass 3 (Glass+Lights) 10/17, 7 failed; exitReason failed, flaky 0. Same failures
     in all three: aura (3: "Near carries no HDA_Hediff_..."), pastimes (7: "CanBeGivenTo holds but TryGiveJob
