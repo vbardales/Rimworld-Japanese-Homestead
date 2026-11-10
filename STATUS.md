@@ -27,17 +27,17 @@ remaining:
   - unverified: the six French stage labels now carry three-segment {PAWN_gender ? ... : ... : ...} switches (al neutral -æ,
     2026-10-11). Whether a hediff stage label resolves PAWN_gender in game is not established; check at playTests.
   - unverified: the aquarium giver (Enjoy_Aquarium, uncommented 2026-10-26) is a row of 03-pastimes and has never played.
-  - ticket: 20261101-002631-167-c850 (3825015, 08-diagnosis Play_Chess alone, map wsl-deps.diag.map), result to Tests/Pickle/Inbox/diag-chess2. Earlier ec97 failed at `Given a colonist "Player" exists`: "Accessing map pawns off main thread"; NPT (2026-11-01): Pickle's own step, known intermittent on save-loading scenarios, scenario fine, refile unchanged; tell NPT (local_03a66e9e) only if c850 fails the same way. ec97 parked in Tests/Pickle/Parked/diag-chess (RELEASE.md). On green: replay 03-pastimes as a small ticket. Delete 07-control and 08-diagnosis once explained. Mod/ Source/ Tests/ frozen until RUN_DONE.
+  - ticket: 20261110-112927-204-7962 (6276849, 08-diagnosis Play_Koto alone, map wsl-deps.diag.map), result to Tests/Pickle/Inbox/diag-koto. c850 (2026-11-03) read and deleted: vanilla Play_Chess gave no job because its giver has requireChair True and the scene had no chair (four cardinal cells sittable False): scene fault, not the mod. WA givers set no requireChair, so the koto reds are still unexplained. 07-control removed. On green: replay 03-pastimes as a small ticket; delete 08-diagnosis once the koto is explained. ec97 stays in Tests/Pickle/Parked/diag-chess (RELEASE.md). Mod/ Source/ Tests/ frozen until RUN_DONE.
   - defect: Pickle suite red on 7fd0d8b (2026-09-30, docs/runs/history.md). Pass 1 (English) 13/25 passed, 11 failed;
     pass 2 (French) 13/25, 11 failed; pass 3 (Glass+Lights) 10/17, 7 failed; exitReason failed, flaky 0. Same failures
     in all three: aura (3: "Near carries no HDA_Hediff_..."), pastimes (7: "CanBeGivenTo holds but TryGiveJob
-    returned no job"), save (1). The 79874e9 suite fixes did not clear them. Cause: a vanilla control (Play_Chess on a vanilla ChessTable) fails the same way on b35b9d0 (docs/runs/history.md, 2026-10-12): the reds come from the step or the harness, not the mod; cause inside TryGiveJob still to find.
+    returned no job"), save (1). The 79874e9 suite fixes did not clear them. The vanilla control (Play_Chess) red on b35b9d0 is explained (no chair in the scene, c850, 2026-11-10); the koto pastime reds are still being diagnosed.
   - unverified: pass 3 ended after 17 scenarios (up to 4 of the 7 pastimes; none of 04-aquarium, 05, 06 played), so the
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-11-01, diagnosis ec97 failed in the step (sent to NPT), evidence sorted, 3 stray .bat and local Check-Steps.ps1 removed
-protocols_read_sha: b65a47e481994a65d9390bb543d2c7cbadfcac41
+updated:      2026-11-10, c850 digested (chess needs a chair), Preview redone (56fe2e7), koto diagnosis ticket 7962 filed
+protocols_read_sha: 41d6a3a915a280b1dc8fd05ad11022bbe6ea67de
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
