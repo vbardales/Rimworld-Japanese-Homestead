@@ -22,6 +22,7 @@ showcase:     complete
 tested_on:
 workshop:     3806764776 (0.1.0 prepublish, 2026-09-27; item created private, not switched to public)
 remaining:
+  - ticket: 20261110-113828-221-a1cf (431b804, 03-pastimes with a zabuton beside each building, map wsl-deps.stagedecor.map; NPT StageDecor step compiled, never played), result to Tests/Pickle/Inbox/pastimes-seat. On green: delete 08-diagnosis; red: read the failure, the step may be at fault.
   - open (replay 2026-11-10, 7.b): Tests/Test-Mod.ps1 is hand-written and its LOCAL_SCRIPTS row was reopened (CUT, docs/LOCAL-SCRIPTS-REVIEW-2026-11-04.md): convert to Tests/Rule-OwnValues.ps1 (Glass+Lights patch, aquarium costs) + generated skeleton from CI/CD, row validated by Audit. Pickle diagnosis (scenes need a seat, step asked of NPT) continues meanwhile.
   - unverified: Art/Preview-source.png value mean 0.286, below the 0.30 floor (AUDIT.md 2.e); waived by Virginie on 2026-10-11
     ("tolère"). Source left unchanged.
