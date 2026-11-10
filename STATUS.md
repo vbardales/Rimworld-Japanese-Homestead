@@ -9,7 +9,7 @@ visibility:   public
 detached:     yes
 remote:       https://github.com/vbardales/Rimworld-Japanese-Homestead.git
 local_path:   C:\Users\nelim\Documents\rimworld\JapaneseHomestead
-workflow_stage: playTests[1.0.0]
+workflow_stage: writeTests[1.0.0]
 settings_audit: not_applicable
 licence:      silent
 licence_at:   WA source and Workshop recheck; Tatara extracted to RolledUpSleeves
@@ -22,6 +22,7 @@ showcase:     complete
 tested_on:
 workshop:     3806764776 (0.1.0 prepublish, 2026-09-27; item created private, not switched to public)
 remaining:
+  - open (replay 2026-11-10, 7.b): Tests/Test-Mod.ps1 is hand-written and its LOCAL_SCRIPTS row was reopened (CUT, docs/LOCAL-SCRIPTS-REVIEW-2026-11-04.md): convert to Tests/Rule-OwnValues.ps1 (Glass+Lights patch, aquarium costs) + generated skeleton from CI/CD, row validated by Audit. Pickle diagnosis (scenes need a seat, step asked of NPT) continues meanwhile.
   - unverified: Art/Preview-source.png value mean 0.286, below the 0.30 floor (AUDIT.md 2.e); waived by Virginie on 2026-10-11
     ("tolère"). Source left unchanged.
   - unverified: the six French stage labels now carry three-segment {PAWN_gender ? ... : ... : ...} switches (al neutral -æ,
@@ -36,7 +37,7 @@ remaining:
     Glass+Lights aquarium cost scenario has never run. `tested` needs all three passes complete and green, no @wip,
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
-updated:      2026-11-10, c850 digested (chess needs a chair), Preview redone (56fe2e7), koto diagnosis ticket 7962 filed
+updated:      2026-11-10, replay: 7.b open (Test-Mod.ps1 CUT not done), stage back to writeTests; TRANSLATION_REVIEW.md regenerated
 protocols_read_sha: 41d6a3a915a280b1dc8fd05ad11022bbe6ea67de
 ---
 
