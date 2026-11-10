@@ -10,11 +10,12 @@ Feature: the pastimes
   Background:
     Given the save "test-colony" is loaded
 
-  @timeout:180
+  @requires:nelim.pickletools.stagedecor @timeout:180
   Scenario Outline: the giver <giver> sends a colonist to the <building> and the colonist starts the job
     Given a colonist "Player" exists
     And "Player" needs "Joy" is set to 10 percent
     And Japanese Homestead: a "<building>" named "Piece" stands on open ground
+    And Nelim's Pickle Tools: I place the decor "WA_Seat_Zabuton_Red" on a cardinal cell next to the nearest "<building>"
     And game speed is ultrafast
     When Japanese Homestead: the joy giver "<giver>" sends "Player" to the "Piece"
     Then Japanese Homestead: "Player" is doing the job of the joy giver "<giver>" within 30 seconds
