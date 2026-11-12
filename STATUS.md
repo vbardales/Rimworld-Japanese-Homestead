@@ -70,3 +70,62 @@ to anyone — not a name, not an idea traceable to one mod, not a value derived 
 ## Journal
 
 The dated audit sections (2026-09-13 to 2026-10-11) moved to `Docs/runs/status-journal.md` on 2026-11-12 (STATUS.md was over 40 KB). The test history stays in `Docs/runs/history.md`.
+
+## Records kept here (AUDIT 4.g, 5.g, 6.h)
+
+Copied back from `Docs/runs/status-journal.md` on 2026-11-12: these three records must live in STATUS.md, the rest of the dated journal stays in that file.
+
+### Dependencies (4.g)
+
+- **declareDependencies (4.g):** `Mod/About/About.xml` at bfae7aa, 2026-10-11: no `modDependencies`; `loadAfter` Core, Royalty,
+  Ideology, Biotech, Anomaly, Odyssey, `NanoCE.GlassLights` (optional, patch gated by display name); `supportedVersions` 1.6 only.
+  Glass+Lights identity and costs verified 2026-09-13, unchanged.
+
+### Settings audit (5.g)
+
+All four C# files and XML definitions/patches reviewed. No Verse.Mod subclass, ModSettings,
+GetSettings, SettingsCategory, DoSettingsWindowContents or MainButtonDef found. The mod
+adds content, kiln work and apparel auras. Kiln capacity/product/burn duration and aura
+faction/range/interval/severity are content-definition and balance data, not a documented
+player-preference interface. No concrete missing player setting was identified. Building
+materialCount/progress serialization is gameplay save state; vanilla bills/refuelling
+are gameplay controls. No empty settings page or shortcut exists. Thus settings_audit is
+not_applicable, justified by inventory, not merely by absence of a settings class.
+Settings default/input/reset/access/shortcut tests are not applicable. No RIMMSQOL or
+other customization integration was tested or claimed. Gameplay persistence is still
+pending final functional verification.
+
+
+### Translation audit (6.h)
+
+**~~Validation struck 2026-11-12~~** (owner rule relayed by TM): the plugin now records the pages sent; the review behind this validation was multi-page
+(TRANSLATION_REVIEW.md is 3 pages) and cannot be proven complete. `translation_fr` is `pending_review` until all 3 pages are reviewed without
+WARN "pages not reviewed yet", the justified corrections are applied, and Virginie validates again. The text below is history only.
+
+**ChatGPT review 2026-11-12, pages 1, 2, 3 all sent (last run printed "all 3 pages sent for this content"), answers read.** Applied: `WA_Wall_WaterMoats.description`
+(EN and FR said "dry", copied from DryMoats: now filled with water, matches the Def and the Japanese); French labels and descriptions of five apparel
+`WA_Dressing_{Elder,Suke,Kaku,Kin,PriestSoldier}` (Kaku source description says "Kimono of Elder", upstream error, French follows the key). Rejected:
+"une escalier" (the file reads "un escalier"); mixed-script and simplified/traditional edits in ChineseSimplified, ChineseTraditional and Japanese
+(upstream WA text, licence silent: upstream pull request only, not a local edit); machine translations of the 58/58/55 missing Chinese and Japanese keys
+(nobody here can judge them, English fallback stays); the eight abstract bases (`WA_AlcoveBase`, `WA_Drawer`, `WA_*Base`, `WA_PlantBase`: `Abstract="True"`, never
+displayed). Left for Virginie: French of `WA_DressingHat_{Hood,Towel,Katou}` (ChatGPT: "Kimono à capuche", "Kimono avec serviette", "Kimono de Katou"; the
+English "Kimono-Hood" is a headgear name, wording is a real choice). `Check-Translations.ps1` PASS, `Check-DefInjected.ps1` 1908 keys 0 errors.
+**Rerun 2026-11-12 (after 718692a, refusals file sent):** pages 1, 2, 3 all sent on the same content, last run printed "all 3 pages sent for this content" (no WARN).
+Applied: `WA_Recipe_Kasuteira.description` FR ("une pâte à gâteau légère", as the English "light cake batter"). Refused, logged in `Docs/review-refusals.md`: Chinese Futon and
+Enjoy_WA labels, Japanese Koto/Karuta/Brazier (upstream text), FR SutrasDesk rephrase (taste). Hat labels still for Virginie: ChatGPT again proposes "Kimono à capuche",
+"Kimono avec serviette", "Kimono-Katou" (Towel role not established by the table).
+**Rerun 2 (same content, no regeneration in between):** pages 2, 1, 3 sent, last run printed "all 3 pages sent for this content". Nothing applied, all refused and logged (Chinese and
+Japanese upstream text, unproven length risk); hats: ChatGPT's third variant ("Capuche de kimono", "Serviette de kimono", "Kimono-Katou"). Virginie asked to see the hat images
+(contact sheet sent 2026-11-12). **Virginie chose the hat names 2026-11-12:** `WA_DressingHat_Hood` "Capuche", `_Towel` "Serviette", `_Katou` "Cagoule" (the image is a balaclava; "Katou" alone
+was her other option); applied. Open before `complete`: her validation of the French (asked, not yet given).
+**French validated by Virginie, 2026-11-12 ("Je valide", chat).** Revision reviewed: `d8cb862` (ChatGPT pages 1, 2, 3 all read on this content, no WARN; later commits touch `docs/` only). Corrections applied
+in this round: water moats description, eight apparel and headgear labels and descriptions, Kasuteira recipe wording. `translation_fr` set to `complete`; refusals in `docs/review-refusals.md`.
+
+Reviewer: Virginie (confirmed in chat, 2026-10-11). Revision reviewed: `4bee295`. Corrections requested and applied: dry moats
+description, Green Tea description, "Cérémonie du thé" label, Geppei gender switch (`ravi : ravie : ravix`), review file generation
+(English for duplicate stage labels, clean revision). No further French correction. `translation_fr` set to `complete`; the remaining
+reserve is in `remaining` as `unverified`: `PAWN_gender` resolution in the seven hediff stage labels, to check in game at `playTests`.
+- **writeTests -> playTests (7.a to 7.i): passed 2026-10-11.** Scenarios in TESTING.md, Pickle suites written (3 passes, `@requires:NanoCE.GlassLights`
+  in pass 3 with its map), `Test-Mod.ps1` and `Check-DefInjected.ps1` rerun at `4bee295` (PASS, 0 errors), translations complete.
+  Tested SHA for this state: `4bee295` (later commits touch documents only). Stage `playTests[1.0.0]`.
+
