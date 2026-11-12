@@ -497,6 +497,10 @@ WARN "pages not reviewed yet", the justified corrections are applied, and Virgin
 (nobody here can judge them, English fallback stays); the eight abstract bases (`WA_AlcoveBase`, `WA_Drawer`, `WA_*Base`, `WA_PlantBase`: `Abstract="True"`, never
 displayed). Left for Virginie: French of `WA_DressingHat_{Hood,Towel,Katou}` (ChatGPT: "Kimono à capuche", "Kimono avec serviette", "Kimono de Katou"; the
 English "Kimono-Hood" is a headgear name, wording is a real choice). `Check-Translations.ps1` PASS, `Check-DefInjected.ps1` 1908 keys 0 errors.
+**Rerun 2026-11-12 (after 718692a, refusals file sent):** pages 1, 2, 3 all sent on the same content, last run printed "all 3 pages sent for this content" (no WARN).
+Applied: `WA_Recipe_Kasuteira.description` FR ("une pâte à gâteau légère", as the English "light cake batter"). Refused, logged in `Docs/review-refusals.md`: Chinese Futon and
+Enjoy_WA labels, Japanese Koto/Karuta/Brazier (upstream text), FR SutrasDesk rephrase (taste). Hat labels still for Virginie: ChatGPT again proposes "Kimono à capuche",
+"Kimono avec serviette", "Kimono-Katou" (Towel role not established by the table).
 
 Reviewer: Virginie (confirmed in chat, 2026-10-11). Revision reviewed: `4bee295`. Corrections requested and applied: dry moats
 description, Green Tea description, "Cérémonie du thé" label, Geppei gender switch (`ravi : ravie : ravix`), review file generation
