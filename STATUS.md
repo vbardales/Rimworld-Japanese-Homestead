@@ -1,7 +1,7 @@
 ---
 localization: complete
 translation_en: complete
-translation_fr: pending_review  # 2026-11-12: validation cancelled (owner rule via TM), pages 1-3 reviewed and triaged 2026-11-12; waiting for Virginie (incl. the 3 hat labels), then complete
+translation_fr: complete
 mod:          Nelim's Japanese Homestead (unofficial)
 packageId:    nelim.japanesehomestead
 repo:         Rimworld-Japanese-Homestead
@@ -505,6 +505,8 @@ Enjoy_WA labels, Japanese Koto/Karuta/Brazier (upstream text), FR SutrasDesk rep
 Japanese upstream text, unproven length risk); hats: ChatGPT's third variant ("Capuche de kimono", "Serviette de kimono", "Kimono-Katou"). Virginie asked to see the hat images
 (contact sheet sent 2026-11-12). **Virginie chose the hat names 2026-11-12:** `WA_DressingHat_Hood` "Capuche", `_Towel` "Serviette", `_Katou` "Cagoule" (the image is a balaclava; "Katou" alone
 was her other option); applied. Open before `complete`: her validation of the French (asked, not yet given).
+**French validated by Virginie, 2026-11-12 ("Je valide", chat).** Revision reviewed: `d8cb862` (ChatGPT pages 1, 2, 3 all read on this content, no WARN; later commits touch `docs/` only). Corrections applied
+in this round: water moats description, eight apparel and headgear labels and descriptions, Kasuteira recipe wording. `translation_fr` set to `complete`; refusals in `docs/review-refusals.md`.
 
 Reviewer: Virginie (confirmed in chat, 2026-10-11). Revision reviewed: `4bee295`. Corrections requested and applied: dry moats
 description, Green Tea description, "Cérémonie du thé" label, Geppei gender switch (`ravi : ravie : ravix`), review file generation
