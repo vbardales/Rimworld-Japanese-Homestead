@@ -1,7 +1,7 @@
 ---
 localization: complete
 translation_en: complete
-translation_fr: complete
+translation_fr: pending_review  # 2026-11-12: validation cancelled (owner rule via TM), pages 1-3 reviewed and triaged 2026-11-12; waiting for Virginie (incl. the 3 hat labels), then complete
 mod:          Nelim's Japanese Homestead (unofficial)
 packageId:    nelim.japanesehomestead
 repo:         Rimworld-Japanese-Homestead
@@ -39,7 +39,7 @@ remaining:
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-11-10, replay: 7.b open (Test-Mod.ps1 CUT not done), stage back to writeTests; TRANSLATION_REVIEW.md regenerated
-protocols_read_sha: 41d6a3a915a280b1dc8fd05ad11022bbe6ea67de
+protocols_read_sha: 29edd8b857cf7ee4b139cc7ac70fcb8d90c11238
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
@@ -484,6 +484,19 @@ CHANGELOG `[Unreleased]` lists the corrections; 0.1.0 wording changed to "The in
   Virginie: the four corrections are present, no other French correction. `PAWN_gender` in stage labels: verify in game at `playTests`.
 
 ### Translation audit: French review, 2026-10-11
+
+**~~Validation struck 2026-11-12~~** (owner rule relayed by TM): the plugin now records the pages sent; the review behind this validation was multi-page
+(TRANSLATION_REVIEW.md is 3 pages) and cannot be proven complete. `translation_fr` is `pending_review` until all 3 pages are reviewed without
+WARN "pages not reviewed yet", the justified corrections are applied, and Virginie validates again. The text below is history only.
+
+**ChatGPT review 2026-11-12, pages 1, 2, 3 all sent (last run printed "all 3 pages sent for this content"), answers read.** Applied: `WA_Wall_WaterMoats.description`
+(EN and FR said "dry", copied from DryMoats: now filled with water, matches the Def and the Japanese); French labels and descriptions of five apparel
+`WA_Dressing_{Elder,Suke,Kaku,Kin,PriestSoldier}` (Kaku source description says "Kimono of Elder", upstream error, French follows the key). Rejected:
+"une escalier" (the file reads "un escalier"); mixed-script and simplified/traditional edits in ChineseSimplified, ChineseTraditional and Japanese
+(upstream WA text, licence silent: upstream pull request only, not a local edit); machine translations of the 58/58/55 missing Chinese and Japanese keys
+(nobody here can judge them, English fallback stays); the eight abstract bases (`WA_AlcoveBase`, `WA_Drawer`, `WA_*Base`, `WA_PlantBase`: `Abstract="True"`, never
+displayed). Left for Virginie: French of `WA_DressingHat_{Hood,Towel,Katou}` (ChatGPT: "Kimono à capuche", "Kimono avec serviette", "Kimono de Katou"; the
+English "Kimono-Hood" is a headgear name, wording is a real choice). `Check-Translations.ps1` PASS, `Check-DefInjected.ps1` 1908 keys 0 errors.
 
 Reviewer: Virginie (confirmed in chat, 2026-10-11). Revision reviewed: `4bee295`. Corrections requested and applied: dry moats
 description, Green Tea description, "Cérémonie du thé" label, Geppei gender switch (`ravi : ravie : ravix`), review file generation

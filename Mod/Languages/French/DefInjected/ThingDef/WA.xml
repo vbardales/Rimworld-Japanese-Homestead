@@ -173,7 +173,7 @@
   <WA_Wall_StoneWall.label>Mur de pierre</WA_Wall_StoneWall.label>
   <WA_Wall_StoneWall.description>Un ishigaki est un mur de pierres assemblées, utilisé notamment dans les fortifications. Les ouvrages les plus élaborés emploient des pierres ajustées avec très peu d'interstices.</WA_Wall_StoneWall.description>
   <WA_Wall_WaterMoats.label>Douves en eau</WA_Wall_WaterMoats.label>
-  <WA_Wall_WaterMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Il reste à sec et constitue un obstacle pour les assaillants.</WA_Wall_WaterMoats.description>
+  <WA_Wall_WaterMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Rempli d'eau, il constitue un obstacle sérieux pour les assaillants.</WA_Wall_WaterMoats.description>
   <WA_Wall_DryMoats.label>Douves sèches</WA_Wall_DryMoats.label>
   <WA_Wall_DryMoats.description>Un fossé large et profond, creusé autour d'une fortification pour freiner les intrusions. Il reste à sec et constitue un obstacle pour les assaillants.</WA_Wall_DryMoats.description>
   <WA_Step.label>Marche</WA_Step.label>
@@ -246,6 +246,16 @@
   <WA_Dressing_TearHarvest.description>Un kimono pour la récolte du thé.</WA_Dressing_TearHarvest.description>
   <WA_Dressing_Samurai.label>Kimono de samouraï</WA_Dressing_Samurai.label>
   <WA_Dressing_Samurai.description>Un kimono de samouraï.</WA_Dressing_Samurai.description>
+  <WA_Dressing_Elder.label>Kimono d'ancien</WA_Dressing_Elder.label>
+  <WA_Dressing_Elder.description>Un kimono d'ancien.</WA_Dressing_Elder.description>
+  <WA_Dressing_Suke.label>Kimono de Suke</WA_Dressing_Suke.label>
+  <WA_Dressing_Suke.description>Un kimono de Suke.</WA_Dressing_Suke.description>
+  <WA_Dressing_Kaku.label>Kimono de Kaku</WA_Dressing_Kaku.label>
+  <WA_Dressing_Kaku.description>Un kimono de Kaku.</WA_Dressing_Kaku.description>
+  <WA_Dressing_Kin.label>Kimono de Kin</WA_Dressing_Kin.label>
+  <WA_Dressing_Kin.description>Un kimono de Kin.</WA_Dressing_Kin.description>
+  <WA_Dressing_PriestSoldier.label>Kimono de moine-soldat</WA_Dressing_PriestSoldier.label>
+  <WA_Dressing_PriestSoldier.description>Un kimono de moine-soldat.</WA_Dressing_PriestSoldier.description>
   <WA_Dressing_Carpenter.label>Kimono de charpentier</WA_Dressing_Carpenter.label>
   <WA_Dressing_Carpenter.description>Un kimono de charpentier.</WA_Dressing_Carpenter.description>
   <WA_Dressing_Courier.label>Kimono de coursier</WA_Dressing_Courier.label>
