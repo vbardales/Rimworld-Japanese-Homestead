@@ -501,6 +501,9 @@ English "Kimono-Hood" is a headgear name, wording is a real choice). `Check-Tran
 Applied: `WA_Recipe_Kasuteira.description` FR ("une pâte à gâteau légère", as the English "light cake batter"). Refused, logged in `Docs/review-refusals.md`: Chinese Futon and
 Enjoy_WA labels, Japanese Koto/Karuta/Brazier (upstream text), FR SutrasDesk rephrase (taste). Hat labels still for Virginie: ChatGPT again proposes "Kimono à capuche",
 "Kimono avec serviette", "Kimono-Katou" (Towel role not established by the table).
+**Rerun 2 (same content, no regeneration in between):** pages 2, 1, 3 sent, last run printed "all 3 pages sent for this content". Nothing applied, all refused and logged (Chinese and
+Japanese upstream text, unproven length risk); hats: ChatGPT's third variant ("Capuche de kimono", "Serviette de kimono", "Kimono-Katou"). Virginie asked to see the hat images
+(contact sheet sent 2026-11-12); her choice of the three French names and her validation are the only open items before `complete`.
 
 Reviewer: Virginie (confirmed in chat, 2026-10-11). Revision reviewed: `4bee295`. Corrections requested and applied: dry moats
 description, Green Tea description, "Cérémonie du thé" label, Geppei gender switch (`ravi : ravie : ravix`), review file generation
