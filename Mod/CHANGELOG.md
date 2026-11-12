@@ -15,6 +15,12 @@ final in-game validation and the owner switches it to public.
 - French and English: dry moats are no longer described as filled with water; the Green Tea
   hediff describes tea, not a sweet; the tea ceremony joy kind is named "Cérémonie du thé" /
   "Tea ceremony" instead of an action sentence.
+- French and English: the water moats description says the moat is filled with water (it
+  wrongly said dry, like the dry moats).
+- French: add the missing labels and descriptions of five kimono items (elder, Suke, Kaku,
+  Kin, priest-soldier) and of three headgear items (hood, towel, balaclava).
+- The aquarium has a joy giver again: `Enjoy_Aquarium` (giver and job) is no longer commented out, with
+  English and French report strings, so colonists are sent to watch the goldfish.
 
 ## [0.1.0] - 2026-09-27
 
