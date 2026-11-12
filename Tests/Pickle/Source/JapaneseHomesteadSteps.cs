@@ -392,6 +392,13 @@ namespace JapaneseHomestead.PickleSteps
             pawn.pather.StopDead();
             pawn.Position = cell;
             pawn.Notify_Teleported(true, true);
+            // A free colonist walks off to work, sleep or a bed within the 1000 to 3000 ticks a scenario waits, and
+            // leaves the aura's range (pass 1 on 4a7449e, 2026-11-12: the wearer stood 45 cells from the hostile pawn
+            // that had been placed 12 cells from it). A drafted colonist stands where it was put.
+            if (pawn.Faction == Faction.OfPlayer && pawn.drafter != null)
+            {
+                pawn.drafter.Drafted = true;
+            }
         }
 
         [Given("Japanese Homestead: {string} stands near the {string}")]

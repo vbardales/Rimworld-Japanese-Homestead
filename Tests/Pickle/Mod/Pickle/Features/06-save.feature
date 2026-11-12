@@ -17,6 +17,7 @@ Feature: a save with the aura running
     When Japanese Homestead: I wait for 1 pulses of the aura of "WA_Dressing_Princess"
     Then Japanese Homestead: "Near" carries "HDA_Hediff_EncouragementOfThePrincess" at a severity above zero and at most 1.0
     When I save and reload
+    And game speed is ultrafast
     Then no errors were logged
     And Japanese Homestead: "Near" carries "HDA_Hediff_EncouragementOfThePrincess" at a severity above zero and at most 1.0
     When Japanese Homestead: I wait for 2 pulses of the aura of "WA_Dressing_Princess"
