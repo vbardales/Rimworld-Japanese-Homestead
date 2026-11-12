@@ -503,7 +503,8 @@ Enjoy_WA labels, Japanese Koto/Karuta/Brazier (upstream text), FR SutrasDesk rep
 "Kimono avec serviette", "Kimono-Katou" (Towel role not established by the table).
 **Rerun 2 (same content, no regeneration in between):** pages 2, 1, 3 sent, last run printed "all 3 pages sent for this content". Nothing applied, all refused and logged (Chinese and
 Japanese upstream text, unproven length risk); hats: ChatGPT's third variant ("Capuche de kimono", "Serviette de kimono", "Kimono-Katou"). Virginie asked to see the hat images
-(contact sheet sent 2026-11-12); her choice of the three French names and her validation are the only open items before `complete`.
+(contact sheet sent 2026-11-12). **Virginie chose the hat names 2026-11-12:** `WA_DressingHat_Hood` "Capuche", `_Towel` "Serviette", `_Katou` "Cagoule" (the image is a balaclava; "Katou" alone
+was her other option); applied. Open before `complete`: her validation of the French (asked, not yet given).
 
 Reviewer: Virginie (confirmed in chat, 2026-10-11). Revision reviewed: `4bee295`. Corrections requested and applied: dry moats
 description, Green Tea description, "Cérémonie du thé" label, Geppei gender switch (`ravi : ravie : ravix`), review file generation

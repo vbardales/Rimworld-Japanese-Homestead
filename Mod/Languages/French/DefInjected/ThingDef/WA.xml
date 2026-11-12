@@ -256,6 +256,12 @@
   <WA_Dressing_Kin.description>Un kimono de Kin.</WA_Dressing_Kin.description>
   <WA_Dressing_PriestSoldier.label>Kimono de moine-soldat</WA_Dressing_PriestSoldier.label>
   <WA_Dressing_PriestSoldier.description>Un kimono de moine-soldat.</WA_Dressing_PriestSoldier.description>
+  <WA_DressingHat_Hood.label>Capuche</WA_DressingHat_Hood.label>
+  <WA_DressingHat_Hood.description>Une capuche.</WA_DressingHat_Hood.description>
+  <WA_DressingHat_Towel.label>Serviette</WA_DressingHat_Towel.label>
+  <WA_DressingHat_Towel.description>Une serviette nouée sur la tête.</WA_DressingHat_Towel.description>
+  <WA_DressingHat_Katou.label>Cagoule</WA_DressingHat_Katou.label>
+  <WA_DressingHat_Katou.description>Une cagoule.</WA_DressingHat_Katou.description>
   <WA_Dressing_Carpenter.label>Kimono de charpentier</WA_Dressing_Carpenter.label>
   <WA_Dressing_Carpenter.description>Un kimono de charpentier.</WA_Dressing_Carpenter.description>
   <WA_Dressing_Courier.label>Kimono de coursier</WA_Dressing_Courier.label>
