@@ -22,7 +22,7 @@ showcase:     complete
 tested_on:
 workshop:     3806764776 (0.1.0 prepublish, 2026-09-27; item created private, not switched to public)
 remaining:
-  - ticket: passes 1 and 2 refiled in full on efb8301 (the tree with the step fix b854c32): 20261112-115451-399-6512 (pass 1 English, Inbox/pass1-english-b), 20261112-115453-718-9d8e (pass 2 French, Inbox/pass2-french-b). Pass 3 is GREEN (20261112-110354-408-e883, 25 of 25, on the fixed tree, evidence Tests/Pickle/Evidence/2026-11-12-pass3-glasslights). The first passes on 4a7449e were red only on the aura (pass 1) and the save (pass 1 and 2) scenarios, cause in the steps (docs/runs/history.md). `tested` needs all three passes complete and green on the same tree: keep Mod/ and Tests/Pickle/ on efb8301 until both are back.
+  - ticket: passes 1 and 2 refiled in full on efb8301 (the tree with the step fix b854c32): 20261112-115451-399-6512 (pass 1 English, Inbox/pass1-english-b: GREEN, exit 0, 25 of 26 passed, 0 failed, 1 skipped = the Glass+Lights aquarium set stagedecor, covered by e883; the aura and save-pulses reds did not recur; report kept in the Inbox until pass 2 is back; triage due then), 20261112-115453-718-9d8e (was running on azure at 13:56 when the worker restarted, TM 2026-11-12: if it comes back abandoned, refile pass 2 French on efb8301) (pass 2 French, Inbox/pass2-french-b). Pass 3 is GREEN (20261112-110354-408-e883, 25 of 25, on the fixed tree, evidence Tests/Pickle/Evidence/2026-11-12-pass3-glasslights). The first passes on 4a7449e were red only on the aura (pass 1) and the save (pass 1 and 2) scenarios, cause in the steps (docs/runs/history.md). `tested` needs all three passes complete and green on the same tree: keep Mod/ and Tests/Pickle/ on efb8301 until both are back.
   - done (2026-11-12): ticket 20261110-113828-221-a1cf (431b804, 03-pastimes with a zabuton beside each building) PASSED 9 of 9 (the seven pastime givers, Enjoy_Aquarium, the no-koto control). Evidence kept in Tests/Pickle/Evidence/2026-11-10-pastimes-seat (summary.md, summary.json, junit.xml); 08-diagnosis.feature deleted; Inbox emptied (relay notes a1cf and 7962 treated). Still not a certified green: `tested` needs the full three passes (see below).
   - open (replay 2026-11-10, 7.b): Tests/Rule-OwnValues.ps1 written 2026-11-12 (package identity, Glass+Lights patch gate, aquarium costs without and with Glass+Lights; PASS with pwsh and Windows PowerShell). Still open: the generated Tests/Test-Mod.ps1 skeleton replaces the hand-written one only after CI/CD generates it (needs the `Mod/` junction into RimWorld/Mods, PUBLISHING.md "jonction"; until then the hand-written Test-Mod.ps1 stays, PASS under pwsh 134 XML 865 references 458 texts; under Windows PowerShell 5 it fails to parse its CJK regex, run it with pwsh), and Audit validates the LOCAL_SCRIPTS row (told 2026-11-12). The hand-written script also caught a stale Mod/CHANGELOG.md copy (fixed).
   - unverified: Art/Preview-source.png value mean 0.286, below the 0.30 floor (AUDIT.md 2.e); waived by Virginie on 2026-10-11
@@ -40,7 +40,7 @@ remaining:
     every @requires played, no manual test.
 session:      maj:        2026-09-12, releve automatique
 updated:      2026-11-10, replay: 7.b open (Test-Mod.ps1 CUT not done), stage back to writeTests; TRANSLATION_REVIEW.md regenerated
-protocols_read_sha: 29edd8b857cf7ee4b139cc7ac70fcb8d90c11238
+protocols_read_sha: ed905476e9fb34ccdfdac687aaac1f9fd87751f4
 ---
 
 # Nelim's Japanese Homestead (unofficial) — status
