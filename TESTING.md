@@ -53,9 +53,9 @@ Three, each one request to `Submit-PickleRun.ps1`. The language is fixed at stag
 
 | Pass | Language | Map | Filter | Covers |
 | --- | --- | --- | --- | --- |
-| 1 | English | none | `Japanese Homestead - Pickle tests,!@french` | everything without the optional mod; the Glass+Lights scenario is skipped by its `@requires` |
-| 2 | French | none | `Japanese Homestead - Pickle tests,!@english` | the same, in French |
-| 3 | English | `wsl-deps.avec-glasslights.map` | `Japanese Homestead - Pickle tests,!@without-optional,!@french` | the aquarium with Glass+Lights, and everything else beside it |
+| 1 | English | `wsl-deps.stagedecor.map` | `Japanese Homestead - Pickle tests,!@french` | everything without the optional mod; the Glass+Lights scenario is skipped by its `@requires` |
+| 2 | French | `wsl-deps.stagedecor.map` | `Japanese Homestead - Pickle tests,!@english` | the same, in French |
+| 3 | English | `wsl-deps.avec-glasslights.map` (Glass+Lights and StageDecor) | `Japanese Homestead - Pickle tests,!@without-optional,!@french` | the aquarium with Glass+Lights, and everything else beside it |
 
 Glass+Lights is the only optional integration. Its own dependencies are not resolved by the map: read the staged list
 of pass 3's first run before believing the mod loaded.
